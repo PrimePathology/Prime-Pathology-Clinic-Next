@@ -22,19 +22,11 @@ const Footer = (props) => {
             <div className="footer-top-row">
               <div className="footer-brand-column">
                 <div className="footer-logo-group">
-                  <div className="footer-logo-icon">
-                    <svg
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="24"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="m11 2l-.15.005A2 2 0 0 0 9 4v2.803L6.572 5.402a2 2 0 0 0-2.732.732l-1 1.732l-.073.138a2 2 0 0 0 .805 2.594L5.999 12l-2.427 1.402a2 2 0 0 0-.732 2.732l1 1.732l.083.132a2 2 0 0 0 2.649.6L9 17.196V20a2 2 0 0 0 2 2h2l.15-.005A2 2 0 0 0 15 20v-2.804l2.428 1.403a2 2 0 0 0 2.732-.732l1-1.732l.073-.138a2 2 0 0 0-.805-2.594L18 12l2.428-1.402a2 2 0 0 0 .732-2.732l-1-1.732l-.083-.132a2 2 0 0 0-2.649-.6L15 6.802V4a2 2 0 0 0-2-2z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-                  </div>
+                  <img
+                    src="/prime%20pathology%20t%20logo-200h.png"
+                    alt="image"
+                    className="footer-image"
+                  />
                   <span className="footer-logo-text">Prime Pathology</span>
                 </div>
                 <p className="footer-description section-content">
@@ -117,26 +109,28 @@ const Footer = (props) => {
                     Quick Links
                   </h4>
                   <nav className="footer-nav-list">
-                    <a href="Homepage">
-                      <div className="footer-nav-link">
-                        <span>Home</span>
-                      </div>
-                    </a>
+                    <Link href="/">
+                      <a>
+                        <div className="footer-thq-footer-nav-link-elm10 footer-nav-link">
+                          <span>Home</span>
+                        </div>
+                      </a>
+                    </Link>
                     <Link href="/about">
                       <a>
-                        <div className="footer-nav-link">
+                        <div className="footer-thq-footer-nav-link-elm11 footer-nav-link">
                           <span>About Us</span>
                         </div>
                       </a>
                     </Link>
                     <Link href="/services">
                       <a>
-                        <div className="footer-nav-link">
+                        <div className="footer-thq-footer-nav-link-elm12 footer-nav-link">
                           <span>Our Services</span>
                         </div>
                       </a>
                     </Link>
-                    <Link href="/tests">
+                    <Link href="/infection-screening">
                       <a>
                         <div className="footer-nav-link">
                           <span>Available Tests</span>
@@ -145,57 +139,8 @@ const Footer = (props) => {
                     </Link>
                     <Link href="/contact">
                       <a>
-                        <div className="footer-nav-link">
+                        <div className="footer-thq-footer-nav-link-elm14 footer-nav-link">
                           <span>Contact Us</span>
-                        </div>
-                      </a>
-                    </Link>
-                    <Link href="/pp">
-                      <a>
-                        <div className="footer-nav-link">
-                          <span>PP</span>
-                        </div>
-                      </a>
-                    </Link>
-                    <Link href="/tos">
-                      <a>
-                        <div className="footer-nav-link">
-                          <span>TOS</span>
-                        </div>
-                      </a>
-                    </Link>
-                    <Link href="/team">
-                      <a>
-                        <div className="footer-nav-link">
-                          <span>Team</span>
-                        </div>
-                      </a>
-                    </Link>
-                    <Link href="/blood-analysis">
-                      <a>
-                        <div className="footer-nav-link">
-                          <span>Blood Analysis</span>
-                        </div>
-                      </a>
-                    </Link>
-                    <Link href="/dna-paternity-testing">
-                      <a>
-                        <div className="footer-nav-link">
-                          <span>DNA Paternity Testing</span>
-                        </div>
-                      </a>
-                    </Link>
-                    <Link href="/hormonal-profile">
-                      <a>
-                        <div className="footer-nav-link">
-                          <span>Hormonal Profile</span>
-                        </div>
-                      </a>
-                    </Link>
-                    <Link href="/histopathology">
-                      <a>
-                        <div className="footer-nav-link">
-                          <span>Histopathology</span>
                         </div>
                       </a>
                     </Link>
@@ -206,31 +151,39 @@ const Footer = (props) => {
                     Our Services
                   </h4>
                   <nav className="footer-nav-list">
-                    <a href="#">
-                      <div className="footer-nav-link">
-                        <span>Blood Analysis</span>
-                      </div>
-                    </a>
-                    <a href="#">
-                      <div className="footer-nav-link">
-                        <span>DNA Paternity Testing</span>
-                      </div>
-                    </a>
-                    <a href="#">
-                      <div className="footer-nav-link">
-                        <span>Infection Screening</span>
-                      </div>
-                    </a>
+                    <Link href="/blood-analysis">
+                      <a>
+                        <div className="footer-thq-footer-nav-link-elm15 footer-nav-link">
+                          <span>Blood Analysis</span>
+                        </div>
+                      </a>
+                    </Link>
+                    <Link href="/dna-paternity-testing">
+                      <a>
+                        <div className="footer-thq-footer-nav-link-elm16 footer-nav-link">
+                          <span>DNA Paternity Testing</span>
+                        </div>
+                      </a>
+                    </Link>
+                    <Link href="/infection-screening">
+                      <a>
+                        <div className="footer-thq-footer-nav-link-elm17 footer-nav-link">
+                          <span>Infection Screening</span>
+                        </div>
+                      </a>
+                    </Link>
                     <a href="#">
                       <div className="footer-nav-link">
                         <span>Histopathology</span>
                       </div>
                     </a>
-                    <a href="#">
-                      <div className="footer-nav-link">
-                        <span>Hormonal Profiles</span>
-                      </div>
-                    </a>
+                    <Link href="/hormonal-profile">
+                      <a>
+                        <div className="footer-thq-footer-nav-link-elm19 footer-nav-link">
+                          <span>Hormonal Profiles</span>
+                        </div>
+                      </a>
+                    </Link>
                   </nav>
                 </div>
                 <div className="footer-address-column footer-link-column">
@@ -258,7 +211,7 @@ const Footer = (props) => {
                       </div>
                       <div className="footer-address-content">
                         <p className="section-content">
-                          <span className="footer-text27">Lagos HQ:</span>
+                          <span className="footer-text20">Lagos HQ:</span>
                           <span>
                             {' '}
                             45 Medical Drive, Victoria Island, Lagos, Nigeria
@@ -286,8 +239,7 @@ const Footer = (props) => {
                       </div>
                       <div className="footer-address-content">
                         <p className="section-content">
-                          <span className="footer-text29">Cairo Center:</span>
-                          <span> 12 Al-Galaa St, Heliopolis, Cairo, Egypt</span>
+                          Tubman Street, Buchanan Grand Bassa County, Liberia
                         </p>
                       </div>
                     </div>
@@ -311,11 +263,7 @@ const Footer = (props) => {
                       </div>
                       <div className="footer-address-content">
                         <p className="section-content">
-                          <span className="footer-text31">Tunis Lab:</span>
-                          <span>
-                            {' '}
-                            88 Avenue Habib Bourguiba, Tunis, Tunisia
-                          </span>
+                          Gwamaka Street, Salasala Dar Es Salaam, Tanzania
                         </p>
                       </div>
                     </div>
@@ -338,11 +286,9 @@ const Footer = (props) => {
                         </svg>
                       </div>
                       <div className="footer-address-content">
-                        <span className="footer-thq-footer-text20-elm">
-                          Kano Branch:
-                        </span>
-                        <span>243 Kano State, Nigeria</span>
-                        <p className="section-content"></p>
+                        <p className="section-content">
+                          Gwamaka Street, Salasala Dar Es Salaam, Tanzania
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -351,52 +297,62 @@ const Footer = (props) => {
             </div>
             <div className="footer-middle-row">
               <div className="footer-contact-bar">
-                <div className="footer-contact-pill">
-                  <div className="footer-contact-icon">
-                    <svg
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="24"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                  <span className="section-content">
-                    +234 (0) 800-PRIME-LAB
-                  </span>
-                </div>
-                <div className="footer-contact-pill">
-                  <div className="footer-contact-icon">
-                    <svg
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="24"
-                      viewBox="0 0 24 24"
-                    >
-                      <g
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
+                <a href="tel:+2347062068132">
+                  <div className="footer-thq-footer-contact-pill-elm1 footer-contact-pill">
+                    <div className="footer-contact-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
                       >
-                        <path d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
-                        <rect x="2" y="4" rx="2" width="20" height="16"></rect>
-                      </g>
-                    </svg>
+                        <path
+                          d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span className="section-content">
+                      +234 (0) 800-PRIME-LAB
+                    </span>
                   </div>
-                  <span className="section-content">
-                    diagnostics@primepathology.com
-                  </span>
-                </div>
+                </a>
+                <a href="mailto:auwalgarbahussain@primepathologyclinic.com?subject=">
+                  <div className="footer-thq-footer-contact-pill-elm2 footer-contact-pill">
+                    <div className="footer-contact-icon">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                          <rect
+                            x="2"
+                            y="4"
+                            rx="2"
+                            width="20"
+                            height="16"
+                          ></rect>
+                        </g>
+                      </svg>
+                    </div>
+                    <span className="section-content">
+                      diagnostics@primepathologyclinic.com
+                    </span>
+                  </div>
+                </a>
               </div>
               <div className="footer-certifications">
                 <div className="footer-cert-badge">
@@ -448,16 +404,20 @@ const Footer = (props) => {
                 </p>
               </div>
               <div className="footer-legal-links">
-                <a href="#">
-                  <div className="footer-legal-link">
-                    <span>Privacy Policy</span>
-                  </div>
-                </a>
-                <a href="#">
-                  <div className="footer-legal-link">
-                    <span>Terms of Service</span>
-                  </div>
-                </a>
+                <Link href="/privacy-policy">
+                  <a>
+                    <div className="footer-thq-footer-legal-link-elm1 footer-legal-link">
+                      <span>Privacy Policy</span>
+                    </div>
+                  </a>
+                </Link>
+                <Link href="/terms-of-service">
+                  <a>
+                    <div className="footer-thq-footer-legal-link-elm2 footer-legal-link">
+                      <span>Terms of Service</span>
+                    </div>
+                  </a>
+                </Link>
                 <a href="#">
                   <div className="footer-legal-link">
                     <span>Sitemap</span>
@@ -474,7 +434,7 @@ const Footer = (props) => {
                       }}
                     />
                   </span>
-                  <span className="footer-text40">Volues</span>
+                  <span className="footer-text28">Volues</span>
                 </p>
               </div>
             </div>
@@ -546,19 +506,51 @@ socialIcons.forEach(icon => {
           .footer-container1 {
             display: contents;
           }
-          .footer-text27 {
+          .footer-image {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+          }
+          .footer-thq-footer-nav-link-elm10 {
+            text-decoration: none;
+          }
+          .footer-thq-footer-nav-link-elm11 {
+            text-decoration: none;
+          }
+          .footer-thq-footer-nav-link-elm12 {
+            text-decoration: none;
+          }
+          .footer-thq-footer-nav-link-elm14 {
+            text-decoration: none;
+          }
+          .footer-thq-footer-nav-link-elm15 {
+            text-decoration: none;
+          }
+          .footer-thq-footer-nav-link-elm16 {
+            text-decoration: none;
+          }
+          .footer-thq-footer-nav-link-elm17 {
+            text-decoration: none;
+          }
+          .footer-thq-footer-nav-link-elm19 {
+            text-decoration: none;
+          }
+          .footer-text20 {
             font-weight: 700;
           }
-          .footer-text29 {
-            font-weight: 700;
+          .footer-thq-footer-contact-pill-elm1 {
+            text-decoration: none;
           }
-          .footer-text31 {
-            font-weight: 700;
+          .footer-thq-footer-contact-pill-elm2 {
+            text-decoration: none;
           }
-          .footer-thq-footer-text20-elm {
-            font-weight: 700;
+          .footer-thq-footer-legal-link-elm1 {
+            text-decoration: none;
           }
-          .footer-text40 {
+          .footer-thq-footer-legal-link-elm2 {
+            text-decoration: none;
+          }
+          .footer-text28 {
             font-weight: 700;
           }
           .footer-container2 {

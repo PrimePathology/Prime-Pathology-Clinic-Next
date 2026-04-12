@@ -112,6 +112,47 @@ details[open] .step-number {
                   />
                 </div>
                 <div className="form-group">
+                  <input
+                    type="tel"
+                    id="thq_phone"
+                    name="phone"
+                    required="true"
+                    placeholder="Phone Number"
+                    data-form-field-id="thq_phone"
+                    className="form-input input"
+                  />
+                </div>
+                <div className="form-group">
+                  <input
+                    type="email"
+                    id="thq_email"
+                    name="email"
+                    required="true"
+                    placeholder="Email Address"
+                    data-form-field-id="thq_email"
+                    className="form-input input"
+                  />
+                </div>
+                <div className="form-group">
+                  <select
+                    id="thq_location"
+                    name="location"
+                    required="true"
+                    data-form-field-id="thq_location"
+                    className="form-input"
+                  >
+                    <option value="true" disabled="true" selected="true">
+                      Select Your Closest Location
+                    </option>
+                    <option value="bauchi-nigeria">Bauchi State Nigeria</option>
+                    <option value="buchanan-liberia">Buchanan Liberia</option>
+                    <option value="dar-es-salaam-tanzania">
+                      Dar Es Salaam Tanzania
+                    </option>
+                    <option value="kigali-rwanda">Kigali Rwanda</option>
+                  </select>
+                </div>
+                <div className="form-group">
                   <select
                     id="thq_test-type_NmUp"
                     name="test-type"
@@ -126,6 +167,33 @@ details[open] .step-number {
                     <option value="dna">DNA Paternity</option>
                     <option value="infection">Infection Screening</option>
                     <option value="histopathology">Histopathology</option>
+                    <option value="hemoglobin-electrophoresis">
+                      Hemoglobin Electrophoresis
+                    </option>
+                    <option value="malaria-parasite">
+                      Malaria Parasite (MP) Testing
+                    </option>
+                    <option value="urinalysis-stool">
+                      Urinalysis &amp; Stool Microscopy
+                    </option>
+                    <option value="biopsy-analysis">Biopsy Analysis</option>
+                    <option value="pap-smear">Pap Smear</option>
+                    <option value="fine-needle-aspiration">
+                      Fine Needle Aspiration
+                    </option>
+                    <option value="digital-xray">Digital X-Ray</option>
+                    <option value="ultrasonography">Ultrasonography</option>
+                    <option value="lipid-profile">Lipid Profile</option>
+                    <option value="blood-glucose-hba1c">
+                      Blood Glucose &amp; HbA1c
+                    </option>
+                    <option value="comprehensive-metabolic">
+                      Comprehensive Metabolic Panel
+                    </option>
+                    <option value="oncogenomics">Oncogenomics</option>
+                    <option value="dna-sequencing">DNA Sequencing</option>
+                    <option value="pcr-testing">PCR Testing</option>
+                    <option value="others">Others</option>
                   </select>
                 </div>
                 <div className="form-group">
@@ -381,7 +449,7 @@ details[open] .step-number {
                     <p className="flip-card-description">
                       Blood analysis and disorders
                     </p>
-                    <Link href="/tests">
+                    <Link href="/infection-screening">
                       <a>
                         <div className="flip-card-btn">
                           <span>Explore</span>
@@ -410,7 +478,7 @@ details[open] .step-number {
                     <p className="flip-card-description">
                       Detection of infections and pathogens
                     </p>
-                    <Link href="/tests">
+                    <Link href="/infection-screening">
                       <a>
                         <div className="flip-card-btn">
                           <span>Explore</span>
@@ -439,7 +507,7 @@ details[open] .step-number {
                     <p className="flip-card-description">
                       Biochemical analysis of body fluids
                     </p>
-                    <Link href="/tests">
+                    <Link href="/infection-screening">
                       <a>
                         <div className="flip-card-btn">
                           <span>Explore</span>
@@ -497,7 +565,7 @@ details[open] .step-number {
                     <p className="flip-card-description">
                       Immune system and antibody testing
                     </p>
-                    <Link href="/tests">
+                    <Link href="/infection-screening">
                       <a>
                         <div className="flip-card-btn">
                           <span>Explore</span>
@@ -751,7 +819,7 @@ to {
           }
           .home-thq-signature-title-elm1 {
             color: var(--color-accent);
-            font-family: '' Inter '';
+            font-family: '' 'Inter' '';
           }
           .home-thq-departments-elm {
             padding: var(--spacing-4xl) var(--spacing-xl);

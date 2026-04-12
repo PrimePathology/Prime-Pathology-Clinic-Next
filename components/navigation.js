@@ -59,10 +59,10 @@ const Navigation = (props) => {
                 </Link>
               </li>
               <li className="navigation-menu-item">
-                <Link href="/tests">
+                <Link href="/infection-screening">
                   <a>
                     <div className="navigation-menu-link">
-                      <span>Tests</span>
+                      <span>Infection Screening</span>
                     </div>
                   </a>
                 </Link>
@@ -103,19 +103,19 @@ const Navigation = (props) => {
                   className="navigation-thq-dropdown-list1"
                 >
                   <li className="navigation-menu-item">
-                    <Link href="/pp">
+                    <Link href="/privacy-policy">
                       <a>
                         <div className="navigation-menu-link">
-                          <span>PP</span>
+                          <span>Privacy Policy</span>
                         </div>
                       </a>
                     </Link>
                   </li>
                   <li className="navigation-menu-item">
-                    <Link href="/tos">
+                    <Link href="/terms-of-service">
                       <a>
                         <div className="navigation-menu-link">
-                          <span>TOS</span>
+                          <span>Terms of Service</span>
                         </div>
                       </a>
                     </Link>
@@ -297,7 +297,7 @@ const Navigation = (props) => {
               </div>
             </ul>
             <div className="navigation-actions">
-              <Link href="/tests">
+              <Link href="/infection-screening">
                 <a>
                   <div className="btn navigation-cta-desktop btn-primary">
                     <span>Book Test</span>
@@ -401,10 +401,10 @@ const Navigation = (props) => {
                 </Link>
               </li>
               <li className="navigation-mobile-item">
-                <Link href="/tests">
+                <Link href="/infection-screening">
                   <a>
                     <div className="navigation-mobile-link">
-                      <span>Tests</span>
+                      <span>Infection Screening</span>
                     </div>
                   </a>
                 </Link>
@@ -445,19 +445,19 @@ const Navigation = (props) => {
                   className="navigation-thq-dropdown-list4"
                 >
                   <li className="navigation-mobile-item">
-                    <Link href="/pp">
+                    <Link href="/privacy-policy">
                       <a>
                         <div className="navigation-mobile-link">
-                          <span>PP</span>
+                          <span>Privacy Policy</span>
                         </div>
                       </a>
                     </Link>
                   </li>
                   <li className="navigation-mobile-item">
-                    <Link href="/tos">
+                    <Link href="/terms-of-service">
                       <a>
                         <div className="navigation-mobile-link">
-                          <span>TOS</span>
+                          <span>Terms of Service</span>
                         </div>
                       </a>
                     </Link>
@@ -639,7 +639,7 @@ const Navigation = (props) => {
               </div>
             </ul>
             <div className="navigation-overlay-footer">
-              <Link href="/tests">
+              <Link href="/infection-screening">
                 <a>
                   <div className="btn btn-primary navigation-cta-mobile btn-lg">
                     <span>Get Diagnosis</span>
@@ -737,7 +737,7 @@ const Navigation = (props) => {
             color: var(--dl-color-theme-neutral-dark);
             font-size: 18px;
             font-style: normal;
-            font-family: '' Poppins '';
+            font-family: '' 'Poppins' '';
             font-weight: 700;
           }
           .navigation-text12 {
