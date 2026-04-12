@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
@@ -10,7 +11,7 @@ import Footer from '../components/footer'
 const Home = (props) => {
   return (
     <>
-      <div className="home-container1">
+      <div className="home-container10">
         <Head>
           <title>Prime Pathology Clinic</title>
           <meta property="og:title" content="Prime Pathology Clinic" />
@@ -26,8 +27,8 @@ const Home = (props) => {
           <meta property="og:url" content="https://patho.teleporthq.site/" />
         </Head>
         <Navigation></Navigation>
-        <div className="home-container2">
-          <div className="home-container3">
+        <div className="home-container11">
+          <div className="home-container12">
             <Script
               html={`<style>
 details[open] {
@@ -352,118 +353,223 @@ details[open] .step-number {
             </div>
           </div>
         </section>
-        <section className="management-team">
-          <div className="team-header">
-            <h2 className="section-title">Our Departments</h2>
-            <p className="section-content">
-              Guided by world-class scientists and healthcare professionals.
+        <section className="home-thq-departments-elm">
+          <div className="departments-header">
+            <h2 data-animate="fade-in" className="section-title">
+              Our Departments
+            </h2>
+            <p data-animate="fade-in-delay" className="section-content">
+              Advanced diagnostic units delivering precise and reliable results
             </p>
           </div>
-          <div className="team-grid">
-            <div className="team-member">
-              <img
-                alt="Chief Pathologist"
-                src="https://images.pexels.com/photos/8442620/pexels-photo-8442620.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                className="member-img"
-              />
-              <div className="member-info">
-                <h3 className="section-subtitle">Dr. Sarah Mensah</h3>
-                <p className="member-role">Chief Pathologist</p>
-                <div className="member-bio">
-                  <span>
-                    Expert in cellular pathology with over 15 years of clinical
-                    experience.
-                  </span>
+          <div className="home-thq-flip-cards-grid-elm">
+            <div data-animate="slide-up" className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    alt="Hematology Laboratory"
+                    src="https://images.pexels.com/photos/3908179/pexels-photo-3908179.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    className="flip-card-img"
+                  />
+                  <div className="flip-card-overlay"></div>
+                  <div className="flip-card-front-content">
+                    <h3 className="flip-card-title">Hematology</h3>
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="flip-card-back-content">
+                    <h4 className="flip-card-back-title">Hematology</h4>
+                    <p className="flip-card-description">
+                      Blood analysis and disorders
+                    </p>
+                    <Link href="/tests">
+                      <a>
+                        <div className="flip-card-btn">
+                          <span>Explore</span>
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="team-member">
-              <img
-                alt="Senior Lab Scientist"
-                src="https://images.pexels.com/photos/9574332/pexels-photo-9574332.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                className="member-img"
-              />
-              <div className="member-info">
-                <h3 className="section-subtitle">Kofi Boateng</h3>
-                <p className="member-role">Senior Lab Scientist</p>
-                <div className="member-bio">
-                  <span>
-                    Leading our molecular diagnostics and DNA sequencing
-                    department.
-                  </span>
+            <div data-animate="slide-up" className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    alt="Microbiology Laboratory"
+                    src="https://images.pexels.com/photos/8539945/pexels-photo-8539945.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    className="flip-card-img"
+                  />
+                  <div className="flip-card-overlay"></div>
+                  <div className="flip-card-front-content">
+                    <h3 className="flip-card-title">Microbiology</h3>
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="flip-card-back-content">
+                    <h4 className="flip-card-back-title">Microbiology</h4>
+                    <p className="flip-card-description">
+                      Detection of infections and pathogens
+                    </p>
+                    <Link href="/tests">
+                      <a>
+                        <div className="flip-card-btn">
+                          <span>Explore</span>
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="team-member">
-              <img
-                alt="Operations Director"
-                src="https://images.pexels.com/photos/9574542/pexels-photo-9574542.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                className="member-img"
-              />
-              <div className="member-info">
-                <h3 className="section-subtitle">Layla Al-Fassi</h3>
-                <p className="member-role">Operations Director</p>
-                <div className="member-bio">
-                  <span>
-                    Streamlining laboratory workflows for maximum efficiency and
-                    accuracy.
-                  </span>
+            <div data-animate="slide-up" className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    alt="Chemical Pathology Laboratory"
+                    src="https://images.pexels.com/photos/8442504/pexels-photo-8442504.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    className="flip-card-img"
+                  />
+                  <div className="flip-card-overlay"></div>
+                  <div className="flip-card-front-content">
+                    <h3 className="flip-card-title">Chemical Pathology</h3>
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="flip-card-back-content">
+                    <h4 className="flip-card-back-title">Chemical Pathology</h4>
+                    <p className="flip-card-description">
+                      Biochemical analysis of body fluids
+                    </p>
+                    <Link href="/tests">
+                      <a>
+                        <div className="flip-card-btn">
+                          <span>Explore</span>
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="team-member">
-              <img
-                alt="Microbiology Lead"
-                src="https://images.pexels.com/photos/6129879/pexels-photo-6129879.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                className="member-img"
-              />
-              <div className="member-info">
-                <h3 className="section-subtitle">Dr. Omar Benani</h3>
-                <p className="member-role">Microbiology Lead</p>
-                <div className="member-bio">
-                  <span>
-                    Specializing in infectious disease screening and antibiotic
-                    sensitivity.
-                  </span>
+            <div data-animate="slide-up" className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    alt="Histopathology Laboratory"
+                    src="https://images.pexels.com/photos/36816507/pexels-photo-36816507.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    className="flip-card-img"
+                  />
+                  <div className="flip-card-overlay"></div>
+                  <div className="flip-card-front-content">
+                    <h3 className="flip-card-title">Histopathology</h3>
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="flip-card-back-content">
+                    <h4 className="flip-card-back-title">Histopathology</h4>
+                    <p className="flip-card-description">
+                      Tissue examination and disease diagnosis
+                    </p>
+                    <Link href="/histopathology">
+                      <a>
+                        <div className="flip-card-btn">
+                          <span>Explore</span>
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="team-member">
-              <img
-                alt="Quality Assurance"
-                src="https://images.pexels.com/photos/8442371/pexels-photo-8442371.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                className="member-img"
-              />
-              <div className="member-info">
-                <h3 className="section-subtitle">Elena Vance</h3>
-                <p className="member-role">Quality Assurance</p>
-                <div className="member-bio">
-                  <span>
-                    Ensuring every test meets international ISO and medical
-                    standards.
-                  </span>
+            <div data-animate="slide-up" className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    alt="Immunology Laboratory"
+                    src="https://images.pexels.com/photos/9574573/pexels-photo-9574573.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    className="flip-card-img"
+                  />
+                  <div className="flip-card-overlay"></div>
+                  <div className="flip-card-front-content">
+                    <h3 className="flip-card-title">Immunology</h3>
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="flip-card-back-content">
+                    <h4 className="flip-card-back-title">Immunology</h4>
+                    <p className="flip-card-description">
+                      Immune system and antibody testing
+                    </p>
+                    <Link href="/tests">
+                      <a>
+                        <div className="flip-card-btn">
+                          <span>Explore</span>
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="team-member">
-              <img
-                alt="Technical Supervisor"
-                src="https://images.pexels.com/photos/5726811/pexels-photo-5726811.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                className="member-img"
-              />
-              <div className="member-info">
-                <h3 className="section-subtitle">Tunde Adeyemi</h3>
-                <p className="member-role">Technical Supervisor</p>
-                <div className="member-bio">
-                  <span>
-                    Managing advanced diagnostic equipment and laboratory
-                    automation.
-                  </span>
+            <div data-animate="slide-up" className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    alt="Molecular Diagnostics Laboratory"
+                    src="https://images.pexels.com/photos/9574332/pexels-photo-9574332.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    className="flip-card-img"
+                  />
+                  <div className="flip-card-overlay"></div>
+                  <div className="flip-card-front-content">
+                    <h3 className="flip-card-title">Molecular Diagnostics</h3>
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="flip-card-back-content">
+                    <h4 className="flip-card-back-title">
+                      Molecular Diagnostics
+                    </h4>
+                    <p className="flip-card-description">
+                      DNA, gene, and advanced testing
+                    </p>
+                    <Link href="/dna-paternity-testing">
+                      <a>
+                        <div className="flip-card-btn">
+                          <span>Explore</span>
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
+        <div className="home-container13">
+          <div className="home-container14">
+            <Script
+              html={`<script>
+(function(){
+    // Flip Cards Touch Support - Tap to flip on mobile devices
+    document.addEventListener("DOMContentLoaded", function () {
+      const flipCards = document.querySelectorAll(".flip-card")
+
+      flipCards.forEach((card) => {
+        card.addEventListener("click", function (e) {
+          // Only handle tap on touch devices or when not clicking the button
+          if (e.target.tagName !== "A" && e.target.tagName !== "BUTTON") {
+            this.classList.toggle("flipped")
+          }
+        })
+      })
+    })
+  })()
+</script>`}
+            ></Script>
+          </div>
+        </div>
         <section className="lab-war-room">
           <div className="war-room-carousel">
             <div className="home-thq-parallax-slide-elm parallax-slide active">
@@ -535,8 +641,8 @@ details[open] .step-number {
             </div>
           </div>
         </section>
-        <div className="home-container4">
-          <div className="home-container5">
+        <div className="home-container15">
+          <div className="home-container16">
             <Script
               html={`<style>
         @keyframes float {0%,100% {transform: translateY(0) rotate(0deg);}
@@ -548,8 +654,8 @@ opacity: 0;}}
             ></Script>
           </div>
         </div>
-        <div className="home-container6">
-          <div className="home-container7">
+        <div className="home-container17">
+          <div className="home-container18">
             <Script
               html={`<script defer data-name="prime-pathology-animations">
 (function(){
@@ -606,37 +712,99 @@ opacity: 0;}}
           </div>
         </div>
         <Footer></Footer>
+        <div>
+          <div className="home-container20">
+            <Script
+              html={`<style>
+@keyframes fadeInUp {
+to {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+@keyframes slideUpFade {
+to {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+@media (hover: none) {
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg) scale(1.02);
+}
+.flip-card.flipped {
+  box-shadow: 0 12px 40px rgba(0, 119, 217, 0.25);
+}
+}
+</style>`}
+            ></Script>
+          </div>
+        </div>
       </div>
       <style jsx>
         {`
-          .home-container1 {
+          .home-container10 {
             width: 100%;
             min-height: 100vh;
           }
-          .home-container2 {
+          .home-container11 {
             display: none;
           }
-          .home-container3 {
+          .home-container12 {
             display: contents;
           }
           .home-thq-signature-title-elm1 {
             color: var(--color-accent);
-            font-family: 'Inter';
+            font-family: '' Inter '';
+          }
+          .home-thq-departments-elm {
+            padding: var(--spacing-4xl) var(--spacing-xl);
+            overflow: hidden;
+            background: var(--color-surface-elevated);
+          }
+          .home-thq-flip-cards-grid-elm {
+            gap: var(--spacing-xl);
+            margin: 0 auto;
+            display: grid;
+            max-width: var(--content-max-width);
+            grid-template-columns: repeat(3, 1fr);
+          }
+          .home-container13 {
+            display: none;
+          }
+          .home-container14 {
+            display: contents;
           }
           .home-thq-parallax-slide-elm {
             background-image: url('https://images.pexels.com/photos/5726797/pexels-photo-5726797.jpeg?auto=compress&cs=tinysrgb&w=1500');
           }
-          .home-container4 {
+          .home-container15 {
             display: none;
           }
-          .home-container5 {
+          .home-container16 {
             display: contents;
           }
-          .home-container6 {
+          .home-container17 {
             display: none;
           }
-          .home-container7 {
+          .home-container18 {
             display: contents;
+          }
+          .home-container20 {
+            display: contents;
+          }
+          @media (max-width: 991px) {
+            .home-thq-flip-cards-grid-elm {
+              grid-template-columns: repeat(2, 1fr);
+            }
+          }
+          @media (max-width: 767px) {
+            .home-thq-flip-cards-grid-elm {
+              gap: var(--spacing-lg);
+              grid-template-columns: 1fr;
+            }
           }
           @media (max-width: 479px) {
             .home-thq-approach-visual-elm {

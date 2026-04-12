@@ -8642,6 +8642,185 @@
   border-color: var(--color-primary);
 }
  
+.departments-header {
+  text-align: center;
+  margin-bottom: var(--spacing-4xl);
+}
+ 
+.departments-header  .section-title {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+  transform: translateY(20px);
+}
+ 
+.departments-header  .section-content {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease 0.2s forwards;
+  transform: translateY(20px);
+}
+ 
+.flip-card {
+  height: 320px;
+  opacity: 0;
+  animation: slideUpFade 0.6s ease forwards;
+  transform: translateY(40px);
+  perspective: 1200px;
+}
+ 
+.flip-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+ 
+.flip-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+ 
+.flip-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+ 
+.flip-card:nth-child(4) {
+  animation-delay: 0.4s;
+}
+ 
+.flip-card:nth-child(5) {
+  animation-delay: 0.5s;
+}
+ 
+.flip-card:nth-child(6) {
+  animation-delay: 0.6s;
+}
+ 
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  box-shadow: var(--shadow-level-1);
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: var(--border-radius-lg);
+  transform-style: preserve-3d;
+}
+ 
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg) scale(1.02);
+  box-shadow: 0 12px 40px rgba(0, 119, 217, 0.25);
+}
+ 
+.flip-card-front {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  background: var(--color-surface);
+  border-radius: var(--border-radius-lg);
+  backface-visibility: hidden;
+}
+ 
+.flip-card-back {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  transform: rotateY(180deg);
+  background: var(--color-surface);
+  box-shadow: inset 0 0 30px rgba(0, 119, 217, 0.05);
+  align-items: center;
+  border-radius: var(--border-radius-lg);
+  justify-content: center;
+  backface-visibility: hidden;
+}
+ 
+.flip-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+ 
+.flip-card:hover .flip-card-img {
+  transform: scale(1.05);
+}
+ 
+.flip-card-overlay {
+  inset: 0;
+  position: absolute;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 119, 217, 0.85) 0%,
+    rgba(0, 102, 168, 0.9) 100%
+  );
+  backdrop-filter: blur(1px);
+}
+ 
+.flip-card-front-content {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: var(--spacing-xl);
+  z-index: 2;
+  position: absolute;
+}
+ 
+.flip-card-title {
+  color: var(--color-on-primary);
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-heading);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+ 
+.flip-card-back-content {
+  padding: var(--spacing-xl);
+  text-align: center;
+}
+ 
+.flip-card-back-title {
+  color: var(--color-on-surface);
+  margin: 0 0 var(--spacing-md) 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-heading);
+}
+ 
+.flip-card-description {
+  color: var(--color-on-surface-secondary);
+  margin: 0 0 var(--spacing-lg) 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-family-body);
+  line-height: var(--line-height-body);
+}
+ 
+.flip-card-btn {
+  color: var(--color-on-primary);
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-size: var(--font-size-sm);
+  background: var(--color-primary);
+  box-shadow: var(--shadow-level-1);
+  transition: all 0.3s ease;
+  align-items: center;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  border-radius: var(--border-radius-full);
+  justify-content: center;
+  text-decoration: none;
+}
+ 
+.flip-card-btn:hover {
+  transform: translateY(-2px);
+  background: var(--color-secondary);
+  box-shadow: 0 4px 12px rgba(0, 119, 217, 0.4);
+}
+ 
+.flip-card-btn:active {
+  transform: translateY(0);
+}
+ 
 .BodyFont {
   font-size: 1rem;
   font-family: Inter;
@@ -8952,6 +9131,9 @@
   .cert-grid {
     flex-direction: column;
   }
+  .flip-card {
+    height: 280px;
+  }
 }
  
 @media(max-width: 767px) {
@@ -9188,6 +9370,18 @@
   }
   .badge-grid {
     grid-template-columns: 1fr;
+  }
+  .flip-card {
+    height: 260px;
+  }
+  .flip-card-title {
+    font-size: var(--font-size-lg);
+  }
+  .flip-card-back-title {
+    font-size: var(--font-size-base);
+  }
+  .flip-card-description {
+    font-size: var(--font-size-sm);
   }
 }
  
