@@ -284,6 +284,124 @@ details[open] .step-number {
             </div>
           </div>
         </section>
+        <section
+          data-role="mission-vision-section"
+          className="home-thq-mission-vision-section-elm"
+        >
+          <div className="section-header-centered">
+            <h2 className="section-title">Our Foundation</h2>
+            <p className="section-subtitle">
+              Guided by excellence, driven by innovation
+            </p>
+          </div>
+          <div data-role="mv-grid" className="home-thq-mv-grid-elm">
+            <div data-role="mv-card" className="mv-card">
+              <div className="mv-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  className="mv-icon"
+                >
+                  <g
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle cx="12" cy="12" r="6"></circle>
+                    <circle cx="12" cy="12" r="2"></circle>
+                  </g>
+                </svg>
+              </div>
+              <h3 className="mv-card-title">Our Mission</h3>
+              <p className="mv-card-text">
+                Delivering precise diagnostic results with cutting-edge
+                technology to empower healthcare decisions.
+              </p>
+            </div>
+            <div data-role="mv-card" className="mv-card">
+              <div className="mv-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  className="mv-icon"
+                >
+                  <g
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                  >
+                    <path d="M2.062 12.348a1 1 0 0 1 0-.696a10.75 10.75 0 0 1 19.876 0a1 1 0 0 1 0 .696a10.75 10.75 0 0 1-19.876 0"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </g>
+                </svg>
+              </div>
+              <h3 className="mv-card-title">Our Vision</h3>
+              <p className="mv-card-text">
+                To be Africa&apos;s most trusted pathology partner, setting the
+                standard for medical excellence.
+              </p>
+            </div>
+            <div data-role="mv-card" className="mv-card">
+              <div className="mv-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  className="mv-icon"
+                >
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18h8M3 22h18m-7 0a7 7 0 1 0 0-14h-1m-4 6h2m-2-2a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Zm3-6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"
+                  ></path>
+                </svg>
+              </div>
+              <h3 className="mv-card-title">Our Methodologies</h3>
+              <p className="mv-card-text">
+                ISO-certified protocols, automated analyzers, and rigorous
+                quality control at every step.
+              </p>
+            </div>
+            <div data-role="mv-card" className="mv-card">
+              <div className="mv-icon-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  className="mv-icon"
+                >
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
+                  ></path>
+                </svg>
+              </div>
+              <h3 className="mv-card-title">Our Treatment Approach</h3>
+              <p className="mv-card-text">
+                Patient-centered diagnostics with compassionate service and
+                rapid turnaround times.
+              </p>
+            </div>
+          </div>
+        </section>
         <section id="services" className="services-carousel-section">
           <div className="carousel-header">
             <h2 className="section-title">Specialized Laboratory Services</h2>
@@ -804,6 +922,20 @@ to {
             ></Script>
           </div>
         </div>
+        <div>
+          <div className="home-container22">
+            <Script
+              html={`<style>
+@keyframes mv-card-enter {
+to {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+</style>`}
+            ></Script>
+          </div>
+        </div>
       </div>
       <style jsx>
         {`
@@ -817,9 +949,21 @@ to {
           .home-container12 {
             display: contents;
           }
+          .home-thq-mission-vision-section-elm {
+            padding: var(--spacing-4xl) var(--spacing-xl);
+            background: var(--color-surface);
+          }
+          .home-thq-mv-grid-elm {
+            gap: var(--spacing-2xl);
+            margin: 0 auto;
+            display: grid;
+            max-width: var(--content-max-width);
+            padding-top: var(--spacing-3xl);
+            grid-template-columns: repeat(4, 1fr);
+          }
           .home-thq-signature-title-elm1 {
             color: var(--color-accent);
-            font-family: '' 'Inter' '';
+            font-family: '' '' Inter '' '';
           }
           .home-thq-departments-elm {
             padding: var(--spacing-4xl) var(--spacing-xl);
@@ -857,12 +1001,24 @@ to {
           .home-container20 {
             display: contents;
           }
+          .home-container22 {
+            display: contents;
+          }
           @media (max-width: 991px) {
+            .home-thq-mv-grid-elm {
+              gap: var(--spacing-xl);
+              grid-template-columns: repeat(2, 1fr);
+            }
             .home-thq-flip-cards-grid-elm {
               grid-template-columns: repeat(2, 1fr);
             }
           }
           @media (max-width: 767px) {
+            .home-thq-mv-grid-elm {
+              gap: var(--spacing-lg);
+              padding-top: var(--spacing-2xl);
+              grid-template-columns: 1fr;
+            }
             .home-thq-flip-cards-grid-elm {
               gap: var(--spacing-lg);
               grid-template-columns: 1fr;
