@@ -371,7 +371,6 @@ details[open] .step-number {
                     src="https://images.pexels.com/photos/3908179/pexels-photo-3908179.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="flip-card-img"
                   />
-                  <div className="flip-card-overlay"></div>
                   <div className="flip-card-front-content">
                     <h3 className="flip-card-title">Hematology</h3>
                   </div>
@@ -401,7 +400,6 @@ details[open] .step-number {
                     src="https://images.pexels.com/photos/8539945/pexels-photo-8539945.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="flip-card-img"
                   />
-                  <div className="flip-card-overlay"></div>
                   <div className="flip-card-front-content">
                     <h3 className="flip-card-title">Microbiology</h3>
                   </div>
@@ -431,7 +429,6 @@ details[open] .step-number {
                     src="https://images.pexels.com/photos/8442504/pexels-photo-8442504.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="flip-card-img"
                   />
-                  <div className="flip-card-overlay"></div>
                   <div className="flip-card-front-content">
                     <h3 className="flip-card-title">Chemical Pathology</h3>
                   </div>
@@ -461,7 +458,6 @@ details[open] .step-number {
                     src="https://images.pexels.com/photos/36816507/pexels-photo-36816507.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="flip-card-img"
                   />
-                  <div className="flip-card-overlay"></div>
                   <div className="flip-card-front-content">
                     <h3 className="flip-card-title">Histopathology</h3>
                   </div>
@@ -491,7 +487,6 @@ details[open] .step-number {
                     src="https://images.pexels.com/photos/9574573/pexels-photo-9574573.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="flip-card-img"
                   />
-                  <div className="flip-card-overlay"></div>
                   <div className="flip-card-front-content">
                     <h3 className="flip-card-title">Immunology</h3>
                   </div>
@@ -521,7 +516,6 @@ details[open] .step-number {
                     src="https://images.pexels.com/photos/9574332/pexels-photo-9574332.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="flip-card-img"
                   />
-                  <div className="flip-card-overlay"></div>
                   <div className="flip-card-front-content">
                     <h3 className="flip-card-title">Molecular Diagnostics</h3>
                   </div>
