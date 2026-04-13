@@ -54,11 +54,9 @@ const Services = (props) => {
               comprehensive patient care.
             </p>
             <div className="services-hero-actions">
-              <a href="#booking">
-                <div className="btn btn-primary btn-xl">
-                  <span>Book a Test Now</span>
-                </div>
-              </a>
+              <div className="btn btn-primary btn-xl">
+                <span>Book a Test Now</span>
+              </div>
               <a href="#services">
                 <div className="btn btn-xl btn-outline">
                   <span>Explore Services</span>
@@ -281,11 +279,9 @@ const Services = (props) => {
                     </div>
                   </div>
                 </div>
-                <a href="#booking">
-                  <div className="btn btn-primary btn-md">
-                    <span>Book Blood Test</span>
-                  </div>
-                </a>
+                <div className="btn btn-primary btn-md">
+                  <span>Book Blood Test</span>
+                </div>
               </div>
             </details>
             <details id="dna-panel" className="detail-panel">
@@ -335,11 +331,9 @@ const Services = (props) => {
                     </div>
                   </div>
                 </div>
-                <a href="#booking">
-                  <div className="btn btn-primary btn-md">
-                    <span>Book DNA Test</span>
-                  </div>
-                </a>
+                <div className="btn btn-primary btn-md">
+                  <span>Book DNA Test</span>
+                </div>
               </div>
             </details>
             <details id="infection-panel" className="detail-panel">
@@ -389,11 +383,9 @@ const Services = (props) => {
                     </div>
                   </div>
                 </div>
-                <a href="#booking">
-                  <div className="btn btn-primary btn-md">
-                    <span>Schedule Screening</span>
-                  </div>
-                </a>
+                <div className="btn btn-primary btn-md">
+                  <span>Schedule Screening</span>
+                </div>
               </div>
             </details>
           </div>
@@ -824,96 +816,146 @@ const Services = (props) => {
                     can visit your home or office. We maintain strict cold-chain
                     logistics to ensure sample integrity during transport.
                   </p>
-                  <a href="#booking">
-                    <div className="btn btn-secondary btn-md">
-                      <span>Request Home Visit</span>
-                    </div>
-                  </a>
+                  <div className="btn btn-secondary btn-md">
+                    <span>Request Home Visit</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section id="booking" className="sticky-booking-cta">
-          <div className="booking-card">
-            <div className="booking-header">
-              <h2 className="section-title">Schedule Your Diagnostic Test</h2>
-              <p className="section-content">
-                Secure your appointment in seconds. Select your preferred
-                service and time.
-              </p>
-            </div>
-            <form
-              action="#"
-              method="POST"
-              data-form-id="0918a101-08ba-4aa7-9a8f-5b7cefe6bf23"
-              className="booking-form"
-            >
-              <div className="form-grid">
-                <div className="services-form-group">
-                  <label className="section-content">Select Service</label>
-                  <select
-                    id="thq_select_uIkW"
-                    name="select"
-                    required="true"
-                    data-form-field-id="thq_select_uIkW"
-                    className="form-select"
-                  >
-                    <option value="true">Choose a test...</option>
-                    <option value="blood">Blood Panel</option>
-                    <option value="dna">DNA Analysis</option>
-                    <option value="infection">Infection Screening</option>
-                    <option value="histo">Histopathology</option>
-                  </select>
-                </div>
-                <div className="services-form-group">
-                  <label className="section-content">Preferred Date</label>
-                  <input
-                    type="date"
-                    id="thq_textinput_V46i"
-                    name="textinput"
-                    required="true"
-                    data-form-field-id="thq_textinput_V46i"
-                    className="services-form-input"
-                  />
-                </div>
-                <div className="services-form-group">
-                  <label className="section-content">Location</label>
-                  <select
-                    id="thq_select_Y68R"
-                    name="select"
-                    required="true"
-                    data-form-field-id="thq_select_Y68R"
-                    className="form-select"
-                  >
-                    <option value="main">Main Diagnostic Center</option>
-                    <option value="home">Home Collection Service</option>
-                    <option value="branch">Satellite Branch (North)</option>
-                  </select>
-                </div>
-                <div className="services-form-group">
-                  <label className="section-content">Full Name</label>
+        <section id="book-test" className="quick-book-cta">
+          <div className="cta-container">
+            <div className="cta-card">
+              <div className="cta-header">
+                <h2 className="section-title">Schedule Your Screening</h2>
+                <p className="section-content">
+                  Fast, reliable, and confidential testing at your convenience.
+                </p>
+              </div>
+              <form
+                action="/book-test"
+                method="POST"
+                data-form-id="ed08020a-12bc-4db9-bab3-7f42be0c2406"
+                className="cta-form"
+              >
+                <div className="form-group">
                   <input
                     type="text"
-                    id="thq_textinput_o3aA"
-                    name="textinput"
+                    id="thq_true_hLmC"
+                    name="true"
                     required="true"
-                    placeholder="John Doe"
-                    data-form-field-id="thq_textinput_o3aA"
-                    className="services-form-input"
+                    placeholder="Full Name"
+                    data-form-field-id="thq_true_hLmC"
+                    className="form-input"
                   />
                 </div>
-              </div>
-              <button
-                id="thq_button_TDMs"
-                name="button"
-                type="submit"
-                data-form-field-id="thq_button_TDMs"
-                className="btn btn-primary btn-xl"
-              >
-                Confirm Booking Appointment
-              </button>
-            </form>
+                <div className="form-group">
+                  <input
+                    type="tel"
+                    id="thq_phone"
+                    name="phone"
+                    required="true"
+                    placeholder="Phone Number"
+                    data-form-field-id="thq_phone"
+                    className="form-input input"
+                  />
+                </div>
+                <div className="form-group">
+                  <input
+                    type="email"
+                    id="thq_email"
+                    name="email"
+                    required="true"
+                    placeholder="Email Address"
+                    data-form-field-id="thq_email"
+                    className="form-input input"
+                  />
+                </div>
+                <div className="form-group">
+                  <select
+                    id="thq_location"
+                    name="location"
+                    required="true"
+                    data-form-field-id="thq_location"
+                    className="form-input"
+                  >
+                    <option value="true" disabled="true" selected="true">
+                      Select Your Closest Location
+                    </option>
+                    <option value="bauchi-nigeria">Bauchi State Nigeria</option>
+                    <option value="buchanan-liberia">Buchanan Liberia</option>
+                    <option value="dar-es-salaam-tanzania">
+                      Dar Es Salaam Tanzania
+                    </option>
+                    <option value="kigali-rwanda">Kigali Rwanda</option>
+                  </select>
+                </div>
+                <div className="form-group">
+                  <select
+                    id="thq_test-type_NmUp"
+                    name="test-type"
+                    required="true"
+                    data-form-field-id="thq_test-type_NmUp"
+                    className="form-input"
+                  >
+                    <option value="true" disabled="true" selected="true">
+                      Select Test Type
+                    </option>
+                    <option value="blood">Full Blood Count</option>
+                    <option value="dna">DNA Paternity</option>
+                    <option value="infection">Infection Screening</option>
+                    <option value="histopathology">Histopathology</option>
+                    <option value="hemoglobin-electrophoresis">
+                      Hemoglobin Electrophoresis
+                    </option>
+                    <option value="malaria-parasite">
+                      Malaria Parasite (MP) Testing
+                    </option>
+                    <option value="urinalysis-stool">
+                      Urinalysis &amp; Stool Microscopy
+                    </option>
+                    <option value="biopsy-analysis">Biopsy Analysis</option>
+                    <option value="pap-smear">Pap Smear</option>
+                    <option value="fine-needle-aspiration">
+                      Fine Needle Aspiration
+                    </option>
+                    <option value="digital-xray">Digital X-Ray</option>
+                    <option value="ultrasonography">Ultrasonography</option>
+                    <option value="lipid-profile">Lipid Profile</option>
+                    <option value="blood-glucose-hba1c">
+                      Blood Glucose &amp; HbA1c
+                    </option>
+                    <option value="comprehensive-metabolic">
+                      Comprehensive Metabolic Panel
+                    </option>
+                    <option value="oncogenomics">Oncogenomics</option>
+                    <option value="dna-sequencing">DNA Sequencing</option>
+                    <option value="pcr-testing">PCR Testing</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+                <div className="form-group">
+                  <input
+                    type="date"
+                    id="thq_date_CETC"
+                    name="date"
+                    required="true"
+                    data-form-field-id="thq_date_CETC"
+                    className="form-input"
+                  />
+                </div>
+                <button
+                  id="thq_button_ENOX"
+                  name="button"
+                  type="submit"
+                  data-form-field-id="thq_button_ENOX"
+                  className="btn-accent btn btn-lg"
+                >
+                  Confirm Booking
+                </button>
+              </form>
+            </div>
           </div>
         </section>
         <div className="services-container2">
