@@ -63,7 +63,8 @@ details[open] .step-number {
           <div className="hero-content">
             <div className="hero-text-block">
               <h1 className="home-hero-title hero-title">
-                Advanced Diagnostic &amp; Pathology Services You Can Trust
+                Pathology Clinic &amp; Advanced Diagnostic Services You Can
+                Trust
               </h1>
               <p className="hero-subtitle">
                 Prime Pathology Clinic is a multi-specialty diagnostic center
@@ -843,7 +844,7 @@ details[open] .step-number {
                     />
                     <div className="branch-overlay home-thq-branch-overlay-elm4">
                       <span className="home-thq-branch-location-elm16 branch-location">
-                        Fauziyya Ahmed Bello
+                        Fauziya Ahmed Bello
                       </span>
                       <span className="home-thq-branch-location-elm17 branch-location">
                         Country Director, Rwanda
