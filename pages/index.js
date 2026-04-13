@@ -779,7 +779,7 @@ details[open] .step-number {
                 <div className="ceo-frame">
                   <img
                     alt="Auwal Garba Hussain"
-                    src="https://images.pexels.com/photos/8442102/pexels-photo-8442102.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.pexels.com/photos/8442102/pexels-photo-8442102.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800"
                     className="page-ceo-img1"
                   />
                   <div className="ceo-info">
@@ -1062,7 +1062,7 @@ to {
           }
           .home-thq-signature-title-elm1 {
             color: var(--color-accent);
-            font-family: '' '' 'Inter' '' '';
+            font-family: '' '' '' Inter '' '' '';
           }
           .home-thq-departments-elm {
             padding: var(--spacing-4xl) var(--spacing-xl);

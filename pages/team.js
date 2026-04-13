@@ -419,7 +419,7 @@ details[open] .chevron {
                 <div className="ceo-frame">
                   <img
                     alt="Auwal Garba Hussain"
-                    src="https://images.pexels.com/photos/8442102/pexels-photo-8442102.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.pexels.com/photos/8442102/pexels-photo-8442102.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800"
                     className="page-ceo-img1"
                   />
                   <div className="ceo-info">

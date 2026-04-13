@@ -5630,7 +5630,8 @@
   overflow: hidden;
   position: relative;
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
-  aspect-ratio: 16 / 9;
+  min-height: 450px;
+  aspect-ratio: 16 / 10;
   border-radius: var(--border-radius-xl);
 }
  
@@ -5655,7 +5656,8 @@
 .branch-frame {
   overflow: hidden;
   position: relative;
-  aspect-ratio: 4 / 3;
+  min-height: 320px;
+  aspect-ratio: 4 / 4.5;
   border-radius: var(--border-radius-lg);
 }
  
@@ -9682,6 +9684,12 @@
   .branch-grid {
     grid-template-columns: 1fr;
   }
+  .ceo-frame {
+    min-height: 350px;
+  }
+  .branch-frame {
+    min-height: 280px;
+  }
   .war-room-stats {
     gap: var(--spacing-md);
     flex-direction: column;
@@ -9913,6 +9921,12 @@
   }
   .page-service-card1 {
     flex: 0 0 100%;
+  }
+  .ceo-frame {
+    min-height: 280px;
+  }
+  .branch-frame {
+    min-height: 240px;
   }
   .page-timeline-content {
     padding-left: var(--spacing-xl);
