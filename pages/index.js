@@ -775,20 +775,21 @@ details[open] .step-number {
               Our Leadership &amp; Network
             </h2>
             <div className="team-layout">
-              <div className="ceo-wrapper">
-                <div className="ceo-frame">
-                  <img
-                    alt="Auwal Garba Hussain"
-                    src="https://images.pexels.com/photos/8442102/pexels-photo-8442102.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800"
-                    className="page-ceo-img1"
-                  />
-                  <div className="ceo-info">
-                    <h3 className="ceo-name">Auwal Garba Hussain</h3>
-                    <span className="ceo-title">The CEO</span>
+              <div className="branch-grid">
+                <div className="branch-card">
+                  <div className="branch-frame">
+                    <img
+                      alt="Nigeria Branch"
+                      src="/aishag-1500w.jpg"
+                      className="branch-img"
+                    />
+                    <div className="branch-overlay home-thq-branch-overlay-elm1">
+                      <span className="branch-location">
+                        Aisha Garba  Othman
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="branch-grid">
                 <div className="branch-card">
                   <div className="branch-frame">
                     <img
@@ -1126,6 +1127,10 @@ to {
           @media (max-width: 479px) {
             .home-thq-approach-visual-elm {
               align-self: stretch;
+            }
+            .home-thq-branch-overlay-elm1 {
+              top: -96px;
+              right: -819px;
             }
           }
         `}
