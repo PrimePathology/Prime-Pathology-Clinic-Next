@@ -66,9 +66,13 @@ details[open] .step-number {
                 Advanced Diagnostic &amp; Pathology Services You Can Trust
               </h1>
               <p className="hero-subtitle">
-                Experience world-class medical laboratory services driven by
-                innovation, precision, and a commitment to global healthcare
-                standards for every patient.
+                Prime Pathology Clinic is a multi-specialty diagnostic center
+                dedicated to delivering accurate diagnosis and reliable
+                treatment support. We focus on enabling effective clinical
+                treatments, medical interventions, procedures, and therapies
+                that have been proven to deliver measurable and meaningful
+                health improvements—ensuring every patient receives care they
+                can trust.
               </p>
               <div className="hero-actions">
                 <a href="#book-test">
