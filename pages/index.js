@@ -78,7 +78,7 @@ details[open] .step-number {
                 </a>
                 <a href="#services">
                   <div className="btn btn-outline btn-lg">
-                    <span>Get Diagnosis</span>
+                    <span>Get Diagnosis &amp; Treatment</span>
                   </div>
                 </a>
               </div>
@@ -548,7 +548,9 @@ details[open] .step-number {
                   the best possible health outcome.&quot;
                 </p>
                 <div className="ceo-signature">
-                  <span className="signature-text">Auwal Garba Hussain</span>
+                  <span className="signature-text">
+                    Auwalu Garba Hussain PhD
+                  </span>
                   <span className="home-thq-signature-title-elm1 signature-title">
                     MPH/MBA/BMLS/MLT/MLA
                   </span>
@@ -801,7 +803,7 @@ details[open] .step-number {
                     />
                     <div className="branch-overlay home-thq-branch-overlay-elm2">
                       <span className="home-thq-branch-location-elm12 branch-location">
-                        Aisha Garba  Othman
+                        Maryam Mohammed Maitama
                       </span>
                       <span className="home-thq-branch-location-elm13 branch-location">
                         Country Director, Liberia

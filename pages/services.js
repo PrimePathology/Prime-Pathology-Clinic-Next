@@ -59,7 +59,7 @@ const Services = (props) => {
               </div>
               <a href="#services">
                 <div className="btn btn-xl btn-outline">
-                  <span>Explore Services</span>
+                  <span>Explore Services </span>
                 </div>
               </a>
             </div>
