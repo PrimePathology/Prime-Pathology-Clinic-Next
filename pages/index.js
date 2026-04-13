@@ -225,7 +225,7 @@ details[open] .step-number {
               <div className="workflow-animation-box">
                 <img
                   alt="Laboratory Workflow Illustration"
-                  src="https://images.pexels.com/photos/5726850/pexels-photo-5726850.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="https://images.pexels.com/photos/32213405/pexels-photo-32213405.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   className="workflow-img"
                 />
                 <div className="pulse-ring"></div>
@@ -771,21 +771,39 @@ details[open] .step-number {
         </div>
         <section className="team-section">
           <div className="team-container">
-            <h2 className="section-title text-center">
-              Our Leadership &amp; Network
-            </h2>
+            <h2 className="section-title text-center">Our Leadership Team</h2>
             <div className="team-layout">
+              <div className="branch-card">
+                <div className="branch-frame">
+                  <img
+                    alt="Nigeria Branch"
+                    src="https://images.unsplash.com/photo-1637684666587-91e51b10a555?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDl8fEFmcmljYW4lMjBDRU98ZW58MHx8fHwxNzc2MDg2MjU0fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
+                    className="branch-img"
+                  />
+                  <div className="branch-overlay home-thq-branch-overlay-elm1">
+                    <span className="home-thq-branch-location-elm10 branch-location">
+                      Auwal Garba Hussain
+                    </span>
+                    <span className="home-thq-branch-location-elm11 branch-location">
+                      CEO &amp; Director
+                    </span>
+                  </div>
+                </div>
+              </div>
               <div className="branch-grid">
                 <div className="branch-card">
                   <div className="branch-frame">
                     <img
                       alt="Nigeria Branch"
-                      src="/aishag-1500w.jpg"
+                      src="https://images.unsplash.com/photo-1757899524912-9618cd9936f2?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE4fHxOaWdlcmlhbiUyMHxlbnwwfHx8fDE3NzYwODY4ODV8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                       className="branch-img"
                     />
-                    <div className="branch-overlay home-thq-branch-overlay-elm1">
-                      <span className="branch-location">
+                    <div className="branch-overlay home-thq-branch-overlay-elm2">
+                      <span className="home-thq-branch-location-elm12 branch-location">
                         Aisha Garba  Othman
+                      </span>
+                      <span className="home-thq-branch-location-elm13 branch-location">
+                        Country Director, Liberia
                       </span>
                     </div>
                   </div>
@@ -797,9 +815,12 @@ details[open] .step-number {
                       src="/aishag-1500w.jpg"
                       className="branch-img"
                     />
-                    <div className="branch-overlay">
-                      <span className="branch-location">
+                    <div className="branch-overlay home-thq-branch-overlay-elm3">
+                      <span className="home-thq-branch-location-elm14 branch-location">
                         Aisha Garba  Othman
+                      </span>
+                      <span className="home-thq-branch-location-elm15 branch-location">
+                        Country Director, Tanzania
                       </span>
                     </div>
                   </div>
@@ -807,27 +828,16 @@ details[open] .step-number {
                 <div className="branch-card">
                   <div className="branch-frame">
                     <img
-                      alt="Liberia Branch"
+                      alt="Nigeria Branch"
                       src="/fauziyya-1500w.jpg"
                       className="branch-img"
                     />
-                    <div className="branch-overlay">
-                      <span className="branch-location">
+                    <div className="branch-overlay home-thq-branch-overlay-elm4">
+                      <span className="home-thq-branch-location-elm16 branch-location">
                         Fauziyya Ahmed Bello
                       </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="branch-card">
-                  <div className="branch-frame">
-                    <img
-                      alt="Tanzania Branch"
-                      src="https://images.pexels.com/photos/8442574/pexels-photo-8442574.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                      className="branch-img"
-                    />
-                    <div className="branch-overlay">
-                      <span className="branch-location">
-                        Aisha Garba Othman, Dar es Salaam Tanzania
+                      <span className="home-thq-branch-location-elm17 branch-location">
+                        Country Director, Rwanda
                       </span>
                     </div>
                   </div>
@@ -835,13 +845,16 @@ details[open] .step-number {
                 <div className="branch-card">
                   <div className="branch-frame">
                     <img
-                      alt="Rwanda Branch"
-                      src="https://images.pexels.com/photos/4031525/pexels-photo-4031525.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      alt="Nigeria Branch"
+                      src="/karimatu-1500w.jpg"
                       className="branch-img"
                     />
-                    <div className="branch-overlay">
-                      <span className="branch-location">
-                        Fauziya Ahmed Bello, Kigali, Rwanda
+                    <div className="branch-overlay home-thq-branch-overlay-elm5">
+                      <span className="home-thq-branch-location-elm18 branch-location">
+                        Karimatu Abdullahi Zakari
+                      </span>
+                      <span className="home-thq-branch-location-elm19 branch-location">
+                        Country Director, Nigeria
                       </span>
                     </div>
                   </div>
@@ -1063,7 +1076,7 @@ to {
           }
           .home-thq-signature-title-elm1 {
             color: var(--color-accent);
-            font-family: '' '' '' Inter '' '' '';
+            font-family: '' '' '' '' Inter '' '' '' '';
           }
           .home-thq-departments-elm {
             padding: var(--spacing-4xl) var(--spacing-xl);
@@ -1082,6 +1095,56 @@ to {
           }
           .home-container14 {
             display: contents;
+          }
+          .home-thq-branch-location-elm10 {
+            display: flex;
+            font-size: 32px;
+            flex-direction: row;
+          }
+          .home-thq-branch-location-elm11 {
+            display: flex;
+            font-size: 32px;
+            flex-direction: row;
+          }
+          .home-thq-branch-location-elm12 {
+            display: flex;
+            font-size: 32px;
+            flex-direction: row;
+          }
+          .home-thq-branch-location-elm13 {
+            display: flex;
+            font-size: 32px;
+            flex-direction: row;
+          }
+          .home-thq-branch-location-elm14 {
+            display: flex;
+            font-size: 32px;
+            flex-direction: row;
+          }
+          .home-thq-branch-location-elm15 {
+            display: flex;
+            font-size: 32px;
+            flex-direction: row;
+          }
+          .home-thq-branch-location-elm16 {
+            display: flex;
+            font-size: 32px;
+            flex-direction: row;
+          }
+          .home-thq-branch-location-elm17 {
+            display: flex;
+            font-size: 32px;
+            flex-direction: row;
+          }
+          .home-thq-branch-location-elm18 {
+            display: flex;
+            font-size: 32px;
+            flex-direction: row;
+          }
+          .home-thq-branch-location-elm19 {
+            display: flex;
+            font-size: 32px;
+            flex-direction: row;
           }
           .home-thq-parallax-slide-elm {
             background-image: url('https://images.pexels.com/photos/5726797/pexels-photo-5726797.jpeg?auto=compress&cs=tinysrgb&w=1500');
@@ -1131,6 +1194,60 @@ to {
             .home-thq-branch-overlay-elm1 {
               top: -96px;
               right: -819px;
+            }
+            .home-thq-branch-location-elm10 {
+              display: flex;
+              font-size: 20px;
+              flex-direction: row;
+            }
+            .home-thq-branch-location-elm11 {
+              display: flex;
+              font-size: 20px;
+              flex-direction: row;
+            }
+            .home-thq-branch-overlay-elm2 {
+              top: -96px;
+              right: -819px;
+            }
+            .home-thq-branch-location-elm12 {
+              display: flex;
+              font-size: 20px;
+              flex-direction: row;
+            }
+            .home-thq-branch-location-elm13 {
+              display: flex;
+              font-size: 20px;
+              flex-direction: row;
+            }
+            .home-thq-branch-overlay-elm3 {
+              top: -96px;
+              right: -819px;
+            }
+            .home-thq-branch-location-elm14 {
+              font-size: 24px;
+            }
+            .home-thq-branch-location-elm15 {
+              font-size: 24px;
+            }
+            .home-thq-branch-overlay-elm4 {
+              top: -96px;
+              right: -819px;
+            }
+            .home-thq-branch-location-elm16 {
+              font-size: 24px;
+            }
+            .home-thq-branch-location-elm17 {
+              font-size: 24px;
+            }
+            .home-thq-branch-overlay-elm5 {
+              top: -96px;
+              right: -819px;
+            }
+            .home-thq-branch-location-elm18 {
+              font-size: 24px;
+            }
+            .home-thq-branch-location-elm19 {
+              font-size: 24px;
             }
           }
         `}

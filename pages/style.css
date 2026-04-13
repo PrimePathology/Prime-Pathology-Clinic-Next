@@ -5681,6 +5681,7 @@
 }
  
 .branch-overlay {
+  gap: var(--spacing-sm);
   inset: 0;
   display: flex;
   opacity: 0;
@@ -5688,7 +5689,9 @@
   position: absolute;
   background: var(--color-scrim);
   transition: opacity 0.3s ease;
-  align-items: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
 }
  
 .branch-location {
