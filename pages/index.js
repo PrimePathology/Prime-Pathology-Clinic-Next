@@ -773,24 +773,25 @@ details[open] .step-number {
           <div className="team-container">
             <h2 className="section-title text-center">Our Leadership Team</h2>
             <div className="team-layout">
-              <div className="branch-card">
-                <div className="branch-frame">
-                  <img
-                    alt="Nigeria Branch"
-                    src="/ceo2-1500w.jpg"
-                    className="branch-img"
-                  />
-                  <div className="branch-overlay home-thq-branch-overlay-elm1">
-                    <span className="home-thq-branch-location-elm10 branch-location">
-                      Auwal Garba Hussain
-                    </span>
-                    <span className="home-thq-branch-location-elm11 branch-location">
-                      CEO &amp; Director
-                    </span>
+              <div className="home-thq-branch-card-elm1 branch-card"></div>
+              <div className="branch-grid">
+                <div className="branch-card">
+                  <div className="branch-frame">
+                    <img
+                      alt="Nigeria Branch"
+                      src="/ceo1-1500w.jpg"
+                      className="branch-img"
+                    />
+                    <div className="branch-overlay home-thq-branch-overlay-elm1">
+                      <span className="home-thq-branch-location-elm10 branch-location">
+                        Auwal Garba Hussain
+                      </span>
+                      <span className="home-thq-branch-location-elm11 branch-location">
+                        CEO &amp; Director
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="branch-grid">
                 <div className="branch-card">
                   <div className="branch-frame">
                     <img
@@ -1095,6 +1096,9 @@ to {
           }
           .home-container14 {
             display: contents;
+          }
+          .home-thq-branch-card-elm1 {
+            border: 2px dashed rgba(120, 120, 120, 0.4);
           }
           .home-thq-branch-location-elm10 {
             display: flex;
