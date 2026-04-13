@@ -404,11 +404,13 @@ const Navigation = (props) => {
                 </Link>
               </li>
               <li className="navigation-mobile-item">
-                <a href="Team">
-                  <div className="navigation-mobile-link">
-                    <span>Team</span>
-                  </div>
-                </a>
+                <Link href="/team">
+                  <a>
+                    <div className="navigation-thq-navigation-mobile-link-elm14 navigation-mobile-link">
+                      <span>Team</span>
+                    </div>
+                  </a>
+                </Link>
               </li>
               <li className="navigation-mobile-item">
                 <Link href="/contact">
@@ -612,7 +614,7 @@ const Navigation = (props) => {
             color: var(--dl-color-theme-neutral-dark);
             font-size: 18px;
             font-style: normal;
-            font-family: '' '' '' Poppins '' '' '';
+            font-family: '' '' '' 'Poppins' '' '' '';
             font-weight: 700;
           }
           .navigation-text12 {
@@ -729,6 +731,9 @@ const Navigation = (props) => {
           .navigation-image2 {
             width: 200px;
             object-fit: cover;
+          }
+          .navigation-thq-navigation-mobile-link-elm14 {
+            text-decoration: none;
           }
           .navigation-thq-dropdown4 {
             cursor: pointer;
