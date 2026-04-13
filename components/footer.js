@@ -23,8 +23,8 @@ const Footer = (props) => {
               <div className="footer-brand-column">
                 <div className="footer-logo-group">
                   <img
-                    src="/prime%20pathology%20t%20logo-200h.png"
                     alt="image"
+                    src="/ppclogo-200h.png"
                     className="footer-image"
                   />
                   <span className="footer-logo-text">Prime Pathology</span>
@@ -508,7 +508,6 @@ socialIcons.forEach(icon => {
           }
           .footer-image {
             width: 40px;
-            height: 40px;
             object-fit: cover;
           }
           .footer-thq-footer-nav-link-elm10 {
@@ -551,6 +550,7 @@ socialIcons.forEach(icon => {
             text-decoration: none;
           }
           .footer-text28 {
+            color: var(--color-primary);
             font-weight: 700;
           }
           .footer-container2 {
@@ -558,6 +558,21 @@ socialIcons.forEach(icon => {
           }
           .footer-container3 {
             display: contents;
+          }
+          @media (max-width: 991px) {
+            .footer-image {
+              width: 40px;
+            }
+          }
+          @media (max-width: 767px) {
+            .footer-image {
+              width: 40px;
+            }
+          }
+          @media (max-width: 479px) {
+            .footer-image {
+              width: 40px;
+            }
           }
         `}
       </style>

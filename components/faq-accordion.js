@@ -39,35 +39,35 @@ const FaqAccordion = (props) => {
                   </span>
                   <div className="faq-accordion-icon-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
-                      className="faq-accordion-icon plus"
+                      className="plus faq-accordion-icon"
                     >
                       <path
+                        d="M5 12h14m-7-7v14"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 12h14m-7-7v14"
                       ></path>
                     </svg>
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                       className="faq-accordion-icon minus"
                     >
                       <path
+                        d="M5 12h14"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 12h14"
                       ></path>
                     </svg>
                   </div>
@@ -86,35 +86,35 @@ const FaqAccordion = (props) => {
                   </span>
                   <div className="faq-accordion-icon-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
-                      className="faq-accordion-icon plus"
+                      className="plus faq-accordion-icon"
                     >
                       <path
+                        d="M5 12h14m-7-7v14"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 12h14m-7-7v14"
                       ></path>
                     </svg>
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                       className="faq-accordion-icon minus"
                     >
                       <path
+                        d="M5 12h14"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 12h14"
                       ></path>
                     </svg>
                   </div>
@@ -134,35 +134,35 @@ const FaqAccordion = (props) => {
                   </span>
                   <div className="faq-accordion-icon-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
-                      className="faq-accordion-icon plus"
+                      className="plus faq-accordion-icon"
                     >
                       <path
+                        d="M5 12h14m-7-7v14"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 12h14m-7-7v14"
                       ></path>
                     </svg>
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                       className="faq-accordion-icon minus"
                     >
                       <path
+                        d="M5 12h14"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 12h14"
                       ></path>
                     </svg>
                   </div>
@@ -181,35 +181,35 @@ const FaqAccordion = (props) => {
                   </span>
                   <div className="faq-accordion-icon-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
-                      className="faq-accordion-icon plus"
+                      className="plus faq-accordion-icon"
                     >
                       <path
+                        d="M5 12h14m-7-7v14"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 12h14m-7-7v14"
                       ></path>
                     </svg>
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                       className="faq-accordion-icon minus"
                     >
                       <path
+                        d="M5 12h14"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 12h14"
                       ></path>
                     </svg>
                   </div>
@@ -228,35 +228,35 @@ const FaqAccordion = (props) => {
                   </span>
                   <div className="faq-accordion-icon-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
-                      className="faq-accordion-icon plus"
+                      className="plus faq-accordion-icon"
                     >
                       <path
+                        d="M5 12h14m-7-7v14"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 12h14m-7-7v14"
                       ></path>
                     </svg>
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
                       width="24"
+                      xmlns="http://www.w3.org/2000/svg"
                       height="24"
                       viewBox="0 0 24 24"
                       className="faq-accordion-icon minus"
                     >
                       <path
+                        d="M5 12h14"
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 12h14"
                       ></path>
                     </svg>
                   </div>

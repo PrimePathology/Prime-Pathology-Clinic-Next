@@ -298,8 +298,8 @@ details[open] .step-number {
             <div data-role="mv-card" className="mv-card">
               <div className="mv-icon-wrapper">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="32"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="32"
                   viewBox="0 0 24 24"
                   className="mv-icon"
@@ -307,13 +307,13 @@ details[open] .step-number {
                   <g
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
                   >
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <circle cx="12" cy="12" r="6"></circle>
-                    <circle cx="12" cy="12" r="2"></circle>
+                    <circle r="10" cx="12" cy="12"></circle>
+                    <circle r="6" cx="12" cy="12"></circle>
+                    <circle r="2" cx="12" cy="12"></circle>
                   </g>
                 </svg>
               </div>
@@ -326,8 +326,8 @@ details[open] .step-number {
             <div data-role="mv-card" className="mv-card">
               <div className="mv-icon-wrapper">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="32"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="32"
                   viewBox="0 0 24 24"
                   className="mv-icon"
@@ -335,12 +335,12 @@ details[open] .step-number {
                   <g
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
                   >
                     <path d="M2.062 12.348a1 1 0 0 1 0-.696a10.75 10.75 0 0 1 19.876 0a1 1 0 0 1 0 .696a10.75 10.75 0 0 1-19.876 0"></path>
-                    <circle cx="12" cy="12" r="3"></circle>
+                    <circle r="3" cx="12" cy="12"></circle>
                   </g>
                 </svg>
               </div>
@@ -353,19 +353,19 @@ details[open] .step-number {
             <div data-role="mv-card" className="mv-card">
               <div className="mv-icon-wrapper">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="32"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="32"
                   viewBox="0 0 24 24"
                   className="mv-icon"
                 >
                   <path
+                    d="M6 18h8M3 22h18m-7 0a7 7 0 1 0 0-14h-1m-4 6h2m-2-2a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Zm3-6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M6 18h8M3 22h18m-7 0a7 7 0 1 0 0-14h-1m-4 6h2m-2-2a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Zm3-6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"
                   ></path>
                 </svg>
               </div>
@@ -378,19 +378,19 @@ details[open] .step-number {
             <div data-role="mv-card" className="mv-card">
               <div className="mv-icon-wrapper">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="32"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="32"
                   viewBox="0 0 24 24"
                   className="mv-icon"
                 >
                   <path
+                    d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
                   ></path>
                 </svg>
               </div>
@@ -519,7 +519,7 @@ details[open] .step-number {
                 <div className="ceo-accent-frame"></div>
               </div>
               <div className="ceo-content-card">
-                <h2 className="section-title">A Vision for Health</h2>
+                <h2 className="section-title">Message from the CEO</h2>
                 <p className="section-content">
                   &quot;Our commitment to quality diagnostics is the bedrock of
                   patient-centered care. We believe that innovation in pathology
@@ -963,7 +963,7 @@ to {
           }
           .home-thq-signature-title-elm1 {
             color: var(--color-accent);
-            font-family: '' '' Inter '' '';
+            font-family: '' '' 'Inter' '' '';
           }
           .home-thq-departments-elm {
             padding: var(--spacing-4xl) var(--spacing-xl);

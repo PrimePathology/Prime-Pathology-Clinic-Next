@@ -9210,7 +9210,12 @@
   .approach-split {
     flex-direction: column;
   }
+  .workflow-animation-box {
+    display: flex;
+    justify-content: center;
+  }
   .workflow-img {
+    margin: 0 auto;
     border-radius: var(--border-radius-xl);
   }
   .ceo-split {
@@ -9278,6 +9283,11 @@
   }
   .about-team-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .tests-hero-search-bar {
+    gap: var(--spacing-xs);
+    padding: var(--spacing-xs);
+    max-width: 500px;
   }
   .test-categories-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -9561,6 +9571,13 @@
   .cta-form {
     grid-template-columns: 1fr;
   }
+  .workflow-animation-box {
+    display: flex;
+    justify-content: center;
+  }
+  .workflow-img {
+    margin: 0 auto;
+  }
   .services-hero-actions {
     flex-direction: column;
   }
@@ -9594,9 +9611,18 @@
   .cta-buttons {
     flex-direction: column;
   }
+  .tests-hero-search-bar {
+    gap: var(--spacing-xs);
+    padding: var(--spacing-xs);
+    max-width: 400px;
+    border-radius: var(--border-radius-lg);
+  }
   .tests-hero-stats {
     gap: var(--spacing-md);
     flex-direction: column;
+  }
+  .tests-hero-search-icon {
+    padding-left: var(--spacing-sm);
   }
   .tests-booking-card {
     flex-direction: column;
@@ -9792,6 +9818,13 @@
     align-items: center;
     flex-direction: column;
   }
+  .workflow-animation-box {
+    display: flex;
+    justify-content: center;
+  }
+  .workflow-img {
+    margin: 0 auto;
+  }
   .ceo-content-card {
     padding: var(--spacing-xl);
   }
@@ -9827,6 +9860,17 @@
   }
   .tests-hero-title {
     font-size: var(--font-size-2xl);
+  }
+  .tests-hero-search-bar {
+    gap: var(--spacing-xs);
+    padding: var(--spacing-xs);
+    flex-wrap: nowrap;
+    max-width: 100%;
+    border-radius: var(--border-radius-md);
+  }
+  .tests-hero-search-icon {
+    flex-shrink: 0;
+    padding-left: var(--spacing-xs);
   }
   .test-categories-grid {
     flex: 0 0 100%;

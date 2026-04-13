@@ -915,10 +915,34 @@ details[open] summary::after {
                         required="true"
                         data-form-field-id="test-select"
                       >
-                        <option value="true">Choose a test category...</option>
-                        <option value="blood">Blood Chemistry</option>
-                        <option value="dna">DNA &amp; Genetics</option>
-                        <option value="infection">Infection Screening</option>
+                        <option value>Choose a test category...</option>
+                        <option value="hemoglobin-electrophoresis">
+                          Hemoglobin Electrophoresis
+                        </option>
+                        <option value="malaria-parasite">
+                          Malaria Parasite (MP) Testing
+                        </option>
+                        <option value="urinalysis-stool">
+                          Urinalysis &amp; Stool Microscopy
+                        </option>
+                        <option value="biopsy-analysis">Biopsy Analysis</option>
+                        <option value="pap-smear">Pap Smear</option>
+                        <option value="fine-needle-aspiration">
+                          Fine Needle Aspiration
+                        </option>
+                        <option value="digital-xray">Digital X-Ray</option>
+                        <option value="ultrasonography">Ultrasonography</option>
+                        <option value="lipid-profile">Lipid Profile</option>
+                        <option value="blood-glucose-hba1c">
+                          Blood Glucose &amp; HbA1c
+                        </option>
+                        <option value="comprehensive-metabolic">
+                          Comprehensive Metabolic Panel
+                        </option>
+                        <option value="oncogenomics">Oncogenomics</option>
+                        <option value="dna-sequencing">DNA Sequencing</option>
+                        <option value="pcr-testing">PCR Testing</option>
+                        <option value="others">Others</option>
                       </select>
                     </div>
                     <div className="tests-form-group">

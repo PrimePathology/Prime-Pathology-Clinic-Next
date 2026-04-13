@@ -1,12 +1,13 @@
 import React from 'react'
 
 import Script from 'dangerous-html/react'
+import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
 
 const PartnersSlider = (props) => {
   return (
     <>
-      <div className="partners-slider-container1">
+      <div className={`partners-slider-container1 ${props.rootClassName} `}>
         <div className="partners-slider-container2">
           <div className="partners-slider-container3">
             <Script
@@ -34,7 +35,7 @@ const PartnersSlider = (props) => {
         <section className="partners-slider-partners-slider">
           <div className="partners-slider-container">
             <div className="partners-slider-header">
-              <h2 className="partners-slider-title section-title">
+              <h2 className="section-title partners-slider-title">
                 Trusted By Leading Healthcare Organizations
               </h2>
               <div className="partners-slider-decoration"></div>
@@ -44,17 +45,17 @@ const PartnersSlider = (props) => {
                 <div className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-                      <circle cx="12" cy="12" r="10"></circle>
+                      <circle r="10" cx="12" cy="12"></circle>
                       <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
                       <path d="M2 12h20"></path>
                       <path d="M12 2a14.5 14.5 0 0 1 0 20 14.5 14.5 0 0 1 0-20"></path>
@@ -65,12 +66,12 @@ const PartnersSlider = (props) => {
                 <div className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -85,12 +86,12 @@ const PartnersSlider = (props) => {
                 <div className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -106,12 +107,12 @@ const PartnersSlider = (props) => {
                 <div className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -126,12 +127,12 @@ const PartnersSlider = (props) => {
                 <div className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -139,12 +140,12 @@ const PartnersSlider = (props) => {
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="M12 11v4m2-2h-4m6-7V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2m10 0v14M6 6v14"></path>
-                        <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                        <rect x="2" y="6" rx="2" width="20" height="14"></rect>
                       </g>
                     </svg>
                     <span className="partners-slider-label">
@@ -155,12 +156,12 @@ const PartnersSlider = (props) => {
                 <div className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -173,12 +174,12 @@ const PartnersSlider = (props) => {
                 <div className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -195,17 +196,17 @@ const PartnersSlider = (props) => {
                 <div className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-                      <circle cx="12" cy="12" r="10"></circle>
+                      <circle r="10" cx="12" cy="12"></circle>
                       <path d="m9 12 2 2 4-4"></path>
                     </svg>
                     <span className="partners-slider-label">
@@ -216,17 +217,17 @@ const PartnersSlider = (props) => {
                 <div aria-hidden="true" className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-                      <circle cx="12" cy="12" r="10"></circle>
+                      <circle r="10" cx="12" cy="12"></circle>
                       <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
                       <path d="M2 12h20"></path>
                       <path d="M12 2a14.5 14.5 0 0 1 0 20 14.5 14.5 0 0 1 0-20"></path>
@@ -237,12 +238,12 @@ const PartnersSlider = (props) => {
                 <div aria-hidden="true" className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -257,12 +258,12 @@ const PartnersSlider = (props) => {
                 <div aria-hidden="true" className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -278,12 +279,12 @@ const PartnersSlider = (props) => {
                 <div aria-hidden="true" className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -298,12 +299,12 @@ const PartnersSlider = (props) => {
                 <div aria-hidden="true" className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -311,12 +312,12 @@ const PartnersSlider = (props) => {
                       <g
                         fill="none"
                         stroke="currentColor"
+                        strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        strokeWidth="2"
                       >
                         <path d="M12 11v4m2-2h-4m6-7V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2m10 0v14M6 6v14"></path>
-                        <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                        <rect x="2" y="6" rx="2" width="20" height="14"></rect>
                       </g>
                     </svg>
                     <span className="partners-slider-label">
@@ -327,12 +328,12 @@ const PartnersSlider = (props) => {
                 <div aria-hidden="true" className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -345,12 +346,12 @@ const PartnersSlider = (props) => {
                 <div aria-hidden="true" className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -367,17 +368,17 @@ const PartnersSlider = (props) => {
                 <div aria-hidden="true" className="partners-slider-item">
                   <div className="partners-slider-logo-wrapper">
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="48"
-                      height="48"
-                      viewBox="0 0 24 24"
                       fill="none"
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-                      <circle cx="12" cy="12" r="10"></circle>
+                      <circle r="10" cx="12" cy="12"></circle>
                       <path d="m9 12 2 2 4-4"></path>
                     </svg>
                     <span className="partners-slider-label">
@@ -460,6 +461,14 @@ opacity: 0;}}
       </style>
     </>
   )
+}
+
+PartnersSlider.defaultProps = {
+  rootClassName: '',
+}
+
+PartnersSlider.propTypes = {
+  rootClassName: PropTypes.string,
 }
 
 export default PartnersSlider
