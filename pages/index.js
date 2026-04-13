@@ -506,11 +506,11 @@ details[open] .step-number {
               </div>
               <div className="service-card">
                 <div className="service-icon">
-                  <svg height="48" width="48" viewBox="0 0 48 48">
+                  <svg width="48" height="48" viewBox="0 0 48 48">
                     <g
                       fill="currentColor"
-                      fillRule="evenodd"
                       clipRule="evenodd"
+                      fillRule="evenodd"
                     >
                       <path d="M14 22v3l-3.491 5.985C8.954 33.65 10.877 37 13.964 37h7.072c3.087 0 5.01-3.349 3.455-6.015L21 25v-3a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-7a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1m8.763 9.992L19 25.541V22h-3v3.54l-3.763 6.452C11.459 33.326 12.42 35 13.964 35h7.072c1.543 0 2.505-1.674 1.727-3.008M15 18v2h5v-2zm17-1.321c2.282-1.52 4-2.99 4-5.679h2c0 3.411-2.077 5.381-4.188 6.865c.831.558 1.657 1.163 2.338 1.856C37.222 20.81 38 22.174 38 24s-.778 3.19-1.85 4.28c-.681.692-1.507 1.297-2.338 1.855C35.922 31.619 38 33.589 38 37h-2q-.001-.53-.086-1H31a1 1 0 1 1 0-2h4.065c-.722-1.019-1.808-1.841-3.065-2.678c-2.282 1.52-4 2.99-4 5.678h-2c0-3.411 2.077-5.381 4.188-6.865c-.831-.558-1.657-1.163-2.338-1.856C26.778 27.19 26 25.826 26 24s.778-3.19 1.85-4.28c.681-.692 1.507-1.297 2.338-1.855C28.078 16.381 26 14.411 26 11h2q.001.53.086 1H33a1 1 0 1 1 0 2h-4.065c.722 1.019 1.808 1.841 3.065 2.678m0 2.388c-1.004.653-1.896 1.251-2.6 1.933h5.2c-.703-.682-1.596-1.28-2.6-1.933M28 24q.001-.536.128-1h7.744q.127.464.128 1q-.001.536-.128 1h-7.744A3.8 3.8 0 0 1 28 24m1.4 3c.704.682 1.596 1.28 2.6 1.933c1.004-.653 1.897-1.251 2.6-1.933z"></path>
                       <path d="M9 6a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h30a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3zm31 3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v30a1 1 0 0 0 1 1h30a1 1 0 0 0 1-1z"></path>
@@ -769,6 +769,86 @@ details[open] .step-number {
             ></Script>
           </div>
         </div>
+        <section className="team-section">
+          <div className="team-container">
+            <h2 className="section-title text-center">
+              Our Leadership &amp; Network
+            </h2>
+            <div className="team-layout">
+              <div className="ceo-wrapper">
+                <div className="ceo-frame">
+                  <img
+                    alt="Auwal Garba Hussain"
+                    src="https://images.pexels.com/photos/8442102/pexels-photo-8442102.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    className="page-ceo-img1"
+                  />
+                  <div className="ceo-info">
+                    <h3 className="ceo-name">Auwal Garba Hussain</h3>
+                    <span className="ceo-title">The CEO</span>
+                  </div>
+                </div>
+              </div>
+              <div className="branch-grid">
+                <div className="branch-card">
+                  <div className="branch-frame">
+                    <img
+                      alt="Nigeria Branch"
+                      src="/aishag-1500w.jpg"
+                      className="branch-img"
+                    />
+                    <div className="branch-overlay">
+                      <span className="branch-location">
+                        Aisha Garba  Othman
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="branch-card">
+                  <div className="branch-frame">
+                    <img
+                      alt="Liberia Branch"
+                      src="/fauziyya-1500w.jpg"
+                      className="branch-img"
+                    />
+                    <div className="branch-overlay">
+                      <span className="branch-location">
+                        Fauziyya Ahmed Bello
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="branch-card">
+                  <div className="branch-frame">
+                    <img
+                      alt="Tanzania Branch"
+                      src="https://images.pexels.com/photos/8442574/pexels-photo-8442574.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      className="branch-img"
+                    />
+                    <div className="branch-overlay">
+                      <span className="branch-location">
+                        Aisha Garba Othman, Dar es Salaam Tanzania
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="branch-card">
+                  <div className="branch-frame">
+                    <img
+                      alt="Rwanda Branch"
+                      src="https://images.pexels.com/photos/4031525/pexels-photo-4031525.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      className="branch-img"
+                    />
+                    <div className="branch-overlay">
+                      <span className="branch-location">
+                        Fauziya Ahmed Bello, Kigali, Rwanda
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section className="lab-war-room">
           <div className="war-room-carousel">
             <div className="home-thq-parallax-slide-elm parallax-slide active">
