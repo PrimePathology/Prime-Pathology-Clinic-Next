@@ -532,7 +532,7 @@ details[open] .step-number {
               <div className="ceo-image-wrapper">
                 <img
                   alt="CEO of Prime Pathology Clinic"
-                  src="https://images.pexels.com/photos/5452235/pexels-photo-5452235.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="/ceo3-1500w.jpg"
                   className="ceo-img"
                 />
                 <div className="ceo-accent-frame"></div>
@@ -777,7 +777,7 @@ details[open] .step-number {
                 <div className="branch-frame">
                   <img
                     alt="Nigeria Branch"
-                    src="https://images.unsplash.com/photo-1637684666587-91e51b10a555?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDl8fEFmcmljYW4lMjBDRU98ZW58MHx8fHwxNzc2MDg2MjU0fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
+                    src="/ceo2-1500w.jpg"
                     className="branch-img"
                   />
                   <div className="branch-overlay home-thq-branch-overlay-elm1">
