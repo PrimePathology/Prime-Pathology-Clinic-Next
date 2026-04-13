@@ -779,7 +779,7 @@ details[open] .step-number {
                   <div className="branch-frame">
                     <img
                       alt="Nigeria Branch"
-                      src="/ceo1-1500w.jpg"
+                      src="/ceo5-1500w.png"
                       className="branch-img"
                     />
                     <div className="branch-overlay home-thq-branch-overlay-elm1">
@@ -796,7 +796,7 @@ details[open] .step-number {
                   <div className="branch-frame">
                     <img
                       alt="Nigeria Branch"
-                      src="https://images.unsplash.com/photo-1757899524912-9618cd9936f2?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE4fHxOaWdlcmlhbiUyMHxlbnwwfHx8fDE3NzYwODY4ODV8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
+                      src="/maryam-1500w.jpg"
                       className="branch-img"
                     />
                     <div className="branch-overlay home-thq-branch-overlay-elm2">
