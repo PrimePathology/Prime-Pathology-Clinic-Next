@@ -417,56 +417,10 @@ const About = (props) => {
             </div>
           </div>
         </section>
-        <section className="ceo-message">
-          <div className="about-ceo-container">
-            <div className="ceo-card">
-              <div className="ceo-grid">
-                <div className="about-ceo-image-wrapper">
-                  <img
-                    alt="CEO of Prime Pathology Clinic"
-                    src="https://images.pexels.com/photos/18828741/pexels-photo-18828741.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    className="ceo-photo"
-                  />
-                  <div className="ceo-badge">
-                    <span>Leadership</span>
-                  </div>
-                </div>
-                <div className="ceo-content">
-                  <div className="ceo-quote-icon">
-                    <svg
-                      fill="var(--color-primary)"
-                      width="48"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="48"
-                      opacity="0.1"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M3 21c3 0 7-1 7-8V5H2v8h5c0 2-1 3-3 3l-1 5Zm12 0c3 0 7-1 7-8V5h-8v8h5c0 2-1 3-3 3l-1 5Z"></path>
-                    </svg>
-                  </div>
-                  <h2 className="section-title">A Message From Our CEO</h2>
-                  <p className="ceo-text section-content">
-                    &quot;At Prime Pathology, our commitment to quality
-                    diagnostics goes beyond technology. It is about the lives we
-                    impact. We are dedicated to patient-centered care and
-                    continuous innovation in pathology, ensuring that every
-                    African has access to global-standard medical insights right
-                    here at home.&quot;
-                  </p>
-                  <div className="about-ceo-signature">
-                    <div className="signature-line">
-                      <span>Dr. Amina El-Mansour</span>
-                    </div>
-                    <div className="about-signature-title">
-                      <span>Founder &amp; Chief Executive Officer</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="team" className="about-management-team">
+        <section
+          id="team"
+          className="about-management-team about-thq-management-team-elm"
+        >
           <div className="team-wrapper">
             <div className="team-header">
               <h2 className="section-title">Our Management Team</h2>
@@ -862,6 +816,11 @@ revealOnScroll(); // Trigger once on load
           }
           .about-container5 {
             display: contents;
+          }
+          @media (max-width: 479px) {
+            .about-thq-management-team-elm {
+              display: none;
+            }
           }
         `}
       </style>

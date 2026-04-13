@@ -211,11 +211,8 @@ const Footer = (props) => {
                       </div>
                       <div className="footer-address-content">
                         <p className="section-content">
-                          <span className="footer-text20">Lagos HQ:</span>
-                          <span>
-                            {' '}
-                            45 Medical Drive, Victoria Island, Lagos, Nigeria
-                          </span>
+                          33 Danmasara Quarters, K/Huguma RD, Dutse, Jiagawa
+                          State Nigeria
                         </p>
                       </div>
                     </div>
@@ -263,7 +260,7 @@ const Footer = (props) => {
                       </div>
                       <div className="footer-address-content">
                         <p className="section-content">
-                          Gwamaka Street, Salasala Dar Es Salaam, Tanzania
+                          Nyarugenge, UmujyiWa Kigali, Rwanda
                         </p>
                       </div>
                     </div>
@@ -434,7 +431,7 @@ const Footer = (props) => {
                       }}
                     />
                   </span>
-                  <span className="footer-text28">Volues</span>
+                  <span className="footer-text26">Volues</span>
                 </p>
               </div>
             </div>
@@ -534,9 +531,6 @@ socialIcons.forEach(icon => {
           .footer-thq-footer-nav-link-elm19 {
             text-decoration: none;
           }
-          .footer-text20 {
-            font-weight: 700;
-          }
           .footer-thq-footer-contact-pill-elm1 {
             text-decoration: none;
           }
@@ -549,7 +543,7 @@ socialIcons.forEach(icon => {
           .footer-thq-footer-legal-link-elm2 {
             text-decoration: none;
           }
-          .footer-text28 {
+          .footer-text26 {
             color: var(--color-primary);
             font-weight: 700;
           }

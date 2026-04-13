@@ -409,7 +409,7 @@ details[open] .chevron {
             </div>
           </div>
         </section>
-        <section className="team-section">
+        <section className="team-section team-thq-team-section-elm">
           <div className="team-container">
             <h2 className="section-title text-center">
               Our Leadership &amp; Network
@@ -840,6 +840,11 @@ opacity: 0.7;}}
           }
           .team-container7 {
             display: contents;
+          }
+          @media (max-width: 479px) {
+            .team-thq-team-section-elm {
+              display: none;
+            }
           }
         `}
       </style>
