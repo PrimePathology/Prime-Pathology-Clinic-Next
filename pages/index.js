@@ -1077,7 +1077,7 @@ to {
           }
           .home-thq-signature-title-elm1 {
             color: var(--color-accent);
-            font-family: '' '' '' '' Inter '' '' '' '';
+            font-family: '' '' '' '' 'Inter' '' '' '' '';
           }
           .home-thq-departments-elm {
             padding: var(--spacing-4xl) var(--spacing-xl);

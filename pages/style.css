@@ -1586,6 +1586,8 @@
   height: 60vh;
   overflow: hidden;
   position: relative;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
  
 
@@ -9185,6 +9187,12 @@
   letter-spacing: 0.02em;
 }
  
+@media(max-width: 1200px) {
+  .page1-hero-section {
+    min-height: 70vh;
+  }
+}
+ 
 @media(max-width: 991px) {
   .thq-grid-4 {
     grid-template-columns: 1fr 1fr 1fr;
@@ -9228,6 +9236,10 @@
   }
   .team-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .lab-war-room {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
   .services-service-card {
     flex: 0 0 calc(50% - var(--spacing-xl));
@@ -9403,6 +9415,9 @@
   }
   .page1-footer-container {
     grid-template-columns: 1fr 1fr;
+  }
+  .page1-hero-section {
+    min-height: 60vh;
   }
   .page1-hero-content1 {
     margin: 0 auto;
@@ -9841,6 +9856,10 @@
   }
   .team-grid {
     grid-template-columns: 1fr;
+  }
+  .lab-war-room {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
   .services-hero-title {
     font-size: var(--font-size-3xl);

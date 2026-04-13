@@ -412,53 +412,6 @@ const DNAPaternityTesting = (props) => {
             </div>
           </div>
         </section>
-        <section className="page1-ceo-section">
-          <div className="page1-ceo-container1">
-            <div className="ceo-layout">
-              <div className="ceo-image-wrapper">
-                <img
-                  alt="CEO Prime Pathology Clinic"
-                  src="https://images.pexels.com/photos/5726811/pexels-photo-5726811.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                  className="page1-ceo-img1"
-                />
-                <div className="ceo-experience-badge">
-                  <span className="sig-title">Dr. Amadi</span>
-                  <span className="section-content">
-                    Chief Medical Director
-                  </span>
-                </div>
-              </div>
-              <div className="page1-ceo-content-card">
-                <h2 className="section-title">A Message From Our CEO</h2>
-                <div className="ceo-quotes">
-                  <svg
-                    fill="none"
-                    width="40"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="40"
-                    stroke="var(--color-primary)"
-                    viewBox="0 0 24 24"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="quote-icon"
-                  >
-                    <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 2.5 1 4.066 2 5V21zm14 0c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 2.5 1 4.066 2 5V21z"></path>
-                  </svg>
-                </div>
-                <p className="section-content">
-                  Commitment to quality diagnostics, Patient-centered care,
-                  Innovation in pathology. We believe that every test result
-                  represents a human life, and we treat that responsibility with
-                  the highest professional honor.
-                </p>
-                <div className="page1-ceo-signature ceo-signature">
-                  <span className="sig-title">Prime Pathology Excellence</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <section className="page1-team-section">
           <div className="team-container">
             <div className="page1-team-header team-header">

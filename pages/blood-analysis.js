@@ -72,7 +72,7 @@ const BloodAnalysis = (props) => {
             <div className="hero-stats-grid">
               <div className="stat-card">
                 <span data-target="99" className="page1-stat-number">
-                  0
+                  99.9%
                 </span>
                 <span className="stat-suffix">%</span>
                 <span className="stat-label page1-stat-label">
@@ -81,7 +81,7 @@ const BloodAnalysis = (props) => {
               </div>
               <div className="stat-card">
                 <span data-target="250" className="page1-stat-number">
-                  0
+                  500
                 </span>
                 <span className="stat-suffix">+</span>
                 <span className="stat-label page1-stat-label">
