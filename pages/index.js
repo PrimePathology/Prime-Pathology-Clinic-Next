@@ -148,7 +148,9 @@ details[open] .step-number {
                     <option value="true" disabled="true" selected="true">
                       Select Your Closest Location
                     </option>
-                    <option value="bauchi-nigeria">Bauchi State Nigeria</option>
+                    <option value="bauchi-nigeria">
+                      Dutse, Jigawa State Nigeria
+                    </option>
                     <option value="buchanan-liberia">Buchanan Liberia</option>
                     <option value="dar-es-salaam-tanzania">
                       Dar Es Salaam Tanzania
