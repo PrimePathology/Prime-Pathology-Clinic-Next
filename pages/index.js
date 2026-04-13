@@ -1224,30 +1224,42 @@ to {
               right: -819px;
             }
             .home-thq-branch-location-elm14 {
-              font-size: 24px;
+              display: flex;
+              font-size: 20px;
+              flex-direction: row;
             }
             .home-thq-branch-location-elm15 {
-              font-size: 24px;
+              display: flex;
+              font-size: 20px;
+              flex-direction: row;
             }
             .home-thq-branch-overlay-elm4 {
               top: -96px;
               right: -819px;
             }
             .home-thq-branch-location-elm16 {
-              font-size: 24px;
+              display: flex;
+              font-size: 20px;
+              flex-direction: row;
             }
             .home-thq-branch-location-elm17 {
-              font-size: 24px;
+              display: flex;
+              font-size: 20px;
+              flex-direction: row;
             }
             .home-thq-branch-overlay-elm5 {
               top: -96px;
               right: -819px;
             }
             .home-thq-branch-location-elm18 {
-              font-size: 24px;
+              display: flex;
+              font-size: 20px;
+              flex-direction: row;
             }
             .home-thq-branch-location-elm19 {
-              font-size: 24px;
+              display: flex;
+              font-size: 20px;
+              flex-direction: row;
             }
           }
         `}
