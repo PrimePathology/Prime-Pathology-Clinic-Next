@@ -822,7 +822,7 @@ details[open] .step-number {
                   <div className="branch-frame">
                     <img
                       alt="Nigeria Branch"
-                      src="/aishag-1500w.jpg"
+                      src="/aisha2-1500w.jpg"
                       className="branch-img"
                     />
                     <div className="branch-overlay home-thq-branch-overlay-elm3">
