@@ -417,10 +417,7 @@ const About = (props) => {
             </div>
           </div>
         </section>
-        <section
-          id="team"
-          className="about-management-team about-thq-management-team-elm"
-        >
+        <section id="team" className="about-management-team">
           <div className="team-wrapper">
             <div className="team-header">
               <h2 className="section-title">Our Management Team</h2>
@@ -816,11 +813,6 @@ revealOnScroll(); // Trigger once on load
           }
           .about-container5 {
             display: contents;
-          }
-          @media (max-width: 479px) {
-            .about-thq-management-team-elm {
-              display: none;
-            }
           }
         `}
       </style>
