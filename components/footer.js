@@ -345,7 +345,7 @@ const Footer = (props) => {
                         </g>
                       </svg>
                     </div>
-                    <span className="section-content">
+                    <span className="section-content footer-thq-section-content-elm7">
                       diagnostics@primepathologyclinic.com
                     </span>
                   </div>
@@ -566,6 +566,9 @@ socialIcons.forEach(icon => {
           @media (max-width: 479px) {
             .footer-image {
               width: 40px;
+            }
+            .footer-thq-section-content-elm7 {
+              font-size: 16px;
             }
           }
         `}
