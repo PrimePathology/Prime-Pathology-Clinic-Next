@@ -433,12 +433,12 @@ details[open] .chevron {
                   <div className="branch-frame">
                     <img
                       alt="Nigeria Branch"
-                      src="https://images.pexels.com/photos/6129879/pexels-photo-6129879.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      src="/maryam-1500w.jpg"
                       className="branch-img"
                     />
                     <div className="branch-overlay">
                       <span className="branch-location">
-                        Karimatu Abdullahi Zakari, Nigeria
+                        Maryam Mohammed Maitama
                       </span>
                     </div>
                   </div>
@@ -447,12 +447,12 @@ details[open] .chevron {
                   <div className="branch-frame">
                     <img
                       alt="Liberia Branch"
-                      src="https://images.pexels.com/photos/5726811/pexels-photo-5726811.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      src="/aisha2-1500w.jpg"
                       className="branch-img"
                     />
                     <div className="branch-overlay">
                       <span className="branch-location">
-                        Maryam Mohammed Maitama, Liberia
+                        Aisha Garba Othman
                       </span>
                     </div>
                   </div>
@@ -461,12 +461,12 @@ details[open] .chevron {
                   <div className="branch-frame">
                     <img
                       alt="Tanzania Branch"
-                      src="https://images.pexels.com/photos/8442574/pexels-photo-8442574.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      src="/fauziyya-1500w.jpg"
                       className="branch-img"
                     />
                     <div className="branch-overlay">
                       <span className="branch-location">
-                        Aisha Garba Othman, Dar es Salaam Tanzania
+                        Fauziya Ahmed Bello
                       </span>
                     </div>
                   </div>
@@ -475,12 +475,12 @@ details[open] .chevron {
                   <div className="branch-frame">
                     <img
                       alt="Rwanda Branch"
-                      src="https://images.pexels.com/photos/4031525/pexels-photo-4031525.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      src="/karimatu-1500w.jpg"
                       className="branch-img"
                     />
                     <div className="branch-overlay">
                       <span className="branch-location">
-                        Fauziya Ahmed Bello, Kigali, Rwanda
+                        Karimatu Abdullahi Zakari
                       </span>
                     </div>
                   </div>
