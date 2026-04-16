@@ -901,18 +901,27 @@ details[open] summary::after {
                   </div>
                 </div>
                 <form
-                  action="/book"
+                  action="https://formspree.io/f/mgoroeqb"
                   method="POST"
                   data-form-id="e353dc51-191d-4b5e-9b2e-d05ad8dce3b4"
                   className="tests-booking-form"
                 >
+                  <input
+                    type="hidden"
+                    name="testCategory"
+                    id="test-category-hidden"
+                    value="true"
+                    data-form-field-id="test-category-hidden"
+                    className="input"
+                  />
                   <div className="form-row">
                     <div className="tests-form-group">
                       <label htmlFor="test-select">Select Test</label>
                       <select
                         id="test-select"
-                        name="select"
+                        name="testType"
                         required="true"
+                        onchange="document.getElementById('test-category-hidden').value = this.options[this.selectedIndex].text"
                         data-form-field-id="test-select"
                       >
                         <option value>Choose a test category...</option>
@@ -949,13 +958,79 @@ details[open] summary::after {
                       <label htmlFor="location-select">Collection Type</label>
                       <select
                         id="location-select"
-                        name="select"
+                        name="collectionType"
                         required="true"
                         data-form-field-id="location-select"
                       >
                         <option value="clinic">In-Clinic Visit</option>
                         <option value="home">Home Sample Pickup</option>
                       </select>
+                    </div>
+                  </div>
+                  <div className="form-row">
+                    <div className="tests-form-group">
+                      <label htmlFor="full-name">Full Name</label>
+                      <input
+                        type="text"
+                        id="full-name"
+                        name="fullName"
+                        placeholder="Enter your full name"
+                        required="true"
+                        data-form-field-id="full-name"
+                        className="input"
+                      />
+                    </div>
+                    <div className="tests-form-group">
+                      <label htmlFor="email">Email Address</label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required="true"
+                        data-form-field-id="email"
+                        className="input"
+                      />
+                    </div>
+                  </div>
+                  <div className="form-row">
+                    <div className="tests-form-group">
+                      <label htmlFor="phone">Phone Number</label>
+                      <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Enter your phone number"
+                        required="true"
+                        data-form-field-id="phone"
+                        className="input"
+                      />
+                    </div>
+                    <div className="tests-form-group">
+                      <label htmlFor="preferred-date">Preferred Date</label>
+                      <input
+                        type="date"
+                        id="preferred-date"
+                        name="preferredDate"
+                        required="true"
+                        data-form-field-id="preferred-date"
+                        className="input"
+                      />
+                    </div>
+                  </div>
+                  <div className="form-row">
+                    <div className="tests-form-group">
+                      <label htmlFor="message">
+                        Additional Message (Optional)
+                      </label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Any special requirements or notes..."
+                        rows="3"
+                        data-form-field-id="message"
+                        className="textarea"
+                      ></textarea>
                     </div>
                   </div>
                   <button
@@ -972,7 +1047,7 @@ details[open] summary::after {
               <div className="booking-visual">
                 <img
                   alt="Friendly lab technician"
-                  src="https://images.pexels.com/photos/5726811/pexels-photo-5726811.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="https://images.pexels.com/photos/19724422/pexels-photo-19724422.png?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   className="booking-img"
                 />
               </div>

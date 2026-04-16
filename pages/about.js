@@ -430,26 +430,27 @@ const About = (props) => {
                 <div className="member-image-box">
                   <img
                     alt="Chief Pathologist"
-                    src="https://images.pexels.com/photos/18828740/pexels-photo-18828740.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="/ceo5-1500w.png"
                     className="member-img"
                   />
                   <div className="member-overlay">
                     <p className="section-content">
-                      Expert in histopathology with over 15 years of clinical
-                      experience across Africa and Europe.
+                      Auwalu Garba Hussain, PhD, is the CEO and Director i a
+                      seasoned medical scientist with years of experience
+                      leading clinical and diagnostic excellence.
                     </p>
                   </div>
                 </div>
                 <div className="about-member-info">
-                  <h3 className="member-name">Dr. Kwame Mensah</h3>
-                  <span className="about-member-role">Chief Pathologist</span>
+                  <h3 className="member-name">Auwalu Garba Hussain PhD</h3>
+                  <span className="about-member-role">CEO &amp; Director</span>
                 </div>
               </div>
               <div className="about-team-member">
                 <div className="member-image-box">
                   <img
                     alt="Lab Scientist"
-                    src="https://images.pexels.com/photos/18828738/pexels-photo-18828738.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="/maryam-1500w.jpg"
                     className="member-img"
                   />
                   <div className="member-overlay">
@@ -460,9 +461,9 @@ const About = (props) => {
                   </div>
                 </div>
                 <div className="about-member-info">
-                  <h3 className="member-name">Sarah Al-Fassi</h3>
+                  <h3 className="member-name">Maryam Mohammed Maitama</h3>
                   <span className="about-member-role">
-                    Senior Lab Scientist
+                    Country Director, Liberia
                   </span>
                 </div>
               </div>
@@ -470,7 +471,7 @@ const About = (props) => {
                 <div className="member-image-box">
                   <img
                     alt="Operations Manager"
-                    src="https://images.pexels.com/photos/5721682/pexels-photo-5721682.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="/aisha2-1500w.jpg"
                     className="member-img"
                   />
                   <div className="member-overlay">
@@ -481,15 +482,17 @@ const About = (props) => {
                   </div>
                 </div>
                 <div className="about-member-info">
-                  <h3 className="member-name">Chidi Okoro</h3>
-                  <span className="about-member-role">Operations Director</span>
+                  <h3 className="member-name">Aisha Garba Othman</h3>
+                  <span className="about-member-role">
+                    Country Director, Tanzania
+                  </span>
                 </div>
               </div>
               <div className="about-team-member">
                 <div className="member-image-box">
                   <img
                     alt="Quality Assurance"
-                    src="https://images.pexels.com/photos/5726783/pexels-photo-5726783.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="/fauziyya-1500w.jpg"
                     className="member-img"
                   />
                   <div className="member-overlay">
@@ -500,9 +503,9 @@ const About = (props) => {
                   </div>
                 </div>
                 <div className="about-member-info">
-                  <h3 className="member-name">Dr. Fatima Zahra</h3>
+                  <h3 className="member-name">Fauziya Ahmed Bello</h3>
                   <span className="about-member-role">
-                    Head of Quality Assurance
+                    Country Director, Rwanda
                   </span>
                 </div>
               </div>
@@ -510,7 +513,7 @@ const About = (props) => {
                 <div className="member-image-box">
                   <img
                     alt="Technician Lead"
-                    src="https://images.pexels.com/photos/5726804/pexels-photo-5726804.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="/karimatu-1500w.jpg"
                     className="member-img"
                   />
                   <div className="member-overlay">
@@ -521,29 +524,36 @@ const About = (props) => {
                   </div>
                 </div>
                 <div className="about-member-info">
-                  <h3 className="member-name">Ibrahim Bakare</h3>
-                  <span className="about-member-role">Lead Lab Technician</span>
+                  <h3 className="member-name">Karimatu Abdullahi Zakari</h3>
+                  <span className="about-member-role">
+                    Country Director, Nigeria
+                  </span>
                 </div>
               </div>
               <div className="about-team-member">
                 <div className="member-image-box">
                   <img
                     alt="Patient Care Lead"
-                    src="https://images.pexels.com/photos/18828743/pexels-photo-18828743.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.pexels.com/photos/32254655/pexels-photo-32254655.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="member-img"
                   />
                   <div className="member-overlay">
                     <p className="section-content">
-                      Dedicated to ensuring every patient feels heard, cared
-                      for, and supported.
+                      <span>
+                        Dr. Wehyee, Medical Director, ensures clinical
+                        excellence and patient safety.
+                      </span>
+                      <br></br>
+                      <span>
+                        A board-certified general surgeon with strong leadership
+                        expertise.
+                      </span>
                     </p>
                   </div>
                 </div>
                 <div className="about-member-info">
-                  <h3 className="member-name">Nneka Williams</h3>
-                  <span className="about-member-role">
-                    Patient Experience Lead
-                  </span>
+                  <h3 className="member-name">Dr. Joseph K Wehyee</h3>
+                  <span className="about-member-role">Medical Director</span>
                 </div>
               </div>
             </div>
