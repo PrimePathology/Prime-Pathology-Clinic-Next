@@ -513,7 +513,7 @@ const About = (props) => {
                 <div className="member-image-box">
                   <img
                     alt="Technician Lead"
-                    src="/karimatu-1500w.jpg"
+                    src="/karimatu-1500w.png"
                     className="member-img"
                   />
                   <div className="member-overlay">
