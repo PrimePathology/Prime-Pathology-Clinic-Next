@@ -100,7 +100,7 @@ details[open] .step-number {
                 </p>
               </div>
               <form
-                action="/book-test"
+                action="https://formspree.io/f/mgoroeqb"
                 method="POST"
                 data-form-id="a33f611d-5fe3-4511-9995-cd119123db29"
                 className="cta-form"
@@ -109,7 +109,7 @@ details[open] .step-number {
                   <input
                     type="text"
                     id="thq_true_hLmC"
-                    name="true"
+                    name="name"
                     required="true"
                     placeholder="Full Name"
                     data-form-field-id="thq_true_hLmC"
@@ -1086,7 +1086,7 @@ to {
           }
           .home-thq-signature-title-elm1 {
             color: var(--color-accent);
-            font-family: '' '' '' '' 'Inter' '' '' '' '';
+            font-family: '' '' '' '' '' Inter '' '' '' '' '';
           }
           .home-thq-departments-elm {
             padding: var(--spacing-4xl) var(--spacing-xl);
