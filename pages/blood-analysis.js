@@ -38,7 +38,7 @@ const BloodAnalysis = (props) => {
         <section className="hero-blood">
           <div className="hero-bg-media">
             <video
-              src="https://videos.pexels.com/video-files/4121061/4121061-hd_1280_720_50fps.mp4"
+              src="https://videos.pexels.com/video-files/8460352/8460352-hd_1080_1920_24fps.mp4"
               loop="true"
               muted="true"
               autoPlay="true"
