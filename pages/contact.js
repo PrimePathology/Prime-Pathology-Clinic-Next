@@ -270,7 +270,9 @@ const Contact = (props) => {
                       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
                       <circle r="3" cx="12" cy="10"></circle>
                     </svg>
-                    <span>Victoria Island, Lagos</span>
+                    <span>
+                      Tubman Street, Buchanan Grand Bassa County, Liberia
+                    </span>
                   </div>
                   <div className="office-info__row">
                     <svg
@@ -333,7 +335,10 @@ const Contact = (props) => {
                       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
                       <circle r="3" cx="12" cy="10"></circle>
                     </svg>
-                    <span>Garki District, Abuja</span>
+                    <span>
+                      33 Danmasara Quarters, K/Huguma RD, Dutse, Jiagawa State
+                      Nigeria
+                    </span>
                   </div>
                   <div className="office-info__row">
                     <svg
@@ -373,11 +378,11 @@ const Contact = (props) => {
               </div>
               <div className="office-info__card">
                 <div className="office-info__badge">
-                  <span>Delta Hub</span>
+                  <span>Rwandan Hub</span>
                 </div>
                 <img
                   alt="PH Lab"
-                  src="https://images.pexels.com/photos/5726716/pexels-photo-5726716.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="https://images.unsplash.com/photo-1636089944703-24d36e540e63?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDMyfHxEciUyMHxlbnwwfHx8fDE3NzYzNjI1MzJ8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                   className="office-info__img"
                 />
                 <div className="office-info__body">
@@ -396,7 +401,7 @@ const Contact = (props) => {
                       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
                       <circle r="3" cx="12" cy="10"></circle>
                     </svg>
-                    <span>Trans Amadi, Port Harcourt</span>
+                    <span>Nyarugenge, UmujyiWa Kigali, Rwanda</span>
                   </div>
                   <div className="office-info__row">
                     <svg
@@ -450,11 +455,19 @@ const Contact = (props) => {
                 </p>
               </div>
               <form
-                action="/submit"
+                action="https://formspree.io/f/mgoroeqb"
                 method="POST"
                 data-form-id="4c4c9949-0ce5-4a35-a245-2c50571b8d83"
                 className="inquiry-form__element"
               >
+                <input
+                  type="hidden"
+                  name="testCategory"
+                  value="general"
+                  id="thq_testcategory_WkBG"
+                  data-form-field-id="thq_testcategory_WkBG"
+                  className="input"
+                />
                 <div className="inquiry-form__row">
                   <div className="inquiry-form__group">
                     <label htmlFor="full-name" className="inquiry-form__label">
@@ -463,7 +476,7 @@ const Contact = (props) => {
                     <input
                       type="text"
                       id="full-name"
-                      name="true"
+                      name="fullName"
                       required="true"
                       placeholder="John Doe"
                       data-form-field-id="full-name"
@@ -498,7 +511,7 @@ const Contact = (props) => {
                     </label>
                     <select
                       id="branch-select"
-                      name="branch"
+                      name="preferredBranch"
                       required="true"
                       data-form-field-id="branch-select"
                       className="inquiry-form__input"
@@ -515,7 +528,7 @@ const Contact = (props) => {
                     </label>
                     <select
                       id="test-type"
-                      name="test"
+                      name="testType"
                       data-form-field-id="test-type"
                       className="inquiry-form__input"
                     >
@@ -530,7 +543,7 @@ const Contact = (props) => {
                 <div className="inquiry-form__group">
                   <label
                     htmlFor="referral-file"
-                    className="inquiry-form__label"
+                    className="inquiry-form__label contact-thq-inquiry-formlabel-elm5"
                   >
                     Upload Referral (Optional)
                   </label>
@@ -538,9 +551,9 @@ const Contact = (props) => {
                     <input
                       type="file"
                       id="referral-file"
-                      name="referral"
+                      name="referralFile"
                       data-form-field-id="referral-file"
-                      className="inquiry-form__file"
+                      className="inquiry-form__file contact-thq-inquiry-formfile-elm"
                     />
                     <span className="inquiry-form__file-hint">
                       PDF or Image (Max 5MB)
@@ -904,6 +917,14 @@ if (emergencyLink) {
           }
           .contact-container5 {
             display: contents;
+          }
+          @media (max-width: 479px) {
+            .contact-thq-inquiry-formlabel-elm5 {
+              display: none;
+            }
+            .contact-thq-inquiry-formfile-elm {
+              display: none;
+            }
           }
         `}
       </style>

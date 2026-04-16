@@ -495,7 +495,7 @@ const Navigation = (props) => {
             color: var(--dl-color-theme-neutral-dark);
             font-size: 18px;
             font-style: normal;
-            font-family: '' '' '' '' '' '' '' Poppins '' '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' 'Poppins' '' '' '' '' '' '' '';
             font-weight: 700;
           }
           .navigation-text12 {
