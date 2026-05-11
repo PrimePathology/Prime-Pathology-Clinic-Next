@@ -63,27 +63,26 @@ details[open] .step-number {
           <div className="hero-content">
             <div className="hero-text-block">
               <h1 className="home-hero-title hero-title">
-                Pathology Clinic &amp; Advanced Diagnostic Services You Can
-                Trust
+                Comprehensive Multispecialty Clinic &amp; Healthcare Services
+                You Can Trust
               </h1>
               <p className="hero-subtitle">
-                Prime Pathology Clinic is a multi-specialty diagnostic center
-                dedicated to delivering accurate diagnosis and reliable
-                treatment support. We focus on enabling effective clinical
-                treatments, medical interventions, procedures, and therapies
-                that have been proven to deliver measurable and meaningful
-                health improvements—ensuring every patient receives care they
-                can trust.
+                Prime Multispecialty Clinic is a comprehensive healthcare center
+                dedicated to delivering world-class clinical, pharmaceutical,
+                residential, and consultancy services. We provide integrated
+                medical care across multiple specialties—ensuring every patient
+                receives personalized, compassionate, and effective treatment
+                they can trust.
               </p>
               <div className="hero-actions">
                 <a href="#book-test">
                   <div className="btn btn-primary btn-lg">
-                    <span>Book Test</span>
+                    <span>Book Appointment</span>
                   </div>
                 </a>
                 <a href="#services">
                   <div className="btn btn-outline btn-lg">
-                    <span>Get Diagnosis &amp; Treatment</span>
+                    <span>Our Services</span>
                   </div>
                 </a>
               </div>
@@ -94,9 +93,10 @@ details[open] .step-number {
           <div className="cta-container">
             <div className="cta-card">
               <div className="cta-header">
-                <h2 className="section-title">Schedule Your Screening</h2>
+                <h2 className="section-title">Book an Appointment</h2>
                 <p className="section-content">
-                  Fast, reliable, and confidential testing at your convenience.
+                  Schedule your consultation or service with our expert
+                  healthcare team at your convenience.
                 </p>
               </div>
               <form
@@ -168,38 +168,55 @@ details[open] .step-number {
                     className="form-input"
                   >
                     <option value="true" disabled="true" selected="true">
-                      Select Test Type
+                      Select Service Type
                     </option>
-                    <option value="blood">Full Blood Count</option>
-                    <option value="dna">DNA Paternity</option>
-                    <option value="infection">Infection Screening</option>
-                    <option value="histopathology">Histopathology</option>
-                    <option value="hemoglobin-electrophoresis">
-                      Hemoglobin Electrophoresis
+                    <option value="clinical-hospital">
+                      Clinical &amp; Hospital Services
                     </option>
-                    <option value="malaria-parasite">
-                      Malaria Parasite (MP) Testing
+                    <option value="pharmaceutical">
+                      Pharmaceutical &amp; Medical Supply
                     </option>
-                    <option value="urinalysis-stool">
-                      Urinalysis &amp; Stool Microscopy
+                    <option value="residential-care">
+                      Specialized Residential Care
                     </option>
-                    <option value="biopsy-analysis">Biopsy Analysis</option>
-                    <option value="pap-smear">Pap Smear</option>
-                    <option value="fine-needle-aspiration">
-                      Fine Needle Aspiration
+                    <option value="research-consultancy">
+                      Research &amp; Professional Consultancy
                     </option>
-                    <option value="digital-xray">Digital X-Ray</option>
-                    <option value="ultrasonography">Ultrasonography</option>
-                    <option value="lipid-profile">Lipid Profile</option>
-                    <option value="blood-glucose-hba1c">
-                      Blood Glucose &amp; HbA1c
+                    <option value="general-consultation">
+                      General Medical Consultation
                     </option>
-                    <option value="comprehensive-metabolic">
-                      Comprehensive Metabolic Panel
+                    <option value="dental-services">Dental Services</option>
+                    <option value="diagnostic-imaging">
+                      Diagnostic Imaging &amp; Lab
                     </option>
-                    <option value="oncogenomics">Oncogenomics</option>
-                    <option value="dna-sequencing">DNA Sequencing</option>
-                    <option value="pcr-testing">PCR Testing</option>
+                    <option value="pharmacy-services">Pharmacy Services</option>
+                    <option value="elderly-care">
+                      Elderly &amp; Disabled Care
+                    </option>
+                    <option value="mental-health">
+                      Mental Health &amp; Substance Abuse Care
+                    </option>
+                    <option value="management-consultancy">
+                      Management Consultancy
+                    </option>
+                    <option value="scientific-research">
+                      Scientific Research Activities
+                    </option>
+                    <option value="equipment-supply">
+                      Medical Equipment Supply
+                    </option>
+                    <option value="wholesale-retail">
+                      Wholesale &amp; Retail Supply
+                    </option>
+                    <option value="assisted-living">
+                      Assisted Living Services
+                    </option>
+                    <option value="social-sciences">
+                      Social Sciences &amp; Humanities Research
+                    </option>
+                    <option value="technical-consultancy">
+                      Technical &amp; Scientific Consultancy
+                    </option>
                     <option value="others">Others</option>
                   </select>
                 </div>
@@ -220,7 +237,7 @@ details[open] .step-number {
                   data-form-field-id="thq_button_ENOX"
                   className="btn-accent btn btn-lg"
                 >
-                  Confirm Booking
+                  Confirm Appointment
                 </button>
               </form>
             </div>
@@ -231,8 +248,8 @@ details[open] .step-number {
             <div className="approach-visual home-thq-approach-visual-elm">
               <div className="workflow-animation-box">
                 <img
-                  alt="Laboratory Workflow Illustration"
-                  src="https://images.pexels.com/photos/32213405/pexels-photo-32213405.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Clinical Workflow Illustration"
+                  src="https://images.pexels.com/photos/7108325/pexels-photo-7108325.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   className="workflow-img"
                 />
                 <div className="pulse-ring"></div>
@@ -241,10 +258,11 @@ details[open] .step-number {
             <div className="approach-text">
               <h2 className="section-title">Precision in Every Process</h2>
               <p className="section-content">
-                In designing medical services for our clients and patients, we
-                use standard pathology laboratory processes that assist
-                consultants in carrying out tentative diagnosis to ensure
-                reliable and effective treatment.
+                In designing healthcare services for our clients and patients,
+                we use integrated multispecialty clinical processes that assist
+                consultants in carrying out comprehensive diagnosis and holistic
+                care to ensure reliable and effective treatment across all
+                departments.
               </p>
               <div className="workflow-steps">
                 <div className="step-item">
@@ -285,7 +303,7 @@ details[open] .step-number {
                       ></path>
                     </svg>
                   </div>
-                  <span>Advanced Diagnostics</span>
+                  <span>Integrated Healthcare</span>
                 </div>
               </div>
             </div>
@@ -326,8 +344,8 @@ details[open] .step-number {
               </div>
               <h3 className="mv-card-title">Our Mission</h3>
               <p className="mv-card-text">
-                Delivering precise diagnostic results with cutting-edge
-                technology to empower healthcare decisions.
+                Delivering comprehensive healthcare services with cutting-edge
+                technology and compassionate care to empower healthier lives.
               </p>
             </div>
             <div data-role="mv-card" className="mv-card">
@@ -353,8 +371,8 @@ details[open] .step-number {
               </div>
               <h3 className="mv-card-title">Our Vision</h3>
               <p className="mv-card-text">
-                To be Africa&apos;s most trusted pathology partner, setting the
-                standard for medical excellence.
+                To be Africa&amp;apos;s most trusted multispecialty healthcare
+                partner, setting the standard for integrated medical excellence.
               </p>
             </div>
             <div data-role="mv-card" className="mv-card">
@@ -403,15 +421,15 @@ details[open] .step-number {
               </div>
               <h3 className="mv-card-title">Our Treatment Approach</h3>
               <p className="mv-card-text">
-                Patient-centered diagnostics with compassionate service and
-                rapid turnaround times.
+                Patient-centered healthcare with compassionate service and
+                comprehensive treatment across all specialties.
               </p>
             </div>
           </div>
         </section>
         <section id="services" className="services-carousel-section">
           <div className="carousel-header">
-            <h2 className="section-title">Specialized Laboratory Services</h2>
+            <h2 className="section-title">Our Comprehensive Services</h2>
           </div>
           <div className="carousel-viewport">
             <div className="carousel-track">
@@ -424,7 +442,7 @@ details[open] .step-number {
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="m10 16l1.5 1.5M14 8l-1.5-1.5M15 2c-1.798 1.998-2.518 3.995-2.807 5.993M16.5 10.5l1 1M17 6l-2.891-2.891M2 15c6.667-6 13.333 0 20-6m-2 0l.891.891M3.109 14.109L4 15m2.5-2.5l1 1M7 18l2.891 2.891M9 22c1.798-1.998 2.518-3.995 2.807-5.993"
+                      d="M20 14h-6.5A2.5 2.5 0 0 0 11 16.5V21H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v10M13 21v-4.5a.5.5 0 0 1 .5-.5H17"
                       fill="none"
                       stroke="currentColor"
                       strokeWidth="2"
@@ -433,10 +451,12 @@ details[open] .step-number {
                     ></path>
                   </svg>
                 </div>
-                <h3 className="section-subtitle">DNA Testing</h3>
+                <h3 className="section-subtitle">
+                  Clinical &amp; Hospital Services
+                </h3>
                 <p className="section-content">
-                  Precise genetic analysis for paternity, ancestry, and medical
-                  screening.
+                  Comprehensive Hospital Activities, Medical &amp; Dental
+                  Practice, and Diagnostic &amp; Laboratory Services.
                 </p>
               </div>
               <div className="service-card">
@@ -448,7 +468,7 @@ details[open] .step-number {
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M14.5 2v17.5c0 1.4-1.1 2.5-2.5 2.5s-2.5-1.1-2.5-2.5V2m-1 0h7m-1 14h-5"
+                      d="M19 5h-2V4a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v1H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2M9 4h6v1H9zm9 15H6V7h12z"
                       fill="none"
                       stroke="currentColor"
                       strokeWidth="2"
@@ -457,10 +477,12 @@ details[open] .step-number {
                     ></path>
                   </svg>
                 </div>
-                <h3 className="section-subtitle">Blood Tests</h3>
+                <h3 className="section-subtitle">
+                  Pharmaceutical &amp; Medical Supply
+                </h3>
                 <p className="section-content">
-                  Comprehensive hematology and biochemistry panels for health
-                  monitoring.
+                  Pharmacy Services, Manufacturing, Wholesale &amp; Retail
+                  Supply, and Equipment Supply.
                 </p>
               </div>
               <div className="service-card">
@@ -472,7 +494,7 @@ details[open] .step-number {
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M17 12a5 5 0 1 0-5 5m0-10V3m-1 0h2m2.536 5.464l2.828-2.828m-.707-.707l1.414 1.414M17 12h4m0-1v2m-9 4v4m1 0h-2m-2.535-5.464l-2.829 2.828m.707.707L4.93 17.657M7 12H3m0 1v-2m5.464-2.536L5.636 5.636m-.707.707L6.343 4.93M15 17.5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0m4.5 2L22 22"
+                      d="M12 21.5a9.5 9.5 0 1 0 0-19a9.5 9.5 0 0 0 0 19m0 0v2.5M12 2V4.5"
                       fill="none"
                       stroke="currentColor"
                       strokeWidth="2"
@@ -481,10 +503,12 @@ details[open] .step-number {
                     ></path>
                   </svg>
                 </div>
-                <h3 className="section-subtitle">Infection Screening</h3>
+                <h3 className="section-subtitle">
+                  Specialized Residential Care
+                </h3>
                 <p className="section-content">
-                  Rapid and accurate detection of viral, bacterial, and fungal
-                  pathogens.
+                  Elderly &amp; Disabled Care, Mental Health &amp; Substance
+                  Abuse Care, and General Residential Care.
                 </p>
               </div>
               <div className="service-card">
@@ -496,7 +520,7 @@ details[open] .step-number {
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M6 18h8M3 22h18m-7 0a7 7 0 1 0 0-14h-1m-4 6h2m-2-2a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Zm3-6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"
+                      d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 4.5A2.5 2.5 0 0 1 6.5 7H20v13H6.5A2.5 2.5 0 0 1 4 17.5z"
                       fill="none"
                       stroke="currentColor"
                       strokeWidth="2"
@@ -505,10 +529,12 @@ details[open] .step-number {
                     ></path>
                   </svg>
                 </div>
-                <h3 className="section-subtitle">Histopathology</h3>
+                <h3 className="section-subtitle">
+                  Research &amp; Professional Consultancy
+                </h3>
                 <p className="section-content">
-                  Expert cellular analysis to support definitive disease
-                  diagnosis.
+                  Management Consultancy, Technical &amp; Scientific Activities,
+                  and Research Services.
                 </p>
               </div>
               <div className="service-card">
@@ -519,15 +545,20 @@ details[open] .step-number {
                       clipRule="evenodd"
                       fillRule="evenodd"
                     >
-                      <path d="M14 22v3l-3.491 5.985C8.954 33.65 10.877 37 13.964 37h7.072c3.087 0 5.01-3.349 3.455-6.015L21 25v-3a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-7a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1m8.763 9.992L19 25.541V22h-3v3.54l-3.763 6.452C11.459 33.326 12.42 35 13.964 35h7.072c1.543 0 2.505-1.674 1.727-3.008M15 18v2h5v-2zm17-1.321c2.282-1.52 4-2.99 4-5.679h2c0 3.411-2.077 5.381-4.188 6.865c.831.558 1.657 1.163 2.338 1.856C37.222 20.81 38 22.174 38 24s-.778 3.19-1.85 4.28c-.681.692-1.507 1.297-2.338 1.855C35.922 31.619 38 33.589 38 37h-2q-.001-.53-.086-1H31a1 1 0 1 1 0-2h4.065c-.722-1.019-1.808-1.841-3.065-2.678c-2.282 1.52-4 2.99-4 5.678h-2c0-3.411 2.077-5.381 4.188-6.865c-.831-.558-1.657-1.163-2.338-1.856C26.778 27.19 26 25.826 26 24s.778-3.19 1.85-4.28c.681-.692 1.507-1.297 2.338-1.855C28.078 16.381 26 14.411 26 11h2q.001.53.086 1H33a1 1 0 1 1 0 2h-4.065c.722 1.019 1.808 1.841 3.065 2.678m0 2.388c-1.004.653-1.896 1.251-2.6 1.933h5.2c-.703-.682-1.596-1.28-2.6-1.933M28 24q.001-.536.128-1h7.744q.127.464.128 1q-.001.536-.128 1h-7.744A3.8 3.8 0 0 1 28 24m1.4 3c.704.682 1.596 1.28 2.6 1.933c1.004-.653 1.897-1.251 2.6-1.933z"></path>
-                      <path d="M9 6a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h30a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3zm31 3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v30a1 1 0 0 0 1 1h30a1 1 0 0 0 1-1z"></path>
+                      <path d="M24 4C12.954 4 4 12.954 4 24s8.954 20 20 20 20-8.954 20-20S35.046 4 24 4m0 36c-8.837 0-16-7.163-16-16S15.163 8 24 8s16 7.163 16 16-7.163 16-16 16m-4-16a4 4 0 1 0 8 0 4 4 0 0 0-8 0"></path>
+                      <path
+                        d="M24 12v4m0 16v4M12 24h4m16 0h4"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                      ></path>
                     </g>
                   </svg>
                 </div>
-                <h3 className="section-subtitle">Hormonal Profile</h3>
+                <h3 className="section-subtitle">All Services</h3>
                 <p className="section-content">
-                  Comprehensive endocrine evaluation to assess reproductive
-                  health, metabolic function, and thyroid balance
+                  Explore our full range of clinical, pharmaceutical,
+                  residential, and consultancy healthcare services.
                 </p>
               </div>
             </div>
@@ -538,7 +569,7 @@ details[open] .step-number {
             <div className="ceo-split">
               <div className="ceo-image-wrapper">
                 <img
-                  alt="CEO of Prime Pathology Clinic"
+                  alt="CEO of Prime Multispecialty Clinic"
                   src="/ceo3-1500w.jpg"
                   className="ceo-img"
                 />
@@ -547,12 +578,13 @@ details[open] .step-number {
               <div className="ceo-content-card">
                 <h2 className="section-title">Message from the CEO</h2>
                 <p className="section-content">
-                  &quot;Our commitment to quality diagnostics is the bedrock of
-                  patient-centered care. We believe that innovation in pathology
-                  is not just about technology, but about saving lives through
-                  precision and empathy. At Prime Pathology, every sample tells
-                  a story, and we are dedicated to ensuring that story leads to
-                  the best possible health outcome.&quot;
+                  &quot;Our commitment to quality healthcare is the bedrock of
+                  patient-centered care. We believe that innovation in medicine
+                  is not just about technology, but about transforming lives
+                  through comprehensive, compassionate, and integrated services.
+                  At Prime Multispecialty Clinic, every patient journey matters,
+                  and we are dedicated to ensuring that journey leads to the
+                  best possible health outcome.&quot;
                 </p>
                 <div className="ceo-signature">
                   <span className="signature-text">
@@ -573,7 +605,8 @@ details[open] .step-number {
               Our Departments
             </h2>
             <p data-animate="fade-in-delay" className="section-content">
-              Advanced diagnostic units delivering precise and reliable results
+              Integrated healthcare departments delivering comprehensive and
+              reliable care
             </p>
           </div>
           <div className="home-thq-flip-cards-grid-elm">
@@ -581,168 +614,192 @@ details[open] .step-number {
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <img
-                    alt="Hematology Laboratory"
-                    src="https://images.pexels.com/photos/3908179/pexels-photo-3908179.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    alt="Clinical &amp; Hospital Department"
+                    src="https://images.pexels.com/photos/6129677/pexels-photo-6129677.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="flip-card-img"
                   />
                   <div className="flip-card-front-content">
-                    <h3 className="flip-card-title">Hematology</h3>
-                  </div>
-                </div>
-                <div className="flip-card-back">
-                  <div className="flip-card-back-content">
-                    <h4 className="flip-card-back-title">Hematology</h4>
-                    <p className="flip-card-description">
-                      Blood analysis and disorders
-                    </p>
-                    <Link href="/infection-screening">
-                      <a>
-                        <div className="flip-card-btn">
-                          <span>Explore</span>
-                        </div>
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-animate="slide-up" className="flip-card">
-              <div className="flip-card-inner">
-                <div className="flip-card-front">
-                  <img
-                    alt="Microbiology Laboratory"
-                    src="https://images.pexels.com/photos/8539945/pexels-photo-8539945.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    className="flip-card-img"
-                  />
-                  <div className="flip-card-front-content">
-                    <h3 className="flip-card-title">Microbiology</h3>
-                  </div>
-                </div>
-                <div className="flip-card-back">
-                  <div className="flip-card-back-content">
-                    <h4 className="flip-card-back-title">Microbiology</h4>
-                    <p className="flip-card-description">
-                      Detection of infections and pathogens
-                    </p>
-                    <Link href="/infection-screening">
-                      <a>
-                        <div className="flip-card-btn">
-                          <span>Explore</span>
-                        </div>
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-animate="slide-up" className="flip-card">
-              <div className="flip-card-inner">
-                <div className="flip-card-front">
-                  <img
-                    alt="Chemical Pathology Laboratory"
-                    src="https://images.pexels.com/photos/8442504/pexels-photo-8442504.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    className="flip-card-img"
-                  />
-                  <div className="flip-card-front-content">
-                    <h3 className="flip-card-title">Chemical Pathology</h3>
-                  </div>
-                </div>
-                <div className="flip-card-back">
-                  <div className="flip-card-back-content">
-                    <h4 className="flip-card-back-title">Chemical Pathology</h4>
-                    <p className="flip-card-description">
-                      Biochemical analysis of body fluids
-                    </p>
-                    <Link href="/infection-screening">
-                      <a>
-                        <div className="flip-card-btn">
-                          <span>Explore</span>
-                        </div>
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-animate="slide-up" className="flip-card">
-              <div className="flip-card-inner">
-                <div className="flip-card-front">
-                  <img
-                    alt="Histopathology Laboratory"
-                    src="https://images.pexels.com/photos/36816507/pexels-photo-36816507.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    className="flip-card-img"
-                  />
-                  <div className="flip-card-front-content">
-                    <h3 className="flip-card-title">Histopathology</h3>
-                  </div>
-                </div>
-                <div className="flip-card-back">
-                  <div className="flip-card-back-content">
-                    <h4 className="flip-card-back-title">Histopathology</h4>
-                    <p className="flip-card-description">
-                      Tissue examination and disease diagnosis
-                    </p>
-                    <Link href="/histopathology">
-                      <a>
-                        <div className="flip-card-btn">
-                          <span>Explore</span>
-                        </div>
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-animate="slide-up" className="flip-card">
-              <div className="flip-card-inner">
-                <div className="flip-card-front">
-                  <img
-                    alt="Immunology Laboratory"
-                    src="https://images.pexels.com/photos/9574573/pexels-photo-9574573.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    className="flip-card-img"
-                  />
-                  <div className="flip-card-front-content">
-                    <h3 className="flip-card-title">Immunology</h3>
-                  </div>
-                </div>
-                <div className="flip-card-back">
-                  <div className="flip-card-back-content">
-                    <h4 className="flip-card-back-title">Immunology</h4>
-                    <p className="flip-card-description">
-                      Immune system and antibody testing
-                    </p>
-                    <Link href="/infection-screening">
-                      <a>
-                        <div className="flip-card-btn">
-                          <span>Explore</span>
-                        </div>
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-animate="slide-up" className="flip-card">
-              <div className="flip-card-inner">
-                <div className="flip-card-front">
-                  <img
-                    alt="Molecular Diagnostics Laboratory"
-                    src="https://images.pexels.com/photos/9574332/pexels-photo-9574332.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    className="flip-card-img"
-                  />
-                  <div className="flip-card-front-content">
-                    <h3 className="flip-card-title">Molecular Diagnostics</h3>
+                    <h3 className="flip-card-title">
+                      Clinical &amp; Hospital Dept
+                    </h3>
                   </div>
                 </div>
                 <div className="flip-card-back">
                   <div className="flip-card-back-content">
                     <h4 className="flip-card-back-title">
-                      Molecular Diagnostics
+                      Clinical &amp; Hospital Department
                     </h4>
                     <p className="flip-card-description">
-                      DNA, gene, and advanced testing
+                      General Hospital Services, Medical &amp; Dental Practice,
+                      Prime Diagnostic Center
                     </p>
-                    <Link href="/dna-paternity-testing">
+                    <Link href="/services">
+                      <a>
+                        <div className="flip-card-btn">
+                          <span>Explore</span>
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-animate="slide-up" className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    alt="Pharmacy &amp; Medical Supplies Department"
+                    src="https://images.pexels.com/photos/14797860/pexels-photo-14797860.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    className="flip-card-img"
+                  />
+                  <div className="flip-card-front-content">
+                    <h3 className="flip-card-title">
+                      Pharmacy &amp; Supplies Dept
+                    </h3>
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="flip-card-back-content">
+                    <h4 className="flip-card-back-title">
+                      Pharmacy &amp; Medical Supplies
+                    </h4>
+                    <p className="flip-card-description">
+                      Retail &amp; Wholesale Pharmacy, Pharmaceutical
+                      Manufacturing, Medical Equipment Division
+                    </p>
+                    <Link href="/services">
+                      <a>
+                        <div className="flip-card-btn">
+                          <span>Explore</span>
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-animate="slide-up" className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    alt="Specialized Residential Care Department"
+                    src="https://images.pexels.com/photos/18429307/pexels-photo-18429307.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    className="flip-card-img"
+                  />
+                  <div className="flip-card-front-content">
+                    <h3 className="flip-card-title">Residential Care Dept</h3>
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="flip-card-back-content">
+                    <h4 className="flip-card-back-title">
+                      Specialized Residential Care
+                    </h4>
+                    <p className="flip-card-description">
+                      Elderly &amp; Disabled Care, Mental Health &amp; Substance
+                      Abuse, Assisted Living Services
+                    </p>
+                    <Link href="/services">
+                      <a>
+                        <div className="flip-card-btn">
+                          <span>Explore</span>
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-animate="slide-up" className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    alt="Research &amp; Strategy Department"
+                    src="https://images.pexels.com/photos/8851629/pexels-photo-8851629.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    className="flip-card-img"
+                  />
+                  <div className="flip-card-front-content">
+                    <h3 className="flip-card-title">
+                      Research &amp; Strategy Dept
+                    </h3>
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="flip-card-back-content">
+                    <h4 className="flip-card-back-title">
+                      Research &amp; Strategy
+                    </h4>
+                    <p className="flip-card-description">
+                      Scientific Research Lab, Social Sciences &amp; Humanities
+                      Research, Management Consultancy
+                    </p>
+                    <Link href="/services">
+                      <a>
+                        <div className="flip-card-btn">
+                          <span>Explore</span>
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-animate="slide-up" className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    alt="Prime Diagnostic Center"
+                    src="https://images.pexels.com/photos/8459996/pexels-photo-8459996.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    className="flip-card-img"
+                  />
+                  <div className="flip-card-front-content">
+                    <h3 className="flip-card-title">Prime Diagnostic Center</h3>
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="flip-card-back-content">
+                    <h4 className="flip-card-back-title">
+                      Prime Diagnostic Center
+                    </h4>
+                    <p className="flip-card-description">
+                      Advanced diagnostic imaging, laboratory services, and
+                      health screenings
+                    </p>
+                    <Link href="/services">
+                      <a>
+                        <div className="flip-card-btn">
+                          <span>Explore</span>
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-animate="slide-up" className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img
+                    alt="Medical Equipment Division"
+                    src="https://images.pexels.com/photos/7108324/pexels-photo-7108324.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    className="flip-card-img"
+                  />
+                  <div className="flip-card-front-content">
+                    <h3 className="flip-card-title">
+                      Medical Equipment Division
+                    </h3>
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="flip-card-back-content">
+                    <h4 className="flip-card-back-title">
+                      Medical Equipment Division
+                    </h4>
+                    <p className="flip-card-description">
+                      Supply of state-of-the-art medical devices, diagnostics,
+                      and hospital equipment
+                    </p>
+                    <Link href="/services">
                       <a>
                         <div className="flip-card-btn">
                           <span>Explore</span>
@@ -878,11 +935,11 @@ details[open] .step-number {
             <div className="home-thq-parallax-slide-elm parallax-slide active">
               <div className="slide-content">
                 <h2 className="home-hero-title hero-title">
-                  Real-Time Diagnostics
+                  Integrated Healthcare Operations
                 </h2>
                 <p className="section-content">
-                  Our &quot;War Room&quot; is where medical challenges meet
-                  scientific solutions.
+                  Our coordinated care hub is where medical expertise meets
+                  compassionate service across all specialties.
                 </p>
               </div>
             </div>
@@ -890,30 +947,30 @@ details[open] .step-number {
         </section>
         <section className="timeline-section">
           <div className="timeline-container">
-            <h2 className="section-title">Your Journey to Results</h2>
+            <h2 className="section-title">Your Journey to Wellness</h2>
             <div className="accordion-group">
               <details open="true" className="timeline-step">
                 <summary className="step-header">
                   <span className="step-number">01</span>
-                  <span className="section-subtitle">Sample Collection</span>
+                  <span className="section-subtitle">Initial Consultation</span>
                 </summary>
                 <div className="step-content">
                   <p className="section-content">
-                    Professional and comfortable collection of samples by our
-                    trained phlebotomists using sterilized, high-grade
-                    equipment.
+                    Professional and personalized consultation with our
+                    experienced healthcare providers to assess your needs and
+                    develop a tailored care plan.
                   </p>
                 </div>
               </details>
               <details className="timeline-step">
                 <summary className="step-header">
                   <span className="step-number">02</span>
-                  <span className="section-subtitle">Lab Analysis</span>
+                  <span className="section-subtitle">Clinical Assessment</span>
                 </summary>
                 <div className="step-content">
                   <p className="section-content">
-                    State-of-the-art diagnostic machines and expert scientists
-                    process your sample with multi-stage verification.
+                    Comprehensive clinical evaluation using advanced diagnostics
+                    and expert medical review across all relevant specialties.
                   </p>
                 </div>
               </details>
@@ -924,20 +981,22 @@ details[open] .step-number {
                 </summary>
                 <div className="step-content">
                   <p className="section-content">
-                    Our consultant pathologists review the data to provide a
-                    comprehensive and accurate medical diagnosis.
+                    Our multidisciplinary team reviews findings to provide a
+                    comprehensive diagnosis and personalized treatment plan.
                   </p>
                 </div>
               </details>
               <details className="timeline-step">
                 <summary className="step-header">
                   <span className="step-number">04</span>
-                  <span className="section-subtitle">Result Delivery</span>
+                  <span className="section-subtitle">
+                    Ongoing Care &amp; Follow-up
+                  </span>
                 </summary>
                 <div className="step-content">
                   <p className="section-content">
-                    Receive your detailed report via secure digital portal or
-                    in-person, ready for your healthcare provider.
+                    Receive continuous care, follow-up appointments, and
+                    wellness support to ensure lasting health outcomes.
                   </p>
                 </div>
               </details>
@@ -1086,7 +1145,7 @@ to {
           }
           .home-thq-signature-title-elm1 {
             color: var(--color-accent);
-            font-family: '' '' '' '' '' Inter '' '' '' '' '';
+            font-family: '' '' '' '' '' 'Inter' '' '' '' '' '';
           }
           .home-thq-departments-elm {
             padding: var(--spacing-4xl) var(--spacing-xl);

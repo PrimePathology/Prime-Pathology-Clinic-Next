@@ -20,14 +20,7 @@ const Navigation = (props) => {
                   />
                 </div>
                 <span className="navigation-text10">
-                  <span>
-                    Prime Pathology
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
+                  <span>Prime Multispecialty</span>
                   <span className="navigation-text12">Clinic</span>
                 </span>
               </div>
@@ -64,7 +57,7 @@ const Navigation = (props) => {
                 <a>
                   <li className="navigation-thq-navigation-menu-item-elm13 navigation-menu-item">
                     <div className="navigation-menu-link">
-                      <span>Infection Screening</span>
+                      <span>Our Departments</span>
                     </div>
                   </li>
                 </a>
@@ -146,7 +139,7 @@ const Navigation = (props) => {
                     <Link href="/blood-analysis">
                       <a>
                         <div className="navigation-menu-link">
-                          <span>Blood Analysis</span>
+                          <span>Clinical Services</span>
                         </div>
                       </a>
                     </Link>
@@ -155,7 +148,7 @@ const Navigation = (props) => {
                     <Link href="/dna-paternity-testing">
                       <a>
                         <div className="navigation-menu-link">
-                          <span>DNA Paternity Testing</span>
+                          <span>Pharmaceutical Services</span>
                         </div>
                       </a>
                     </Link>
@@ -164,16 +157,16 @@ const Navigation = (props) => {
                     <Link href="/hormonal-profile">
                       <a>
                         <div className="navigation-menu-link">
-                          <span>Hormonal Profile</span>
+                          <span>Residential Care</span>
                         </div>
                       </a>
                     </Link>
                   </li>
                   <li className="navigation-menu-item">
-                    <Link href="/histopathology">
+                    <Link href="/services">
                       <a>
                         <div className="navigation-menu-link">
-                          <span>Histopathology</span>
+                          <span>Research &amp; Consultancy</span>
                         </div>
                       </a>
                     </Link>
@@ -185,7 +178,7 @@ const Navigation = (props) => {
               <Link href="/infection-screening">
                 <a>
                   <div className="btn navigation-cta-desktop btn-primary">
-                    <span>Book Test</span>
+                    <span>Book Appointment</span>
                   </div>
                 </a>
               </Link>
@@ -279,7 +272,7 @@ const Navigation = (props) => {
                 <Link href="/infection-screening">
                   <a>
                     <div className="navigation-mobile-link">
-                      <span>Infection Screening</span>
+                      <span>Our Departments</span>
                     </div>
                   </a>
                 </Link>
@@ -362,7 +355,7 @@ const Navigation = (props) => {
                     <Link href="/blood-analysis">
                       <a>
                         <div className="navigation-mobile-link">
-                          <span>Blood Analysis</span>
+                          <span>Clinical Services</span>
                         </div>
                       </a>
                     </Link>
@@ -371,7 +364,7 @@ const Navigation = (props) => {
                     <Link href="/dna-paternity-testing">
                       <a>
                         <div className="navigation-mobile-link">
-                          <span>DNA Paternity Testing</span>
+                          <span>Pharmaceutical Services</span>
                         </div>
                       </a>
                     </Link>
@@ -380,16 +373,16 @@ const Navigation = (props) => {
                     <Link href="/hormonal-profile">
                       <a>
                         <div className="navigation-mobile-link">
-                          <span>Hormonal Profile</span>
+                          <span>Residential Care</span>
                         </div>
                       </a>
                     </Link>
                   </li>
                   <li className="navigation-mobile-item">
-                    <Link href="/histopathology">
+                    <Link href="/services">
                       <a>
                         <div className="navigation-mobile-link">
-                          <span>Histopathology</span>
+                          <span>Research &amp; Consultancy</span>
                         </div>
                       </a>
                     </Link>
@@ -401,7 +394,7 @@ const Navigation = (props) => {
               <Link href="/infection-screening">
                 <a>
                   <div className="btn btn-primary navigation-cta-mobile btn-lg">
-                    <span>Get Diagnosis</span>
+                    <span>Get Care</span>
                   </div>
                 </a>
               </Link>
@@ -495,7 +488,7 @@ const Navigation = (props) => {
             color: var(--dl-color-theme-neutral-dark);
             font-size: 18px;
             font-style: normal;
-            font-family: '' '' '' '' '' '' '' 'Poppins' '' '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' '' Poppins '' '' '' '' '' '' '' '';
             font-weight: 700;
           }
           .navigation-text12 {

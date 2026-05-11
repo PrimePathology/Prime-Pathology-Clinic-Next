@@ -908,8 +908,8 @@ details[open] summary::after {
                 >
                   <input
                     type="hidden"
-                    name="testCategory"
                     id="test-category-hidden"
+                    name="testCategory"
                     value="true"
                     data-form-field-id="test-category-hidden"
                     className="input"
@@ -920,8 +920,8 @@ details[open] summary::after {
                       <select
                         id="test-select"
                         name="testType"
-                        required="true"
                         onchange="document.getElementById('test-category-hidden').value = this.options[this.selectedIndex].text"
+                        required="true"
                         data-form-field-id="test-select"
                       >
                         <option value>Choose a test category...</option>
@@ -974,8 +974,8 @@ details[open] summary::after {
                         type="text"
                         id="full-name"
                         name="fullName"
-                        placeholder="Enter your full name"
                         required="true"
+                        placeholder="Enter your full name"
                         data-form-field-id="full-name"
                         className="input"
                       />
@@ -986,8 +986,8 @@ details[open] summary::after {
                         type="email"
                         id="email"
                         name="email"
-                        placeholder="Enter your email"
                         required="true"
+                        placeholder="Enter your email"
                         data-form-field-id="email"
                         className="input"
                       />
@@ -1000,8 +1000,8 @@ details[open] summary::after {
                         type="tel"
                         id="phone"
                         name="phone"
-                        placeholder="Enter your phone number"
                         required="true"
+                        placeholder="Enter your phone number"
                         data-form-field-id="phone"
                         className="input"
                       />
@@ -1026,8 +1026,8 @@ details[open] summary::after {
                       <textarea
                         id="message"
                         name="message"
-                        placeholder="Any special requirements or notes..."
                         rows="3"
+                        placeholder="Any special requirements or notes..."
                         data-form-field-id="message"
                         className="textarea"
                       ></textarea>

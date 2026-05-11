@@ -462,9 +462,9 @@ const Contact = (props) => {
               >
                 <input
                   type="hidden"
+                  id="thq_testcategory_WkBG"
                   name="testCategory"
                   value="general"
-                  id="thq_testcategory_WkBG"
                   data-form-field-id="thq_testcategory_WkBG"
                   className="input"
                 />

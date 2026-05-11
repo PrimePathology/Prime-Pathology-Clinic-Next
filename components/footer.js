@@ -11,8 +11,8 @@ const Footer = (props) => {
         <footer className="footer-wrapper">
           <div className="footer-background">
             <img
-              alt="Prime Pathology Clinic Exterior"
-              src="https://images.pexels.com/photos/9538591/pexels-photo-9538591.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
+              alt="Prime Multispecialty Clinic Exterior"
+              src="https://images.pexels.com/photos/6473188/pexels-photo-6473188.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
               loading="lazy"
               className="footer-bg-image"
             />
@@ -27,18 +27,13 @@ const Footer = (props) => {
                     src="/ppclogo-200h.png"
                     className="footer-image"
                   />
-                  <span className="footer-logo-text">Prime Pathology</span>
+                  <span className="footer-logo-text">Prime Multispecialty</span>
                 </div>
                 <p className="footer-description section-content">
-                  {' '}
-                  Delivering global-standard diagnostic services with precision
-                  and care. Our advanced laboratory processes ensure reliable
-                  results for better health outcomes across Africa and beyond.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  Delivering global-standard integrated healthcare services with
+                  precision and compassion. Our comprehensive clinical,
+                  pharmaceutical, residential, and consultancy services ensure
+                  better health outcomes across Africa and beyond.
                 </p>
                 <div className="footer-social-links">
                   <a href="#">
@@ -154,33 +149,33 @@ const Footer = (props) => {
                     <Link href="/blood-analysis">
                       <a>
                         <div className="footer-thq-footer-nav-link-elm15 footer-nav-link">
-                          <span>Blood Analysis</span>
+                          <span>Clinical Services</span>
                         </div>
                       </a>
                     </Link>
                     <Link href="/dna-paternity-testing">
                       <a>
                         <div className="footer-thq-footer-nav-link-elm16 footer-nav-link">
-                          <span>DNA Paternity Testing</span>
+                          <span>Pharmaceutical Services</span>
                         </div>
                       </a>
                     </Link>
                     <Link href="/infection-screening">
                       <a>
                         <div className="footer-thq-footer-nav-link-elm17 footer-nav-link">
-                          <span>Infection Screening</span>
+                          <span>Residential Care</span>
                         </div>
                       </a>
                     </Link>
                     <a href="#">
                       <div className="footer-nav-link">
-                        <span>Histopathology</span>
+                        <span>Research &amp; Consultancy</span>
                       </div>
                     </a>
                     <Link href="/hormonal-profile">
                       <a>
                         <div className="footer-thq-footer-nav-link-elm19 footer-nav-link">
-                          <span>Hormonal Profiles</span>
+                          <span>All Services</span>
                         </div>
                       </a>
                     </Link>
@@ -318,7 +313,7 @@ const Footer = (props) => {
                     </span>
                   </div>
                 </a>
-                <a href="mailto:auwalgarbahussain@primepathologyclinic.com?subject=">
+                <a href="mailto:info@primemultispecialtyclinic.com?subject=">
                   <div className="footer-thq-footer-contact-pill-elm2 footer-contact-pill">
                     <div className="footer-contact-icon">
                       <svg
@@ -346,7 +341,7 @@ const Footer = (props) => {
                       </svg>
                     </div>
                     <span className="section-content footer-thq-section-content-elm7">
-                      diagnostics@primepathologyclinic.com
+                      info@primemultispecialtyclinic.com
                     </span>
                   </div>
                 </a>
@@ -397,7 +392,7 @@ const Footer = (props) => {
             <div className="footer-bottom-bar">
               <div className="footer-copyright">
                 <p className="section-content">
-                  2026 Prime Pathology Clinic. All Rights Reserved.
+                  2026 Prime Multispecialty Clinic. All Rights Reserved.
                 </p>
               </div>
               <div className="footer-legal-links">
