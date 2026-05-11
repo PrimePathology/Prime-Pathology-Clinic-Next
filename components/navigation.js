@@ -20,7 +20,7 @@ const Navigation = (props) => {
                   />
                 </div>
                 <span className="navigation-text10">
-                  <span>Prime Multispecialty</span>
+                  <span>Prime Pathology </span>
                   <span className="navigation-text12">Clinic</span>
                 </span>
               </div>
@@ -29,7 +29,7 @@ const Navigation = (props) => {
               <li className="navigation-menu-item">
                 <Link href="/">
                   <a>
-                    <div className="navigation-thq-navigation-menu-link-elm10 navigation-menu-link">
+                    <div className="navigation-thq-navigation-menu-link-elm1 navigation-menu-link">
                       <span>Home</span>
                     </div>
                   </a>
@@ -37,7 +37,7 @@ const Navigation = (props) => {
               </li>
               <Link href="/about">
                 <a>
-                  <li className="navigation-thq-navigation-menu-item-elm11 navigation-menu-item">
+                  <li className="navigation-thq-navigation-menu-item-elm2 navigation-menu-item">
                     <div className="navigation-menu-link">
                       <span>About</span>
                     </div>
@@ -46,7 +46,7 @@ const Navigation = (props) => {
               </Link>
               <Link href="/services">
                 <a>
-                  <li className="navigation-thq-navigation-menu-item-elm12 navigation-menu-item">
+                  <li className="navigation-thq-navigation-menu-item-elm3 navigation-menu-item">
                     <div className="navigation-menu-link">
                       <span>Services</span>
                     </div>
@@ -55,7 +55,7 @@ const Navigation = (props) => {
               </Link>
               <Link href="/infection-screening">
                 <a>
-                  <li className="navigation-thq-navigation-menu-item-elm13 navigation-menu-item">
+                  <li className="navigation-thq-navigation-menu-item-elm4 navigation-menu-item">
                     <div className="navigation-menu-link">
                       <span>Our Departments</span>
                     </div>
@@ -64,7 +64,7 @@ const Navigation = (props) => {
               </Link>
               <Link href="/team">
                 <a>
-                  <li className="navigation-thq-navigation-menu-item-elm14 navigation-menu-item">
+                  <li className="navigation-thq-navigation-menu-item-elm5 navigation-menu-item">
                     <div className="navigation-menu-link">
                       <span>Team</span>
                     </div>
@@ -73,106 +73,13 @@ const Navigation = (props) => {
               </Link>
               <Link href="/contact">
                 <a>
-                  <li className="navigation-thq-navigation-menu-item-elm15 navigation-menu-item">
+                  <li className="navigation-thq-navigation-menu-item-elm6 navigation-menu-item">
                     <div className="navigation-menu-link">
                       <span>Contact</span>
                     </div>
                   </li>
                 </a>
               </Link>
-              <div data-thq="thq-dropdown" className="navigation-thq-dropdown1">
-                <div
-                  data-thq="thq-dropdown-toggle"
-                  className="navigation-thq-dropdown-toggle1"
-                >
-                  <span>More</span>
-                  <div
-                    data-thq="thq-dropdown-arrow"
-                    className="navigation-thq-dropdown-arrow1"
-                  >
-                    <svg viewBox="0 0 1024 1024" className="navigation-icon1">
-                      <path d="M426 726v-428l214 214z"></path>
-                    </svg>
-                  </div>
-                </div>
-                <ul
-                  data-thq="thq-dropdown-list"
-                  className="navigation-thq-dropdown-list1"
-                >
-                  <li className="navigation-menu-item">
-                    <Link href="/privacy-policy">
-                      <a>
-                        <div className="navigation-menu-link">
-                          <span>Privacy Policy</span>
-                        </div>
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="navigation-menu-item">
-                    <Link href="/terms-of-service">
-                      <a>
-                        <div className="navigation-menu-link">
-                          <span>Terms of Service</span>
-                        </div>
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="navigation-menu-item">
-                    <Link href="/team">
-                      <a>
-                        <div className="navigation-menu-link">
-                          <span>Team</span>
-                        </div>
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="navigation-menu-item">
-                    <Link href="/team">
-                      <a>
-                        <div className="navigation-menu-link">
-                          <span>Team</span>
-                        </div>
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="navigation-menu-item">
-                    <Link href="/blood-analysis">
-                      <a>
-                        <div className="navigation-menu-link">
-                          <span>Clinical Services</span>
-                        </div>
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="navigation-menu-item">
-                    <Link href="/dna-paternity-testing">
-                      <a>
-                        <div className="navigation-menu-link">
-                          <span>Pharmaceutical Services</span>
-                        </div>
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="navigation-menu-item">
-                    <Link href="/hormonal-profile">
-                      <a>
-                        <div className="navigation-menu-link">
-                          <span>Residential Care</span>
-                        </div>
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="navigation-menu-item">
-                    <Link href="/services">
-                      <a>
-                        <div className="navigation-menu-link">
-                          <span>Research &amp; Consultancy</span>
-                        </div>
-                      </a>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
             </ul>
             <div className="navigation-actions">
               <Link href="/infection-screening">
@@ -295,24 +202,24 @@ const Navigation = (props) => {
                   </a>
                 </Link>
               </li>
-              <div data-thq="thq-dropdown" className="navigation-thq-dropdown2">
+              <div data-thq="thq-dropdown" className="navigation-thq-dropdown">
                 <div
                   data-thq="thq-dropdown-toggle"
-                  className="navigation-thq-dropdown-toggle2"
+                  className="navigation-thq-dropdown-toggle"
                 >
                   <span>More</span>
                   <div
                     data-thq="thq-dropdown-arrow"
-                    className="navigation-thq-dropdown-arrow2"
+                    className="navigation-thq-dropdown-arrow"
                   >
-                    <svg viewBox="0 0 1024 1024" className="navigation-icon7">
+                    <svg viewBox="0 0 1024 1024" className="navigation-icon5">
                       <path d="M426 726v-428l214 214z"></path>
                     </svg>
                   </div>
                 </div>
                 <ul
                   data-thq="thq-dropdown-list"
-                  className="navigation-thq-dropdown-list2"
+                  className="navigation-thq-dropdown-list"
                 >
                   <li className="navigation-mobile-item">
                     <Link href="/privacy-policy">
@@ -494,53 +401,23 @@ const Navigation = (props) => {
           .navigation-text12 {
             color: var(--color-accent);
           }
-          .navigation-thq-navigation-menu-link-elm10 {
+          .navigation-thq-navigation-menu-link-elm1 {
             text-decoration: none;
           }
-          .navigation-thq-navigation-menu-item-elm11 {
+          .navigation-thq-navigation-menu-item-elm2 {
             text-decoration: none;
           }
-          .navigation-thq-navigation-menu-item-elm12 {
+          .navigation-thq-navigation-menu-item-elm3 {
             text-decoration: none;
           }
-          .navigation-thq-navigation-menu-item-elm13 {
+          .navigation-thq-navigation-menu-item-elm4 {
             text-decoration: none;
           }
-          .navigation-thq-navigation-menu-item-elm14 {
+          .navigation-thq-navigation-menu-item-elm5 {
             text-decoration: none;
           }
-          .navigation-thq-navigation-menu-item-elm15 {
+          .navigation-thq-navigation-menu-item-elm6 {
             text-decoration: none;
-          }
-          .navigation-thq-dropdown1 {
-            cursor: pointer;
-            display: inline-block;
-            padding: 4px 8px;
-            position: relative;
-            border-color: rgba(0, 0, 0, 0.45);
-            border-style: solid;
-            border-width: 1px;
-            border-radius: 4px;
-          }
-          .navigation-thq-dropdown-toggle1 {
-            gap: 4px;
-            display: inline-flex;
-            align-items: center;
-          }
-          .navigation-thq-dropdown-arrow1 {
-            transition: 0.3s;
-          }
-          .navigation-icon1 {
-            width: 18px;
-            height: 18px;
-          }
-          .navigation-thq-dropdown-list1 {
-            display: none;
-            z-index: 100;
-            position: absolute;
-            min-width: 100%;
-            flex-direction: column;
-            list-style-type: none;
           }
           .navigation-image2 {
             width: 200px;
@@ -549,7 +426,7 @@ const Navigation = (props) => {
           .navigation-thq-navigation-mobile-link-elm14 {
             text-decoration: none;
           }
-          .navigation-thq-dropdown2 {
+          .navigation-thq-dropdown {
             cursor: pointer;
             display: inline-block;
             padding: 4px 8px;
@@ -559,19 +436,19 @@ const Navigation = (props) => {
             border-width: 1px;
             border-radius: 4px;
           }
-          .navigation-thq-dropdown-toggle2 {
+          .navigation-thq-dropdown-toggle {
             gap: 4px;
             display: inline-flex;
             align-items: center;
           }
-          .navigation-thq-dropdown-arrow2 {
+          .navigation-thq-dropdown-arrow {
             transition: 0.3s;
           }
-          .navigation-icon7 {
+          .navigation-icon5 {
             width: 18px;
             height: 18px;
           }
-          .navigation-thq-dropdown-list2 {
+          .navigation-thq-dropdown-list {
             display: none;
             z-index: 100;
             position: absolute;
@@ -586,6 +463,12 @@ const Navigation = (props) => {
             display: contents;
           }
           @media (max-width: 479px) {
+            .navigation-text10 {
+              color: var(--dl-color-theme-neutral-dark);
+            }
+            .navigation-text12 {
+              color: var(--color-accent);
+            }
             .navigation-image2 {
               width: 40px;
             }

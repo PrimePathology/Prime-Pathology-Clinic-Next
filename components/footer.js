@@ -27,7 +27,10 @@ const Footer = (props) => {
                     src="/ppclogo-200h.png"
                     className="footer-image"
                   />
-                  <span className="footer-logo-text">Prime Multispecialty</span>
+                  <span className="footer-logo-text">
+                    <span>Prime Pathology</span>
+                    <span className="footer-text11"> Clinic</span>
+                  </span>
                 </div>
                 <p className="footer-description section-content">
                   Delivering global-standard integrated healthcare services with
@@ -426,7 +429,7 @@ const Footer = (props) => {
                       }}
                     />
                   </span>
-                  <span className="footer-text26">Volues</span>
+                  <span className="footer-text28">Volues</span>
                 </p>
               </div>
             </div>
@@ -502,6 +505,9 @@ socialIcons.forEach(icon => {
             width: 40px;
             object-fit: cover;
           }
+          .footer-text11 {
+            color: var(--color-accent);
+          }
           .footer-thq-footer-nav-link-elm10 {
             text-decoration: none;
           }
@@ -538,7 +544,7 @@ socialIcons.forEach(icon => {
           .footer-thq-footer-legal-link-elm2 {
             text-decoration: none;
           }
-          .footer-text26 {
+          .footer-text28 {
             color: var(--color-primary);
             font-weight: 700;
           }
