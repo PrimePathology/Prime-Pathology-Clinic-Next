@@ -163,7 +163,7 @@ const Footer = (props) => {
                         </div>
                       </a>
                     </Link>
-                    <Link href="/infection-screening">
+                    <Link href="/page">
                       <a>
                         <div className="footer-thq-footer-nav-link-elm17 footer-nav-link">
                           <span>Residential Care</span>
@@ -413,6 +413,13 @@ const Footer = (props) => {
                     </div>
                   </a>
                 </Link>
+                <Link href="/page">
+                  <a>
+                    <div className="footer-thq-footer-legal-link-elm3 footer-legal-link">
+                      <span>Page</span>
+                    </div>
+                  </a>
+                </Link>
                 <a href="#">
                   <div className="footer-legal-link">
                     <span>Sitemap</span>
@@ -429,7 +436,7 @@ const Footer = (props) => {
                       }}
                     />
                   </span>
-                  <span className="footer-text28">Volues</span>
+                  <span className="footer-text29">Volues</span>
                 </p>
               </div>
             </div>
@@ -544,7 +551,10 @@ socialIcons.forEach(icon => {
           .footer-thq-footer-legal-link-elm2 {
             text-decoration: none;
           }
-          .footer-text28 {
+          .footer-thq-footer-legal-link-elm3 {
+            text-decoration: none;
+          }
+          .footer-text29 {
             color: var(--color-primary);
             font-weight: 700;
           }
