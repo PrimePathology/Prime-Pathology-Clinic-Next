@@ -104,12 +104,12 @@ const ResidentialCare = (props) => {
               <span>ISO Certified Laboratory</span>
             </div>
             <h1 className="hero-section__headline hero-title">
-              Advanced Diagnostic &amp; Pathology Services You Can Trust
+              Compassionate Residential Care Services for Your Loved Ones
             </h1>
             <p className="hero-section__subtext hero-subtitle">
-              Delivering world-class pathology and diagnostic services with
-              precision, compassion, and cutting-edge technology — trusted by
-              thousands of patients and medical professionals.
+              Providing safe, comfortable, and professional residential care
+              with 24/7 medical support, personalized care plans, and a
+              nurturing environment.
             </p>
             <div className="hero-section__cta-row">
               <a href="#application-form">
@@ -225,19 +225,21 @@ const ResidentialCare = (props) => {
           <div className="approach-section__inner">
             <div className="approach-section__text-col">
               <div className="approach-section__label">
-                <span>Our Methodology</span>
+                <span>Our Care Philosophy</span>
               </div>
               <h2
                 id="approach-heading"
                 className="section-title approach-section__heading"
               >
-                Our Treatment Approach
+                Our Residential Care Approach
               </h2>
               <p className="approach-section__body section-content">
-                In designing medical services for our clients and patients, we
-                use standard pathology laboratory processes that assist
-                consultants in carrying out tentative diagnosis to ensure
-                reliable and effective treatment.
+                In designing our residential care services, we follow a
+                compassionate, person-centered approach that ensures every
+                resident receives individualized attention, dignity, and
+                comfort. Our care plans are developed in partnership with
+                families, medical professionals, and caregivers to create a
+                supportive home environment.
               </p>
               <div className="approach-section__points">
                 <div className="approach-section__point">
@@ -258,7 +260,9 @@ const ResidentialCare = (props) => {
                       ></path>
                     </svg>
                   </span>
-                  <span>Evidence-based diagnostic protocols</span>
+                  <span>
+                    Individualized care plans tailored to each resident
+                  </span>
                 </div>
                 <div className="approach-section__point">
                   <span className="approach-section__point-icon">
@@ -278,7 +282,7 @@ const ResidentialCare = (props) => {
                       ></path>
                     </svg>
                   </span>
-                  <span>Integrated lab-to-consultant communication</span>
+                  <span>Family-centered care with open communication</span>
                 </div>
                 <div className="approach-section__point">
                   <span className="approach-section__point-icon">
@@ -298,7 +302,7 @@ const ResidentialCare = (props) => {
                       ></path>
                     </svg>
                   </span>
-                  <span>Rapid turnaround with quality assurance</span>
+                  <span>24/7 compassionate support and supervision</span>
                 </div>
                 <div className="approach-section__point">
                   <span className="approach-section__point-icon">
@@ -318,102 +322,27 @@ const ResidentialCare = (props) => {
                       ></path>
                     </svg>
                   </span>
-                  <span>Patient-centered reporting and follow-up</span>
+                  <span>
+                    Safe, comfortable, and dignified living environment
+                  </span>
                 </div>
               </div>
             </div>
             <div aria-hidden="true" className="approach-section__visual-col">
-              <div className="approach-lab-viz">
-                <div className="approach-lab-viz__center">
-                  <svg
-                    width="48"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="48"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M6 18h8M3 22h18m-7 0a7 7 0 1 0 0-14h-1m-4 6h2m-2-2a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Zm3-6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg>
-                </div>
-                <div className="approach-lab-viz__orbit--1 approach-lab-viz__orbit">
-                  <div className="approach-lab-viz__node approach-lab-viz__node--1">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div className="approach-lab-viz__orbit--2 approach-lab-viz__orbit">
-                  <div className="approach-lab-viz__node approach-lab-viz__node--2">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M3.85 8.62a4 4 0 0 1 4.78-4.77a4 4 0 0 1 6.74 0a4 4 0 0 1 4.78 4.78a4 4 0 0 1 0 6.74a4 4 0 0 1-4.77 4.78a4 4 0 0 1-6.75 0a4 4 0 0 1-4.78-4.77a4 4 0 0 1 0-6.76"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                      <path d="m9 12l2 2l4-4"></path>
-                    </svg>
-                  </div>
-                </div>
-                <div className="approach-lab-viz__orbit approach-lab-viz__orbit--3">
-                  <div className="approach-lab-viz__node approach-lab-viz__node--3">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div className="approach-lab-viz__step-row">
-                  <div className="approach-lab-viz__step">
-                    <span className="approach-lab-viz__step-num">01</span>
-                    <span>Sample</span>
-                  </div>
-                  <div className="approach-lab-viz__step-arrow"></div>
-                  <div className="approach-lab-viz__step">
-                    <span className="approach-lab-viz__step-num">02</span>
-                    <span>Analysis</span>
-                  </div>
-                  <div className="approach-lab-viz__step-arrow"></div>
-                  <div className="approach-lab-viz__step">
-                    <span className="approach-lab-viz__step-num">03</span>
-                    <span>Results</span>
-                  </div>
+              <div className="approach-care-viz">
+                <img
+                  alt="Caregiver assisting elderly women with tea in a cozy nursing home setting"
+                  src="https://images.pexels.com/photos/18459198/pexels-photo-18459198.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=500"
+                  className="residential-care-thq-approach-care-vizimg-elm"
+                />
+                <div className="residential-care-thq-approach-care-vizoverlay-elm"></div>
+                <div className="residential-care-thq-approach-care-vizcaption-elm">
+                  <span className="residential-care-thq-approach-care-vizcaption-label-elm">
+                    Residential Care
+                  </span>
+                  <span className="residential-care-thq-approach-care-vizcaption-text-elm">
+                    Comfort, Dignity &amp; Compassion
+                  </span>
                 </div>
               </div>
             </div>
@@ -423,18 +352,21 @@ const ResidentialCare = (props) => {
           <div className="why-section__inner">
             <div className="why-section__header">
               <div className="why-section__label">
-                <span>Our Strengths</span>
+                <span>Our Care Pillars</span>
               </div>
               <h2 id="why-heading" className="section-title why-section__title">
-                Why You Should Engage Us
+                Why Choose Our Residential Care
               </h2>
               <p className="section-content why-section__subtitle">
-                We combine expertise, scale, and innovation to deliver
-                diagnostic excellence for every patient.
+                We combine compassion, flexibility, and innovation to deliver
+                exceptional residential care for every resident.
               </p>
             </div>
             <div className="why-section__cards">
-              <article aria-label="Professionalism" className="page-why-card">
+              <article
+                aria-label="Professional Care Staff"
+                className="page-why-card"
+              >
                 <div className="why-card__icon-wrap">
                   <svg
                     width="32"
@@ -454,25 +386,23 @@ const ResidentialCare = (props) => {
                     </g>
                   </svg>
                 </div>
-                <h3 className="why-card__title">Professionalism</h3>
+                <h3 className="why-card__title">Professional Care Staff</h3>
                 <p className="why-card__body section-content">
-                  We uphold the highest standards of medical ethics and conduct.
-                  Our team comprises qualified doctors, scientists, and
-                  certified lab specialists dedicated to excellence in every
-                  test and result we deliver.
+                  Highly trained caregivers and nurses with compassionate
+                  ethics, qualified in elderly and special-needs care.
                 </p>
                 <div className="why-card__detail">
                   <span className="why-card__detail-item">
-                    High Ethics &amp; Conduct
+                    Compassionate Ethics
                   </span>
                   <span className="why-card__detail-item">
-                    Qualified Doctors &amp; Scientists
+                    Elderly &amp; Special-Needs Qualified
                   </span>
                 </div>
                 <div aria-hidden="true" className="why-card__glow"></div>
               </article>
               <article
-                aria-label="Scalability"
+                aria-label="Flexible Care Options"
                 className="why-card--featured page-why-card"
               >
                 <div className="why-card__icon-wrap">
@@ -495,25 +425,23 @@ const ResidentialCare = (props) => {
                 <div className="why-card__featured-badge">
                   <span>Most Valued</span>
                 </div>
-                <h3 className="why-card__title">Scalability</h3>
+                <h3 className="why-card__title">Flexible Care Options</h3>
                 <p className="why-card__body section-content">
-                  Our facility is purpose-built to handle multiple diagnoses
-                  simultaneously without compromising on quality. Whether you
-                  are a single patient or a partnering hospital, we scale to
-                  meet your demand efficiently and accurately.
+                  From short-term respite care to long-term residential stays,
+                  we accommodate varying levels of need.
                 </p>
                 <div className="why-card__detail">
                   <span className="why-card__detail-item">
-                    Multiple Simultaneous Diagnoses
+                    Short-Term Respite Care
                   </span>
                   <span className="why-card__detail-item">
-                    High Volume Throughput
+                    Long-Term Residential Stays
                   </span>
                 </div>
                 <div aria-hidden="true" className="why-card__glow"></div>
               </article>
               <article
-                aria-label="Competence and Value"
+                aria-label="Partnership-Driven Care"
                 className="page-why-card"
               >
                 <div className="why-card__icon-wrap">
@@ -535,19 +463,17 @@ const ResidentialCare = (props) => {
                     </g>
                   </svg>
                 </div>
-                <h3 className="why-card__title">Competence &amp; Value</h3>
+                <h3 className="why-card__title">Partnership-Driven Care</h3>
                 <p className="why-card__body section-content">
-                  We believe in partnership-driven care, combining advanced
-                  technology with human expertise to deliver value beyond
-                  testing. Our results empower consultants to make confident
-                  treatment decisions for every patient.
+                  Family-centered approach using modern care technology and
+                  regular health monitoring.
                 </p>
                 <div className="why-card__detail">
                   <span className="why-card__detail-item">
-                    Advanced Technology
+                    Modern Care Technology
                   </span>
                   <span className="why-card__detail-item">
-                    Partnership-Driven Care
+                    Regular Health Monitoring
                   </span>
                 </div>
                 <div aria-hidden="true" className="why-card__glow"></div>
@@ -563,17 +489,17 @@ const ResidentialCare = (props) => {
           <div className="services-section__inner">
             <div className="services-section__header">
               <div className="services-section__label">
-                <span>What We Offer</span>
+                <span>Residential Care</span>
               </div>
               <h2
                 id="services-heading"
                 className="section-title services-section__title"
               >
-                Our Core Services
+                Our Residential Care Services
               </h2>
               <p className="services-section__subtitle section-content">
-                Comprehensive diagnostics powered by cutting-edge technology and
-                expert pathologists.
+                Compassionate, round-the-clock residential care tailored to each
+                resident&apos;s health, comfort, and dignity.
               </p>
             </div>
             <div
@@ -583,13 +509,166 @@ const ResidentialCare = (props) => {
             >
               <div id="servicesTrack" className="services-carousel__track">
                 <article
-                  aria-label="Blood Tests"
+                  aria-label="24/7 Medical Support"
                   className="page-service-card2"
                 >
                   <div className="service-card__img-wrap">
                     <img
-                      alt="Blood test samples being handled in laboratory"
-                      src="https://images.pexels.com/photos/8460340/pexels-photo-8460340.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
+                      alt="Nurse providing round-the-clock care to a resident"
+                      src="https://images.pexels.com/photos/6129685/pexels-photo-6129685.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
+                      loading="lazy"
+                      className="service-card__img"
+                    />
+                    <div className="service-card__img-overlay"></div>
+                  </div>
+                  <div className="service-card__body">
+                    <div className="service-card__icon">
+                      <svg
+                        width="28"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="28"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 5c2.941 0 6.685 1.537 9 3l-2 11H5L3 8c2.394-1.513 6.168-3.005 9-3m-2 7h4m-2-2v4"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <h3 className="service-card__title">
+                      24/7 Medical Support
+                    </h3>
+                    <p className="service-card__desc section-content">
+                      Round-the-clock nursing and health monitoring ensuring
+                      every resident receives immediate attention and
+                      compassionate care at any hour.
+                    </p>
+                    <a href="#">
+                      <div
+                        aria-label="Learn more about 24/7 Medical Support"
+                        className="service-card__link"
+                      >
+                        <span>
+                          {' '}
+                          Learn More
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: ' ',
+                            }}
+                          />
+                        </span>
+                        <svg
+                          width="16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="16"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m9 18l6-6l-6-6"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          ></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </article>
+                <article
+                  aria-label="Personalized Care Plans"
+                  className="page-service-card2"
+                >
+                  <div className="service-card__img-wrap">
+                    <img
+                      alt="Caregiver organizing personalized medicine and care routine"
+                      src="https://images.pexels.com/photos/7551634/pexels-photo-7551634.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
+                      loading="lazy"
+                      className="service-card__img"
+                    />
+                    <div className="service-card__img-overlay"></div>
+                  </div>
+                  <div className="service-card__body">
+                    <div className="service-card__icon">
+                      <svg
+                        width="28"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="28"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <rect
+                            x="8"
+                            y="2"
+                            rx="1"
+                            ry="1"
+                            width="8"
+                            height="4"
+                          ></rect>
+                          <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <h3 className="service-card__title">
+                      Personalized Care Plans
+                    </h3>
+                    <p className="service-card__desc section-content">
+                      Tailored daily routines and medical management designed
+                      around each resident&apos;s unique needs, preferences, and
+                      health goals.
+                    </p>
+                    <a href="#">
+                      <div
+                        aria-label="Learn more about Personalized Care Plans"
+                        className="service-card__link"
+                      >
+                        <span>
+                          {' '}
+                          Learn More
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: ' ',
+                            }}
+                          />
+                        </span>
+                        <svg
+                          width="16"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="16"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m9 18l6-6l-6-6"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          ></path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </article>
+                <article
+                  aria-label="Rehabilitation Therapy"
+                  className="page-service-card2"
+                >
+                  <div className="service-card__img-wrap">
+                    <img
+                      alt="Physical therapist assisting a patient with rehabilitation exercises"
+                      src="https://images.pexels.com/photos/4506160/pexels-photo-4506160.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       loading="lazy"
                       className="service-card__img"
                     />
@@ -613,15 +692,17 @@ const ResidentialCare = (props) => {
                         ></path>
                       </svg>
                     </div>
-                    <h3 className="service-card__title">Blood Tests</h3>
+                    <h3 className="service-card__title">
+                      Rehabilitation Therapy
+                    </h3>
                     <p className="service-card__desc section-content">
-                      Complete blood count, metabolic panels, hormone levels,
-                      and specialized hematology analysis performed with
-                      clinical precision.
+                      Physical, occupational, and speech therapy services to
+                      help residents regain strength, mobility, communication,
+                      and independence.
                     </p>
                     <a href="#">
                       <div
-                        aria-label="Learn more about Blood Tests"
+                        aria-label="Learn more about Rehabilitation Therapy"
                         className="service-card__link"
                       >
                         <span>
@@ -653,13 +734,13 @@ const ResidentialCare = (props) => {
                   </div>
                 </article>
                 <article
-                  aria-label="DNA Testing"
+                  aria-label="Memory &amp; Dementia Care"
                   className="page-service-card2"
                 >
                   <div className="service-card__img-wrap">
                     <img
-                      alt="DNA testing microscope and vials in laboratory"
-                      src="https://images.pexels.com/photos/8442033/pexels-photo-8442033.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
+                      alt="Elderly resident receiving specialized memory and dementia care"
+                      src="https://images.pexels.com/photos/8172827/pexels-photo-8172827.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       loading="lazy"
                       className="service-card__img"
                     />
@@ -680,161 +761,26 @@ const ResidentialCare = (props) => {
                           strokeLinecap="round"
                           strokeLinejoin="round"
                         >
-                          <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77a4 4 0 0 1 6.74 0a4 4 0 0 1 4.78 4.78a4 4 0 0 1 0 6.74a4 4 0 0 1-4.77 4.78a4 4 0 0 1-6.75 0a4 4 0 0 1-4.78-4.77a4 4 0 0 1 0-6.76"></path>
-                          <path d="m9 12l2 2l4-4"></path>
+                          <path d="M12 18V5m3 8a4.17 4.17 0 0 1-3-4a4.17 4.17 0 0 1-3 4m8.598-6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5"></path>
+                          <path d="M17.997 5.125a4 4 0 0 1 2.526 5.77"></path>
+                          <path d="M18 18a4 4 0 0 0 2-7.464"></path>
+                          <path d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517"></path>
+                          <path d="M6 18a4 4 0 0 1-2-7.464"></path>
+                          <path d="M6.003 5.125a4 4 0 0 0-2.526 5.77"></path>
                         </g>
                       </svg>
                     </div>
-                    <h3 className="service-card__title">DNA Testing</h3>
+                    <h3 className="service-card__title">
+                      Memory &amp; Dementia Care
+                    </h3>
                     <p className="service-card__desc section-content">
-                      Advanced genetic profiling and DNA analysis for paternity,
-                      ancestry, disease risk assessment, and pharmacogenomics.
+                      Specialized support for Alzheimer&apos;s and cognitive
+                      conditions with structured routines, sensory engagement,
+                      and a safe, nurturing environment.
                     </p>
                     <a href="#">
                       <div
-                        aria-label="Learn more about DNA Testing"
-                        className="service-card__link"
-                      >
-                        <span>
-                          {' '}
-                          Learn More
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: ' ',
-                            }}
-                          />
-                        </span>
-                        <svg
-                          width="16"
-                          xmlns="http://www.w3.org/2000/svg"
-                          height="16"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="m9 18l6-6l-6-6"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                  </div>
-                </article>
-                <article
-                  aria-label="Infection Screening"
-                  className="page-service-card2"
-                >
-                  <div className="service-card__img-wrap">
-                    <img
-                      alt="Scientist with protective gear doing infection screening"
-                      src="https://images.pexels.com/photos/9574332/pexels-photo-9574332.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
-                      loading="lazy"
-                      className="service-card__img"
-                    />
-                    <div className="service-card__img-overlay"></div>
-                  </div>
-                  <div className="service-card__body">
-                    <div className="service-card__icon">
-                      <svg
-                        width="28"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="28"
-                        viewBox="0 0 24 24"
-                      >
-                        <g
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                          <path d="m9 12l2 2l4-4"></path>
-                        </g>
-                      </svg>
-                    </div>
-                    <h3 className="service-card__title">Infection Screening</h3>
-                    <p className="service-card__desc section-content">
-                      Rapid and comprehensive screening for bacterial, viral,
-                      and fungal infections with PCR and culture-based
-                      methodologies.
-                    </p>
-                    <a href="#">
-                      <div
-                        aria-label="Learn more about Infection Screening"
-                        className="service-card__link"
-                      >
-                        <span>
-                          {' '}
-                          Learn More
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: ' ',
-                            }}
-                          />
-                        </span>
-                        <svg
-                          width="16"
-                          xmlns="http://www.w3.org/2000/svg"
-                          height="16"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            d="m9 18l6-6l-6-6"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                  </div>
-                </article>
-                <article
-                  aria-label="Histopathology"
-                  className="page-service-card2"
-                >
-                  <div className="service-card__img-wrap">
-                    <img
-                      alt="Pathologist using microscope for histopathology"
-                      src="https://images.pexels.com/photos/6129879/pexels-photo-6129879.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
-                      loading="lazy"
-                      className="service-card__img"
-                    />
-                    <div className="service-card__img-overlay"></div>
-                  </div>
-                  <div className="service-card__body">
-                    <div className="service-card__icon">
-                      <svg
-                        width="28"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="28"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M6 18h8M3 22h18m-7 0a7 7 0 1 0 0-14h-1m-4 6h2m-2-2a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Zm3-6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        ></path>
-                      </svg>
-                    </div>
-                    <h3 className="service-card__title">Histopathology</h3>
-                    <p className="service-card__desc section-content">
-                      Expert tissue analysis and biopsy interpretation for
-                      cancer diagnosis, organ disease assessment, and surgical
-                      pathology reports.
-                    </p>
-                    <a href="#">
-                      <div
-                        aria-label="Learn more about Histopathology"
+                        aria-label="Learn more about Memory &amp; Dementia Care"
                         className="service-card__link"
                       >
                         <span>
@@ -1190,109 +1136,113 @@ const ResidentialCare = (props) => {
           <div className="equipment-section__inner">
             <div className="equipment-section__header">
               <div className="equipment-section__label">
-                <span>Our Capabilities</span>
+                <span>Our Facilities</span>
               </div>
               <h2
                 id="equipment-heading"
                 className="section-title equipment-section__title"
               >
-                Lab Equipment &amp; Tests Showcase
+                Our Residential Care Facilities &amp; Amenities
               </h2>
               <p className="equipment-section__subtitle section-content">
-                State-of-the-art instruments operated by certified professionals
-                for precise, reliable diagnostics.
+                Thoughtfully designed spaces that feel like home, with safety
+                features and modern amenities for comfortable, dignified living.
               </p>
             </div>
             <div className="page-equipment-grid1">
               <article
-                aria-label="Microscopy Analysis"
+                aria-label="Comfortable Resident Rooms"
                 className="equipment-card--large page-equipment-card"
               >
                 <img
-                  alt="Female scientist using microscope in laboratory"
-                  src="https://images.pexels.com/photos/9574398/pexels-photo-9574398.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Comfortable resident room in care facility with cozy furnishings"
+                  src="https://images.pexels.com/photos/18459209/pexels-photo-18459209.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   loading="lazy"
                   className="equipment-card__img"
                 />
                 <div className="equipment-card__overlay">
                   <div className="equipment-card__tag">
-                    <span>Microscopy</span>
+                    <span>Living Spaces</span>
                   </div>
                   <h3 className="equipment-card__title">
-                    Advanced Microscopy Analysis
+                    Comfortable Resident Rooms
                   </h3>
                   <p className="equipment-card__desc section-content">
-                    High-resolution optical and electron microscopes for
-                    cellular-level diagnostics.
+                    Private and semi-private rooms furnished with home-like
+                    comforts, adjustable beds, climate control, and
+                    accessibility features for safe, restful living.
                   </p>
                 </div>
               </article>
               <article
-                aria-label="Centrifuge Processing"
+                aria-label="Communal Dining Areas"
                 className="page-equipment-card"
               >
                 <img
-                  alt="Lab technician using centrifuge to process blood samples"
-                  src="https://images.pexels.com/photos/6627661/pexels-photo-6627661.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Residents enjoying meals together in a bright communal dining area"
+                  src="https://images.pexels.com/photos/18459207/pexels-photo-18459207.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   loading="lazy"
                   className="equipment-card__img"
                 />
                 <div className="equipment-card__overlay">
                   <div className="equipment-card__tag">
-                    <span>Centrifuge</span>
+                    <span>Dining</span>
                   </div>
                   <h3 className="equipment-card__title">
-                    High-Speed Centrifugation
+                    Communal Dining Areas
                   </h3>
                   <p className="equipment-card__desc section-content">
-                    Precision blood and sample separation for accurate component
-                    analysis.
+                    Spacious, welcoming dining halls where residents enjoy
+                    chef-prepared, nutritious meals in a social, family-style
+                    atmosphere.
                   </p>
                 </div>
               </article>
               <article
-                aria-label="Diagnostic Machines"
+                aria-label="Therapy and Activity Spaces"
                 className="page-equipment-card"
               >
                 <img
-                  alt="Well-equipped laboratory with diagnostic equipment"
-                  src="https://images.pexels.com/photos/8442033/pexels-photo-8442033.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Senior resident engaging in therapeutic activity in a bright activity room"
+                  src="https://images.pexels.com/photos/4566527/pexels-photo-4566527.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   loading="lazy"
                   className="equipment-card__img"
                 />
                 <div className="equipment-card__overlay">
                   <div className="equipment-card__tag">
-                    <span>Diagnostics</span>
+                    <span>Wellness</span>
                   </div>
                   <h3 className="equipment-card__title">
-                    Automated Diagnostic Systems
+                    Therapy &amp; Activity Spaces
                   </h3>
                   <p className="equipment-card__desc section-content">
-                    Computer-assisted diagnostic machines for rapid,
-                    multi-parameter testing.
+                    Dedicated rooms for physical therapy, creative arts, and
+                    social activities that promote mental wellness and physical
+                    mobility.
                   </p>
                 </div>
               </article>
               <article
-                aria-label="Reagent Laboratory"
-                className="equipment-card--large page-equipment-card"
+                aria-label="Medical Monitoring Stations"
+                className="page-equipment-card"
               >
                 <img
-                  alt="Two scientists working in laboratory with equipment"
-                  src="https://images.pexels.com/photos/8533094/pexels-photo-8533094.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Medical monitoring station with healthcare staff attending to residents"
+                  src="https://images.pexels.com/photos/6129159/pexels-photo-6129159.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   loading="lazy"
                   className="equipment-card__img"
                 />
                 <div className="equipment-card__overlay">
                   <div className="equipment-card__tag">
-                    <span>Reagents &amp; Analysis</span>
+                    <span>Care &amp; Safety</span>
                   </div>
                   <h3 className="equipment-card__title">
-                    Reagent-Based Testing Lab
+                    Medical Monitoring Stations
                   </h3>
                   <p className="equipment-card__desc section-content">
-                    ISO-certified reagents and controlled reaction environments
-                    for reliable test results.
+                    On-site nursing stations equipped with modern monitoring
+                    systems, emergency response protocols, and 24/7 professional
+                    caregiving staff.
                   </p>
                 </div>
               </article>
@@ -1312,7 +1262,7 @@ const ResidentialCare = (props) => {
                 id="partners-heading"
                 className="partners-section__title section-title"
               >
-                Our Partners &amp; Affiliates
+                Our Residential Care Partners
               </h2>
             </div>
             <div
@@ -1322,82 +1272,82 @@ const ResidentialCare = (props) => {
               <div id="partnersTrack" className="partners-slider__track">
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>Lagos University Teaching Hospital</span>
+                    <span>Local Health Authority</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>WHO Africa Regional Office</span>
+                    <span>National Elder Care Association</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>Cairo Medical Center</span>
+                    <span>Community Rehab Center</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>Abuja National Hospital</span>
+                    <span>District Health Board</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>Tunis HealthLab</span>
+                    <span>Senior Wellness Alliance</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>Rabat Clinique Royale</span>
+                    <span>Home Care Network</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>Africa CDC Network</span>
+                    <span>Rehabilitation Partners</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>MedPath International</span>
+                    <span>Community Health Org</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>Lagos University Teaching Hospital</span>
+                    <span>Local Health Authority</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>WHO Africa Regional Office</span>
+                    <span>National Elder Care Association</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>Cairo Medical Center</span>
+                    <span>Community Rehab Center</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>Abuja National Hospital</span>
+                    <span>District Health Board</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>Tunis HealthLab</span>
+                    <span>Senior Wellness Alliance</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>Rabat Clinique Royale</span>
+                    <span>Home Care Network</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>Africa CDC Network</span>
+                    <span>Rehabilitation Partners</span>
                   </div>
                 </div>
                 <div className="page-partner-logo1">
                   <div className="partner-logo__inner">
-                    <span>MedPath International</span>
+                    <span>Community Health Org</span>
                   </div>
                 </div>
               </div>
@@ -1411,17 +1361,17 @@ const ResidentialCare = (props) => {
           <div className="timeline-section__inner">
             <div className="timeline-section__header">
               <div className="timeline-section__label">
-                <span>Our Residential Care Journey</span>
+                <span>Our Care Process</span>
               </div>
               <h2
                 id="timeline-heading"
                 className="section-title timeline-section__title"
               >
-                Residential Care Timeline
+                Residential Care Steps
               </h2>
               <p className="timeline-section__subtitle section-content">
-                From the first inquiry to lifelong alumni support — every stage
-                is personalized, dignified, and family-centered.
+                From initial assessment to ongoing family communication — every
+                step is personalized, dignified, and family-centered.
               </p>
             </div>
             <div className="timeline-accordion">
@@ -1458,7 +1408,7 @@ const ResidentialCare = (props) => {
                       </svg>
                     </div>
                     <span className="timeline-item__title">
-                      Initial Inquiry &amp; Needs Assessment
+                      Initial Assessment
                     </span>
                   </div>
                   <div aria-hidden="true" className="timeline-item__chevron">
@@ -1481,9 +1431,9 @@ const ResidentialCare = (props) => {
                 </summary>
                 <div className="timeline-item__body">
                   <p className="section-content">
-                    Understanding individual needs, medical history, and
-                    preferences through detailed consultations with families and
-                    caregivers.
+                    Comprehensive health and needs evaluation to understand
+                    individual requirements, medical history, and preferences
+                    through detailed consultations with families and caregivers.
                   </p>
                 </div>
               </details>
@@ -1511,7 +1461,7 @@ const ResidentialCare = (props) => {
                       </svg>
                     </div>
                     <span className="timeline-item__title">
-                      Personalized Care Plan Development
+                      Care Plan Development
                     </span>
                   </div>
                   <div aria-hidden="true" className="timeline-item__chevron">
@@ -1534,8 +1484,9 @@ const ResidentialCare = (props) => {
                 </summary>
                 <div className="timeline-item__body">
                   <p className="section-content">
-                    Crafting a tailored care strategy involving medical,
-                    therapeutic, nutritional, and lifestyle requirements.
+                    Personalized care plan created with family input, involving
+                    medical, therapeutic, nutritional, and lifestyle
+                    requirements tailored to each resident&apos;s unique needs.
                   </p>
                 </div>
               </details>
@@ -1565,7 +1516,7 @@ const ResidentialCare = (props) => {
                       </svg>
                     </div>
                     <span className="timeline-item__title">
-                      Home Visit &amp; Environment Assessment
+                      Daily Care &amp; Monitoring
                     </span>
                   </div>
                   <div aria-hidden="true" className="timeline-item__chevron">
@@ -1588,8 +1539,10 @@ const ResidentialCare = (props) => {
                 </summary>
                 <div className="timeline-item__body">
                   <p className="section-content">
-                    Evaluating the living space for safety, accessibility, and
-                    comfort before admission.
+                    Ongoing support and health tracking with regular vital
+                    checks, chronic condition management, medication assistance,
+                    and coordination with physicians to ensure optimal
+                    well-being.
                   </p>
                 </div>
               </details>
@@ -1620,7 +1573,7 @@ const ResidentialCare = (props) => {
                       </svg>
                     </div>
                     <span className="timeline-item__title">
-                      Admission &amp; Onboarding
+                      Regular Reviews &amp; Family Updates
                     </span>
                   </div>
                   <div aria-hidden="true" className="timeline-item__chevron">
@@ -1643,589 +1596,10 @@ const ResidentialCare = (props) => {
                 </summary>
                 <div className="timeline-item__body">
                   <p className="section-content">
-                    Welcoming residents with guided orientation, documentation,
-                    and introduction to staff and routines.
-                  </p>
-                </div>
-              </details>
-              <details className="page-timeline-item3">
-                <summary className="timeline-item__summary">
-                  <div aria-hidden="true" className="timeline-item__step-num">
-                    <span>05</span>
-                  </div>
-                  <div className="timeline-item__header-content">
-                    <div className="timeline-item__icon">
-                      <svg
-                        width="22"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="22"
-                        viewBox="0 0 24 24"
-                      >
-                        <g
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <circle r="10" cx="12" cy="12"></circle>
-                          <path d="m16.24 7.76l-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"></path>
-                        </g>
-                      </svg>
-                    </div>
-                    <span className="timeline-item__title">
-                      Orientation &amp; Settling In
-                    </span>
-                  </div>
-                  <div aria-hidden="true" className="timeline-item__chevron">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="m6 9l6 6l6-6"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                </summary>
-                <div className="timeline-item__body">
-                  <p className="section-content">
-                    Helping residents adapt through social integration,
-                    familiarization with facilities, and emotional support.
-                  </p>
-                </div>
-              </details>
-              <details className="page-timeline-item3">
-                <summary className="timeline-item__summary">
-                  <div aria-hidden="true" className="timeline-item__step-num">
-                    <span>06</span>
-                  </div>
-                  <div className="timeline-item__header-content">
-                    <div className="timeline-item__icon">
-                      <svg
-                        width="22"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="22"
-                        viewBox="0 0 24 24"
-                      >
-                        <g
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
-                          <path d="M3.22 13H9.5l.5-1l2 4.5l2-7l1.5 3.5h5.27"></path>
-                        </g>
-                      </svg>
-                    </div>
-                    <span className="timeline-item__title">
-                      Daily Living &amp; Personal Care Support
-                    </span>
-                  </div>
-                  <div aria-hidden="true" className="timeline-item__chevron">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="m6 9l6 6l6-6"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                </summary>
-                <div className="timeline-item__body">
-                  <p className="section-content">
-                    Assisting with bathing, dressing, mobility, meals, and
-                    medication management with dignity.
-                  </p>
-                </div>
-              </details>
-              <details className="page-timeline-item3">
-                <summary className="timeline-item__summary">
-                  <div aria-hidden="true" className="timeline-item__step-num">
-                    <span>07</span>
-                  </div>
-                  <div className="timeline-item__header-content">
-                    <div className="timeline-item__icon">
-                      <svg
-                        width="22"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="22"
-                        viewBox="0 0 24 24"
-                      >
-                        <g
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M11 2v2M5 2v2m0-1H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"></path>
-                          <path d="M8 15a6 6 0 0 0 12 0v-3"></path>
-                          <circle r="2" cx="20" cy="10"></circle>
-                        </g>
-                      </svg>
-                    </div>
-                    <span className="timeline-item__title">
-                      Health Monitoring &amp; Medical Oversight
-                    </span>
-                  </div>
-                  <div aria-hidden="true" className="timeline-item__chevron">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="m6 9l6 6l6-6"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                </summary>
-                <div className="timeline-item__body">
-                  <p className="section-content">
-                    Regular vital checks, chronic condition management, and
-                    coordination with physicians.
-                  </p>
-                </div>
-              </details>
-              <details className="page-timeline-item3">
-                <summary className="timeline-item__summary">
-                  <div aria-hidden="true" className="timeline-item__step-num">
-                    <span>08</span>
-                  </div>
-                  <div className="timeline-item__header-content">
-                    <div className="timeline-item__icon">
-                      <svg
-                        width="22"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="22"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        ></path>
-                      </svg>
-                    </div>
-                    <span className="timeline-item__title">
-                      Therapeutic &amp; Rehabilitation Services
-                    </span>
-                  </div>
-                  <div aria-hidden="true" className="timeline-item__chevron">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="m6 9l6 6l6-6"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                </summary>
-                <div className="timeline-item__body">
-                  <p className="section-content">
-                    Physical, occupational, and speech therapy sessions tailored
-                    to resident goals.
-                  </p>
-                </div>
-              </details>
-              <details className="page-timeline-item3">
-                <summary className="timeline-item__summary">
-                  <div aria-hidden="true" className="timeline-item__step-num">
-                    <span>09</span>
-                  </div>
-                  <div className="timeline-item__header-content">
-                    <div className="timeline-item__icon">
-                      <svg
-                        width="22"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="22"
-                        viewBox="0 0 24 24"
-                      >
-                        <g
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"></path>
-                          <circle r="4" cx="9" cy="7"></circle>
-                        </g>
-                      </svg>
-                    </div>
-                    <span className="timeline-item__title">
-                      Social &amp; Recreational Engagement
-                    </span>
-                  </div>
-                  <div aria-hidden="true" className="timeline-item__chevron">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="m6 9l6 6l6-6"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                </summary>
-                <div className="timeline-item__body">
-                  <p className="section-content">
-                    Organized activities, community events, hobbies, and outings
-                    to promote mental well-being.
-                  </p>
-                </div>
-              </details>
-              <details className="page-timeline-item3">
-                <summary className="timeline-item__summary">
-                  <div aria-hidden="true" className="timeline-item__step-num">
-                    <span>10</span>
-                  </div>
-                  <div className="timeline-item__header-content">
-                    <div className="timeline-item__icon">
-                      <svg
-                        width="22"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="22"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2M7 2v20m14-7V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2zm0 0v7"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        ></path>
-                      </svg>
-                    </div>
-                    <span className="timeline-item__title">
-                      Nutritional Planning &amp; Dietary Management
-                    </span>
-                  </div>
-                  <div aria-hidden="true" className="timeline-item__chevron">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="m6 9l6 6l6-6"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                </summary>
-                <div className="timeline-item__body">
-                  <p className="section-content">
-                    Customized meal plans accommodating medical diets,
-                    allergies, and personal preferences.
-                  </p>
-                </div>
-              </details>
-              <details className="page-timeline-item3">
-                <summary className="timeline-item__summary">
-                  <div aria-hidden="true" className="timeline-item__step-num">
-                    <span>11</span>
-                  </div>
-                  <div className="timeline-item__header-content">
-                    <div className="timeline-item__icon">
-                      <svg
-                        width="22"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="22"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092a10 10 0 1 0-4.777-4.719"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        ></path>
-                      </svg>
-                    </div>
-                    <span className="timeline-item__title">
-                      Regular Care Reviews &amp; Family Updates
-                    </span>
-                  </div>
-                  <div aria-hidden="true" className="timeline-item__chevron">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="m6 9l6 6l6-6"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                </summary>
-                <div className="timeline-item__body">
-                  <p className="section-content">
-                    Scheduled evaluations of care plans with transparent
-                    communication to families.
-                  </p>
-                </div>
-              </details>
-              <details className="page-timeline-item3">
-                <summary className="timeline-item__summary">
-                  <div aria-hidden="true" className="timeline-item__step-num">
-                    <span>12</span>
-                  </div>
-                  <div className="timeline-item__header-content">
-                    <div className="timeline-item__icon">
-                      <svg
-                        width="22"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="22"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        ></path>
-                      </svg>
-                    </div>
-                    <span className="timeline-item__title">
-                      Specialized Interventions &amp; Crisis Response
-                    </span>
-                  </div>
-                  <div aria-hidden="true" className="timeline-item__chevron">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="m6 9l6 6l6-6"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                </summary>
-                <div className="timeline-item__body">
-                  <p className="section-content">
-                    Rapid response to emergencies, behavioral support, and
-                    specialized medical interventions.
-                  </p>
-                </div>
-              </details>
-              <details className="page-timeline-item3">
-                <summary className="timeline-item__summary">
-                  <div aria-hidden="true" className="timeline-item__step-num">
-                    <span>13</span>
-                  </div>
-                  <div className="timeline-item__header-content">
-                    <div className="timeline-item__icon">
-                      <svg
-                        width="22"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="22"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        ></path>
-                      </svg>
-                    </div>
-                    <span className="timeline-item__title">
-                      Palliative &amp; End-of-Life Care
-                    </span>
-                  </div>
-                  <div aria-hidden="true" className="timeline-item__chevron">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="m6 9l6 6l6-6"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                </summary>
-                <div className="timeline-item__body">
-                  <p className="section-content">
-                    Compassionate, dignified support focusing on comfort, pain
-                    management, and emotional care.
-                  </p>
-                </div>
-              </details>
-              <details className="page-timeline-item3">
-                <summary className="timeline-item__summary">
-                  <div aria-hidden="true" className="timeline-item__step-num">
-                    <span>14</span>
-                  </div>
-                  <div className="timeline-item__header-content">
-                    <div className="timeline-item__icon">
-                      <svg
-                        width="22"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="22"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M5 12h14m-7-7l7 7l-7 7"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        ></path>
-                      </svg>
-                    </div>
-                    <span className="timeline-item__title">
-                      Discharge or Transition Planning
-                    </span>
-                  </div>
-                  <div aria-hidden="true" className="timeline-item__chevron">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="m6 9l6 6l6-6"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                </summary>
-                <div className="timeline-item__body">
-                  <p className="section-content">
-                    Preparing residents for return home or transfer to other
-                    facilities with continuity of care.
-                  </p>
-                </div>
-              </details>
-              <details className="page-timeline-item3">
-                <summary className="timeline-item__summary">
-                  <div aria-hidden="true" className="timeline-item__step-num">
-                    <span>15</span>
-                  </div>
-                  <div className="timeline-item__header-content">
-                    <div className="timeline-item__icon">
-                      <svg
-                        width="22"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="22"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        ></path>
-                      </svg>
-                    </div>
-                    <span className="timeline-item__title">
-                      Post-Care Follow-Up &amp; Alumni Support
-                    </span>
-                  </div>
-                  <div aria-hidden="true" className="timeline-item__chevron">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="m6 9l6 6l6-6"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                </summary>
-                <div className="timeline-item__body">
-                  <p className="section-content">
-                    Ongoing check-ins, community access, and support even after
-                    leaving the facility.
+                    Continuous improvement and communication through scheduled
+                    evaluations of care plans with transparent updates to
+                    families, ensuring everyone stays informed and involved in
+                    the care journey.
                   </p>
                 </div>
               </details>
@@ -2233,13 +1607,13 @@ const ResidentialCare = (props) => {
           </div>
         </section>
         <section
-          aria-labelledby="warroom-heading"
+          aria-labelledby="day-in-care-heading"
           className="page-warroom-section"
         >
           <div className="warroom-section__bg-media">
             <img
-              alt="Scientists actively working in laboratory"
-              src="https://images.pexels.com/photos/8533094/pexels-photo-8533094.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+              alt="Warm and welcoming residential care home interior with caregivers and residents"
+              src="https://images.pexels.com/photos/18459198/pexels-photo-18459198.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
               loading="lazy"
               className="warroom-section__bg-img"
             />
@@ -2247,18 +1621,18 @@ const ResidentialCare = (props) => {
           </div>
           <div className="warroom-section__content">
             <div aria-hidden="true" className="warroom-section__label">
-              <span>Inside Our Lab</span>
+              <span>Life at Our Home</span>
             </div>
             <h2
-              id="warroom-heading"
+              id="day-in-care-heading"
               className="section-title warroom-section__title"
             >
-              The War Room — Lab Activity
+              A Day in Our Care Home
             </h2>
             <p className="warroom-section__subtitle section-content">
-              Where science meets urgency. Our lab is in constant motion —
-              professionals working at the intersection of precision and speed
-              to deliver life-changing results.
+              Every day is designed with compassion, dignity, and joy. Our
+              caregivers create a warm, family-like atmosphere where residents
+              feel at home — supported, engaged, and truly cared for.
             </p>
             <div className="page-warroom-stats">
               <div className="warroom-stat">
@@ -2266,66 +1640,66 @@ const ResidentialCare = (props) => {
                   <span>24/7</span>
                 </div>
                 <div className="warroom-stat__label">
-                  <span>Lab Operation</span>
+                  <span>Care &amp; Support</span>
                 </div>
               </div>
               <div className="warroom-stat">
                 <div className="warroom-stat__num">
-                  <span>200+</span>
+                  <span>50+</span>
                 </div>
                 <div className="warroom-stat__label">
-                  <span>Tests Daily</span>
+                  <span>Daily Activities</span>
                 </div>
               </div>
               <div className="warroom-stat">
                 <div className="warroom-stat__num">
-                  <span>3 hrs</span>
+                  <span>1:4</span>
                 </div>
                 <div className="warroom-stat__label">
-                  <span>Avg. Turnaround</span>
+                  <span>Caregiver Ratio</span>
                 </div>
               </div>
               <div className="warroom-stat">
                 <div className="warroom-stat__num">
-                  <span>98%</span>
+                  <span>100%</span>
                 </div>
                 <div className="warroom-stat__label">
-                  <span>Precision Rate</span>
+                  <span>Personalized Care</span>
                 </div>
               </div>
             </div>
             <div className="warroom-section__gallery">
               <div className="warroom-gallery-item">
                 <img
-                  alt="Scientists in PPE conducting experiment"
-                  src="https://images.pexels.com/photos/5726700/pexels-photo-5726700.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Caregiver assisting elderly residents with daily activities in a cozy care home"
+                  src="https://images.pexels.com/photos/18429370/pexels-photo-18429370.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   loading="lazy"
                   className="warroom-gallery-item__img"
                 />
                 <div className="warroom-gallery-item__caption">
-                  <span>PCR Analysis Unit</span>
+                  <span>Personalized Daily Care</span>
                 </div>
               </div>
               <div className="warroom-gallery-item--wide warroom-gallery-item">
                 <img
-                  alt="Two scientists using microscope for sample analysis"
-                  src="https://images.pexels.com/photos/8770716/pexels-photo-8770716.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Residents and caregivers enjoying a communal meal together in a cheerful dining space"
+                  src="https://images.pexels.com/photos/18459207/pexels-photo-18459207.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   loading="lazy"
                   className="warroom-gallery-item__img"
                 />
                 <div className="warroom-gallery-item__caption">
-                  <span>Microscopy Division</span>
+                  <span>Communal Dining &amp; Nutrition</span>
                 </div>
               </div>
               <div className="warroom-gallery-item">
                 <img
-                  alt="Close-up of hands in gloves holding blood sample"
-                  src="https://images.pexels.com/photos/6629363/pexels-photo-6629363.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Senior residents engaging in social activities and companionship in a warm care home setting"
+                  src="https://images.pexels.com/photos/36883131/pexels-photo-36883131.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                   loading="lazy"
                   className="warroom-gallery-item__img"
                 />
                 <div className="warroom-gallery-item__caption">
-                  <span>Sample Processing</span>
+                  <span>Social Engagement</span>
                 </div>
               </div>
             </div>
@@ -2482,7 +1856,7 @@ const ResidentialCare = (props) => {
                 <span>Find Us</span>
               </div>
               <h2 id="map-heading" className="section-title map-section__title">
-                Visit Our Laboratory
+                Visit Our Care Home
               </h2>
               <p className="map-section__subtitle section-content">
                 We have three locations serving patients across the region. Find
@@ -2599,11 +1973,12 @@ const ResidentialCare = (props) => {
                 id="cert-heading"
                 className="section-title cert-section__title"
               >
-                License &amp; Certification
+                Licenses &amp; Certifications
               </h2>
               <p className="cert-section__subtitle section-content">
-                Recognized and approved by leading medical and government bodies
-                across Africa and internationally.
+                Fully accredited and compliant with national care standards,
+                health &amp; safety regulations, and staff training
+                requirements.
               </p>
             </div>
             <div className="page-cert-badges">
@@ -2622,20 +1997,22 @@ const ResidentialCare = (props) => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-                      <path d="m15.477 12.89l1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
-                      <circle r="6" cx="12" cy="8"></circle>
+                      <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                      <svg d="m9 12l2 2l4-4"></svg>
                     </g>
                   </svg>
                 </div>
                 <div className="cert-badge__body">
                   <div className="cert-badge__name">
-                    <span>ISO 15189</span>
+                    <span>Care Quality Commission</span>
                   </div>
                   <div className="cert-badge__desc">
-                    <span>Medical Laboratories Accreditation</span>
+                    <span>
+                      CQC Registered &amp; Approved Residential Care Provider
+                    </span>
                   </div>
                   <div className="cert-badge__year">
-                    <span>Since 2018</span>
+                    <span>Registered Since 2018</span>
                   </div>
                 </div>
               </div>
@@ -2654,20 +2031,23 @@ const ResidentialCare = (props) => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-                      <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-                      <path d="m9 12l2 2l4-4"></path>
+                      <path d="M12 15a3 3 0 1 0 6 0a3 3 0 1 0-6 0"></path>
+                      <path d="M13 17.5V22l2-1.5l2 1.5v-4.5"></path>
+                      <path d="M10 19H5a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-1 1.73M6 9h12M6 12h3m-3 3h2"></path>
                     </g>
                   </svg>
                 </div>
                 <div className="cert-badge__body">
                   <div className="cert-badge__name">
-                    <span>MLSCN Certified</span>
+                    <span>Health &amp; Safety Certified</span>
                   </div>
                   <div className="cert-badge__desc">
-                    <span>Medical Laboratory Science Council of Nigeria</span>
+                    <span>
+                      Full Health &amp; Safety Compliance for Care Facilities
+                    </span>
                   </div>
                   <div className="cert-badge__year">
-                    <span>License #NML-2019-0047</span>
+                    <span>Certified 2024</span>
                   </div>
                 </div>
               </div>
@@ -2686,20 +2066,22 @@ const ResidentialCare = (props) => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-                      <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77a4 4 0 0 1 6.74 0a4 4 0 0 1 4.78 4.78a4 4 0 0 1 0 6.74a4 4 0 0 1-4.77 4.78a4 4 0 0 1-6.75 0a4 4 0 0 1-4.78-4.77a4 4 0 0 1 0-6.76"></path>
-                      <path d="m9 12l2 2l4-4"></path>
+                      <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
                     </g>
                   </svg>
                 </div>
                 <div className="cert-badge__body">
                   <div className="cert-badge__name">
-                    <span>WHO GLP Standards</span>
+                    <span>Care Staff Training</span>
                   </div>
                   <div className="cert-badge__desc">
-                    <span>Good Laboratory Practice Compliance</span>
+                    <span>
+                      Certified Care Staff Training &amp; Professional
+                      Development
+                    </span>
                   </div>
                   <div className="cert-badge__year">
-                    <span>Verified 2024</span>
+                    <span>Accredited 2023</span>
                   </div>
                 </div>
               </div>
@@ -2711,27 +2093,30 @@ const ResidentialCare = (props) => {
                     height="36"
                     viewBox="0 0 24 24"
                   >
-                    <path
-                      d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"
+                    <g
                       fill="none"
                       stroke="currentColor"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                    ></path>
+                    >
+                      <path d="M15 6.5V3a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3.5M9 18h8m1-15h-3"></path>
+                      <path d="M11 3a6 6 0 0 0-6 6v11m0-7h4m8-3a4 4 0 0 0-8 0v10a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2Z"></path>
+                    </g>
                   </svg>
                 </div>
                 <div className="cert-badge__body">
                   <div className="cert-badge__name">
-                    <span>NAFDAC Approved</span>
+                    <span>Fire Safety &amp; Emergency</span>
                   </div>
                   <div className="cert-badge__desc">
                     <span>
-                      National Agency for Food &amp; Drug Administration
+                      Fire Safety &amp; Emergency Preparedness Badges for Care
+                      Homes
                     </span>
                   </div>
                   <div className="cert-badge__year">
-                    <span>Approval #PCN-LAB-2021</span>
+                    <span>Badge #FSE-2022-0114</span>
                   </div>
                 </div>
               </div>
@@ -2935,6 +2320,49 @@ to {transform: translateX(-50%);}}
           }
           .residential-care-container3 {
             display: contents;
+          }
+          .residential-care-thq-approach-care-vizimg-elm {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+          }
+          .residential-care-thq-approach-care-vizoverlay-elm {
+            inset: 0;
+            z-index: 1;
+            position: absolute;
+            background: linear-gradient(
+              180deg,
+              transparent 40%,
+              color-mix(in oklab, var(--color-secondary) 75%, transparent) 100%
+            );
+          }
+          .residential-care-thq-approach-care-vizcaption-elm {
+            gap: var(--spacing-xs);
+            display: flex;
+            padding: var(--spacing-xl);
+            z-index: 2;
+            position: relative;
+            flex-direction: column;
+          }
+          .residential-care-thq-approach-care-vizcaption-label-elm {
+            color: var(--color-on-primary);
+            opacity: 0.85;
+            font-size: var(--font-size-xs);
+            font-family: var(--font-family-heading);
+            font-weight: var(--font-weight-medium);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+          }
+          .residential-care-thq-approach-care-vizcaption-text-elm {
+            color: var(--color-on-primary);
+            font-size: var(--font-size-xl);
+            font-family: var(--font-family-heading);
+            font-weight: var(--font-weight-heading);
+            line-height: var(--line-height-heading);
           }
           .residential-care-container4 {
             display: none;

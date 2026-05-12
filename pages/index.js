@@ -1094,6 +1094,207 @@ details[open] .step-number {
               </details>
             </div>
           </div>
+          <section
+            aria-labelledby="approach-heading"
+            className="page-approach-section"
+          >
+            <div className="approach-section__inner">
+              <div className="approach-section__text-col">
+                <div className="approach-section__label">
+                  <span>Our Methodology</span>
+                </div>
+                <h2
+                  id="approach-heading"
+                  className="section-title approach-section__heading"
+                >
+                  Our Treatment Approach
+                </h2>
+                <p className="approach-section__body section-content">
+                  In designing medical services for our clients and patients, we
+                  use standard pathology laboratory processes that assist
+                  consultants in carrying out tentative diagnosis to ensure
+                  reliable and effective treatment.
+                </p>
+                <div className="approach-section__points">
+                  <div className="approach-section__point">
+                    <span className="approach-section__point-icon">
+                      <svg
+                        width="18"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="18"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M20 6L9 17l-5-5"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Evidence-based diagnostic protocols</span>
+                  </div>
+                  <div className="approach-section__point">
+                    <span className="approach-section__point-icon">
+                      <svg
+                        width="18"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="18"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M20 6L9 17l-5-5"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Integrated lab-to-consultant communication</span>
+                  </div>
+                  <div className="approach-section__point">
+                    <span className="approach-section__point-icon">
+                      <svg
+                        width="18"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="18"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M20 6L9 17l-5-5"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Rapid turnaround with quality assurance</span>
+                  </div>
+                  <div className="approach-section__point">
+                    <span className="approach-section__point-icon">
+                      <svg
+                        width="18"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="18"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M20 6L9 17l-5-5"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                      </svg>
+                    </span>
+                    <span>Patient-centered reporting and follow-up</span>
+                  </div>
+                </div>
+              </div>
+              <div aria-hidden="true" className="approach-section__visual-col">
+                <div className="approach-lab-viz">
+                  <div className="approach-lab-viz__center">
+                    <svg
+                      width="48"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="48"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M6 18h8M3 22h18m-7 0a7 7 0 1 0 0-14h-1m-4 6h2m-2-2a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Zm3-6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div className="approach-lab-viz__orbit--1 approach-lab-viz__orbit">
+                    <div className="approach-lab-viz__node approach-lab-viz__node--1">
+                      <svg
+                        width="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="20"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="approach-lab-viz__orbit--2 approach-lab-viz__orbit">
+                    <div className="approach-lab-viz__node approach-lab-viz__node--2">
+                      <svg
+                        width="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="20"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M3.85 8.62a4 4 0 0 1 4.78-4.77a4 4 0 0 1 6.74 0a4 4 0 0 1 4.78 4.78a4 4 0 0 1 0 6.74a4 4 0 0 1-4.77 4.78a4 4 0 0 1-6.75 0a4 4 0 0 1-4.78-4.77a4 4 0 0 1 0-6.76"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                        <path d="m9 12l2 2l4-4"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="approach-lab-viz__orbit approach-lab-viz__orbit--3">
+                    <div className="approach-lab-viz__node approach-lab-viz__node--3">
+                      <svg
+                        width="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="20"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="approach-lab-viz__step-row">
+                    <div className="approach-lab-viz__step">
+                      <span className="approach-lab-viz__step-num">01</span>
+                      <span>Sample</span>
+                    </div>
+                    <div className="approach-lab-viz__step-arrow"></div>
+                    <div className="approach-lab-viz__step">
+                      <span className="approach-lab-viz__step-num">02</span>
+                      <span>Analysis</span>
+                    </div>
+                    <div className="approach-lab-viz__step-arrow"></div>
+                    <div className="approach-lab-viz__step">
+                      <span className="approach-lab-viz__step-num">03</span>
+                      <span>Results</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </section>
         <div className="home-container17">
           <div className="home-container18">

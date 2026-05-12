@@ -28,15 +28,16 @@ const Footer = (props) => {
                     className="footer-image"
                   />
                   <span className="footer-logo-text">
-                    <span>Prime Pathology</span>
-                    <span className="footer-text11"> Clinic</span>
+                    <span>Prime Residential</span>
+                    <span className="footer-text11">Care</span>
                   </span>
                 </div>
                 <p className="footer-description section-content">
-                  Delivering global-standard integrated healthcare services with
-                  precision and compassion. Our comprehensive clinical,
-                  pharmaceutical, residential, and consultancy services ensure
-                  better health outcomes across Africa and beyond.
+                  Providing compassionate, personalized residential care in a
+                  safe and supportive environment. Our dedicated team ensures
+                  dignity, comfort, and well-being for every resident through
+                  professional nursing, daily assistance, and community-focused
+                  living across our locations.
                 </p>
                 <div className="footer-social-links">
                   <a href="#">
@@ -128,10 +129,10 @@ const Footer = (props) => {
                         </div>
                       </a>
                     </Link>
-                    <Link href="/infection-screening">
+                    <Link href="/residential-care">
                       <a>
                         <div className="footer-nav-link">
-                          <span>Available Tests</span>
+                          <span>Residential Care</span>
                         </div>
                       </a>
                     </Link>
@@ -149,33 +150,35 @@ const Footer = (props) => {
                     Our Services
                   </h4>
                   <nav className="footer-nav-list">
-                    <Link href="/blood-analysis">
+                    <Link href="/residential-care">
                       <a>
                         <div className="footer-thq-footer-nav-link-elm15 footer-nav-link">
-                          <span>Clinical Services</span>
+                          <span>Assisted Living</span>
                         </div>
                       </a>
                     </Link>
-                    <Link href="/pharmaceuticals">
+                    <Link href="/residential-care">
                       <a>
                         <div className="footer-thq-footer-nav-link-elm16 footer-nav-link">
-                          <span>Pharmaceutical Services</span>
+                          <span>Long-Term Care</span>
                         </div>
                       </a>
                     </Link>
                     <Link href="/residential-care">
                       <a>
                         <div className="footer-thq-footer-nav-link-elm17 footer-nav-link">
-                          <span>Residential Care</span>
+                          <span>Respite Care</span>
                         </div>
                       </a>
                     </Link>
-                    <a href="#">
-                      <div className="footer-nav-link">
-                        <span>Research &amp; Consultancy</span>
-                      </div>
-                    </a>
-                    <Link href="/hormonal-profile">
+                    <Link href="/residential-care">
+                      <a>
+                        <div className="footer-thq-footer-nav-link-elm18 footer-nav-link">
+                          <span>Memory Care</span>
+                        </div>
+                      </a>
+                    </Link>
+                    <Link href="/services">
                       <a>
                         <div className="footer-thq-footer-nav-link-elm19 footer-nav-link">
                           <span>All Services</span>
@@ -395,7 +398,7 @@ const Footer = (props) => {
             <div className="footer-bottom-bar">
               <div className="footer-copyright">
                 <p className="section-content">
-                  2026 Prime Multispecialty Clinic. All Rights Reserved.
+                  2026 Prime Residential Care. All Rights Reserved.
                 </p>
               </div>
               <div className="footer-legal-links">
@@ -416,7 +419,7 @@ const Footer = (props) => {
                 <Link href="/residential-care">
                   <a>
                     <div className="footer-thq-footer-legal-link-elm3 footer-legal-link">
-                      <span>ResidentialCare</span>
+                      <span>Residential Care</span>
                     </div>
                   </a>
                 </Link>
@@ -427,11 +430,13 @@ const Footer = (props) => {
                     </div>
                   </a>
                 </Link>
-                <a href="#">
-                  <div className="footer-legal-link">
-                    <span>Sitemap</span>
-                  </div>
-                </a>
+                <Link href="/">
+                  <a>
+                    <div className="footer-thq-footer-legal-link-elm5 footer-legal-link">
+                      <span>Home</span>
+                    </div>
+                  </a>
+                </Link>
               </div>
               <div className="footer-credit">
                 <p className="section-content">
@@ -543,6 +548,9 @@ socialIcons.forEach(icon => {
           .footer-thq-footer-nav-link-elm17 {
             text-decoration: none;
           }
+          .footer-thq-footer-nav-link-elm18 {
+            text-decoration: none;
+          }
           .footer-thq-footer-nav-link-elm19 {
             text-decoration: none;
           }
@@ -562,6 +570,9 @@ socialIcons.forEach(icon => {
             text-decoration: none;
           }
           .footer-thq-footer-legal-link-elm4 {
+            text-decoration: none;
+          }
+          .footer-thq-footer-legal-link-elm5 {
             text-decoration: none;
           }
           .footer-text30 {

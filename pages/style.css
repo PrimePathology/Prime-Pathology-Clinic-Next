@@ -9384,8 +9384,9 @@
   display: flex;
   overflow: hidden;
   position: relative;
-  min-height: 100vh;
+  min-height: auto;
   align-items: center;
+  padding-bottom: var(--spacing-2xl);
 }
  
 .hero-section__bg-media {
@@ -9406,7 +9407,7 @@
   width: 100%;
   margin: 0 auto;
   display: flex;
-  padding: var(--spacing-4xl) var(--spacing-xl);
+  padding: var(--spacing-2xl) var(--spacing-xl);
   z-index: 4;
   position: relative;
   max-width: var(--content-max-width);
@@ -9637,12 +9638,12 @@
 }
  
 .page-approach-section {
-  padding: var(--spacing-4xl) var(--spacing-xl);
+  padding: var(--spacing-2xl) var(--spacing-xl);
   background: linear-gradient(135deg, color-mix(in srgb, var(--color-primary) 5%, var(--color-surface)) 0%, var(--color-surface-elevated) 100%);
 }
  
 .approach-section__inner {
-  gap: var(--spacing-4xl);
+  gap: var(--spacing-2xl);
   margin: 0 auto;
   display: flex;
   max-width: var(--content-max-width);
@@ -9822,7 +9823,7 @@
 }
  
 .why-section {
-  padding: var(--spacing-4xl) var(--spacing-xl);
+  padding: var(--spacing-2xl) var(--spacing-xl);
   background: linear-gradient(180deg, var(--color-secondary) 0%, var(--color-primary) 100%);
 }
  
@@ -9950,7 +9951,7 @@
 }
  
 .page-services-section {
-  padding: var(--spacing-4xl) var(--spacing-xl);
+  padding: var(--spacing-2xl) var(--spacing-xl);
   overflow: hidden;
   background: var(--color-surface);
 }
@@ -10335,7 +10336,7 @@
 }
  
 .page-equipment-section {
-  padding: var(--spacing-4xl) var(--spacing-xl);
+  padding: var(--spacing-2xl) var(--spacing-xl);
   background: var(--color-on-surface);
 }
  
@@ -10357,7 +10358,7 @@
  
 .page-equipment-grid1 {
   gap: var(--spacing-lg);
-  height: 520px;
+  height: auto;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 2fr 1fr 1fr;
@@ -10848,10 +10849,10 @@
  
 .page-warroom-section {
   display: flex;
-  padding: var(--spacing-4xl) var(--spacing-xl);
+  padding: var(--spacing-2xl) var(--spacing-xl);
   overflow: hidden;
   position: relative;
-  min-height: 80vh;
+  min-height: auto;
   align-items: center;
 }
  
@@ -10911,7 +10912,7 @@
  
 .warroom-section__gallery {
   gap: var(--spacing-lg);
-  height: 220px;
+  height: auto;
   display: flex;
 }
  
@@ -11632,7 +11633,7 @@
  
 .page-equipment-card:last-child {
   grid-row: 2;
-  grid-column: span 2;
+  grid-column: 2 / span 2;
 }
  
 .page-equipment-card:hover .equipment-card__img {
@@ -12354,6 +12355,42 @@
   display: none !important;
 }
  
+.approach-care-viz {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  max-width: 480px;
+  box-shadow: var(--shadow-level-2);
+  align-items: flex-end;
+  border-radius: var(--border-radius-xl);
+}
+ 
+.approach-care-viz:hover .approach-care-viz__img {
+  transform: scale(1.05);
+}
+ 
+.page-equipment-grid1  > .page-equipment-card:nth-child(1) {
+  grid-row: 1 / span 2;
+  grid-column: 1;
+}
+ 
+.page-equipment-grid1  > .page-equipment-card:nth-child(2) {
+  grid-row: 1;
+  grid-column: 2;
+}
+ 
+.page-equipment-grid1  > .page-equipment-card:nth-child(3) {
+  grid-row: 1;
+  grid-column: 3;
+}
+ 
+.page-equipment-grid1  > .page-equipment-card:nth-child(4) {
+  grid-row: 2;
+  grid-column: 2 / span 2;
+}
+ 
 .BodyFont {
   font-size: 1rem;
   font-family: Inter;
@@ -12731,6 +12768,9 @@
     gap: var(--spacing-lg);
     flex-direction: column;
   }
+  .hero-section__content {
+    padding: var(--spacing-xl) var(--spacing-lg);
+  }
   .intro-section__inner {
     gap: var(--spacing-2xl);
     flex-direction: column;
@@ -12741,13 +12781,6 @@
   .approach-section__inner {
     gap: var(--spacing-2xl);
     flex-direction: column;
-  }
-  .approach-lab-viz {
-    width: 280px;
-    height: 280px;
-  }
-  .approach-lab-viz__step-row {
-    bottom: -40px;
   }
   .why-section__cards {
     gap: var(--spacing-xl);
@@ -12829,6 +12862,9 @@
   }
   .page-footer-top {
     flex-direction: column;
+  }
+  .approach-care-viz {
+    height: 360px;
   }
 }
  
@@ -13132,7 +13168,7 @@
   }
   .hero-section__content {
     gap: var(--spacing-lg);
-    padding: var(--spacing-3xl) var(--spacing-lg);
+    padding: var(--spacing-xl) var(--spacing-lg);
   }
   .hero-section__stats {
     gap: var(--spacing-lg);
@@ -13147,13 +13183,6 @@
   }
   .page-approach-section {
     padding: var(--spacing-3xl) var(--spacing-lg);
-  }
-  .approach-lab-viz {
-    width: 240px;
-    height: 240px;
-  }
-  .approach-lab-viz__step-row {
-    display: none;
   }
   .why-section {
     padding: var(--spacing-3xl) var(--spacing-lg);
@@ -13299,6 +13328,9 @@
   .pharma-notification {
     left: var(--spacing-md);
     right: var(--spacing-md);
+  }
+  .approach-care-viz {
+    height: 300px;
   }
 }
  
