@@ -12164,11 +12164,13 @@
 }
  
 .pharma-modal-overlay {
+  display: none;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
  
 .pharma-modal-overlay.pharma-modal--open {
+  display: flex;
   opacity: 1;
 }
  
@@ -12194,12 +12196,14 @@
 }
  
 .pharma-toast {
+  display: none;
   opacity: 0;
   transform: translateX(120%);
   transition: opacity 0.35s ease, transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
 }
  
 .pharma-toast.pharma-toast--visible {
+  display: flex;
   opacity: 1;
   transform: translateX(0);
 }

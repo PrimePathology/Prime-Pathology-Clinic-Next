@@ -1064,7 +1064,10 @@ opacity: 1;}}
           </div>
         </div>
         <Footer></Footer>
-        <div data-role="pharma-modal" className="pharma-modal-overlay">
+        <div
+          data-role="pharma-modal"
+          className="pharmaceuticals-thq-pharma-modal-overlay-elm pharma-modal-overlay"
+        >
           <div className="pharma-modal">
             <div className="pharmaceuticals-thq-pharma-modal-header-elm">
               <h3 className="pharmaceuticals-text16">
@@ -1125,7 +1128,7 @@ opacity: 1;}}
                   <input
                     type="text"
                     id="pharma-name"
-                    name="true"
+                    name="name"
                     required="true"
                     placeholder="Your full name"
                     data-form-field-id="pharma-name"
@@ -1210,7 +1213,10 @@ opacity: 1;}}
             </div>
           </div>
         </div>
-        <div data-role="pharma-toast" className="pharma-toast">
+        <div
+          data-role="pharma-toast"
+          className="pharmaceuticals-thq-pharma-toast-elm pharma-toast"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -1303,6 +1309,9 @@ to {
           }
           .pharmaceuticals-container16 {
             display: contents;
+          }
+          .pharmaceuticals-thq-pharma-modal-overlay-elm {
+            display: none;
           }
           .pharmaceuticals-thq-pharma-modal-header-elm {
             display: flex;
@@ -1449,6 +1458,9 @@ to {
           }
           .pharmaceuticals-thq-btn-elm4 {
             width: 100%;
+          }
+          .pharmaceuticals-thq-pharma-toast-elm {
+            display: none;
           }
           .pharmaceuticals-text22 {
             flex: 1;
