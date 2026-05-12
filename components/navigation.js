@@ -80,36 +80,6 @@ const Navigation = (props) => {
                   </li>
                 </a>
               </Link>
-              <div data-thq="thq-dropdown" className="navigation-thq-dropdown1">
-                <div
-                  data-thq="thq-dropdown-toggle"
-                  className="navigation-thq-dropdown-toggle1"
-                >
-                  <span>More</span>
-                  <div
-                    data-thq="thq-dropdown-arrow"
-                    className="navigation-thq-dropdown-arrow1"
-                  >
-                    <svg viewBox="0 0 1024 1024" className="navigation-icon10">
-                      <path d="M426 726v-428l214 214z"></path>
-                    </svg>
-                  </div>
-                </div>
-                <ul
-                  data-thq="thq-dropdown-list"
-                  className="navigation-thq-dropdown-list1"
-                >
-                  <Link href="/residential-care">
-                    <a>
-                      <li className="navigation-thq-navigation-menu-item-elm7 navigation-menu-item">
-                        <div className="navigation-menu-link">
-                          <span>ResidentialCare</span>
-                        </div>
-                      </li>
-                    </a>
-                  </Link>
-                </ul>
-              </div>
             </ul>
             <div className="navigation-actions">
               <Link href="/infection-screening">
@@ -232,24 +202,24 @@ const Navigation = (props) => {
                   </a>
                 </Link>
               </li>
-              <div data-thq="thq-dropdown" className="navigation-thq-dropdown2">
+              <div data-thq="thq-dropdown" className="navigation-thq-dropdown1">
                 <div
                   data-thq="thq-dropdown-toggle"
-                  className="navigation-thq-dropdown-toggle2"
+                  className="navigation-thq-dropdown-toggle1"
                 >
                   <span>More</span>
                   <div
                     data-thq="thq-dropdown-arrow"
-                    className="navigation-thq-dropdown-arrow2"
+                    className="navigation-thq-dropdown-arrow1"
                   >
-                    <svg viewBox="0 0 1024 1024" className="navigation-icon16">
+                    <svg viewBox="0 0 1024 1024" className="navigation-icon5">
                       <path d="M426 726v-428l214 214z"></path>
                     </svg>
                   </div>
                 </div>
                 <ul
                   data-thq="thq-dropdown-list"
-                  className="navigation-thq-dropdown-list2"
+                  className="navigation-thq-dropdown-list1"
                 >
                   <li className="navigation-mobile-item">
                     <Link href="/privacy-policy">
@@ -335,20 +305,20 @@ const Navigation = (props) => {
                   </li>
                   <div
                     data-thq="thq-dropdown"
-                    className="navigation-thq-dropdown3"
+                    className="navigation-thq-dropdown2"
                   >
                     <div
                       data-thq="thq-dropdown-toggle"
-                      className="navigation-thq-dropdown-toggle3"
+                      className="navigation-thq-dropdown-toggle2"
                     >
                       <span>More</span>
                       <div
                         data-thq="thq-dropdown-arrow"
-                        className="navigation-thq-dropdown-arrow3"
+                        className="navigation-thq-dropdown-arrow2"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="navigation-icon18"
+                          className="navigation-icon7"
                         >
                           <path d="M426 726v-428l214 214z"></path>
                         </svg>
@@ -356,7 +326,7 @@ const Navigation = (props) => {
                     </div>
                     <ul
                       data-thq="thq-dropdown-list"
-                      className="navigation-thq-dropdown-list3"
+                      className="navigation-thq-dropdown-list2"
                     >
                       <li className="navigation-mobile-item">
                         <Link href="/residential-care">
@@ -495,6 +465,13 @@ const Navigation = (props) => {
           .navigation-thq-navigation-menu-item-elm6 {
             text-decoration: none;
           }
+          .navigation-image2 {
+            width: 200px;
+            object-fit: cover;
+          }
+          .navigation-thq-navigation-mobile-link-elm14 {
+            text-decoration: none;
+          }
           .navigation-thq-dropdown1 {
             cursor: pointer;
             display: inline-block;
@@ -513,7 +490,7 @@ const Navigation = (props) => {
           .navigation-thq-dropdown-arrow1 {
             transition: 0.3s;
           }
-          .navigation-icon10 {
+          .navigation-icon5 {
             width: 18px;
             height: 18px;
           }
@@ -524,16 +501,6 @@ const Navigation = (props) => {
             min-width: 100%;
             flex-direction: column;
             list-style-type: none;
-          }
-          .navigation-thq-navigation-menu-item-elm7 {
-            text-decoration: none;
-          }
-          .navigation-image2 {
-            width: 200px;
-            object-fit: cover;
-          }
-          .navigation-thq-navigation-mobile-link-elm14 {
-            text-decoration: none;
           }
           .navigation-thq-dropdown2 {
             cursor: pointer;
@@ -553,41 +520,11 @@ const Navigation = (props) => {
           .navigation-thq-dropdown-arrow2 {
             transition: 0.3s;
           }
-          .navigation-icon16 {
+          .navigation-icon7 {
             width: 18px;
             height: 18px;
           }
           .navigation-thq-dropdown-list2 {
-            display: none;
-            z-index: 100;
-            position: absolute;
-            min-width: 100%;
-            flex-direction: column;
-            list-style-type: none;
-          }
-          .navigation-thq-dropdown3 {
-            cursor: pointer;
-            display: inline-block;
-            padding: 4px 8px;
-            position: relative;
-            border-color: rgba(0, 0, 0, 0.45);
-            border-style: solid;
-            border-width: 1px;
-            border-radius: 4px;
-          }
-          .navigation-thq-dropdown-toggle3 {
-            gap: 4px;
-            display: inline-flex;
-            align-items: center;
-          }
-          .navigation-thq-dropdown-arrow3 {
-            transition: 0.3s;
-          }
-          .navigation-icon18 {
-            width: 18px;
-            height: 18px;
-          }
-          .navigation-thq-dropdown-list3 {
             display: none;
             z-index: 100;
             position: absolute;
