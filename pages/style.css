@@ -9715,6 +9715,7 @@
   display: flex;
   z-index: 2;
   position: relative;
+  animation: microscopeFloat 4.5s ease-in-out infinite;
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
   box-shadow: 0 0 40px color-mix(in srgb, var(--color-primary) 30%, transparent);
   align-items: center;
@@ -9732,21 +9733,33 @@
 }
  
 .approach-lab-viz__orbit--1 {
+  top: 50%;
+  left: 50%;
   width: 180px;
   height: 180px;
-  animation: orbit1 8s linear infinite;
+  position: absolute;
+  animation: orbit1 10s ease-in-out infinite;
+  transform: translate(-50%, -50%);
 }
  
 .approach-lab-viz__orbit--2 {
+  top: 50%;
+  left: 50%;
   width: 250px;
   height: 250px;
-  animation: orbit2 12s linear infinite reverse;
+  position: absolute;
+  animation: orbit2 11s ease-in-out infinite reverse;
+  transform: translate(-50%, -50%);
 }
  
 .approach-lab-viz__orbit--3 {
+  top: 50%;
+  left: 50%;
   width: 320px;
   height: 320px;
-  animation: orbit1 16s linear infinite;
+  position: absolute;
+  animation: orbit1 12s ease-in-out infinite;
+  transform: translate(-50%, -50%);
 }
  
 .approach-lab-viz__step-row {
@@ -9787,15 +9800,15 @@
 }
  
 .approach-lab-viz__node--1 {
-  animation: counterOrbit1 8s linear infinite reverse;
+  animation: counterOrbit1 10s ease-in-out infinite reverse;
 }
  
 .approach-lab-viz__node--2 {
-  animation: counterOrbit1 12s linear infinite;
+  animation: counterOrbit1 11s ease-in-out infinite;
 }
  
 .approach-lab-viz__node--3 {
-  animation: counterOrbit1 16s linear infinite reverse;
+  animation: counterOrbit1 12s ease-in-out infinite reverse;
 }
  
 .approach-lab-viz__step {
