@@ -12369,6 +12369,10 @@
   stroke-linejoin: round;
 }
  
+.hidden {
+  display: none !important;
+}
+ 
 .BodyFont {
   font-size: 1rem;
   font-family: Inter;

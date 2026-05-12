@@ -833,7 +833,7 @@ const Pharmaceuticals = (props) => {
                   <input
                     type="text"
                     id="inline-pharma-name"
-                    name="true"
+                    name="name"
                     required="true"
                     placeholder="Your full name"
                     data-form-field-id="inline-pharma-name"
@@ -889,21 +889,6 @@ const Pharmaceuticals = (props) => {
                     data-form-field-id="inline-pharma-message"
                     className="textarea pharma-form-textarea"
                   ></textarea>
-                </div>
-                <div className="pharma-form-field pharma-form-field--full">
-                  <label
-                    htmlFor="inline-pharma-attachment"
-                    className="pharma-form-label"
-                  >
-                    Attachment (optional)
-                  </label>
-                  <input
-                    type="file"
-                    id="inline-pharma-attachment"
-                    name="attachment"
-                    data-form-field-id="inline-pharma-attachment"
-                    className="pharmaceuticals-thq-pharma-form-file-elm input"
-                  />
                 </div>
               </div>
               <button
@@ -1117,138 +1102,135 @@ opacity: 1;}}
         <div className="pharmaceuticals-container15">
           <div className="pharmaceuticals-container16">
             <Script
-              html={`<script defer data-name="prime-lab-js">
-(function(){
-  const carousel = document.getElementById("servicesCarousel")
-  const prevBtn = document.getElementById("prevBtn")
-  const nextBtn = document.getElementById("nextBtn")
-
-  if (carousel && prevBtn && nextBtn) {
-    let scrollAmount = 0
-    const cardWidth = carousel.firstElementChild.offsetWidth + 24 // Width + gap
-
-    nextBtn.addEventListener("click", () => {
-      const maxScroll = carousel.scrollWidth - carousel.clientWidth
-      if (scrollAmount < maxScroll) {
-        scrollAmount += cardWidth
-        carousel.style.transform = \`translateX(-\${scrollAmount}px)\`
-      } else {
-        scrollAmount = 0
-        carousel.style.transform = \`translateX(0px)\`
-      }
-    })
-
-    prevBtn.addEventListener("click", () => {
-      if (scrollAmount > 0) {
-        scrollAmount -= cardWidth
-        carousel.style.transform = \`translateX(-\${scrollAmount}px)\`
-      } else {
-        scrollAmount = carousel.scrollWidth - carousel.clientWidth
-        carousel.style.transform = \`translateX(-\${scrollAmount}px)\`
-      }
-    })
-  }
-
-  // Subtle Parallax for Hero
-  window.addEventListener("scroll", () => {
-    const scrolled = window.pageYOffset
-    const heroVideo = document.querySelector(".hero-video")
-    if (heroVideo) {
-      heroVideo.style.transform = \`translateY(\${scrolled * 0.3}px)\`
-    }
-
-    const molecules = document.querySelectorAll(".molecule")
-    molecules.forEach((m, index) => {
-      const speed = (index + 1) * 0.1
-      m.style.transform = \`translateY(\${scrolled * speed}px)\`
-    })
-  })
-
-  // Reveal Animations on Scroll
-  const observerOptions = {
-    threshold: 0.1,
-  }
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.style.opacity = "1"
-        entry.target.style.transform = "translateY(0)"
-      }
-    })
-  }, observerOptions)
-
-  document.querySelectorAll(".why-card, .service-card, .team-card").forEach((el) => {
-    el.style.opacity = "0"
-    el.style.transform = "translateY(30px)"
-    el.style.transition = "all 0.6s ease-out"
-    observer.observe(el)
-  })
-})()
-</script>`}
-            ></Script>
-          </div>
-        </div>
-        <div data-section="pharma-inline-form-script">
-          <div className="pharmaceuticals-container18">
-            <div className="pharmaceuticals-container19">
-              <Script
-                html={`<script>
-(function(){
-      ;(function () {
-        var inlineForm = document.getElementById("launch-form")
-        var notification = document.querySelector('[data-role="pharma-inline-notification"]')
-        var notificationClose = document.querySelector('[data-action="pharma-inline-notification-close"]')
-        var notificationTimer = null
-
-        function showNotification() {
-          if (!notification) return
-          notification.classList.add("pharma-notification--visible")
-          if (notificationTimer) clearTimeout(notificationTimer)
-          notificationTimer = setTimeout(function () {
-            hideNotification()
-          }, 4000)
-        }
-
-        function hideNotification() {
-          if (!notification) return
-          notification.classList.remove("pharma-notification--visible")
-          if (notificationTimer) {
-            clearTimeout(notificationTimer)
-            notificationTimer = null
+              html={`<script>
+        ;(function () {
+          const carousel = document.getElementById("servicesCarousel")
+          const prevBtn = document.getElementById("prevBtn")
+          const nextBtn = document.getElementById("nextBtn")
+          if (carousel && prevBtn && nextBtn) {
+            let scrollAmount = 0
+            const cardWidth = carousel.firstElementChild.offsetWidth + 24 // Width + gap
+            nextBtn.addEventListener("click", () => {
+              const maxScroll = carousel.scrollWidth - carousel.clientWidth
+              if (scrollAmount < maxScroll) {
+                scrollAmount += cardWidth
+                carousel.style.transform = \`translateX(-\\\${scrollAmount}px)\`
+              } else {
+                scrollAmount = 0
+                carousel.style.transform = \`translateX(0px)\`
+              }
+            })
+            prevBtn.addEventListener("click", () => {
+              if (scrollAmount > 0) {
+                scrollAmount -= cardWidth
+                carousel.style.transform = \`translateX(-\\\${scrollAmount}px)\`
+              } else {
+                scrollAmount = carousel.scrollWidth - carousel.clientWidth
+                carousel.style.transform = \`translateX(-\\\${scrollAmount}px)\`
+              }
+            })
           }
-        }
-
-        if (notificationClose) {
-          notificationClose.addEventListener("click", hideNotification)
-        }
-
-        if (inlineForm) {
-          inlineForm.addEventListener("submit", function (e) {
+          // Subtle Parallax for Hero
+          window.addEventListener("scroll", () => {
+            const scrolled = window.pageYOffset
+            const heroVideo = document.querySelector(".hero-video")
+            if (heroVideo) {
+              heroVideo.style.transform = \`translateY(\\\${scrolled * 0.3}px)\`
+            }
+            const molecules = document.querySelectorAll(".molecule")
+            molecules.forEach((m, index) => {
+              const speed = (index + 1) * 0.1
+              m.style.transform = \`translateY(\\\${scrolled * speed}px)\`
+            })
+          })
+          // Reveal Animations on Scroll
+          const observerOptions = {
+            threshold: 0.1,
+          }
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.style.opacity = "1"
+                entry.target.style.transform = "translateY(0)"
+              }
+            })
+          }, observerOptions)
+          document.querySelectorAll(".why-card, .service-card, .team-card").forEach((el) => {
+            el.style.opacity = "0"
+            el.style.transform = "translateY(30px)"
+            el.style.transition = "all 0.6s ease-out"
+            observer.observe(el)
+          })
+        })()
+      </script><script>
+        ;(function () {
+          const form = document.getElementById("launch-form")
+          if (!form) return
+          form.addEventListener("submit", function (e) {
             e.preventDefault()
-            var data = new FormData(inlineForm)
-            fetch(inlineForm.action, { method: "POST", body: data })
-              .then(function (res) {
-                return res.json()
-              })
-              .then(function (result) {
-                if (result.success) {
-                  inlineForm.reset()
-                  showNotification()
+            const formData = new FormData(form)
+            fetch("https://api.web3forms.com/submit", {
+              method: "POST",
+              body: formData,
+            })
+              .then(function (response) {
+                if (response.ok) {
+                  // Hide the pharma form section
+                  const section = document.getElementById("pharma-form-section")
+                  if (section) section.style.display = "none"
+                  // Show success toast
+                  showToast("Thank you for submitting! We'll reach out soon.")
                 } else {
-                  alert("Submission failed. Please try again.")
+                  showToast("Submission failed. Please try again.", true)
                 }
               })
               .catch(function () {
-                alert("An error occurred. Please try again.")
+                showToast("Submission failed. Please try again.", true)
               })
           })
-        }
-      })()
-    })()
-</script>`}
-              ></Script>
-            </div>
+          function showToast(message, isError) {
+            const existing = document.querySelector('[data-role="web3form-toast"]')
+            if (existing) existing.remove()
+            const toast = document.createElement("div")
+            toast.setAttribute("data-role", "web3form-toast")
+            toast.setAttribute("aria-live", "polite")
+            toast.style.cssText = "position:fixed;top:16px;right:16px;z-index:9999;max-width:320px;padding:14px 18px;border-radius:12px;background:" + (isError ? "#E23333" : "#16a34a") + ";color:#fff;font-family:Inter,system-ui,sans-serif;font-size:0.95rem;line-height:1.4;box-shadow:0 8px 24px rgba(0,0,0,0.22);display:flex;align-items:center;gap:10px;transform:translateX(120%);transition:transform 0.45s cubic-bezier(0.22,1,0.36,1);pointer-events:auto;"
+            const icon = document.createElement("span")
+            icon.innerHTML = isError ? "✕" : '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>'
+            icon.style.cssText = "display:inline-flex;flex-shrink:0;"
+            const text = document.createElement("span")
+            text.textContent = message
+            text.style.flex = "1"
+            const closeBtn = document.createElement("button")
+            closeBtn.setAttribute("aria-label", "Dismiss notification")
+            closeBtn.innerHTML = "✕"
+            closeBtn.style.cssText = "background:none;border:none;color:#fff;font-size:1rem;cursor:pointer;padding:0 0 0 6px;line-height:1;opacity:0.85;"
+            closeBtn.addEventListener("click", function () {
+              toast.style.transform = "translateX(120%)"
+              setTimeout(function () {
+                toast.remove()
+              }, 500)
+            })
+            toast.appendChild(icon)
+            toast.appendChild(text)
+            toast.appendChild(closeBtn)
+            document.body.appendChild(toast)
+            // Force reflow
+            toast.getBoundingClientRect()
+            toast.style.transform = "translateX(0)"
+            // Auto dismiss after 4 seconds
+            setTimeout(function () {
+              if (toast.parentNode) {
+                toast.style.transform = "translateX(120%)"
+                setTimeout(function () {
+                  toast.remove()
+                }, 500)
+              }
+            }, 4000)
+          }
+        })()
+      </script>`}
+            ></Script>
           </div>
         </div>
         <Footer></Footer>
@@ -1306,7 +1288,7 @@ opacity: 1;}}
                   data-form-field-id="thq_botcheck_bBL_"
                   className="pharmaceuticals-thq-hidden-elm2 input"
                 />
-                <div className="pharmaceuticals-container20">
+                <div className="pharmaceuticals-container17">
                   <label
                     htmlFor="pharma-name"
                     className="pharmaceuticals-text17"
@@ -1323,7 +1305,7 @@ opacity: 1;}}
                     className="pharmaceuticals-textinput3 input"
                   />
                 </div>
-                <div className="pharmaceuticals-container21">
+                <div className="pharmaceuticals-container18">
                   <label
                     htmlFor="pharma-email"
                     className="pharmaceuticals-text18"
@@ -1340,7 +1322,7 @@ opacity: 1;}}
                     className="pharmaceuticals-textinput4 input"
                   />
                 </div>
-                <div className="pharmaceuticals-container22">
+                <div className="pharmaceuticals-container19">
                   <label
                     htmlFor="pharma-phone"
                     className="pharmaceuticals-text19"
@@ -1356,7 +1338,7 @@ opacity: 1;}}
                     className="pharmaceuticals-textinput5 input"
                   />
                 </div>
-                <div className="pharmaceuticals-container23">
+                <div className="pharmaceuticals-container20">
                   <label
                     htmlFor="pharma-message"
                     className="pharmaceuticals-text20"
@@ -1373,7 +1355,7 @@ opacity: 1;}}
                     className="pharmaceuticals-textarea textarea"
                   ></textarea>
                 </div>
-                <div className="pharmaceuticals-container24">
+                <div className="pharmaceuticals-container21">
                   <label
                     htmlFor="pharma-attachment"
                     className="pharmaceuticals-text21"
@@ -1445,7 +1427,7 @@ opacity: 1;}}
           </button>
         </div>
         <div>
-          <div className="pharmaceuticals-container26">
+          <div className="pharmaceuticals-container23">
             <Script
               html={`<div data-role="pharma-inline-notification" class="pharma-notification"><span class="pharma-notification__icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><polyline points="20 6 9 17 4 12"></polyline></svg></span><span class="pharma-notification__text">Thank you for submitting! We&apos;ll reach out soon.</span><button type="button" aria-label="Dismiss notification" data-action="pharma-inline-notification-close" class="pharma-notification__close"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg></button></div><div class="container23"><style>
         @keyframes pharmaToastCheck {
@@ -1511,18 +1493,6 @@ opacity: 1;}}
             margin-bottom: var(--spacing-xl);
             grid-template-columns: repeat(2, 1fr);
           }
-          .pharmaceuticals-thq-pharma-form-file-elm {
-            color: var(--color-on-surface);
-            width: 100%;
-            border: none;
-            outline: none;
-            padding: var(--spacing-sm) 0;
-            font-size: var(--font-size-base);
-            background: transparent;
-            transition: border-color 0.2s, box-shadow 0.2s;
-            font-family: var(--font-family-body);
-            border-radius: var(--border-radius-md);
-          }
           .pharmaceuticals-thq-pharma-form-submit-elm {
             width: 100%;
           }
@@ -1540,12 +1510,6 @@ opacity: 1;}}
             display: none;
           }
           .pharmaceuticals-container16 {
-            display: contents;
-          }
-          .pharmaceuticals-container18 {
-            display: none;
-          }
-          .pharmaceuticals-container19 {
             display: contents;
           }
           .pharmaceuticals-thq-pharma-modal-overlay-elm {
@@ -1583,7 +1547,7 @@ opacity: 1;}}
           .pharmaceuticals-thq-hidden-elm2 {
             display: none;
           }
-          .pharmaceuticals-container20 {
+          .pharmaceuticals-container17 {
             margin-bottom: var(--spacing-lg);
           }
           .pharmaceuticals-text17 {
@@ -1606,7 +1570,7 @@ opacity: 1;}}
             font-family: var(--font-family-body);
             border-radius: var(--border-radius-md);
           }
-          .pharmaceuticals-container21 {
+          .pharmaceuticals-container18 {
             margin-bottom: var(--spacing-lg);
           }
           .pharmaceuticals-text18 {
@@ -1629,7 +1593,7 @@ opacity: 1;}}
             font-family: var(--font-family-body);
             border-radius: var(--border-radius-md);
           }
-          .pharmaceuticals-container22 {
+          .pharmaceuticals-container19 {
             margin-bottom: var(--spacing-lg);
           }
           .pharmaceuticals-text19 {
@@ -1652,7 +1616,7 @@ opacity: 1;}}
             font-family: var(--font-family-body);
             border-radius: var(--border-radius-md);
           }
-          .pharmaceuticals-container23 {
+          .pharmaceuticals-container20 {
             margin-bottom: var(--spacing-lg);
           }
           .pharmaceuticals-text20 {
@@ -1676,7 +1640,7 @@ opacity: 1;}}
             font-family: var(--font-family-body);
             border-radius: var(--border-radius-md);
           }
-          .pharmaceuticals-container24 {
+          .pharmaceuticals-container21 {
             margin-bottom: var(--spacing-xl);
           }
           .pharmaceuticals-text21 {
@@ -1716,7 +1680,7 @@ opacity: 1;}}
             border-radius: var(--border-radius-sm);
             justify-content: center;
           }
-          .pharmaceuticals-container26 {
+          .pharmaceuticals-container23 {
             display: contents;
           }
           @media (max-width: 767px) {
