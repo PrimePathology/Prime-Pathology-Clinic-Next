@@ -760,7 +760,7 @@ details[open] .step-number {
                       Retail &amp; Wholesale Pharmacy, Pharmaceutical
                       Manufacturing, Medical Equipment Division
                     </p>
-                    <Link href="/services">
+                    <Link href="/pharmaceuticals">
                       <a>
                         <div className="flip-card-btn">
                           <span>Explore</span>
@@ -792,7 +792,7 @@ details[open] .step-number {
                       Elderly &amp; Disabled Care, Mental Health &amp; Substance
                       Abuse, Assisted Living Services
                     </p>
-                    <Link href="/services">
+                    <Link href="/residential-care">
                       <a>
                         <div className="flip-card-btn">
                           <span>Explore</span>
