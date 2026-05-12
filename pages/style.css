@@ -12163,6 +12163,53 @@
   color: var(--color-primary);
 }
  
+.pharma-modal-overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+ 
+.pharma-modal-overlay.pharma-modal--open {
+  opacity: 1;
+}
+ 
+.pharma-modal-overlay  .pharma-modal {
+  transform: translateY(16px) scale(0.98);
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+ 
+.pharma-modal-overlay.pharma-modal--open .pharma-modal {
+  transform: translateY(0) scale(1);
+}
+ 
+
+ 
+.pharma-modal  input:focus {
+  box-shadow: 0 0 0 3px rgba(0, 119, 217, 0.15) !important;
+  border-color: var(--color-primary) !important;
+}
+ 
+.pharma-modal  textarea:focus {
+  box-shadow: 0 0 0 3px rgba(0, 119, 217, 0.15) !important;
+  border-color: var(--color-primary) !important;
+}
+ 
+.pharma-toast {
+  opacity: 0;
+  transform: translateX(120%);
+  transition: opacity 0.35s ease, transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+ 
+.pharma-toast.pharma-toast--visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+ 
+
+ 
+.pharma-toast-icon  svg {
+  animation: pharmaToastCheck 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+ 
 .BodyFont {
   font-size: 1rem;
   font-family: Inter;
@@ -13322,5 +13369,8 @@
   }
   .pillar-img {
     height: 250px;
+  }
+  .pharma-modal-overlay {
+    padding: 0.5rem !important;
   }
 }

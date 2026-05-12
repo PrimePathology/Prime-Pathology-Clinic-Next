@@ -156,7 +156,7 @@ const Footer = (props) => {
                         </div>
                       </a>
                     </Link>
-                    <Link href="/dna-paternity-testing">
+                    <Link href="/pharmaceuticals">
                       <a>
                         <div className="footer-thq-footer-nav-link-elm16 footer-nav-link">
                           <span>Pharmaceutical Services</span>

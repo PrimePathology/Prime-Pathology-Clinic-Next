@@ -10,7 +10,7 @@
 - [Prime Pathology Clinic](https://patho.teleporthq.site)
 - [Terms-of-Service - Prime Pathology Clinic](https://patho.teleporthq.site/terms-of-service)
 - [Infection-Screening - Prime Pathology Clinic](https://patho.teleporthq.site/infection-screening)
-- [DNA-Paternity-Testing - Prime Pathology Clinic](https://patho.teleporthq.site/dna-paternity-testing)
+- [Pharmaceuticals - Prime Pathology Clinic](https://patho.teleporthq.site/pharmaceuticals)
 - [About - Prime Pathology Clinic](https://patho.teleporthq.site/about)
 - [Blood-Analysis - Prime Pathology Clinic](https://patho.teleporthq.site/blood-analysis)
 - [Privacy-Policy - Prime Pathology Clinic](https://patho.teleporthq.site/privacy-policy)
