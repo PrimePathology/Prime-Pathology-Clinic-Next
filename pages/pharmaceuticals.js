@@ -11,7 +11,7 @@ import Footer from '../components/footer'
 const Pharmaceuticals = (props) => {
   return (
     <>
-      <div className="pharmaceuticals-container10">
+      <div className="pharmaceuticals-container1">
         <Head>
           <title>Pharmaceuticals - Prime Pathology Clinic</title>
           <meta
@@ -162,84 +162,19 @@ const Pharmaceuticals = (props) => {
             </div>
           </div>
         </section>
-        <div className="pharmaceuticals-container11">
-          <div className="pharmaceuticals-container12">
+        <div className="pharmaceuticals-container2">
+          <div className="pharmaceuticals-container3">
             <Script
               html={`<script>
         ;(function () {
           ;(function () {
-            var modal = document.querySelector('[data-role="pharma-modal"]')
-            var openBtn = document.querySelector('[data-action="launch-modal-btn"]')
-            var closeBtn = document.querySelector('[data-action="pharma-modal-close"]')
-            var toast = document.querySelector('[data-role="pharma-toast"]')
-            var toastClose = document.querySelector('[data-action="pharma-toast-close"]')
-            var form = document.getElementById("modal-launch-form")
-            var toastTimer = null
-            function openModal() {
-              if (!modal) return
-              modal.style.display = "flex"
-              document.body.style.overflow = "hidden"
-              modal.classList.add("pharma-modal--open")
-            }
-            function closeModal() {
-              if (!modal) return
-              modal.style.display = "none"
-              document.body.style.overflow = ""
-              modal.classList.remove("pharma-modal--open")
-            }
-            function showToast() {
-              if (!toast) return
-              toast.style.display = "flex"
-              toast.classList.add("pharma-toast--visible")
-              if (toastTimer) clearTimeout(toastTimer)
-              toastTimer = setTimeout(function () {
-                hideToast()
-              }, 4000)
-            }
-            function hideToast() {
-              if (!toast) return
-              toast.classList.remove("pharma-toast--visible")
-              setTimeout(function () {
-                if (!toast.classList.contains("pharma-toast--visible")) {
-                  toast.style.display = "none"
-                }
-              }, 350)
-            }
-            if (openBtn) openBtn.addEventListener("click", openModal)
-            if (closeBtn) closeBtn.addEventListener("click", closeModal)
-            if (modal)
-              modal.addEventListener("click", function (e) {
-                if (e.target === modal) closeModal()
-              })
-            if (toastClose) toastClose.addEventListener("click", hideToast)
-            if (form) {
-              form.addEventListener("submit", function (e) {
-                e.preventDefault()
-                var data = new FormData(form)
-                fetch(form.action, { method: "POST", body: data })
-                  .then(function (res) {
-                    return res.json()
-                  })
-                  .then(function (result) {
-                    if (result.success) {
-                      closeModal()
-                      form.reset()
-                      showToast()
-                    } else {
-                      alert("Submission failed. Please try again.")
-                    }
-                  })
-                  .catch(function () {
-                    alert("An error occurred. Please try again.")
-                  })
+            var inlineNotification = document.querySelector('[data-role="pharma-inline-notification"]')
+            var inlineClose = document.querySelector('[data-action="pharma-inline-notification-close"]')
+            if (inlineClose && inlineNotification) {
+              inlineClose.addEventListener("click", function () {
+                inlineNotification.style.display = "none"
               })
             }
-            document.addEventListener("keydown", function (e) {
-              if (e.key === "Escape") {
-                closeModal()
-                hideToast()
-              }
-            })
           })()
         })()
       </script>`}
@@ -504,7 +439,7 @@ const Pharmaceuticals = (props) => {
                       At Prime Pathology Clinic, patient safety extends beyond
                       the laboratory. Our pharmacy team is dedicated to
                     </span>
-                    <span className="pharmaceuticals-text13">
+                    <span className="pharmaceuticals-text4">
                       pharmacovigilance
                     </span>
                     <span>
@@ -820,7 +755,7 @@ const Pharmaceuticals = (props) => {
                 autoComplete="off"
                 data-form-field-id="thq_botcheck_s5qt"
                 tabIndex="-1"
-                className="pharmaceuticals-thq-hidden-elm1 input"
+                className="pharmaceuticals-thq-hidden-elm input"
               />
               <div className="pharmaceuticals-thq-pharma-form-grid-elm">
                 <div className="pharma-form-field">
@@ -1083,8 +1018,8 @@ const Pharmaceuticals = (props) => {
             </div>
           </div>
         </section>
-        <div className="pharmaceuticals-container13">
-          <div className="pharmaceuticals-container14">
+        <div className="pharmaceuticals-container4">
+          <div className="pharmaceuticals-container5">
             <Script
               html={`<style>
         @keyframes float {0%,100% {transform: translateY(0) scale(1);}
@@ -1099,8 +1034,8 @@ opacity: 1;}}
             ></Script>
           </div>
         </div>
-        <div className="pharmaceuticals-container15">
-          <div className="pharmaceuticals-container16">
+        <div className="pharmaceuticals-container6">
+          <div className="pharmaceuticals-container7">
             <Script
               html={`<script>
         ;(function () {
@@ -1234,200 +1169,8 @@ opacity: 1;}}
           </div>
         </div>
         <Footer></Footer>
-        <div
-          data-role="pharma-modal"
-          className="pharmaceuticals-thq-pharma-modal-overlay-elm pharma-modal-overlay"
-        >
-          <div className="pharma-modal">
-            <div className="pharmaceuticals-thq-pharma-modal-header-elm">
-              <h3 className="pharmaceuticals-text16">
-                Pharmaceutical Services Inquiry
-              </h3>
-              <button
-                type="button"
-                aria-label="Close modal"
-                data-action="pharma-modal-close"
-                className="pharmaceuticals-button1 button"
-              >
-                <svg
-                  fill="none"
-                  width="22"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="22"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <line x1="18" x2="6" y1="6" y2="18"></line>
-                  <line x1="6" x2="18" y1="6" y2="18"></line>
-                </svg>
-              </button>
-            </div>
-            <div className="pharmaceuticals-thq-pharma-modal-body-elm">
-              <form
-                id="modal-launch-form"
-                action="https://api.web3forms.com/submit"
-                method="POST"
-                data-form-id="65c32c8b-1a75-4427-9d76-2559bfa3997a"
-                encType="multipart/form-data"
-              >
-                <input
-                  type="hidden"
-                  id="thq_access_key_OWqn"
-                  name="access_key"
-                  value="2ba3f6aa-99d0-4789-9589-197107268d04"
-                  data-form-field-id="thq_access_key_OWqn"
-                  className="input"
-                />
-                <input
-                  type="checkbox"
-                  id="thq_botcheck_bBL_"
-                  name="botcheck"
-                  data-form-field-id="thq_botcheck_bBL_"
-                  className="pharmaceuticals-thq-hidden-elm2 input"
-                />
-                <div className="pharmaceuticals-container17">
-                  <label
-                    htmlFor="pharma-name"
-                    className="pharmaceuticals-text17"
-                  >
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="pharma-name"
-                    name="name"
-                    required="true"
-                    placeholder="Your full name"
-                    data-form-field-id="pharma-name"
-                    className="pharmaceuticals-textinput3 input"
-                  />
-                </div>
-                <div className="pharmaceuticals-container18">
-                  <label
-                    htmlFor="pharma-email"
-                    className="pharmaceuticals-text18"
-                  >
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="pharma-email"
-                    name="email"
-                    required="true"
-                    placeholder="you@example.com"
-                    data-form-field-id="pharma-email"
-                    className="pharmaceuticals-textinput4 input"
-                  />
-                </div>
-                <div className="pharmaceuticals-container19">
-                  <label
-                    htmlFor="pharma-phone"
-                    className="pharmaceuticals-text19"
-                  >
-                    Phone
-                  </label>
-                  <input
-                    type="tel"
-                    id="pharma-phone"
-                    name="phone"
-                    placeholder="+234 ..."
-                    data-form-field-id="pharma-phone"
-                    className="pharmaceuticals-textinput5 input"
-                  />
-                </div>
-                <div className="pharmaceuticals-container20">
-                  <label
-                    htmlFor="pharma-message"
-                    className="pharmaceuticals-text20"
-                  >
-                    Message / Request
-                  </label>
-                  <textarea
-                    id="pharma-message"
-                    name="message"
-                    rows="4"
-                    required="true"
-                    placeholder="Describe your prescription or pharmaceutical inquiry..."
-                    data-form-field-id="pharma-message"
-                    className="pharmaceuticals-textarea textarea"
-                  ></textarea>
-                </div>
-                <div className="pharmaceuticals-container21">
-                  <label
-                    htmlFor="pharma-attachment"
-                    className="pharmaceuticals-text21"
-                  >
-                    Attachment (optional)
-                  </label>
-                  <input
-                    type="file"
-                    id="pharma-attachment"
-                    name="attachment"
-                    data-form-field-id="pharma-attachment"
-                    className="pharmaceuticals-textinput6 input"
-                  />
-                </div>
-                <button
-                  id="thq_button_nUDM"
-                  name="button"
-                  type="submit"
-                  data-form-field-id="thq_button_nUDM"
-                  className="pharmaceuticals-thq-btn-elm4 btn btn-primary btn-lg button"
-                >
-                  Submit Inquiry
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div
-          data-role="pharma-toast"
-          className="pharmaceuticals-thq-pharma-toast-elm pharma-toast"
-        >
-          <svg
-            fill="none"
-            width="16"
-            xmlns="http://www.w3.org/2000/svg"
-            height="16"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            strokeWidth="3"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <polyline points="20 6 9 17 4 12"></polyline>
-          </svg>
-          <span className="pharma-toast-icon"></span>
-          <span className="pharmaceuticals-text22">
-            Thank you for submitting! We&apos;ll reach out soon.
-          </span>
-          <button
-            type="button"
-            aria-label="Dismiss notification"
-            data-action="pharma-toast-close"
-            className="pharmaceuticals-button2 button"
-          >
-            <svg
-              fill="none"
-              width="16"
-              xmlns="http://www.w3.org/2000/svg"
-              height="16"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <line x1="18" x2="6" y1="6" y2="18"></line>
-              <line x1="6" x2="18" y1="6" y2="18"></line>
-            </svg>
-          </button>
-        </div>
         <div>
-          <div className="pharmaceuticals-container23">
+          <div className="pharmaceuticals-container9">
             <Script
               html={`<div data-role="pharma-inline-notification" class="pharma-notification"><span class="pharma-notification__icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><polyline points="20 6 9 17 4 12"></polyline></svg></span><span class="pharma-notification__text">Thank you for submitting! We&apos;ll reach out soon.</span><button type="button" aria-label="Dismiss notification" data-action="pharma-inline-notification-close" class="pharma-notification__close"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg></button></div><div class="container23"><style>
         @keyframes pharmaToastCheck {
@@ -1447,7 +1190,7 @@ opacity: 1;}}
       </div>
       <style jsx>
         {`
-          .pharmaceuticals-container10 {
+          .pharmaceuticals-container1 {
             width: 100%;
             max-width: 100vw;
             min-height: 100vh;
@@ -1457,10 +1200,10 @@ opacity: 1;}}
             text-align: center;
             text-decoration: none;
           }
-          .pharmaceuticals-container11 {
+          .pharmaceuticals-container2 {
             display: none;
           }
-          .pharmaceuticals-container12 {
+          .pharmaceuticals-container3 {
             display: contents;
           }
           .pharmaceuticals-thq-section-content-elm23 {
@@ -1484,7 +1227,7 @@ opacity: 1;}}
             box-shadow: var(--shadow-level-2);
             border-radius: var(--border-radius-xl);
           }
-          .pharmaceuticals-thq-hidden-elm1 {
+          .pharmaceuticals-thq-hidden-elm {
             display: none;
           }
           .pharmaceuticals-thq-pharma-form-grid-elm {
@@ -1500,187 +1243,19 @@ opacity: 1;}}
             text-align: center;
             text-decoration: none;
           }
-          .pharmaceuticals-container13 {
+          .pharmaceuticals-container4 {
             display: none;
           }
-          .pharmaceuticals-container14 {
+          .pharmaceuticals-container5 {
             display: contents;
           }
-          .pharmaceuticals-container15 {
+          .pharmaceuticals-container6 {
             display: none;
           }
-          .pharmaceuticals-container16 {
+          .pharmaceuticals-container7 {
             display: contents;
           }
-          .pharmaceuticals-thq-pharma-modal-overlay-elm {
-            display: none;
-          }
-          .pharmaceuticals-thq-pharma-modal-header-elm {
-            display: flex;
-            padding: var(--spacing-xl) var(--spacing-2xl);
-            align-items: center;
-            border-bottom: 1px solid var(--color-border);
-            justify-content: space-between;
-          }
-          .pharmaceuticals-text16 {
-            color: var(--color-on-surface);
-            margin: 0;
-            font-size: var(--font-size-xl);
-            font-family: var(--font-family-heading);
-            font-weight: var(--font-weight-heading);
-          }
-          .pharmaceuticals-button1 {
-            color: var(--color-on-surface-secondary);
-            border: none;
-            cursor: pointer;
-            display: flex;
-            padding: var(--spacing-xs);
-            background: none;
-            transition: background 0.2s;
-            align-items: center;
-            border-radius: var(--border-radius-sm);
-            justify-content: center;
-          }
-          .pharmaceuticals-thq-pharma-modal-body-elm {
-            padding: var(--spacing-2xl);
-          }
-          .pharmaceuticals-thq-hidden-elm2 {
-            display: none;
-          }
-          .pharmaceuticals-container17 {
-            margin-bottom: var(--spacing-lg);
-          }
-          .pharmaceuticals-text17 {
-            color: var(--color-on-surface-secondary);
-            display: block;
-            font-size: var(--font-size-sm);
-            font-family: var(--font-family-body);
-            font-weight: var(--font-weight-medium);
-            margin-bottom: var(--spacing-xs);
-          }
-          .pharmaceuticals-textinput3 {
-            color: var(--color-on-surface);
-            width: 100%;
-            border: 1px solid var(--color-border);
-            outline: none;
-            padding: var(--spacing-md) var(--spacing-lg);
-            font-size: var(--font-size-base);
-            background: var(--color-surface);
-            transition: border-color 0.2s, box-shadow 0.2s;
-            font-family: var(--font-family-body);
-            border-radius: var(--border-radius-md);
-          }
-          .pharmaceuticals-container18 {
-            margin-bottom: var(--spacing-lg);
-          }
-          .pharmaceuticals-text18 {
-            color: var(--color-on-surface-secondary);
-            display: block;
-            font-size: var(--font-size-sm);
-            font-family: var(--font-family-body);
-            font-weight: var(--font-weight-medium);
-            margin-bottom: var(--spacing-xs);
-          }
-          .pharmaceuticals-textinput4 {
-            color: var(--color-on-surface);
-            width: 100%;
-            border: 1px solid var(--color-border);
-            outline: none;
-            padding: var(--spacing-md) var(--spacing-lg);
-            font-size: var(--font-size-base);
-            background: var(--color-surface);
-            transition: border-color 0.2s, box-shadow 0.2s;
-            font-family: var(--font-family-body);
-            border-radius: var(--border-radius-md);
-          }
-          .pharmaceuticals-container19 {
-            margin-bottom: var(--spacing-lg);
-          }
-          .pharmaceuticals-text19 {
-            color: var(--color-on-surface-secondary);
-            display: block;
-            font-size: var(--font-size-sm);
-            font-family: var(--font-family-body);
-            font-weight: var(--font-weight-medium);
-            margin-bottom: var(--spacing-xs);
-          }
-          .pharmaceuticals-textinput5 {
-            color: var(--color-on-surface);
-            width: 100%;
-            border: 1px solid var(--color-border);
-            outline: none;
-            padding: var(--spacing-md) var(--spacing-lg);
-            font-size: var(--font-size-base);
-            background: var(--color-surface);
-            transition: border-color 0.2s, box-shadow 0.2s;
-            font-family: var(--font-family-body);
-            border-radius: var(--border-radius-md);
-          }
-          .pharmaceuticals-container20 {
-            margin-bottom: var(--spacing-lg);
-          }
-          .pharmaceuticals-text20 {
-            color: var(--color-on-surface-secondary);
-            display: block;
-            font-size: var(--font-size-sm);
-            font-family: var(--font-family-body);
-            font-weight: var(--font-weight-medium);
-            margin-bottom: var(--spacing-xs);
-          }
-          .pharmaceuticals-textarea {
-            color: var(--color-on-surface);
-            width: 100%;
-            border: 1px solid var(--color-border);
-            resize: vertical;
-            outline: none;
-            padding: var(--spacing-md) var(--spacing-lg);
-            font-size: var(--font-size-base);
-            background: var(--color-surface);
-            transition: border-color 0.2s, box-shadow 0.2s;
-            font-family: var(--font-family-body);
-            border-radius: var(--border-radius-md);
-          }
-          .pharmaceuticals-container21 {
-            margin-bottom: var(--spacing-xl);
-          }
-          .pharmaceuticals-text21 {
-            color: var(--color-on-surface-secondary);
-            display: block;
-            font-size: var(--font-size-sm);
-            font-family: var(--font-family-body);
-            font-weight: var(--font-weight-medium);
-            margin-bottom: var(--spacing-xs);
-          }
-          .pharmaceuticals-textinput6 {
-            color: var(--color-on-surface-secondary);
-            width: 100%;
-            padding: var(--spacing-md) 0;
-            font-size: var(--font-size-base);
-            font-family: var(--font-family-body);
-          }
-          .pharmaceuticals-thq-btn-elm4 {
-            width: 100%;
-          }
-          .pharmaceuticals-thq-pharma-toast-elm {
-            display: none;
-          }
-          .pharmaceuticals-text22 {
-            flex: 1;
-          }
-          .pharmaceuticals-button2 {
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            display: flex;
-            opacity: 0.85;
-            padding: var(--spacing-xs);
-            background: none;
-            transition: opacity 0.2s;
-            align-items: center;
-            border-radius: var(--border-radius-sm);
-            justify-content: center;
-          }
-          .pharmaceuticals-container23 {
+          .pharmaceuticals-container9 {
             display: contents;
           }
           @media (max-width: 767px) {
@@ -1689,7 +1264,7 @@ opacity: 1;}}
             }
           }
           @media (max-width: 479px) {
-            .pharmaceuticals-text13 {
+            .pharmaceuticals-text4 {
               font-weight: bold;
             }
           }

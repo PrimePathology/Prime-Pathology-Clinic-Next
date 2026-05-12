@@ -665,29 +665,41 @@
 }
  
 .section-title {
+  overflow: visible;
   font-size: var(--font-size-3xl);
+  word-wrap: break-word;
   font-style: var(--font-style-heading);
+  min-height: auto;
   font-family: var(--font-family-heading);
   font-weight: var(--font-weight-heading);
   line-height: var(--line-height-heading);
+  white-space: normal;
   letter-spacing: var(--letter-spacing-heading);
   text-transform: var(--text-transform-heading);
 }
  
 .section-subtitle {
   opacity: 0.85;
+  overflow: visible;
   font-size: var(--font-size-lg);
+  word-wrap: break-word;
   font-style: var(--font-style-subheading);
+  min-height: auto;
   font-family: var(--font-family-heading);
   font-weight: var(--font-weight-heading);
   line-height: var(--line-height-heading);
+  white-space: normal;
 }
  
 .section-content {
+  overflow: visible;
   font-size: var(--font-size-base);
+  word-wrap: break-word;
+  min-height: auto;
   font-family: var(--font-family-body);
   font-weight: var(--font-weight-body);
   line-height: var(--line-height-body);
+  white-space: normal;
   letter-spacing: var(--letter-spacing-body);
 }
  
@@ -5542,12 +5554,18 @@
 .services-container {
   margin: 0 auto;
   padding: 0 var(--spacing-xl);
+  overflow: visible;
   max-width: var(--content-max-width);
+  min-height: auto;
 }
  
 .services-header {
+  gap: var(--spacing-lg);
   display: flex;
-  align-items: center;
+  overflow: visible;
+  flex-wrap: wrap;
+  min-height: auto;
+  align-items: flex-start;
   margin-bottom: var(--spacing-2xl);
   justify-content: space-between;
 }
@@ -6870,7 +6888,7 @@
  
 .page1-services-section {
   padding: var(--spacing-4xl) 0;
-  overflow: hidden;
+  overflow: visible;
   background: var(--color-surface);
 }
  
@@ -6882,13 +6900,16 @@
 .page1-services-carousel {
   gap: var(--spacing-xl);
   display: flex;
+  overflow: visible;
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
  
 .page1-service-card1 {
   flex: 0 0 calc(33.333% - (var(--spacing-xl) * 2 / 3));
   padding: var(--spacing-2xl);
+  overflow: visible;
   background: var(--color-surface-elevated);
+  min-height: auto;
   border-left: 4px solid var(--color-primary);
   border-radius: var(--border-radius-lg);
 }
@@ -6909,6 +6930,7 @@
  
 .page1-service-icon1 {
   color: var(--color-accent);
+  flex-shrink: 0;
   margin-bottom: var(--spacing-lg);
 }
  
@@ -12175,50 +12197,9 @@
   transition: opacity 0.3s ease;
 }
  
-.pharma-modal-overlay.pharma-modal--open {
-  display: flex;
-  opacity: 1;
-}
- 
-.pharma-modal-overlay  .pharma-modal {
-  transform: translateY(16px) scale(0.98);
-  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
-}
- 
-.pharma-modal-overlay.pharma-modal--open .pharma-modal {
-  transform: translateY(0) scale(1);
-}
- 
 
  
-.pharma-modal  input:focus {
-  box-shadow: 0 0 0 3px rgba(0, 119, 217, 0.15) !important;
-  border-color: var(--color-primary) !important;
-}
- 
-.pharma-modal  textarea:focus {
-  box-shadow: 0 0 0 3px rgba(0, 119, 217, 0.15) !important;
-  border-color: var(--color-primary) !important;
-}
- 
-.pharma-toast {
-  display: none;
-  opacity: 0;
-  transform: translateX(120%);
-  transition: opacity 0.35s ease, transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
-}
- 
-.pharma-toast.pharma-toast--visible {
-  display: flex;
-  opacity: 1;
-  transform: translateX(0);
-}
- 
 
- 
-.pharma-toast-icon  svg {
-  animation: pharmaToastCheck 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
  
 .pharma-form-header {
   text-align: center;
@@ -13466,8 +13447,10 @@
     padding-right: var(--spacing-md);
   }
   .services-header {
+    align-items: flex-start;
     padding-left: var(--spacing-md);
     padding-right: var(--spacing-md);
+    flex-direction: column;
   }
   .page-service-card1 {
     flex: 0 0 100%;
