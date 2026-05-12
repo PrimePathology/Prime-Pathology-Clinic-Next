@@ -1244,7 +1244,7 @@
   overflow: hidden;
   position: relative;
   background: var(--color-on-surface);
-  min-height: 100vh;
+  min-height: auto;
   align-items: center;
   justify-content: center;
 }
@@ -1265,7 +1265,7 @@
 .hero-content {
   color: var(--color-surface);
   width: 100%;
-  padding: var(--spacing-4xl) var(--spacing-xl);
+  padding: var(--spacing-2xl) var(--spacing-xl);
   z-index: 3;
   position: relative;
   max-width: var(--content-max-width);
@@ -1321,11 +1321,11 @@
 .hero-actions {
   gap: var(--spacing-md);
   display: flex;
-  margin-top: var(--spacing-2xl);
+  margin-top: var(--spacing-lg);
 }
  
 .quick-book-cta {
-  padding: var(--spacing-4xl) var(--spacing-xl);
+  padding: var(--spacing-2xl) var(--spacing-xl);
   background: var(--color-surface-elevated);
 }
  
@@ -1335,10 +1335,10 @@
 }
  
 .cta-card {
-  gap: var(--spacing-2xl);
+  gap: var(--spacing-xl);
   border: 1px solid var(--color-border);
   display: flex;
-  padding: var(--spacing-3xl);
+  padding: var(--spacing-xl);
   background: var(--color-surface);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
   border-radius: var(--border-radius-xl);
@@ -1368,12 +1368,12 @@
 }
  
 .treatment-approach {
-  padding: var(--spacing-4xl) 0;
+  padding: var(--spacing-2xl) 0;
   overflow: hidden;
 }
  
 .approach-split {
-  gap: var(--spacing-4xl);
+  gap: var(--spacing-2xl);
   display: flex;
   align-items: center;
 }
@@ -1384,16 +1384,16 @@
 }
  
 .approach-text {
-  gap: var(--spacing-xl);
+  gap: var(--spacing-md);
   flex: 1;
   display: flex;
-  padding: var(--spacing-xl);
+  padding: var(--spacing-md) var(--spacing-lg);
   flex-direction: column;
 }
  
 .workflow-animation-box {
   position: relative;
-  padding-right: var(--spacing-3xl);
+  padding-right: var(--spacing-xl);
 }
  
 .workflow-steps {
@@ -1405,7 +1405,7 @@
  
 .workflow-img {
   width: 100%;
-  height: 500px;
+  height: 350px;
   object-fit: cover;
   border-radius: 0 var(--border-radius-xl) var(--border-radius-xl) 0;
 }
@@ -1437,19 +1437,19 @@
  
 .services-carousel-section {
   color: var(--color-on-primary);
-  padding: var(--spacing-4xl) 0;
+  padding: var(--spacing-2xl) 0;
   background: var(--color-primary);
 }
  
 .carousel-header {
   text-align: center;
-  margin-bottom: var(--spacing-3xl);
+  margin-bottom: var(--spacing-md);
 }
  
 .carousel-viewport {
   position: relative;
   overflow-x: auto;
-  padding-bottom: var(--spacing-2xl);
+  padding-bottom: var(--spacing-md);
   scrollbar-width: none;
 }
  
@@ -1482,7 +1482,7 @@
 }
  
 .ceo-message-section {
-  padding: var(--spacing-4xl) var(--spacing-xl);
+  padding: var(--spacing-2xl) var(--spacing-xl);
 }
  
 .ceo-container {
@@ -1491,7 +1491,7 @@
 }
  
 .ceo-split {
-  gap: var(--spacing-4xl);
+  gap: var(--spacing-2xl);
   display: flex;
   align-items: center;
 }
@@ -1503,7 +1503,7 @@
  
 .ceo-content-card {
   flex: 1;
-  padding: var(--spacing-3xl);
+  padding: var(--spacing-xl);
   position: relative;
   background: var(--color-surface-elevated);
   border-radius: var(--border-radius-xl);
@@ -1529,7 +1529,7 @@
  
 .ceo-signature {
   display: flex;
-  margin-top: var(--spacing-2xl);
+  margin-top: var(--spacing-md);
   flex-direction: column;
 }
  
@@ -1596,11 +1596,11 @@
 }
  
 .lab-war-room {
-  height: 60vh;
   overflow: hidden;
   position: relative;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  min-height: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
  
 
@@ -1621,14 +1621,14 @@
  
 .slide-content {
   color: var(--color-surface);
-  padding: var(--spacing-3xl);
+  padding: var(--spacing-xl);
   background: var(--color-scrim);
   border-radius: var(--border-radius-xl);
   backdrop-filter: blur(5px);
 }
  
 .timeline-section {
-  padding: var(--spacing-4xl) var(--spacing-xl);
+  padding: var(--spacing-2xl) var(--spacing-xl);
 }
  
 .timeline-container {
@@ -1639,7 +1639,7 @@
 .accordion-group {
   gap: var(--spacing-lg);
   display: flex;
-  margin-top: var(--spacing-3xl);
+  margin-top: var(--spacing-md);
   flex-direction: column;
 }
  
@@ -4915,7 +4915,7 @@
  
 .section-header-centered {
   text-align: center;
-  margin-bottom: var(--spacing-3xl);
+  margin-bottom: var(--spacing-md);
 }
  
 .engage-grid {
@@ -5622,6 +5622,7 @@
 }
  
 .team-section {
+  padding: var(--spacing-2xl) 0;
   background: var(--color-surface-elevated);
 }
  
@@ -5632,9 +5633,9 @@
 }
  
 .team-layout {
-  gap: var(--spacing-3xl);
+  gap: var(--spacing-xl);
   display: flex;
-  margin-top: var(--spacing-3xl);
+  margin-top: var(--spacing-md);
   flex-direction: column;
 }
  
@@ -5680,7 +5681,7 @@
 .branch-frame {
   overflow: hidden;
   position: relative;
-  min-height: 320px;
+  min-height: auto;
   aspect-ratio: 4 / 4.5;
   border-radius: var(--border-radius-lg);
 }
@@ -8683,7 +8684,7 @@
  
 .departments-header {
   text-align: center;
-  margin-bottom: var(--spacing-4xl);
+  margin-bottom: var(--spacing-md);
 }
  
 .departments-header  .section-title {
@@ -8699,7 +8700,7 @@
 }
  
 .flip-card {
-  height: 320px;
+  height: 260px;
   opacity: 0;
   animation: slideUpFade 0.6s ease forwards;
   transform: translateY(40px);
@@ -8797,7 +8798,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: var(--spacing-xl);
+  padding: var(--spacing-md);
   z-index: 2;
   position: absolute;
 }
@@ -8812,7 +8813,7 @@
 }
  
 .flip-card-back-content {
-  padding: var(--spacing-xl);
+  padding: var(--spacing-md);
   text-align: center;
 }
  
@@ -8863,7 +8864,7 @@
 .mv-card {
   border: 1px solid var(--color-border);
   opacity: 0;
-  padding: var(--spacing-2xl);
+  padding: var(--spacing-lg);
   animation: mv-card-enter 0.6s ease forwards;
   transform: translateY(30px);
   background: var(--color-surface);
@@ -8896,14 +8897,14 @@
 }
  
 .mv-icon-wrapper {
-  width: 64px;
-  height: 64px;
+  width: 56px;
+  height: 56px;
   display: flex;
   background: var(--color-medical-blue-light);
   transition: all 0.3s ease;
   align-items: center;
   border-radius: var(--border-radius-md);
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
   justify-content: center;
 }
  
@@ -12480,8 +12481,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .lab-war-room {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .services-service-card {
     flex: 0 0 calc(50% - var(--spacing-xl));
@@ -13404,8 +13405,8 @@
     grid-template-columns: 1fr;
   }
   .lab-war-room {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .services-hero-title {
     font-size: var(--font-size-3xl);

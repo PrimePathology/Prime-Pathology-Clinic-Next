@@ -1095,6 +1095,23 @@ details[open] .step-number {
             </div>
           </div>
         </section>
+        <div className="home-container17">
+          <div className="home-container18">
+            <Script
+              html={`<style>
+        @keyframes float {0%,100% {transform: translateY(0) rotate(0deg);}
+50% {transform: translateY(-20px) rotate(10deg);}}@keyframes pulse {0% {transform: translate(-50%, -50%) scale(1);
+opacity: 1;}
+100% {transform: translate(-50%, -50%) scale(2);
+opacity: 0;}}@keyframes microscopeFloat {0%,100% {transform: translateY(0);}
+50% {transform: translateY(-14px);}}@keyframes orbit1 {0% {transform: translate(-50%, -50%) rotate(0deg);}
+100% {transform: translate(-50%, -50%) rotate(360deg);}}@keyframes orbit2 {0% {transform: translate(-50%, -50%) rotate(0deg);}
+100% {transform: translate(-50%, -50%) rotate(-360deg);}}@keyframes counterOrbit1 {0% {transform: rotate(0deg);}
+100% {transform: rotate(-360deg);}}
+        </style> `}
+            ></Script>
+          </div>
+        </div>
         <section
           aria-labelledby="approach-heading"
           className="page-approach-section"
@@ -1296,68 +1313,35 @@ details[open] .step-number {
             </div>
           </div>
         </section>
-        <div className="home-container17">
-          <div className="home-container18">
+        <div className="home-container19">
+          <div className="home-container20">
             <Script
               html={`<style>
-        @keyframes float {
-          0%,
-          100% {
-            transform: translateY(0) rotate(0deg);
-          }
-          50% {
-            transform: translateY(-20px) rotate(10deg);
-          }
-        }
-        @keyframes pulse {
-          0% {
-            transform: translate(-50%, -50%) scale(1);
-            opacity: 1;
-          }
-          100% {
-            transform: translate(-50%, -50%) scale(2);
-            opacity: 0;
-          }
-        }
-        @keyframes microscopeFloat {
-          0%,
-          100% {
-            transform: translateY(0);
-          }
-          50% {
-            transform: translateY(-14px);
-          }
-        }
-        @keyframes orbit1 {
-          0% {
-            transform: translate(-50%, -50%) rotate(0deg);
-          }
-          100% {
-            transform: translate(-50%, -50%) rotate(360deg);
-          }
-        }
-        @keyframes orbit2 {
-          0% {
-            transform: translate(-50%, -50%) rotate(0deg);
-          }
-          100% {
-            transform: translate(-50%, -50%) rotate(-360deg);
-          }
-        }
-        @keyframes counterOrbit1 {
-          0% {
-            transform: rotate(0deg);
-          }
-          100% {
-            transform: rotate(-360deg);
-          }
-        }
-      </style>`}
+        @keyframes fadeInUp {to {opacity: 1;
+transform: translateY(0);}}@keyframes slideUpFade {to {opacity: 1;
+transform: translateY(0);}}
+        </style> `}
             ></Script>
           </div>
         </div>
-        <div className="home-container19">
-          <div className="home-container20">
+        <div className="home-container21">
+          <div className="home-container22">
+            <Script
+              html={`<style>
+@media (hover: none) {
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg) scale(1.02);
+}
+.flip-card.flipped {
+  box-shadow: 0 12px 40px rgba(0, 119, 217, 0.25);
+}
+}
+</style>`}
+            ></Script>
+          </div>
+        </div>
+        <div className="home-container23">
+          <div className="home-container24">
             <Script
               html={`<script defer data-name="prime-pathology-animations">
 (function(){
@@ -1415,37 +1399,7 @@ details[open] .step-number {
         </div>
         <Footer></Footer>
         <div>
-          <div className="home-container22">
-            <Script
-              html={`<style>
-@keyframes fadeInUp {
-to {
-  opacity: 1;
-  transform: translateY(0);
-}
-}
-
-@keyframes slideUpFade {
-to {
-  opacity: 1;
-  transform: translateY(0);
-}
-}
-
-@media (hover: none) {
-.flip-card.flipped .flip-card-inner {
-  transform: rotateY(180deg) scale(1.02);
-}
-.flip-card.flipped {
-  box-shadow: 0 12px 40px rgba(0, 119, 217, 0.25);
-}
-}
-</style>`}
-            ></Script>
-          </div>
-        </div>
-        <div>
-          <div className="home-container24">
+          <div className="home-container26">
             <Script
               html={`<div id="info-card-overlay" class="info-card-overlay" aria-hidden="true"><div class="info-card"><button class="info-card-close" aria-label="Dismiss information card">&times;</button><h4 class="info-card-title"></h4><p class="info-card-body"></p></div></div><script>
       ;(function () {
@@ -1546,7 +1500,7 @@ to {
         {`
           .home-container10 {
             width: 100%;
-            min-height: 100vh;
+            min-height: auto;
           }
           .home-container11 {
             display: none;
@@ -1564,7 +1518,7 @@ to {
             display: contents;
           }
           .home-thq-mission-vision-section-elm {
-            padding: var(--spacing-4xl) var(--spacing-xl);
+            padding: var(--spacing-2xl) var(--spacing-xl);
             background: var(--color-surface);
           }
           .home-thq-mv-grid-elm {
@@ -1572,7 +1526,7 @@ to {
             margin: 0 auto;
             display: grid;
             max-width: var(--content-max-width);
-            padding-top: var(--spacing-3xl);
+            padding-top: var(--spacing-md);
             grid-template-columns: repeat(4, 1fr);
           }
           .home-thq-carousel-swipe-hint-elm {
@@ -1594,10 +1548,10 @@ to {
           }
           .home-thq-signature-title-elm1 {
             color: var(--color-accent);
-            font-family: '' '' '' '' '' '' '' 'Inter' '' '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' '' Inter '' '' '' '' '' '' '' '';
           }
           .home-thq-departments-elm {
-            padding: var(--spacing-4xl) var(--spacing-xl);
+            padding: var(--spacing-2xl) var(--spacing-xl);
             overflow: hidden;
             background: var(--color-surface-elevated);
           }
@@ -1679,10 +1633,19 @@ to {
           .home-container20 {
             display: contents;
           }
+          .home-container21 {
+            display: none;
+          }
           .home-container22 {
             display: contents;
           }
+          .home-container23 {
+            display: none;
+          }
           .home-container24 {
+            display: contents;
+          }
+          .home-container26 {
             display: contents;
           }
           @media (max-width: 991px) {
