@@ -163,7 +163,7 @@ const Footer = (props) => {
                         </div>
                       </a>
                     </Link>
-                    <Link href="/page">
+                    <Link href="/residential-care">
                       <a>
                         <div className="footer-thq-footer-nav-link-elm17 footer-nav-link">
                           <span>Residential Care</span>
@@ -413,10 +413,10 @@ const Footer = (props) => {
                     </div>
                   </a>
                 </Link>
-                <Link href="/page">
+                <Link href="/residential-care">
                   <a>
                     <div className="footer-thq-footer-legal-link-elm3 footer-legal-link">
-                      <span>Page</span>
+                      <span>ResidentialCare</span>
                     </div>
                   </a>
                 </Link>

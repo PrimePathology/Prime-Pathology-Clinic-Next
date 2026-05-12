@@ -99,11 +99,11 @@ const Navigation = (props) => {
                   data-thq="thq-dropdown-list"
                   className="navigation-thq-dropdown-list1"
                 >
-                  <Link href="/page">
+                  <Link href="/residential-care">
                     <a>
                       <li className="navigation-thq-navigation-menu-item-elm7 navigation-menu-item">
                         <div className="navigation-menu-link">
-                          <span>Page</span>
+                          <span>ResidentialCare</span>
                         </div>
                       </li>
                     </a>
@@ -325,10 +325,10 @@ const Navigation = (props) => {
                     </Link>
                   </li>
                   <li className="navigation-mobile-item">
-                    <Link href="/page">
+                    <Link href="/residential-care">
                       <a>
                         <div className="navigation-mobile-link">
-                          <span>Page</span>
+                          <span>ResidentialCare</span>
                         </div>
                       </a>
                     </Link>
@@ -359,10 +359,10 @@ const Navigation = (props) => {
                       className="navigation-thq-dropdown-list3"
                     >
                       <li className="navigation-mobile-item">
-                        <Link href="/page">
+                        <Link href="/residential-care">
                           <a>
                             <div className="navigation-mobile-link">
-                              <span>Page</span>
+                              <span>ResidentialCare</span>
                             </div>
                           </a>
                         </Link>
@@ -470,7 +470,8 @@ const Navigation = (props) => {
             color: var(--dl-color-theme-neutral-dark);
             font-size: 18px;
             font-style: normal;
-            font-family: '' '' '' '' '' '' '' '' Poppins '' '' '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' '' 'Poppins' '' '' '' '' '' '' ''
+              '';
             font-weight: 700;
           }
           .navigation-text12 {

@@ -67,12 +67,12 @@ details[open] .step-number {
                 You Can Trust
               </h1>
               <p className="hero-subtitle">
-                Prime Multispecialty Clinic is a comprehensive healthcare center
-                dedicated to delivering world-class clinical, pharmaceutical,
-                residential, and consultancy services. We provide integrated
-                medical care across multiple specialties—ensuring every patient
-                receives personalized, compassionate, and effective treatment
-                they can trust.
+                Prime Pathology Clinic is a comprehensive Multispecialty
+                healthcare center dedicated to delivering world-class clinical,
+                pharmaceutical, residential, and consultancy services. We
+                provide integrated medical care across multiple
+                specialties—ensuring every patient receives personalized,
+                compassionate, and effective treatment they can trust.
               </p>
               <div className="hero-actions">
                 <a href="#book-test">
@@ -100,11 +100,27 @@ details[open] .step-number {
                 </p>
               </div>
               <form
-                action="https://formspree.io/f/mgoroeqb"
+                action="https://api.web3forms.com/submit"
                 method="POST"
+                id="launch-form"
                 data-form-id="a33f611d-5fe3-4511-9995-cd119123db29"
                 className="cta-form"
               >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="2ba3f6aa-99d0-4789-9589-197107268d04"
+                  id="thq_access_key_FCnp"
+                  data-form-field-id="thq_access_key_FCnp"
+                  className="input"
+                />
+                <input
+                  type="checkbox"
+                  name="botcheck"
+                  id="thq_botcheck_A_GP"
+                  data-form-field-id="thq_botcheck_A_GP"
+                  className="home-thq-hidden-elm input"
+                />
                 <div className="form-group">
                   <input
                     type="text"
@@ -240,6 +256,53 @@ details[open] .step-number {
                   Confirm Appointment
                 </button>
               </form>
+              <div className="home-container13">
+                <div className="home-container14">
+                  <Script
+                    html={`<script>
+(function(){
+          ;(function () {
+            var form = document.getElementById("launch-form")
+            if (!form) return
+            form.addEventListener("submit", function (e) {
+              e.preventDefault()
+              var data = new FormData(form)
+              fetch(form.action, {
+                method: "POST",
+                body: data,
+              })
+                .then(function (response) {
+                  if (response.ok) {
+                    var notif = document.createElement("div")
+                    notif.style.cssText = "position:fixed;top:20px;right:20px;z-index:9999;background:#22c55e;color:#fff;padding:16px 20px;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.22);display:flex;align-items:center;gap:12px;font-family:Inter,system-ui,sans-serif;font-size:14px;transform:translateX(120%);transition:transform 0.5s ease;"
+                    notif.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Thank you for submitting! We\'ll reach out soon.</span>'
+                    document.body.appendChild(notif)
+                    requestAnimationFrame(function () {
+                      notif.style.transform = "translateX(0)"
+                    })
+                    setTimeout(function () {
+                      notif.style.opacity = "0"
+                      notif.style.transform = "translateX(120%)"
+                      notif.style.transition = "transform 0.5s ease, opacity 0.5s ease"
+                      setTimeout(function () {
+                        if (notif.parentNode) notif.parentNode.removeChild(notif)
+                      }, 500)
+                    }, 4000)
+                    form.reset()
+                  } else {
+                    alert("Something went wrong. Please try again.")
+                  }
+                })
+                .catch(function () {
+                  alert("Something went wrong. Please try again.")
+                })
+            })
+          })()
+        })()
+</script>`}
+                  ></Script>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -812,8 +875,8 @@ details[open] .step-number {
             </div>
           </div>
         </section>
-        <div className="home-container13">
-          <div className="home-container14">
+        <div className="home-container15">
+          <div className="home-container16">
             <Script
               html={`<script>
 (function(){
@@ -1003,8 +1066,8 @@ details[open] .step-number {
             </div>
           </div>
         </section>
-        <div className="home-container15">
-          <div className="home-container16">
+        <div className="home-container17">
+          <div className="home-container18">
             <Script
               html={`<style>
         @keyframes float {0%,100% {transform: translateY(0) rotate(0deg);}
@@ -1016,8 +1079,8 @@ opacity: 0;}}
             ></Script>
           </div>
         </div>
-        <div className="home-container17">
-          <div className="home-container18">
+        <div className="home-container19">
+          <div className="home-container20">
             <Script
               html={`<script defer data-name="prime-pathology-animations">
 (function(){
@@ -1075,7 +1138,7 @@ opacity: 0;}}
         </div>
         <Footer></Footer>
         <div>
-          <div className="home-container20">
+          <div className="home-container22">
             <Script
               html={`<style>
 @keyframes fadeInUp {
@@ -1105,7 +1168,7 @@ to {
           </div>
         </div>
         <div>
-          <div className="home-container22">
+          <div className="home-container24">
             <Script
               html={`<style>
 @keyframes mv-card-enter {
@@ -1131,6 +1194,15 @@ to {
           .home-container12 {
             display: contents;
           }
+          .home-thq-hidden-elm {
+            display: none;
+          }
+          .home-container13 {
+            display: none;
+          }
+          .home-container14 {
+            display: contents;
+          }
           .home-thq-mission-vision-section-elm {
             padding: var(--spacing-4xl) var(--spacing-xl);
             background: var(--color-surface);
@@ -1145,7 +1217,7 @@ to {
           }
           .home-thq-signature-title-elm1 {
             color: var(--color-accent);
-            font-family: '' '' '' '' '' 'Inter' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' Inter '' '' '' '' '' '';
           }
           .home-thq-departments-elm {
             padding: var(--spacing-4xl) var(--spacing-xl);
@@ -1159,10 +1231,10 @@ to {
             max-width: var(--content-max-width);
             grid-template-columns: repeat(3, 1fr);
           }
-          .home-container13 {
+          .home-container15 {
             display: none;
           }
-          .home-container14 {
+          .home-container16 {
             display: contents;
           }
           .home-thq-branch-card-elm1 {
@@ -1221,22 +1293,22 @@ to {
           .home-thq-parallax-slide-elm {
             background-image: url('https://images.pexels.com/photos/5726797/pexels-photo-5726797.jpeg?auto=compress&cs=tinysrgb&w=1500');
           }
-          .home-container15 {
-            display: none;
-          }
-          .home-container16 {
-            display: contents;
-          }
           .home-container17 {
             display: none;
           }
           .home-container18 {
             display: contents;
           }
+          .home-container19 {
+            display: none;
+          }
           .home-container20 {
             display: contents;
           }
           .home-container22 {
+            display: contents;
+          }
+          .home-container24 {
             display: contents;
           }
           @media (max-width: 991px) {

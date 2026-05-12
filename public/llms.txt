@@ -5,7 +5,7 @@
 ## Pages
 
 - [Histopathology - Prime Pathology Clinic](https://patho.teleporthq.site/histopathology)
-- [Page - Prime Pathology Clinic](https://patho.teleporthq.site/page)
+- [ResidentialCare - Prime Pathology Clinic](https://patho.teleporthq.site/residentialcare)
 - [Services - Prime Pathology Clinic](https://patho.teleporthq.site/services)
 - [Prime Pathology Clinic](https://patho.teleporthq.site)
 - [Terms-of-Service - Prime Pathology Clinic](https://patho.teleporthq.site/terms-of-service)
