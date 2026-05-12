@@ -347,7 +347,7 @@ const Footer = (props) => {
                       </svg>
                     </div>
                     <span className="section-content footer-thq-section-content-elm7">
-                      info@primemultispecialtyclinic.com
+                      info@primepathologyclinic.com
                     </span>
                   </div>
                 </a>
@@ -438,19 +438,26 @@ const Footer = (props) => {
                   </a>
                 </Link>
               </div>
-              <div className="footer-credit">
-                <p className="section-content">
-                  <span>
-                    Designed &amp; Developed by
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span className="footer-text30">Volues</span>
-                </p>
-              </div>
+              <a
+                href="https://volues.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div className="footer-thq-footer-credit-elm footer-credit">
+                  <p className="section-content">
+                    <span>Designed &amp; Developed by</span>
+                    <span className="footer-text30">
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                    <span className="footer-text31">www.v</span>
+                    <span className="footer-text32">olues.com</span>
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
         </footer>
@@ -575,8 +582,17 @@ socialIcons.forEach(icon => {
           .footer-thq-footer-legal-link-elm5 {
             text-decoration: none;
           }
+          .footer-thq-footer-credit-elm {
+            text-decoration: none;
+          }
           .footer-text30 {
-            color: var(--color-primary);
+            color: var(--color-secondary);
+          }
+          .footer-text31 {
+            color: var(--color-secondary);
+          }
+          .footer-text32 {
+            color: var(--color-secondary);
             font-weight: 700;
           }
           .footer-container2 {
@@ -601,6 +617,10 @@ socialIcons.forEach(icon => {
             }
             .footer-thq-section-content-elm7 {
               font-size: 16px;
+            }
+            .footer-text32 {
+              color: var(--color-primary);
+              font-weight: 700;
             }
           }
         `}
