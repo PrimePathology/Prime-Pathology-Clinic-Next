@@ -1037,6 +1037,23 @@ details[open] .step-number {
             </div>
           </div>
         </section>
+        <div className="home-container17">
+          <div className="home-container18">
+            <Script
+              html={`<style>
+        @keyframes float {0%,100% {transform: translateY(0) rotate(0deg);}
+50% {transform: translateY(-20px) rotate(10deg);}}@keyframes pulse {0% {transform: translate(-50%, -50%) scale(1);
+opacity: 1;}
+100% {transform: translate(-50%, -50%) scale(2);
+opacity: 0;}}@keyframes microscopeFloat {0%,100% {transform: translateY(0);}
+50% {transform: translateY(-14px);}}@keyframes orbit1 {0% {transform: translate(-50%, -50%) rotate(0deg);}
+100% {transform: translate(-50%, -50%) rotate(360deg);}}@keyframes orbit2 {0% {transform: translate(-50%, -50%) rotate(0deg);}
+100% {transform: translate(-50%, -50%) rotate(-360deg);}}@keyframes counterOrbit1 {0% {transform: rotate(0deg);}
+100% {transform: rotate(-360deg);}}
+        </style> `}
+            ></Script>
+          </div>
+        </div>
         <section className="timeline-section">
           <div className="timeline-container">
             <h2 className="section-title">Your Journey to Wellness</h2>
@@ -1095,19 +1112,191 @@ details[open] .step-number {
             </div>
           </div>
         </section>
-        <div className="home-container17">
-          <div className="home-container18">
+        <div className="home-container19">
+          <div className="home-container20">
             <Script
               html={`<style>
-        @keyframes float {0%,100% {transform: translateY(0) rotate(0deg);}
-50% {transform: translateY(-20px) rotate(10deg);}}@keyframes pulse {0% {transform: translate(-50%, -50%) scale(1);
-opacity: 1;}
-100% {transform: translate(-50%, -50%) scale(2);
-opacity: 0;}}@keyframes microscopeFloat {0%,100% {transform: translateY(0);}
-50% {transform: translateY(-14px);}}@keyframes orbit1 {0% {transform: translate(-50%, -50%) rotate(0deg);}
-100% {transform: translate(-50%, -50%) rotate(360deg);}}@keyframes orbit2 {0% {transform: translate(-50%, -50%) rotate(0deg);}
-100% {transform: translate(-50%, -50%) rotate(-360deg);}}@keyframes counterOrbit1 {0% {transform: rotate(0deg);}
-100% {transform: rotate(-360deg);}}
+        @keyframes fadeInUp {to {opacity: 1;
+transform: translateY(0);}}@keyframes slideUpFade {to {opacity: 1;
+transform: translateY(0);}}
+        </style> `}
+            ></Script>
+          </div>
+        </div>
+        <div className="home-container21">
+          <div className="home-container22">
+            <Script
+              html={`<style>
+@media (hover: none) {
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg) scale(1.02);
+}
+.flip-card.flipped {
+  box-shadow: 0 12px 40px rgba(0, 119, 217, 0.25);
+}
+}
+</style>`}
+            ></Script>
+          </div>
+        </div>
+        <div className="home-container23">
+          <div className="home-container24">
+            <Script
+              html={`<script>
+(function(){
+    ;(function () {
+      // Simple scroll reveal observer
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      }
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = "1"
+            entry.target.style.transform = "translateY(0)"
+            revealObserver.unobserve(entry.target)
+          }
+        })
+      }, observerOptions)
+      // Apply to sections
+      document.querySelectorAll(".section-title, .cta-card, .service-card, .team-member").forEach((el) => {
+        el.style.opacity = "0"
+        el.style.transform = "translateY(30px)"
+        el.style.transition = "all 0.6s ease-out"
+        revealObserver.observe(el)
+      })
+      // Parallax Effect for Lab War Room
+      window.addEventListener("scroll", () => {
+        const warRoom = document.querySelector(".parallax-slide")
+        if (warRoom) {
+          const scrollValue = window.scrollY
+          const sectionTop = warRoom.offsetTop
+          const speed = 0.3
+          if (scrollValue > sectionTop - window.innerHeight) {
+            warRoom.style.backgroundPositionY = \`\\\${(scrollValue - sectionTop) * speed}px\`
+          }
+        }
+      })
+      // Handle form submission UX
+      const ctaForm = document.querySelector(".cta-form")
+      if (ctaForm) {
+        ctaForm.addEventListener("submit", (e) => {
+          // Native behavior is preserved, we just add a loading state
+          const btn = ctaForm.querySelector("button")
+          btn.innerText = "Processing..."
+          btn.style.opacity = "0.7"
+        })
+      }
+    })()
+  })()
+</script>`}
+            ></Script>
+          </div>
+        </div>
+        <div
+          id="info-card-overlay"
+          aria-hidden="true"
+          className="info-card-overlay"
+        >
+          <div className="info-card">
+            <button
+              aria-label="Dismiss information card"
+              className="info-card-close button"
+            >
+              ×
+            </button>
+            <h4 className="info-card-title"></h4>
+            <p className="info-card-body"></p>
+          </div>
+        </div>
+        <div className="home-container25">
+          <div className="home-container26">
+            <Script
+              html={`<script>
+(function(){
+    ;(function () {
+      const overlay = document.getElementById("info-card-overlay")
+      const card = overlay.querySelector(".info-card")
+      const titleEl = card.querySelector(".info-card-title")
+      const bodyEl = card.querySelector(".info-card-body")
+      const closeBtn = card.querySelector(".info-card-close")
+      let activeTimer = null
+      function showCard(stepItem) {
+        // Close any existing card first
+        hideCard()
+        const title = stepItem.getAttribute("data-info-title")
+        const body = stepItem.getAttribute("data-info-body")
+        if (!title || !body) return
+        titleEl.textContent = title
+        bodyEl.textContent = body
+        // Position near the step item
+        const rect = stepItem.getBoundingClientRect()
+        const scrollTop = window.scrollY || document.documentElement.scrollTop
+        const scrollLeft = window.scrollX || document.documentElement.scrollLeft
+        overlay.style.top = rect.bottom + scrollTop + 8 + "px"
+        overlay.style.left = rect.left + scrollLeft + "px"
+        overlay.style.width = rect.width + "px"
+        overlay.classList.add("active")
+        overlay.setAttribute("aria-hidden", "false")
+        // Auto-dismiss after 6 seconds with smooth fade-out
+        activeTimer = setTimeout(() => {
+          overlay.classList.add("fading")
+          overlay.classList.remove("active")
+          setTimeout(() => {
+            overlay.classList.remove("fading")
+            overlay.setAttribute("aria-hidden", "true")
+          }, 500)
+        }, 6000)
+      }
+      function hideCard() {
+        if (activeTimer) {
+          clearTimeout(activeTimer)
+          activeTimer = null
+        }
+        overlay.classList.add("fading")
+        overlay.classList.remove("active")
+        setTimeout(() => {
+          overlay.classList.remove("fading")
+          overlay.setAttribute("aria-hidden", "true")
+        }, 500)
+      }
+      // Close button click
+      closeBtn.addEventListener("click", (e) => {
+        e.stopPropagation()
+        hideCard()
+      })
+      // Bind to step items
+      document.querySelectorAll("[data-info-card]").forEach((step) => {
+        step.addEventListener("click", (e) => {
+          e.stopPropagation()
+          showCard(step)
+        })
+        step.addEventListener("mouseenter", () => {
+          showCard(step)
+        })
+        step.addEventListener("mouseleave", () => {
+          // Optional: hide on mouseleave if desired; currently kept open for readability
+        })
+      })
+      // Hide when clicking outside
+      document.addEventListener("click", (e) => {
+        if (!overlay.contains(e.target)) {
+          hideCard()
+        }
+      })
+    })()
+  })()
+</script>`}
+            ></Script>
+          </div>
+        </div>
+        <div className="home-container27">
+          <div className="home-container28">
+            <Script
+              html={`<style>
+        @keyframes mv-card-enter {to {opacity: 1;
+transform: translateY(0);}}
         </style> `}
             ></Script>
           </div>
@@ -1313,194 +1502,16 @@ opacity: 0;}}@keyframes microscopeFloat {0%,100% {transform: translateY(0);}
             </div>
           </div>
         </section>
-        <div className="home-container19">
-          <div className="home-container20">
-            <Script
-              html={`<style>
-        @keyframes fadeInUp {to {opacity: 1;
-transform: translateY(0);}}@keyframes slideUpFade {to {opacity: 1;
-transform: translateY(0);}}
-        </style> `}
-            ></Script>
-          </div>
-        </div>
-        <div className="home-container21">
-          <div className="home-container22">
-            <Script
-              html={`<style>
-@media (hover: none) {
-.flip-card.flipped .flip-card-inner {
-  transform: rotateY(180deg) scale(1.02);
-}
-.flip-card.flipped {
-  box-shadow: 0 12px 40px rgba(0, 119, 217, 0.25);
-}
-}
-</style>`}
-            ></Script>
-          </div>
-        </div>
-        <div className="home-container23">
-          <div className="home-container24">
-            <Script
-              html={`<script defer data-name="prime-pathology-animations">
-(function(){
-  // Simple scroll reveal observer
-  const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
-  };
-
-  const revealObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.style.opacity = '1';
-        entry.target.style.transform = 'translateY(0)';
-        revealObserver.unobserve(entry.target);
-      }
-    });
-  }, observerOptions);
-
-  // Apply to sections
-  document.querySelectorAll('.section-title, .cta-card, .service-card, .team-member').forEach(el => {
-    el.style.opacity = '0';
-    el.style.transform = 'translateY(30px)';
-    el.style.transition = 'all 0.6s ease-out';
-    revealObserver.observe(el);
-  });
-
-  // Parallax Effect for Lab War Room
-  window.addEventListener('scroll', () => {
-    const warRoom = document.querySelector('.parallax-slide');
-    if (warRoom) {
-      const scrollValue = window.scrollY;
-      const sectionTop = warRoom.offsetTop;
-      const speed = 0.3;
-      if (scrollValue > sectionTop - window.innerHeight) {
-        warRoom.style.backgroundPositionY = \`\${(scrollValue - sectionTop) * speed}px\`;
-      }
-    }
-  });
-
-  // Handle form submission UX
-  const ctaForm = document.querySelector('.cta-form');
-  if (ctaForm) {
-    ctaForm.addEventListener('submit', (e) => {
-      // Native behavior is preserved, we just add a loading state
-      const btn = ctaForm.querySelector('button');
-      btn.innerText = 'Processing...';
-      btn.style.opacity = '0.7';
-    });
-  }
-})()
-</script>`}
-            ></Script>
-          </div>
-        </div>
         <Footer></Footer>
-        <div>
-          <div className="home-container26">
-            <Script
-              html={`<div id="info-card-overlay" class="info-card-overlay" aria-hidden="true"><div class="info-card"><button class="info-card-close" aria-label="Dismiss information card">&times;</button><h4 class="info-card-title"></h4><p class="info-card-body"></p></div></div><script>
-      ;(function () {
-        const overlay = document.getElementById("info-card-overlay")
-        const card = overlay.querySelector(".info-card")
-        const titleEl = card.querySelector(".info-card-title")
-        const bodyEl = card.querySelector(".info-card-body")
-        const closeBtn = card.querySelector(".info-card-close")
-        let activeTimer = null
-
-        function showCard(stepItem) {
-          // Close any existing card first
-          hideCard()
-
-          const title = stepItem.getAttribute("data-info-title")
-          const body = stepItem.getAttribute("data-info-body")
-          if (!title || !body) return
-
-          titleEl.textContent = title
-          bodyEl.textContent = body
-
-          // Position near the step item
-          const rect = stepItem.getBoundingClientRect()
-          const scrollTop = window.scrollY || document.documentElement.scrollTop
-          const scrollLeft = window.scrollX || document.documentElement.scrollLeft
-
-          overlay.style.top = rect.bottom + scrollTop + 8 + "px"
-          overlay.style.left = rect.left + scrollLeft + "px"
-          overlay.style.width = rect.width + "px"
-
-          overlay.classList.add("active")
-          overlay.setAttribute("aria-hidden", "false")
-
-          // Auto-dismiss after 6 seconds with smooth fade-out
-          activeTimer = setTimeout(() => {
-            overlay.classList.add("fading")
-            overlay.classList.remove("active")
-            setTimeout(() => {
-              overlay.classList.remove("fading")
-              overlay.setAttribute("aria-hidden", "true")
-            }, 500)
-          }, 6000)
-        }
-
-        function hideCard() {
-          if (activeTimer) {
-            clearTimeout(activeTimer)
-            activeTimer = null
-          }
-          overlay.classList.add("fading")
-          overlay.classList.remove("active")
-          setTimeout(() => {
-            overlay.classList.remove("fading")
-            overlay.setAttribute("aria-hidden", "true")
-          }, 500)
-        }
-
-        // Close button click
-        closeBtn.addEventListener("click", (e) => {
-          e.stopPropagation()
-          hideCard()
-        })
-
-        // Bind to step items
-        document.querySelectorAll("[data-info-card]").forEach((step) => {
-          step.addEventListener("click", (e) => {
-            e.stopPropagation()
-            showCard(step)
-          })
-          step.addEventListener("mouseenter", () => {
-            showCard(step)
-          })
-          step.addEventListener("mouseleave", () => {
-            // Optional: hide on mouseleave if desired; currently kept open for readability
-          })
-        })
-
-        // Hide when clicking outside
-        document.addEventListener("click", (e) => {
-          if (!overlay.contains(e.target)) {
-            hideCard()
-          }
-        })
-      })()
-    </script><div class="container24"><style>
-        @keyframes mv-card-enter {
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-      </style></div>`}
-            ></Script>
-          </div>
-        </div>
       </div>
       <style jsx>
         {`
           .home-container10 {
             width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
             min-height: auto;
+            overflow-x: hidden;
           }
           .home-container11 {
             display: none;
@@ -1548,7 +1559,7 @@ transform: translateY(0);}}
           }
           .home-thq-signature-title-elm1 {
             color: var(--color-accent);
-            font-family: '' '' '' '' '' '' '' '' Inter '' '' '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' '' 'Inter' '' '' '' '' '' '' '' '';
           }
           .home-thq-departments-elm {
             padding: var(--spacing-2xl) var(--spacing-xl);
@@ -1645,7 +1656,16 @@ transform: translateY(0);}}
           .home-container24 {
             display: contents;
           }
+          .home-container25 {
+            display: none;
+          }
           .home-container26 {
+            display: contents;
+          }
+          .home-container27 {
+            display: none;
+          }
+          .home-container28 {
             display: contents;
           }
           @media (max-width: 991px) {
