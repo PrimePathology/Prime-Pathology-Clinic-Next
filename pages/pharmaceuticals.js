@@ -1022,15 +1022,41 @@ const Pharmaceuticals = (props) => {
           <div className="pharmaceuticals-container5">
             <Script
               html={`<style>
-        @keyframes float {0%,100% {transform: translateY(0) scale(1);}
-50% {transform: translateY(-30px) scale(1.1);}}@keyframes scroll {from {transform: translateX(0);}
-to {transform: translateX(-50%);}}@keyframes pulse {0% {transform: scale(1);
-opacity: 1;}
-50% {transform: scale(1.5);
-opacity: 0.5;}
-100% {transform: scale(1);
-opacity: 1;}}
-        </style> `}
+        @keyframes float {
+          0%,
+          100% {
+            transform: translateY(0) scale(1);
+          }
+          50% {
+            transform: translateY(-30px) scale(1.1);
+          }
+        }
+        @keyframes scroll {
+          from {
+            transform: translateX(0);
+          }
+          to {
+            transform: translateX(-50%);
+          }
+        }
+        @keyframes pulse {
+          0% {
+            transform: scale(1);
+            opacity: 1;
+          }
+          50% {
+            transform: scale(1.5);
+            opacity: 0.5;
+          }
+          100% {
+            transform: scale(1);
+            opacity: 1;
+          }
+        }
+        html {
+          scroll-behavior: smooth;
+        }
+      </style>`}
             ></Script>
           </div>
         </div>

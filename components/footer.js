@@ -584,19 +584,19 @@ socialIcons.forEach(icon => {
           .footer-text30 {
             color: var(--color-secondary);
             font-style: normal;
-            font-family: '' 'Inter' '';
+            font-family: '' '' Inter '' '';
             font-weight: 700;
           }
           .footer-text31 {
             color: var(--color-secondary);
             font-style: normal;
-            font-family: '' 'Inter' '';
+            font-family: '' '' Inter '' '';
             font-weight: 700;
           }
           .footer-text32 {
             color: var(--color-secondary);
             font-style: normal;
-            font-family: '' 'Inter' '';
+            font-family: '' '' Inter '' '';
             font-weight: 700;
           }
           .footer-container2 {
