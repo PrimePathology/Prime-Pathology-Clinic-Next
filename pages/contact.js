@@ -251,7 +251,7 @@ const Contact = (props) => {
                 </div>
                 <img
                   alt="Lagos Lab"
-                  src="https://images.pexels.com/photos/5721680/pexels-photo-5721680.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="https://videos.pexels.com/video-files/8534100/8534100-hd_1920_1080_30fps.mp4"
                   className="office-info__img"
                 />
                 <div className="office-info__body">
@@ -731,12 +731,12 @@ const Contact = (props) => {
                 <div className="specialist-team__image-wrapper">
                   <img
                     alt="Lab Coordinator"
-                    src="https://images.pexels.com/photos/5726811/pexels-photo-5726811.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.pexels.com/photos/5452188/pexels-photo-5452188.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="specialist-team__img"
                   />
                 </div>
                 <div className="specialist-team__info">
-                  <h3 className="section-subtitle">Kofi Mensah</h3>
+                  <h3 className="section-subtitle">John Divine</h3>
                   <span className="specialist-team__role">
                     Lab Operations Manager
                   </span>
@@ -761,12 +761,12 @@ const Contact = (props) => {
                 <div className="specialist-team__image-wrapper">
                   <img
                     alt="Patient Liaison"
-                    src="https://images.pexels.com/photos/8442574/pexels-photo-8442574.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.pexels.com/photos/4989177/pexels-photo-4989177.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="specialist-team__img"
                   />
                 </div>
                 <div className="specialist-team__info">
-                  <h3 className="section-subtitle">Amina Belhadj</h3>
+                  <h3 className="section-subtitle">Ferdinand Joseph</h3>
                   <span className="specialist-team__role">
                     Patient Liaison Officer
                   </span>

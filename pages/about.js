@@ -60,11 +60,9 @@ const About = (props) => {
                     <span>Our Approach</span>
                   </div>
                 </a>
-                <a href="#team">
-                  <div className="btn btn-outline btn-lg">
-                    <span>Meet Our Team</span>
-                  </div>
-                </a>
+                <div className="btn btn-outline btn-lg">
+                  <span>Meet Our Team</span>
+                </div>
               </div>
             </div>
           </div>
@@ -142,7 +140,7 @@ const About = (props) => {
                 <div className="treatment-image-wrapper">
                   <img
                     alt="Scientists analyzing samples in a modern lab"
-                    src="https://images.pexels.com/photos/5726789/pexels-photo-5726789.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.pexels.com/photos/4989179/pexels-photo-4989179.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     className="treatment-main-img"
                   />
                   <div className="treatment-floating-card">
@@ -414,148 +412,6 @@ const About = (props) => {
                   </div>
                 </div>
               </details>
-            </div>
-          </div>
-        </section>
-        <section id="team" className="about-management-team">
-          <div className="team-wrapper">
-            <div className="team-header">
-              <h2 className="section-title">Our Management Team</h2>
-              <p className="section-subtitle">
-                The brilliant minds driving diagnostic excellence.
-              </p>
-            </div>
-            <div className="about-team-grid">
-              <div className="about-team-member">
-                <div className="member-image-box">
-                  <img
-                    alt="Chief Pathologist"
-                    src="/ceo5-1500w.png"
-                    className="member-img"
-                  />
-                  <div className="member-overlay">
-                    <p className="section-content">
-                      Auwalu Garba Hussain, PhD, is the CEO and Director i a
-                      seasoned medical scientist with years of experience
-                      leading clinical and diagnostic excellence.
-                    </p>
-                  </div>
-                </div>
-                <div className="about-member-info">
-                  <h3 className="member-name">Auwalu Garba Hussain PhD</h3>
-                  <span className="about-member-role">CEO &amp; Director</span>
-                </div>
-              </div>
-              <div className="about-team-member">
-                <div className="member-image-box">
-                  <img
-                    alt="Lab Scientist"
-                    src="/maryam-1500w.jpg"
-                    className="member-img"
-                  />
-                  <div className="member-overlay">
-                    <p className="section-content">
-                      Specializing in molecular diagnostics and genomic
-                      sequencing for personalized medicine.
-                    </p>
-                  </div>
-                </div>
-                <div className="about-member-info">
-                  <h3 className="member-name">Maryam Mohammed Maitama</h3>
-                  <span className="about-member-role">
-                    Country Director, Liberia
-                  </span>
-                </div>
-              </div>
-              <div className="about-team-member">
-                <div className="member-image-box">
-                  <img
-                    alt="Operations Manager"
-                    src="/aisha2-1500w.jpg"
-                    className="member-img"
-                  />
-                  <div className="member-overlay">
-                    <p className="section-content">
-                      Ensuring seamless laboratory operations and international
-                      logistics for sample transport.
-                    </p>
-                  </div>
-                </div>
-                <div className="about-member-info">
-                  <h3 className="member-name">Aisha Garba Othman</h3>
-                  <span className="about-member-role">
-                    Country Director, Tanzania
-                  </span>
-                </div>
-              </div>
-              <div className="about-team-member">
-                <div className="member-image-box">
-                  <img
-                    alt="Quality Assurance"
-                    src="/fauziyya-1500w.jpg"
-                    className="member-img"
-                  />
-                  <div className="member-overlay">
-                    <p className="section-content">
-                      Overseeing ISO compliance and rigorous internal quality
-                      control measures.
-                    </p>
-                  </div>
-                </div>
-                <div className="about-member-info">
-                  <h3 className="member-name">Fauziya Ahmed Bello</h3>
-                  <span className="about-member-role">
-                    Country Director, Rwanda
-                  </span>
-                </div>
-              </div>
-              <div className="about-team-member">
-                <div className="member-image-box">
-                  <img
-                    alt="Technician Lead"
-                    src="/karimatu-1500w.png"
-                    className="member-img"
-                  />
-                  <div className="member-overlay">
-                    <p className="section-content">
-                      Managing our fleet of automated diagnostic machines and
-                      robotic lab systems.
-                    </p>
-                  </div>
-                </div>
-                <div className="about-member-info">
-                  <h3 className="member-name">Karimatu Abdullahi Zakari</h3>
-                  <span className="about-member-role">
-                    Country Director, Nigeria
-                  </span>
-                </div>
-              </div>
-              <div className="about-team-member">
-                <div className="member-image-box">
-                  <img
-                    alt="Patient Care Lead"
-                    src="https://images.pexels.com/photos/32254655/pexels-photo-32254655.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    className="member-img"
-                  />
-                  <div className="member-overlay">
-                    <p className="section-content">
-                      <span>
-                        Dr. Wehyee, Medical Director, ensures clinical
-                        excellence and patient safety.
-                      </span>
-                      <br></br>
-                      <span>
-                        A board-certified general surgeon with strong leadership
-                        expertise.
-                      </span>
-                    </p>
-                  </div>
-                </div>
-                <div className="about-member-info">
-                  <h3 className="member-name">Dr. Joseph K Wehyee</h3>
-                  <span className="about-member-role">Medical Director</span>
-                </div>
-              </div>
             </div>
           </div>
         </section>

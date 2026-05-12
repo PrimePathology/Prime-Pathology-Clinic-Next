@@ -398,7 +398,7 @@ const Footer = (props) => {
             <div className="footer-bottom-bar">
               <div className="footer-copyright">
                 <p className="section-content">
-                  2026 Prime Residential Care. All Rights Reserved.
+                  2026 Prime Pathology Clinic. All Rights Reserved.
                 </p>
               </div>
               <div className="footer-legal-links">
@@ -587,12 +587,20 @@ socialIcons.forEach(icon => {
           }
           .footer-text30 {
             color: var(--color-secondary);
+            font-style: normal;
+            font-family: 'Inter';
+            font-weight: 700;
           }
           .footer-text31 {
             color: var(--color-secondary);
+            font-style: normal;
+            font-family: 'Inter';
+            font-weight: 700;
           }
           .footer-text32 {
             color: var(--color-secondary);
+            font-style: normal;
+            font-family: 'Inter';
             font-weight: 700;
           }
           .footer-container2 {
@@ -617,10 +625,6 @@ socialIcons.forEach(icon => {
             }
             .footer-thq-section-content-elm7 {
               font-size: 16px;
-            }
-            .footer-text32 {
-              color: var(--color-primary);
-              font-weight: 700;
             }
           }
         `}
