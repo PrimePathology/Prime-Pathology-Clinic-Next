@@ -726,7 +726,7 @@ details[open] .step-number {
                       General Hospital Services, Medical &amp; Dental Practice,
                       Prime Diagnostic Center
                     </p>
-                    <Link href="/services">
+                    <Link href="/hospital">
                       <a>
                         <div className="flip-card-btn">
                           <span>Explore</span>

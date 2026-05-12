@@ -17,3 +17,4 @@
 - [Team - Prime Pathology Clinic](https://patho.teleporthq.site/team)
 - [Hormonal-Profile - Prime Pathology Clinic](https://patho.teleporthq.site/hormonal-profile)
 - [Contact - Prime Pathology Clinic](https://patho.teleporthq.site/contact)
+- [Hospital - Prime Pathology Clinic](https://patho.teleporthq.site/hospital)
