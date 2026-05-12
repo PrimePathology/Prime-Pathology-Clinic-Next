@@ -708,7 +708,7 @@ details[open] .step-number {
                 <div className="flip-card-front">
                   <img
                     alt="Clinical &amp; Hospital Department"
-                    src="https://images.pexels.com/photos/6129677/pexels-photo-6129677.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.unsplash.com/photo-1601841197690-6f0838bdb005?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDcyfHxwYXRpZW50fGVufDB8fHx8MTc3ODU5MzA1M3ww&amp;ixlib=rb-4.1.0&amp;w=1500"
                     className="flip-card-img"
                   />
                   <div className="flip-card-front-content">
