@@ -251,7 +251,7 @@ const Contact = (props) => {
                 </div>
                 <img
                   alt="Lagos Lab"
-                  src="https://videos.pexels.com/video-files/8534100/8534100-hd_1920_1080_30fps.mp4"
+                  src="https://images.unsplash.com/photo-1581093577421-f561a654a353?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDl8fGxhYnxlbnwwfHx8fDE3Nzg1OTI3NTB8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                   className="office-info__img"
                 />
                 <div className="office-info__body">
@@ -316,7 +316,7 @@ const Contact = (props) => {
                 </div>
                 <img
                   alt="Abuja Lab"
-                  src="https://images.pexels.com/photos/5726702/pexels-photo-5726702.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="https://images.unsplash.com/photo-1581594549595-35f6edc7b762?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE2fHxsYWJ8ZW58MHx8fHwxNzc4NTkyNzUwfDA&amp;ixlib=rb-4.1.0&amp;w=1500"
                   className="office-info__img"
                 />
                 <div className="office-info__body">
