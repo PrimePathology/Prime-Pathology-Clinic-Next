@@ -328,7 +328,12 @@ details[open] .step-number {
                 departments.
               </p>
               <div className="workflow-steps">
-                <div className="step-item">
+                <div
+                  data-info-card="protocols"
+                  data-info-title="Standardized Protocols"
+                  data-info-body="We follow globally recognized clinical guidelines and evidence-based protocols to ensure every patient receives consistent, safe, and high-quality care across all our departments."
+                  className="step-item"
+                >
                   <div className="step-icon">
                     <svg
                       width="24"
@@ -348,7 +353,12 @@ details[open] .step-number {
                   </div>
                   <span>Standardized Protocols</span>
                 </div>
-                <div className="step-item">
+                <div
+                  data-info-card="healthcare"
+                  data-info-title="Integrated Healthcare"
+                  data-info-body="Our departments work seamlessly together — from diagnostics and pharmacy to residential care and research — delivering coordinated, patient-centered treatment under one roof."
+                  className="step-item"
+                >
                   <div className="step-icon">
                     <svg
                       width="24"
@@ -496,6 +506,26 @@ details[open] .step-number {
           </div>
           <div className="carousel-viewport">
             <div className="carousel-track">
+              <div
+                aria-hidden="true"
+                className="home-thq-carousel-swipe-hint-elm"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2.5"
+                    d="M5 12h14m-7-7l7 7l-7 7"
+                  ></path>
+                </svg>
+              </div>
               <div className="service-card">
                 <div className="service-icon">
                   <svg
@@ -1169,14 +1199,97 @@ to {
         <div>
           <div className="home-container24">
             <Script
-              html={`<style>
-@keyframes mv-card-enter {
-to {
-  opacity: 1;
-  transform: translateY(0);
-}
-}
-</style>`}
+              html={`<div id="info-card-overlay" class="info-card-overlay" aria-hidden="true"><div class="info-card"><button class="info-card-close" aria-label="Dismiss information card">&times;</button><h4 class="info-card-title"></h4><p class="info-card-body"></p></div></div><script>
+      ;(function () {
+        const overlay = document.getElementById("info-card-overlay")
+        const card = overlay.querySelector(".info-card")
+        const titleEl = card.querySelector(".info-card-title")
+        const bodyEl = card.querySelector(".info-card-body")
+        const closeBtn = card.querySelector(".info-card-close")
+        let activeTimer = null
+
+        function showCard(stepItem) {
+          // Close any existing card first
+          hideCard()
+
+          const title = stepItem.getAttribute("data-info-title")
+          const body = stepItem.getAttribute("data-info-body")
+          if (!title || !body) return
+
+          titleEl.textContent = title
+          bodyEl.textContent = body
+
+          // Position near the step item
+          const rect = stepItem.getBoundingClientRect()
+          const scrollTop = window.scrollY || document.documentElement.scrollTop
+          const scrollLeft = window.scrollX || document.documentElement.scrollLeft
+
+          overlay.style.top = rect.bottom + scrollTop + 8 + "px"
+          overlay.style.left = rect.left + scrollLeft + "px"
+          overlay.style.width = rect.width + "px"
+
+          overlay.classList.add("active")
+          overlay.setAttribute("aria-hidden", "false")
+
+          // Auto-dismiss after 6 seconds with smooth fade-out
+          activeTimer = setTimeout(() => {
+            overlay.classList.add("fading")
+            overlay.classList.remove("active")
+            setTimeout(() => {
+              overlay.classList.remove("fading")
+              overlay.setAttribute("aria-hidden", "true")
+            }, 500)
+          }, 6000)
+        }
+
+        function hideCard() {
+          if (activeTimer) {
+            clearTimeout(activeTimer)
+            activeTimer = null
+          }
+          overlay.classList.add("fading")
+          overlay.classList.remove("active")
+          setTimeout(() => {
+            overlay.classList.remove("fading")
+            overlay.setAttribute("aria-hidden", "true")
+          }, 500)
+        }
+
+        // Close button click
+        closeBtn.addEventListener("click", (e) => {
+          e.stopPropagation()
+          hideCard()
+        })
+
+        // Bind to step items
+        document.querySelectorAll("[data-info-card]").forEach((step) => {
+          step.addEventListener("click", (e) => {
+            e.stopPropagation()
+            showCard(step)
+          })
+          step.addEventListener("mouseenter", () => {
+            showCard(step)
+          })
+          step.addEventListener("mouseleave", () => {
+            // Optional: hide on mouseleave if desired; currently kept open for readability
+          })
+        })
+
+        // Hide when clicking outside
+        document.addEventListener("click", (e) => {
+          if (!overlay.contains(e.target)) {
+            hideCard()
+          }
+        })
+      })()
+    </script><div class="container24"><style>
+        @keyframes mv-card-enter {
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      </style></div>`}
             ></Script>
           </div>
         </div>
@@ -1214,9 +1327,26 @@ to {
             padding-top: var(--spacing-3xl);
             grid-template-columns: repeat(4, 1fr);
           }
+          .home-thq-carousel-swipe-hint-elm {
+            top: 50%;
+            color: var(--color-primary);
+            right: 12px;
+            width: 48px;
+            height: 48px;
+            display: flex;
+            z-index: 10;
+            position: absolute;
+            transform: translateY(-50%);
+            background: var(--color-surface);
+            box-shadow: var(--shadow-level-2);
+            align-items: center;
+            border-radius: var(--border-radius-full);
+            pointer-events: none;
+            justify-content: center;
+          }
           .home-thq-signature-title-elm1 {
             color: var(--color-accent);
-            font-family: '' '' '' '' '' '' Inter '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' Inter '' '' '' '' '' '' '';
           }
           .home-thq-departments-elm {
             padding: var(--spacing-4xl) var(--spacing-xl);
@@ -1312,6 +1442,11 @@ to {
               gap: var(--spacing-xl);
               grid-template-columns: repeat(2, 1fr);
             }
+            .home-thq-carousel-swipe-hint-elm {
+              right: 8px;
+              width: 44px;
+              height: 44px;
+            }
             .home-thq-flip-cards-grid-elm {
               grid-template-columns: repeat(2, 1fr);
             }
@@ -1330,6 +1465,11 @@ to {
           @media (max-width: 479px) {
             .home-thq-approach-visual-elm {
               align-self: stretch;
+            }
+            .home-thq-carousel-swipe-hint-elm {
+              right: 6px;
+              width: 40px;
+              height: 40px;
             }
             .home-thq-branch-overlay-elm1 {
               top: -96px;

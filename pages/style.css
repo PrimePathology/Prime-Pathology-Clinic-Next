@@ -1435,6 +1435,7 @@
 }
  
 .carousel-viewport {
+  position: relative;
   overflow-x: auto;
   padding-bottom: var(--spacing-2xl);
   scrollbar-width: none;
@@ -11726,6 +11727,85 @@
  
 
  
+.info-card-overlay {
+  opacity: 0;
+  z-index: 9999;
+  position: absolute;
+  transform: translateY(8px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+  pointer-events: none;
+}
+ 
+.info-card-overlay.active {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+ 
+.info-card {
+  border: 1px solid var(--color-border);
+  padding: var(--spacing-lg);
+  position: relative;
+  max-width: 320px;
+  min-width: 240px;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-level-2);
+  border-radius: var(--border-radius-lg);
+}
+ 
+.info-card-close {
+  top: var(--spacing-sm);
+  color: var(--color-on-surface-secondary);
+  right: var(--spacing-sm);
+  width: 24px;
+  border: none;
+  cursor: pointer;
+  height: 24px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  font-size: 1.2rem;
+  background: none;
+  transition: background 0.2s ease, color 0.2s ease;
+  align-items: center;
+  line-height: 1;
+  border-radius: var(--border-radius-sm);
+  justify-content: center;
+}
+ 
+.info-card-close:hover {
+  color: var(--color-on-surface);
+  background: var(--color-neutral);
+}
+ 
+.info-card-title {
+  color: var(--color-on-surface);
+  margin: 0 var(--spacing-xl) 0 0;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-heading);
+  line-height: var(--line-height-heading);
+}
+ 
+.info-card-body {
+  color: var(--color-on-surface-secondary);
+  margin: var(--spacing-sm) 0 0 0;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-family-body);
+  line-height: var(--line-height-body);
+}
+ 
+.info-card-overlay.fading {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  pointer-events: none;
+}
+ 
+.info-card-overlay.fading .info-card {
+  pointer-events: none;
+}
+ 
 .BodyFont {
   font-size: 1rem;
   font-family: Inter;
@@ -12600,6 +12680,21 @@
   .site-footer__contact-col {
     width: 100%;
     min-width: unset;
+  }
+  .info-card-overlay {
+    top: auto !important;
+    left: 50% !important;
+    width: calc(100% - 2rem) !important;
+    bottom: 1rem;
+    position: fixed;
+    max-width: 400px;
+    transform: translateX(-50%) translateY(8px);
+  }
+  .info-card-overlay.active {
+    transform: translateX(-50%) translateY(0);
+  }
+  .info-card-overlay.fading {
+    transform: translateX(-50%) translateY(8px);
   }
 }
  

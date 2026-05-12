@@ -589,7 +589,7 @@ const ResidentialCare = (props) => {
                   <div className="service-card__img-wrap">
                     <img
                       alt="Blood test samples being handled in laboratory"
-                      src="https://images.pexels.com/photos/8460340/pexels-photo-8460340.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      src="https://images.pexels.com/photos/8460340/pexels-photo-8460340.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       loading="lazy"
                       className="service-card__img"
                     />
@@ -659,7 +659,7 @@ const ResidentialCare = (props) => {
                   <div className="service-card__img-wrap">
                     <img
                       alt="DNA testing microscope and vials in laboratory"
-                      src="https://images.pexels.com/photos/8442033/pexels-photo-8442033.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      src="https://images.pexels.com/photos/8442033/pexels-photo-8442033.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       loading="lazy"
                       className="service-card__img"
                     />
@@ -730,7 +730,7 @@ const ResidentialCare = (props) => {
                   <div className="service-card__img-wrap">
                     <img
                       alt="Scientist with protective gear doing infection screening"
-                      src="https://images.pexels.com/photos/9574332/pexels-photo-9574332.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      src="https://images.pexels.com/photos/9574332/pexels-photo-9574332.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       loading="lazy"
                       className="service-card__img"
                     />
@@ -802,7 +802,7 @@ const ResidentialCare = (props) => {
                   <div className="service-card__img-wrap">
                     <img
                       alt="Pathologist using microscope for histopathology"
-                      src="https://images.pexels.com/photos/6129879/pexels-photo-6129879.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                      src="https://images.pexels.com/photos/6129879/pexels-photo-6129879.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
                       loading="lazy"
                       className="service-card__img"
                     />
@@ -1300,117 +1300,6 @@ const ResidentialCare = (props) => {
           </div>
         </section>
         <section
-          aria-labelledby="team-heading"
-          className="page-team-section team-section"
-        >
-          <div className="team-section__inner">
-            <div className="team-section__header">
-              <div className="team-section__label">
-                <span>Our People</span>
-              </div>
-              <h2
-                id="team-heading"
-                className="team-section__title section-title"
-              >
-                Management Team
-              </h2>
-              <p className="team-section__subtitle section-content">
-                Driven by excellence and united by purpose — meet the experts
-                behind every diagnosis.
-              </p>
-            </div>
-            <div className="team-grid page-team-grid">
-              <article
-                aria-label="Dr. Fatima Al-Hassan, Chief Pathologist"
-                className="page-team-card"
-              >
-                <div className="team-card__img-wrap">
-                  <img
-                    alt="Dr. Fatima Al-Hassan, Chief Pathologist"
-                    src="https://images.pexels.com/photos/5452195/pexels-photo-5452195.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    loading="lazy"
-                    className="team-card__img"
-                  />
-                  <div className="team-card__reveal">
-                    <p className="team-card__bio section-content">
-                      A leading pathologist with 18 years of experience in
-                      histopathology, haematology, and clinical diagnostics
-                      across West Africa and the Middle East.
-                    </p>
-                    <a href="#">
-                      <div className="team-card__link">
-                        <span>View Profile</span>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="team-card__info">
-                  <h3 className="team-card__name">Dr. Fatima Al-Hassan</h3>
-                  <span className="team-card__role">Chief Pathologist</span>
-                </div>
-              </article>
-              <article
-                aria-label="Emmanuel Osei, Senior Lab Scientist"
-                className="page-team-card"
-              >
-                <div className="team-card__img-wrap">
-                  <img
-                    alt="Emmanuel Osei, Senior Lab Scientist"
-                    src="https://images.pexels.com/photos/8851629/pexels-photo-8851629.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    loading="lazy"
-                    className="team-card__img"
-                  />
-                  <div className="team-card__reveal">
-                    <p className="team-card__bio section-content">
-                      Specialist in molecular biology and infection screening,
-                      Emmanuel leads our PCR and advanced genomics unit with
-                      precision and passion.
-                    </p>
-                    <a href="#">
-                      <div className="team-card__link">
-                        <span>View Profile</span>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="team-card__info">
-                  <h3 className="team-card__name">Emmanuel Osei</h3>
-                  <span className="team-card__role">Senior Lab Scientist</span>
-                </div>
-              </article>
-              <article
-                aria-label="Amina Benali, Lab Technician Lead"
-                className="page-team-card"
-              >
-                <div className="team-card__img-wrap">
-                  <img
-                    alt="Amina Benali, Lab Technician Lead"
-                    src="https://images.pexels.com/photos/8442532/pexels-photo-8442532.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    loading="lazy"
-                    className="team-card__img"
-                  />
-                  <div className="team-card__reveal">
-                    <p className="team-card__bio section-content">
-                      Amina oversees sample processing, equipment calibration,
-                      and quality control protocols ensuring every test meets
-                      our stringent accuracy standards.
-                    </p>
-                    <a href="#">
-                      <div className="team-card__link">
-                        <span>View Profile</span>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="team-card__info">
-                  <h3 className="team-card__name">Amina Benali</h3>
-                  <span className="team-card__role">Lab Technician Lead</span>
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
-        <section
           aria-labelledby="partners-heading"
           className="page-partners-section"
         >
@@ -1522,17 +1411,17 @@ const ResidentialCare = (props) => {
           <div className="timeline-section__inner">
             <div className="timeline-section__header">
               <div className="timeline-section__label">
-                <span>Our Diagnostic Flow</span>
+                <span>Our Residential Care Journey</span>
               </div>
               <h2
                 id="timeline-heading"
                 className="section-title timeline-section__title"
               >
-                Process Timeline
+                Residential Care Timeline
               </h2>
               <p className="timeline-section__subtitle section-content">
-                From sample collection to result delivery — every step is
-                precise, transparent, and patient-focused.
+                From the first inquiry to lifelong alumni support — every stage
+                is personalized, dignified, and family-centered.
               </p>
             </div>
             <div className="timeline-accordion">
@@ -1549,19 +1438,27 @@ const ResidentialCare = (props) => {
                         height="22"
                         viewBox="0 0 24 24"
                       >
-                        <path
-                          d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                        <g
                           fill="none"
                           stroke="currentColor"
-                          strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                        ></path>
-                        <circle r="3" cx="12" cy="10"></circle>
+                          strokeWidth="2"
+                        >
+                          <rect
+                            width="8"
+                            height="4"
+                            x="8"
+                            y="2"
+                            rx="1"
+                            ry="1"
+                          ></rect>
+                          <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                        </g>
                       </svg>
                     </div>
                     <span className="timeline-item__title">
-                      Sample Collection
+                      Initial Inquiry &amp; Needs Assessment
                     </span>
                   </div>
                   <div aria-hidden="true" className="timeline-item__chevron">
@@ -1584,13 +1481,9 @@ const ResidentialCare = (props) => {
                 </summary>
                 <div className="timeline-item__body">
                   <p className="section-content">
-                    Our certified phlebotomists and collection specialists
-                    ensure every sample — blood, urine, tissue, or swab — is
-                    collected following strict sterile protocols. Patients can
-                    visit our clinic or schedule a home collection service for
-                    added convenience. All samples are labeled, logged, and
-                    transported under controlled conditions to preserve
-                    integrity.
+                    Understanding individual needs, medical history, and
+                    preferences through detailed consultations with families and
+                    caregivers.
                   </p>
                 </div>
               </details>
@@ -1608,7 +1501,7 @@ const ResidentialCare = (props) => {
                         viewBox="0 0 24 24"
                       >
                         <path
-                          d="M6 18h8M3 22h18m-7 0a7 7 0 1 0 0-14h-1m-4 6h2m-2-2a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Zm3-6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"
+                          d="M17.8 19.2L16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8L4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1l3 2l2 3l1-1v-3l3-2l3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2"
                           fill="none"
                           stroke="currentColor"
                           strokeWidth="2"
@@ -1617,7 +1510,9 @@ const ResidentialCare = (props) => {
                         ></path>
                       </svg>
                     </div>
-                    <span className="timeline-item__title">Lab Analysis</span>
+                    <span className="timeline-item__title">
+                      Personalized Care Plan Development
+                    </span>
                   </div>
                   <div aria-hidden="true" className="timeline-item__chevron">
                     <svg
@@ -1639,12 +1534,8 @@ const ResidentialCare = (props) => {
                 </summary>
                 <div className="timeline-item__body">
                   <p className="section-content">
-                    Samples proceed immediately to our state-of-the-art analysis
-                    laboratory. Our automated platforms and expert scientists
-                    perform multi-parametric testing simultaneously, utilizing
-                    PCR, immunoassay, microscopy, and culture techniques.
-                    Quality control checkpoints at every stage ensure that
-                    results meet our zero-error standard before proceeding.
+                    Crafting a tailored care strategy involving medical,
+                    therapeutic, nutritional, and lifestyle requirements.
                   </p>
                 </div>
               </details>
@@ -1664,74 +1555,17 @@ const ResidentialCare = (props) => {
                         <g
                           fill="none"
                           stroke="currentColor"
-                          strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                        >
-                          <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77a4 4 0 0 1 6.74 0a4 4 0 0 1 4.78 4.78a4 4 0 0 1 0 6.74a4 4 0 0 1-4.77 4.78a4 4 0 0 1-6.75 0a4 4 0 0 1-4.78-4.77a4 4 0 0 1 0-6.76"></path>
-                          <path d="m9 12l2 2l4-4"></path>
-                        </g>
-                      </svg>
-                    </div>
-                    <span className="timeline-item__title">Diagnosis</span>
-                  </div>
-                  <div aria-hidden="true" className="timeline-item__chevron">
-                    <svg
-                      width="20"
-                      xmlns="http://www.w3.org/2000/svg"
-                      height="20"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="m6 9l6 6l6-6"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                    </svg>
-                  </div>
-                </summary>
-                <div className="timeline-item__body">
-                  <p className="section-content">
-                    Our senior pathologists and consultant scientists review all
-                    analytical data before forming a clinical interpretation.
-                    This diagnostic review process includes cross-referencing
-                    with patient history, running confirmatory tests where
-                    necessary, and documenting findings with clinical precision.
-                    Our consultants are available for direct communication with
-                    referring physicians.
-                  </p>
-                </div>
-              </details>
-              <details className="page-timeline-item3">
-                <summary className="timeline-item__summary">
-                  <div aria-hidden="true" className="timeline-item__step-num">
-                    <span>04</span>
-                  </div>
-                  <div className="timeline-item__header-content">
-                    <div className="timeline-item__icon">
-                      <svg
-                        width="22"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="22"
-                        viewBox="0 0 24 24"
-                      >
-                        <g
-                          fill="none"
-                          stroke="currentColor"
                           strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
                         >
-                          <path d="M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8"></path>
-                          <path d="m22 7l-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7m14 12l2 2l4-4"></path>
+                          <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
+                          <path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
                         </g>
                       </svg>
                     </div>
                     <span className="timeline-item__title">
-                      Result Delivery
+                      Home Visit &amp; Environment Assessment
                     </span>
                   </div>
                   <div aria-hidden="true" className="timeline-item__chevron">
@@ -1754,12 +1588,644 @@ const ResidentialCare = (props) => {
                 </summary>
                 <div className="timeline-item__body">
                   <p className="section-content">
-                    Completed results are delivered securely via our digital
-                    patient portal, direct email, or physical copy — whichever
-                    the patient prefers. Critical results are communicated
-                    immediately by phone to the referring physician. Our support
-                    team remains available to assist patients and physicians in
-                    understanding their reports and next steps.
+                    Evaluating the living space for safety, accessibility, and
+                    comfort before admission.
+                  </p>
+                </div>
+              </details>
+              <details className="page-timeline-item3">
+                <summary className="timeline-item__summary">
+                  <div aria-hidden="true" className="timeline-item__step-num">
+                    <span>04</span>
+                  </div>
+                  <div className="timeline-item__header-content">
+                    <div className="timeline-item__icon">
+                      <svg
+                        width="22"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="22"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                        >
+                          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                          <circle cx="9" cy="7" r="4"></circle>
+                          <path d="M19 8v6m3-3h-6"></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <span className="timeline-item__title">
+                      Admission &amp; Onboarding
+                    </span>
+                  </div>
+                  <div aria-hidden="true" className="timeline-item__chevron">
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9l6 6l6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </summary>
+                <div className="timeline-item__body">
+                  <p className="section-content">
+                    Welcoming residents with guided orientation, documentation,
+                    and introduction to staff and routines.
+                  </p>
+                </div>
+              </details>
+              <details className="page-timeline-item3">
+                <summary className="timeline-item__summary">
+                  <div aria-hidden="true" className="timeline-item__step-num">
+                    <span>05</span>
+                  </div>
+                  <div className="timeline-item__header-content">
+                    <div className="timeline-item__icon">
+                      <svg
+                        width="22"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="22"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                        >
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <path d="m16.24 7.76l-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <span className="timeline-item__title">
+                      Orientation &amp; Settling In
+                    </span>
+                  </div>
+                  <div aria-hidden="true" className="timeline-item__chevron">
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9l6 6l6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </summary>
+                <div className="timeline-item__body">
+                  <p className="section-content">
+                    Helping residents adapt through social integration,
+                    familiarization with facilities, and emotional support.
+                  </p>
+                </div>
+              </details>
+              <details className="page-timeline-item3">
+                <summary className="timeline-item__summary">
+                  <div aria-hidden="true" className="timeline-item__step-num">
+                    <span>06</span>
+                  </div>
+                  <div className="timeline-item__header-content">
+                    <div className="timeline-item__icon">
+                      <svg
+                        width="22"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="22"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                        >
+                          <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path>
+                          <path d="M3.22 13H9.5l.5-1l2 4.5l2-7l1.5 3.5h5.27"></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <span className="timeline-item__title">
+                      Daily Living &amp; Personal Care Support
+                    </span>
+                  </div>
+                  <div aria-hidden="true" className="timeline-item__chevron">
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9l6 6l6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </summary>
+                <div className="timeline-item__body">
+                  <p className="section-content">
+                    Assisting with bathing, dressing, mobility, meals, and
+                    medication management with dignity.
+                  </p>
+                </div>
+              </details>
+              <details className="page-timeline-item3">
+                <summary className="timeline-item__summary">
+                  <div aria-hidden="true" className="timeline-item__step-num">
+                    <span>07</span>
+                  </div>
+                  <div className="timeline-item__header-content">
+                    <div className="timeline-item__icon">
+                      <svg
+                        width="22"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="22"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                        >
+                          <path d="M11 2v2M5 2v2m0-1H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"></path>
+                          <path d="M8 15a6 6 0 0 0 12 0v-3"></path>
+                          <circle cx="20" cy="10" r="2"></circle>
+                        </g>
+                      </svg>
+                    </div>
+                    <span className="timeline-item__title">
+                      Health Monitoring &amp; Medical Oversight
+                    </span>
+                  </div>
+                  <div aria-hidden="true" className="timeline-item__chevron">
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9l6 6l6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </summary>
+                <div className="timeline-item__body">
+                  <p className="section-content">
+                    Regular vital checks, chronic condition management, and
+                    coordination with physicians.
+                  </p>
+                </div>
+              </details>
+              <details className="page-timeline-item3">
+                <summary className="timeline-item__summary">
+                  <div aria-hidden="true" className="timeline-item__step-num">
+                    <span>08</span>
+                  </div>
+                  <div className="timeline-item__header-content">
+                    <div className="timeline-item__icon">
+                      <svg
+                        width="22"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="22"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span className="timeline-item__title">
+                      Therapeutic &amp; Rehabilitation Services
+                    </span>
+                  </div>
+                  <div aria-hidden="true" className="timeline-item__chevron">
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9l6 6l6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </summary>
+                <div className="timeline-item__body">
+                  <p className="section-content">
+                    Physical, occupational, and speech therapy sessions tailored
+                    to resident goals.
+                  </p>
+                </div>
+              </details>
+              <details className="page-timeline-item3">
+                <summary className="timeline-item__summary">
+                  <div aria-hidden="true" className="timeline-item__step-num">
+                    <span>09</span>
+                  </div>
+                  <div className="timeline-item__header-content">
+                    <div className="timeline-item__icon">
+                      <svg
+                        width="22"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="22"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                        >
+                          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                          <circle cx="9" cy="7" r="4"></circle>
+                        </g>
+                      </svg>
+                    </div>
+                    <span className="timeline-item__title">
+                      Social &amp; Recreational Engagement
+                    </span>
+                  </div>
+                  <div aria-hidden="true" className="timeline-item__chevron">
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9l6 6l6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </summary>
+                <div className="timeline-item__body">
+                  <p className="section-content">
+                    Organized activities, community events, hobbies, and outings
+                    to promote mental well-being.
+                  </p>
+                </div>
+              </details>
+              <details className="page-timeline-item3">
+                <summary className="timeline-item__summary">
+                  <div aria-hidden="true" className="timeline-item__step-num">
+                    <span>10</span>
+                  </div>
+                  <div className="timeline-item__header-content">
+                    <div className="timeline-item__icon">
+                      <svg
+                        width="22"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="22"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2M7 2v20m14-7V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2zm0 0v7"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span className="timeline-item__title">
+                      Nutritional Planning &amp; Dietary Management
+                    </span>
+                  </div>
+                  <div aria-hidden="true" className="timeline-item__chevron">
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9l6 6l6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </summary>
+                <div className="timeline-item__body">
+                  <p className="section-content">
+                    Customized meal plans accommodating medical diets,
+                    allergies, and personal preferences.
+                  </p>
+                </div>
+              </details>
+              <details className="page-timeline-item3">
+                <summary className="timeline-item__summary">
+                  <div aria-hidden="true" className="timeline-item__step-num">
+                    <span>11</span>
+                  </div>
+                  <div className="timeline-item__header-content">
+                    <div className="timeline-item__icon">
+                      <svg
+                        width="22"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="22"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092a10 10 0 1 0-4.777-4.719"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span className="timeline-item__title">
+                      Regular Care Reviews &amp; Family Updates
+                    </span>
+                  </div>
+                  <div aria-hidden="true" className="timeline-item__chevron">
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9l6 6l6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </summary>
+                <div className="timeline-item__body">
+                  <p className="section-content">
+                    Scheduled evaluations of care plans with transparent
+                    communication to families.
+                  </p>
+                </div>
+              </details>
+              <details className="page-timeline-item3">
+                <summary className="timeline-item__summary">
+                  <div aria-hidden="true" className="timeline-item__step-num">
+                    <span>12</span>
+                  </div>
+                  <div className="timeline-item__header-content">
+                    <div className="timeline-item__icon">
+                      <svg
+                        width="22"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="22"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span className="timeline-item__title">
+                      Specialized Interventions &amp; Crisis Response
+                    </span>
+                  </div>
+                  <div aria-hidden="true" className="timeline-item__chevron">
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9l6 6l6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </summary>
+                <div className="timeline-item__body">
+                  <p className="section-content">
+                    Rapid response to emergencies, behavioral support, and
+                    specialized medical interventions.
+                  </p>
+                </div>
+              </details>
+              <details className="page-timeline-item3">
+                <summary className="timeline-item__summary">
+                  <div aria-hidden="true" className="timeline-item__step-num">
+                    <span>13</span>
+                  </div>
+                  <div className="timeline-item__header-content">
+                    <div className="timeline-item__icon">
+                      <svg
+                        width="22"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="22"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span className="timeline-item__title">
+                      Palliative &amp; End-of-Life Care
+                    </span>
+                  </div>
+                  <div aria-hidden="true" className="timeline-item__chevron">
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9l6 6l6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </summary>
+                <div className="timeline-item__body">
+                  <p className="section-content">
+                    Compassionate, dignified support focusing on comfort, pain
+                    management, and emotional care.
+                  </p>
+                </div>
+              </details>
+              <details className="page-timeline-item3">
+                <summary className="timeline-item__summary">
+                  <div aria-hidden="true" className="timeline-item__step-num">
+                    <span>14</span>
+                  </div>
+                  <div className="timeline-item__header-content">
+                    <div className="timeline-item__icon">
+                      <svg
+                        width="22"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="22"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5 12h14m-7-7l7 7l-7 7"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span className="timeline-item__title">
+                      Discharge or Transition Planning
+                    </span>
+                  </div>
+                  <div aria-hidden="true" className="timeline-item__chevron">
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9l6 6l6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </summary>
+                <div className="timeline-item__body">
+                  <p className="section-content">
+                    Preparing residents for return home or transfer to other
+                    facilities with continuity of care.
+                  </p>
+                </div>
+              </details>
+              <details className="page-timeline-item3">
+                <summary className="timeline-item__summary">
+                  <div aria-hidden="true" className="timeline-item__step-num">
+                    <span>15</span>
+                  </div>
+                  <div className="timeline-item__header-content">
+                    <div className="timeline-item__icon">
+                      <svg
+                        width="22"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="22"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span className="timeline-item__title">
+                      Post-Care Follow-Up &amp; Alumni Support
+                    </span>
+                  </div>
+                  <div aria-hidden="true" className="timeline-item__chevron">
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m6 9l6 6l6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </summary>
+                <div className="timeline-item__body">
+                  <p className="section-content">
+                    Ongoing check-ins, community access, and support even after
+                    leaving the facility.
                   </p>
                 </div>
               </details>
