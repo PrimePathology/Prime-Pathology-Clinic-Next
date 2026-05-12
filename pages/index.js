@@ -100,24 +100,24 @@ details[open] .step-number {
                 </p>
               </div>
               <form
+                id="launch-form"
                 action="https://api.web3forms.com/submit"
                 method="POST"
-                id="launch-form"
                 data-form-id="a33f611d-5fe3-4511-9995-cd119123db29"
                 className="cta-form"
               >
                 <input
                   type="hidden"
+                  id="thq_access_key_FCnp"
                   name="access_key"
                   value="2ba3f6aa-99d0-4789-9589-197107268d04"
-                  id="thq_access_key_FCnp"
                   data-form-field-id="thq_access_key_FCnp"
                   className="input"
                 />
                 <input
                   type="checkbox"
-                  name="botcheck"
                   id="thq_botcheck_A_GP"
+                  name="botcheck"
                   data-form-field-id="thq_botcheck_A_GP"
                   className="home-thq-hidden-elm input"
                 />
@@ -329,9 +329,9 @@ details[open] .step-number {
               </p>
               <div className="workflow-steps">
                 <div
+                  data-info-body="We follow globally recognized clinical guidelines and evidence-based protocols to ensure every patient receives consistent, safe, and high-quality care across all our departments."
                   data-info-card="protocols"
                   data-info-title="Standardized Protocols"
-                  data-info-body="We follow globally recognized clinical guidelines and evidence-based protocols to ensure every patient receives consistent, safe, and high-quality care across all our departments."
                   className="step-item"
                 >
                   <div className="step-icon">
@@ -354,9 +354,9 @@ details[open] .step-number {
                   <span>Standardized Protocols</span>
                 </div>
                 <div
+                  data-info-body="Our departments work seamlessly together — from diagnostics and pharmacy to residential care and research — delivering coordinated, patient-centered treatment under one roof."
                   data-info-card="healthcare"
                   data-info-title="Integrated Healthcare"
-                  data-info-body="Our departments work seamlessly together — from diagnostics and pharmacy to residential care and research — delivering coordinated, patient-centered treatment under one roof."
                   className="step-item"
                 >
                   <div className="step-icon">
@@ -511,18 +511,18 @@ details[open] .step-number {
                 className="home-thq-carousel-swipe-hint-elm"
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   width="32"
+                  xmlns="http://www.w3.org/2000/svg"
                   height="32"
                   viewBox="0 0 24 24"
                 >
                   <path
+                    d="M5 12h14m-7-7l7 7l-7 7"
                     fill="none"
                     stroke="currentColor"
+                    strokeWidth="2.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    d="M5 12h14m-7-7l7 7l-7 7"
                   ></path>
                 </svg>
               </div>

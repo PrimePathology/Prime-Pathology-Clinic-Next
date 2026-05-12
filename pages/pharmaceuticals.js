@@ -42,9 +42,9 @@ const Pharmaceuticals = (props) => {
               src="https://videos.pexels.com/video-files/8670925/8670925-hd_1080_1920_25fps.mp4"
               loop="true"
               muted="true"
+              poster="https://images.pexels.com/videos/7033622/pictures/preview-0.jpeg"
               autoPlay="true"
               playsInline="true"
-              poster="https://images.pexels.com/videos/7033622/pictures/preview-0.jpeg"
               className="hero-video"
             ></video>
             <div className="page1-hero-overlay1"></div>
@@ -69,13 +69,12 @@ const Pharmaceuticals = (props) => {
                 personalized pharmaceutical care for every patient.
               </p>
               <div className="hero-actions">
-                <button
-                  type="button"
-                  data-action="launch-modal-btn"
+                <a
+                  href="#pharma-form-section"
                   className="pharmaceuticals-thq-thq-btn-elm1-elm btn btn-primary btn-lg button"
                 >
                   <span>Inquire About Prescription</span>
-                </button>
+                </a>
                 <a href="#about">
                   <div className="btn btn-outline btn-lg">
                     <span>Our Services</span>
@@ -167,90 +166,83 @@ const Pharmaceuticals = (props) => {
           <div className="pharmaceuticals-container12">
             <Script
               html={`<script>
-(function(){
-  ;(function () {
-    var modal = document.querySelector('[data-role="pharma-modal"]')
-    var openBtn = document.querySelector('[data-action="launch-modal-btn"]')
-    var closeBtn = document.querySelector('[data-action="pharma-modal-close"]')
-    var toast = document.querySelector('[data-role="pharma-toast"]')
-    var toastClose = document.querySelector('[data-action="pharma-toast-close"]')
-    var form = document.getElementById("launch-form")
-    var toastTimer = null
-
-    function openModal() {
-      if (!modal) return
-      modal.style.display = "flex"
-      document.body.style.overflow = "hidden"
-      modal.classList.add("pharma-modal--open")
-    }
-
-    function closeModal() {
-      if (!modal) return
-      modal.style.display = "none"
-      document.body.style.overflow = ""
-      modal.classList.remove("pharma-modal--open")
-    }
-
-    function showToast() {
-      if (!toast) return
-      toast.style.display = "flex"
-      toast.classList.add("pharma-toast--visible")
-      if (toastTimer) clearTimeout(toastTimer)
-      toastTimer = setTimeout(function () {
-        hideToast()
-      }, 4000)
-    }
-
-    function hideToast() {
-      if (!toast) return
-      toast.classList.remove("pharma-toast--visible")
-      setTimeout(function () {
-        if (!toast.classList.contains("pharma-toast--visible")) {
-          toast.style.display = "none"
-        }
-      }, 350)
-    }
-
-    if (openBtn) openBtn.addEventListener("click", openModal)
-    if (closeBtn) closeBtn.addEventListener("click", closeModal)
-    if (modal)
-      modal.addEventListener("click", function (e) {
-        if (e.target === modal) closeModal()
-      })
-    if (toastClose) toastClose.addEventListener("click", hideToast)
-
-    if (form) {
-      form.addEventListener("submit", function (e) {
-        e.preventDefault()
-        var data = new FormData(form)
-        fetch(form.action, { method: "POST", body: data })
-          .then(function (res) {
-            return res.json()
-          })
-          .then(function (result) {
-            if (result.success) {
-              closeModal()
-              form.reset()
-              showToast()
-            } else {
-              alert("Submission failed. Please try again.")
+        ;(function () {
+          ;(function () {
+            var modal = document.querySelector('[data-role="pharma-modal"]')
+            var openBtn = document.querySelector('[data-action="launch-modal-btn"]')
+            var closeBtn = document.querySelector('[data-action="pharma-modal-close"]')
+            var toast = document.querySelector('[data-role="pharma-toast"]')
+            var toastClose = document.querySelector('[data-action="pharma-toast-close"]')
+            var form = document.getElementById("modal-launch-form")
+            var toastTimer = null
+            function openModal() {
+              if (!modal) return
+              modal.style.display = "flex"
+              document.body.style.overflow = "hidden"
+              modal.classList.add("pharma-modal--open")
             }
-          })
-          .catch(function () {
-            alert("An error occurred. Please try again.")
-          })
-      })
-    }
-
-    document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape") {
-        closeModal()
-        hideToast()
-      }
-    })
-  })()
-})()
-</script>`}
+            function closeModal() {
+              if (!modal) return
+              modal.style.display = "none"
+              document.body.style.overflow = ""
+              modal.classList.remove("pharma-modal--open")
+            }
+            function showToast() {
+              if (!toast) return
+              toast.style.display = "flex"
+              toast.classList.add("pharma-toast--visible")
+              if (toastTimer) clearTimeout(toastTimer)
+              toastTimer = setTimeout(function () {
+                hideToast()
+              }, 4000)
+            }
+            function hideToast() {
+              if (!toast) return
+              toast.classList.remove("pharma-toast--visible")
+              setTimeout(function () {
+                if (!toast.classList.contains("pharma-toast--visible")) {
+                  toast.style.display = "none"
+                }
+              }, 350)
+            }
+            if (openBtn) openBtn.addEventListener("click", openModal)
+            if (closeBtn) closeBtn.addEventListener("click", closeModal)
+            if (modal)
+              modal.addEventListener("click", function (e) {
+                if (e.target === modal) closeModal()
+              })
+            if (toastClose) toastClose.addEventListener("click", hideToast)
+            if (form) {
+              form.addEventListener("submit", function (e) {
+                e.preventDefault()
+                var data = new FormData(form)
+                fetch(form.action, { method: "POST", body: data })
+                  .then(function (res) {
+                    return res.json()
+                  })
+                  .then(function (result) {
+                    if (result.success) {
+                      closeModal()
+                      form.reset()
+                      showToast()
+                    } else {
+                      alert("Submission failed. Please try again.")
+                    }
+                  })
+                  .catch(function () {
+                    alert("An error occurred. Please try again.")
+                  })
+              })
+            }
+            document.addEventListener("keydown", function (e) {
+              if (e.key === "Escape") {
+                closeModal()
+                hideToast()
+              }
+            })
+          })()
+        })()
+      </script>`}
             ></Script>
           </div>
         </div>
@@ -403,7 +395,7 @@ const Pharmaceuticals = (props) => {
                       strokeLinejoin="round"
                     >
                       <path d="M8 2v4m8-4v4"></path>
-                      <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                      <rect x="3" y="4" rx="2" width="18" height="18"></rect>
                       <path d="M3 10h18"></path>
                     </svg>
                   </div>
@@ -477,12 +469,12 @@ const Pharmaceuticals = (props) => {
                       strokeLinejoin="round"
                     >
                       <rect
-                        width="8"
-                        height="4"
                         x="8"
                         y="2"
                         rx="1"
                         ry="1"
+                        width="8"
+                        height="4"
                       ></rect>
                       <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
                     </svg>
@@ -792,6 +784,140 @@ const Pharmaceuticals = (props) => {
             </div>
           </div>
         </section>
+        <section
+          id="pharma-form-section"
+          data-section="pharma-form-section"
+          className="pharmaceuticals-thq-page1-pharma-form-section-elm"
+        >
+          <div className="pharmaceuticals-thq-pharma-form-container-elm">
+            <div className="pharma-form-header">
+              <h2 className="section-title">Pharmaceutical Services Inquiry</h2>
+              <p className="section-content">
+                Submit your prescription or pharmaceutical inquiry and our team
+                will reach out to you shortly.
+              </p>
+            </div>
+            <form
+              id="launch-form"
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              data-form-id="492e2d76-4bfc-4884-9143-5ba341dfe6da"
+              encType="multipart/form-data"
+              className="pharmaceuticals-thq-pharma-inline-form-elm"
+            >
+              <input
+                type="hidden"
+                id="thq_access_key_qJkA"
+                name="access_key"
+                value="2ba3f6aa-99d0-4789-9589-197107268d04"
+                data-form-field-id="thq_access_key_qJkA"
+                className="input"
+              />
+              <input
+                type="checkbox"
+                id="thq_botcheck_s5qt"
+                name="botcheck"
+                autoComplete="off"
+                data-form-field-id="thq_botcheck_s5qt"
+                tabIndex="-1"
+                className="pharmaceuticals-thq-hidden-elm1 input"
+              />
+              <div className="pharmaceuticals-thq-pharma-form-grid-elm">
+                <div className="pharma-form-field">
+                  <label
+                    htmlFor="inline-pharma-name"
+                    className="pharma-form-label"
+                  >
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    id="inline-pharma-name"
+                    name="true"
+                    required="true"
+                    placeholder="Your full name"
+                    data-form-field-id="inline-pharma-name"
+                    className="pharma-form-input input"
+                  />
+                </div>
+                <div className="pharma-form-field">
+                  <label
+                    htmlFor="inline-pharma-email"
+                    className="pharma-form-label"
+                  >
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    id="inline-pharma-email"
+                    name="email"
+                    required="true"
+                    placeholder="you@example.com"
+                    data-form-field-id="inline-pharma-email"
+                    className="pharma-form-input input"
+                  />
+                </div>
+                <div className="pharma-form-field">
+                  <label
+                    htmlFor="inline-pharma-phone"
+                    className="pharma-form-label"
+                  >
+                    Phone
+                  </label>
+                  <input
+                    type="tel"
+                    id="inline-pharma-phone"
+                    name="phone"
+                    placeholder="+234 ..."
+                    data-form-field-id="inline-pharma-phone"
+                    className="pharma-form-input input"
+                  />
+                </div>
+                <div className="pharma-form-field pharma-form-field--full">
+                  <label
+                    htmlFor="inline-pharma-message"
+                    className="pharma-form-label"
+                  >
+                    Message / Request
+                  </label>
+                  <textarea
+                    id="inline-pharma-message"
+                    name="message"
+                    rows="4"
+                    required="true"
+                    placeholder="Describe your prescription or pharmaceutical inquiry..."
+                    data-form-field-id="inline-pharma-message"
+                    className="textarea pharma-form-textarea"
+                  ></textarea>
+                </div>
+                <div className="pharma-form-field pharma-form-field--full">
+                  <label
+                    htmlFor="inline-pharma-attachment"
+                    className="pharma-form-label"
+                  >
+                    Attachment (optional)
+                  </label>
+                  <input
+                    type="file"
+                    id="inline-pharma-attachment"
+                    name="attachment"
+                    data-form-field-id="inline-pharma-attachment"
+                    className="pharmaceuticals-thq-pharma-form-file-elm input"
+                  />
+                </div>
+              </div>
+              <button
+                id="thq_button_Ikv8"
+                name="button"
+                type="submit"
+                data-form-field-id="thq_button_Ikv8"
+                className="pharmaceuticals-thq-pharma-form-submit-elm btn btn-primary btn-lg button"
+              >
+                Submit Inquiry
+              </button>
+            </form>
+          </div>
+        </section>
         <section className="trust-section">
           <div className="trust-container">
             <div className="trust-card">
@@ -1063,6 +1189,68 @@ opacity: 1;}}
             ></Script>
           </div>
         </div>
+        <div data-section="pharma-inline-form-script">
+          <div className="pharmaceuticals-container18">
+            <div className="pharmaceuticals-container19">
+              <Script
+                html={`<script>
+(function(){
+      ;(function () {
+        var inlineForm = document.getElementById("launch-form")
+        var notification = document.querySelector('[data-role="pharma-inline-notification"]')
+        var notificationClose = document.querySelector('[data-action="pharma-inline-notification-close"]')
+        var notificationTimer = null
+
+        function showNotification() {
+          if (!notification) return
+          notification.classList.add("pharma-notification--visible")
+          if (notificationTimer) clearTimeout(notificationTimer)
+          notificationTimer = setTimeout(function () {
+            hideNotification()
+          }, 4000)
+        }
+
+        function hideNotification() {
+          if (!notification) return
+          notification.classList.remove("pharma-notification--visible")
+          if (notificationTimer) {
+            clearTimeout(notificationTimer)
+            notificationTimer = null
+          }
+        }
+
+        if (notificationClose) {
+          notificationClose.addEventListener("click", hideNotification)
+        }
+
+        if (inlineForm) {
+          inlineForm.addEventListener("submit", function (e) {
+            e.preventDefault()
+            var data = new FormData(inlineForm)
+            fetch(inlineForm.action, { method: "POST", body: data })
+              .then(function (res) {
+                return res.json()
+              })
+              .then(function (result) {
+                if (result.success) {
+                  inlineForm.reset()
+                  showNotification()
+                } else {
+                  alert("Submission failed. Please try again.")
+                }
+              })
+              .catch(function () {
+                alert("An error occurred. Please try again.")
+              })
+          })
+        }
+      })()
+    })()
+</script>`}
+              ></Script>
+            </div>
+          </div>
+        </div>
         <Footer></Footer>
         <div
           data-role="pharma-modal"
@@ -1075,29 +1263,29 @@ opacity: 1;}}
               </h3>
               <button
                 type="button"
-                data-action="pharma-modal-close"
                 aria-label="Close modal"
+                data-action="pharma-modal-close"
                 className="pharmaceuticals-button1 button"
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="22"
-                  height="22"
-                  viewBox="0 0 24 24"
                   fill="none"
+                  width="22"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="22"
                   stroke="currentColor"
+                  viewBox="0 0 24 24"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <line x1="18" y1="6" x2="6" y2="18"></line>
-                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                  <line x1="18" x2="6" y1="6" y2="18"></line>
+                  <line x1="6" x2="18" y1="6" y2="18"></line>
                 </svg>
               </button>
             </div>
             <div className="pharmaceuticals-thq-pharma-modal-body-elm">
               <form
-                id="launch-form"
+                id="modal-launch-form"
                 action="https://api.web3forms.com/submit"
                 method="POST"
                 data-form-id="65c32c8b-1a75-4427-9d76-2559bfa3997a"
@@ -1105,20 +1293,20 @@ opacity: 1;}}
               >
                 <input
                   type="hidden"
+                  id="thq_access_key_OWqn"
                   name="access_key"
                   value="2ba3f6aa-99d0-4789-9589-197107268d04"
-                  id="thq_access_key_OWqn"
                   data-form-field-id="thq_access_key_OWqn"
                   className="input"
                 />
                 <input
                   type="checkbox"
-                  name="botcheck"
                   id="thq_botcheck_bBL_"
+                  name="botcheck"
                   data-form-field-id="thq_botcheck_bBL_"
-                  className="pharmaceuticals-thq-hidden-elm input"
+                  className="pharmaceuticals-thq-hidden-elm2 input"
                 />
-                <div className="pharmaceuticals-container17">
+                <div className="pharmaceuticals-container20">
                   <label
                     htmlFor="pharma-name"
                     className="pharmaceuticals-text17"
@@ -1132,10 +1320,10 @@ opacity: 1;}}
                     required="true"
                     placeholder="Your full name"
                     data-form-field-id="pharma-name"
-                    className="pharmaceuticals-textinput2 input"
+                    className="pharmaceuticals-textinput3 input"
                   />
                 </div>
-                <div className="pharmaceuticals-container18">
+                <div className="pharmaceuticals-container21">
                   <label
                     htmlFor="pharma-email"
                     className="pharmaceuticals-text18"
@@ -1149,10 +1337,10 @@ opacity: 1;}}
                     required="true"
                     placeholder="you@example.com"
                     data-form-field-id="pharma-email"
-                    className="pharmaceuticals-textinput3 input"
+                    className="pharmaceuticals-textinput4 input"
                   />
                 </div>
-                <div className="pharmaceuticals-container19">
+                <div className="pharmaceuticals-container22">
                   <label
                     htmlFor="pharma-phone"
                     className="pharmaceuticals-text19"
@@ -1165,10 +1353,10 @@ opacity: 1;}}
                     name="phone"
                     placeholder="+234 ..."
                     data-form-field-id="pharma-phone"
-                    className="pharmaceuticals-textinput4 input"
+                    className="pharmaceuticals-textinput5 input"
                   />
                 </div>
-                <div className="pharmaceuticals-container20">
+                <div className="pharmaceuticals-container23">
                   <label
                     htmlFor="pharma-message"
                     className="pharmaceuticals-text20"
@@ -1185,7 +1373,7 @@ opacity: 1;}}
                     className="pharmaceuticals-textarea textarea"
                   ></textarea>
                 </div>
-                <div className="pharmaceuticals-container21">
+                <div className="pharmaceuticals-container24">
                   <label
                     htmlFor="pharma-attachment"
                     className="pharmaceuticals-text21"
@@ -1197,13 +1385,13 @@ opacity: 1;}}
                     id="pharma-attachment"
                     name="attachment"
                     data-form-field-id="pharma-attachment"
-                    className="pharmaceuticals-textinput5 input"
+                    className="pharmaceuticals-textinput6 input"
                   />
                 </div>
                 <button
-                  type="submit"
                   id="thq_button_nUDM"
                   name="button"
+                  type="submit"
                   data-form-field-id="thq_button_nUDM"
                   className="pharmaceuticals-thq-btn-elm4 btn btn-primary btn-lg button"
                 >
@@ -1218,12 +1406,12 @@ opacity: 1;}}
           className="pharmaceuticals-thq-pharma-toast-elm pharma-toast"
         >
           <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
             fill="none"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+            height="16"
             stroke="currentColor"
+            viewBox="0 0 24 24"
             strokeWidth="3"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -1236,41 +1424,41 @@ opacity: 1;}}
           </span>
           <button
             type="button"
-            data-action="pharma-toast-close"
             aria-label="Dismiss notification"
+            data-action="pharma-toast-close"
             className="pharmaceuticals-button2 button"
           >
             <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
               fill="none"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+              height="16"
               stroke="currentColor"
+              viewBox="0 0 24 24"
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <line x1="18" y1="6" x2="6" y2="18"></line>
-              <line x1="6" y1="6" x2="18" y2="18"></line>
+              <line x1="18" x2="6" y1="6" y2="18"></line>
+              <line x1="6" x2="18" y1="6" y2="18"></line>
             </svg>
           </button>
         </div>
         <div>
-          <div className="pharmaceuticals-container23">
+          <div className="pharmaceuticals-container26">
             <Script
-              html={`<style>
-@keyframes pharmaToastCheck {
-from {
-  transform: scale(0.6);
-  opacity: 0;
-}
-to {
-  transform: scale(1);
-  opacity: 1;
-}
-}
-</style>`}
+              html={`<div data-role="pharma-inline-notification" class="pharma-notification"><span class="pharma-notification__icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><polyline points="20 6 9 17 4 12"></polyline></svg></span><span class="pharma-notification__text">Thank you for submitting! We&apos;ll reach out soon.</span><button type="button" aria-label="Dismiss notification" data-action="pharma-inline-notification-close" class="pharma-notification__close"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg></button></div><div class="container23"><style>
+        @keyframes pharmaToastCheck {
+          from {
+            transform: scale(0.6);
+            opacity: 0;
+          }
+          to {
+            transform: scale(1);
+            opacity: 1;
+          }
+        }
+      </style></div>`}
             ></Script>
           </div>
         </div>
@@ -1279,9 +1467,12 @@ to {
         {`
           .pharmaceuticals-container10 {
             width: 100%;
+            max-width: 100vw;
             min-height: 100vh;
+            overflow-x: hidden;
           }
           .pharmaceuticals-thq-thq-btn-elm1-elm {
+            text-align: center;
             text-decoration: none;
           }
           .pharmaceuticals-container11 {
@@ -1293,6 +1484,47 @@ to {
           .pharmaceuticals-thq-section-content-elm23 {
             font-size: 1.1rem;
             line-height: 1.7;
+          }
+          .pharmaceuticals-thq-page1-pharma-form-section-elm {
+            padding: var(--spacing-4xl) 0;
+            background: var(--color-medical-blue-light);
+          }
+          .pharmaceuticals-thq-pharma-form-container-elm {
+            margin: 0 auto;
+            padding: 0 var(--spacing-xl);
+            max-width: var(--content-max-width);
+          }
+          .pharmaceuticals-thq-pharma-inline-form-elm {
+            margin: 0 auto;
+            padding: var(--spacing-2xl);
+            max-width: 48rem;
+            background: var(--color-surface);
+            box-shadow: var(--shadow-level-2);
+            border-radius: var(--border-radius-xl);
+          }
+          .pharmaceuticals-thq-hidden-elm1 {
+            display: none;
+          }
+          .pharmaceuticals-thq-pharma-form-grid-elm {
+            gap: var(--spacing-lg);
+            display: grid;
+            margin-bottom: var(--spacing-xl);
+            grid-template-columns: repeat(2, 1fr);
+          }
+          .pharmaceuticals-thq-pharma-form-file-elm {
+            color: var(--color-on-surface);
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: var(--spacing-sm) 0;
+            font-size: var(--font-size-base);
+            background: transparent;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            font-family: var(--font-family-body);
+            border-radius: var(--border-radius-md);
+          }
+          .pharmaceuticals-thq-pharma-form-submit-elm {
+            width: 100%;
           }
           .pharmaceuticals-link3 {
             text-align: center;
@@ -1308,6 +1540,12 @@ to {
             display: none;
           }
           .pharmaceuticals-container16 {
+            display: contents;
+          }
+          .pharmaceuticals-container18 {
+            display: none;
+          }
+          .pharmaceuticals-container19 {
             display: contents;
           }
           .pharmaceuticals-thq-pharma-modal-overlay-elm {
@@ -1342,36 +1580,13 @@ to {
           .pharmaceuticals-thq-pharma-modal-body-elm {
             padding: var(--spacing-2xl);
           }
-          .pharmaceuticals-thq-hidden-elm {
+          .pharmaceuticals-thq-hidden-elm2 {
             display: none;
           }
-          .pharmaceuticals-container17 {
+          .pharmaceuticals-container20 {
             margin-bottom: var(--spacing-lg);
           }
           .pharmaceuticals-text17 {
-            color: var(--color-on-surface-secondary);
-            display: block;
-            font-size: var(--font-size-sm);
-            font-family: var(--font-family-body);
-            font-weight: var(--font-weight-medium);
-            margin-bottom: var(--spacing-xs);
-          }
-          .pharmaceuticals-textinput2 {
-            color: var(--color-on-surface);
-            width: 100%;
-            border: 1px solid var(--color-border);
-            outline: none;
-            padding: var(--spacing-md) var(--spacing-lg);
-            font-size: var(--font-size-base);
-            background: var(--color-surface);
-            transition: border-color 0.2s, box-shadow 0.2s;
-            font-family: var(--font-family-body);
-            border-radius: var(--border-radius-md);
-          }
-          .pharmaceuticals-container18 {
-            margin-bottom: var(--spacing-lg);
-          }
-          .pharmaceuticals-text18 {
             color: var(--color-on-surface-secondary);
             display: block;
             font-size: var(--font-size-sm);
@@ -1391,10 +1606,10 @@ to {
             font-family: var(--font-family-body);
             border-radius: var(--border-radius-md);
           }
-          .pharmaceuticals-container19 {
+          .pharmaceuticals-container21 {
             margin-bottom: var(--spacing-lg);
           }
-          .pharmaceuticals-text19 {
+          .pharmaceuticals-text18 {
             color: var(--color-on-surface-secondary);
             display: block;
             font-size: var(--font-size-sm);
@@ -1414,7 +1629,30 @@ to {
             font-family: var(--font-family-body);
             border-radius: var(--border-radius-md);
           }
-          .pharmaceuticals-container20 {
+          .pharmaceuticals-container22 {
+            margin-bottom: var(--spacing-lg);
+          }
+          .pharmaceuticals-text19 {
+            color: var(--color-on-surface-secondary);
+            display: block;
+            font-size: var(--font-size-sm);
+            font-family: var(--font-family-body);
+            font-weight: var(--font-weight-medium);
+            margin-bottom: var(--spacing-xs);
+          }
+          .pharmaceuticals-textinput5 {
+            color: var(--color-on-surface);
+            width: 100%;
+            border: 1px solid var(--color-border);
+            outline: none;
+            padding: var(--spacing-md) var(--spacing-lg);
+            font-size: var(--font-size-base);
+            background: var(--color-surface);
+            transition: border-color 0.2s, box-shadow 0.2s;
+            font-family: var(--font-family-body);
+            border-radius: var(--border-radius-md);
+          }
+          .pharmaceuticals-container23 {
             margin-bottom: var(--spacing-lg);
           }
           .pharmaceuticals-text20 {
@@ -1438,7 +1676,7 @@ to {
             font-family: var(--font-family-body);
             border-radius: var(--border-radius-md);
           }
-          .pharmaceuticals-container21 {
+          .pharmaceuticals-container24 {
             margin-bottom: var(--spacing-xl);
           }
           .pharmaceuticals-text21 {
@@ -1449,7 +1687,7 @@ to {
             font-weight: var(--font-weight-medium);
             margin-bottom: var(--spacing-xs);
           }
-          .pharmaceuticals-textinput5 {
+          .pharmaceuticals-textinput6 {
             color: var(--color-on-surface-secondary);
             width: 100%;
             padding: var(--spacing-md) 0;
@@ -1478,8 +1716,13 @@ to {
             border-radius: var(--border-radius-sm);
             justify-content: center;
           }
-          .pharmaceuticals-container23 {
+          .pharmaceuticals-container26 {
             display: contents;
+          }
+          @media (max-width: 767px) {
+            .pharmaceuticals-thq-pharma-form-grid-elm {
+              grid-template-columns: 1fr;
+            }
           }
           @media (max-width: 479px) {
             .pharmaceuticals-text13 {

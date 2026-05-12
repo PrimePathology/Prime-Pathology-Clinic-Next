@@ -9,6 +9,7 @@
 - [Services - Prime Pathology Clinic](https://patho.teleporthq.site/services)
 - [Prime Pathology Clinic](https://patho.teleporthq.site)
 - [Terms-of-Service - Prime Pathology Clinic](https://patho.teleporthq.site/terms-of-service)
+- [Hospital - Prime Pathology Clinic](https://patho.teleporthq.site/hospital)
 - [Infection-Screening - Prime Pathology Clinic](https://patho.teleporthq.site/infection-screening)
 - [Pharmaceuticals - Prime Pathology Clinic](https://patho.teleporthq.site/pharmaceuticals)
 - [About - Prime Pathology Clinic](https://patho.teleporthq.site/about)
@@ -17,4 +18,3 @@
 - [Team - Prime Pathology Clinic](https://patho.teleporthq.site/team)
 - [Hormonal-Profile - Prime Pathology Clinic](https://patho.teleporthq.site/hormonal-profile)
 - [Contact - Prime Pathology Clinic](https://patho.teleporthq.site/contact)
-- [Hospital - Prime Pathology Clinic](https://patho.teleporthq.site/hospital)

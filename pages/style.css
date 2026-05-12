@@ -6040,6 +6040,7 @@
 .hero-video {
   width: 100%;
   height: 100%;
+  max-width: 100%;
   object-fit: cover;
 }
  
@@ -6810,6 +6811,7 @@
   width: 100%;
   height: auto;
   display: block;
+  max-width: 100%;
 }
  
 .approach-icon-box {
@@ -7044,6 +7046,7 @@
 .team-img {
   width: 100%;
   height: 100%;
+  max-width: 100%;
   object-fit: cover;
 }
  
@@ -7075,6 +7078,7 @@
 .page1-partners-track {
   width: max-content;
   display: flex;
+  max-width: 100%;
 }
  
 .partners-slide {
@@ -7178,6 +7182,7 @@
 .war-room-img {
   width: 100%;
   height: 100%;
+  max-width: 100%;
   object-fit: cover;
 }
  
@@ -7294,6 +7299,7 @@
 .map-img {
   width: 100%;
   height: 100%;
+  max-width: 100%;
   object-fit: cover;
 }
  
@@ -12214,6 +12220,155 @@
   animation: pharmaToastCheck 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
  
+.pharma-form-header {
+  text-align: center;
+  margin-bottom: var(--spacing-3xl);
+}
+ 
+.pharma-form-header  .section-title {
+  margin-bottom: var(--spacing-md);
+}
+ 
+.pharma-form-header  .section-content {
+  margin: 0 auto;
+  opacity: 0.85;
+  max-width: 36rem;
+}
+ 
+.pharma-form-field {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.pharma-form-field--full {
+  grid-column: 1 / -1;
+}
+ 
+.pharma-form-label {
+  color: var(--color-on-surface-secondary);
+  display: block;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  margin-bottom: var(--spacing-xs);
+}
+ 
+.pharma-form-input {
+  color: var(--color-on-surface);
+  width: 100%;
+  border: 1px solid var(--color-border);
+  outline: none;
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-size: var(--font-size-base);
+  background: var(--color-surface);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-family: var(--font-family-body);
+  border-radius: var(--border-radius-md);
+}
+ 
+.pharma-form-input:focus {
+  box-shadow: 0 0 0 3px rgba(0, 119, 217, 0.15);
+  border-color: var(--color-primary);
+}
+ 
+.pharma-form-textarea {
+  color: var(--color-on-surface);
+  width: 100%;
+  border: 1px solid var(--color-border);
+  resize: vertical;
+  outline: none;
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-size: var(--font-size-base);
+  background: var(--color-surface);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-family: var(--font-family-body);
+  border-radius: var(--border-radius-md);
+}
+ 
+.pharma-form-textarea:focus {
+  box-shadow: 0 0 0 3px rgba(0, 119, 217, 0.15);
+  border-color: var(--color-primary);
+}
+ 
+.pharma-notification {
+  gap: var(--spacing-md);
+  top: var(--spacing-xl);
+  color: #ffffff;
+  right: var(--spacing-xl);
+  display: none;
+  opacity: 0;
+  padding: var(--spacing-lg) var(--spacing-xl);
+  z-index: 9999;
+  position: fixed;
+  font-size: var(--font-size-base);
+  transform: translateX(120%);
+  background: #22c55e;
+  box-shadow: var(--shadow-level-3);
+  transition: opacity 0.35s ease, transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  align-items: center;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  border-radius: var(--border-radius-lg);
+}
+ 
+.pharma-notification.pharma-notification--visible {
+  display: flex;
+  opacity: 1;
+  transform: translateX(0);
+}
+ 
+.pharma-notification__icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.pharma-notification__icon  svg {
+  fill: none;
+  width: 20px;
+  height: 20px;
+  stroke: #ffffff;
+  animation: pharmaToastCheck 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+ 
+.pharma-notification__text {
+  flex: 1;
+}
+ 
+.pharma-notification__close {
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  opacity: 0.85;
+  padding: var(--spacing-xs);
+  background: none;
+  transition: opacity 0.2s;
+  align-items: center;
+  border-radius: var(--border-radius-sm);
+  justify-content: center;
+}
+ 
+.pharma-notification__close:hover {
+  opacity: 1;
+}
+ 
+.pharma-notification__close  svg {
+  fill: none;
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+ 
 .BodyFont {
   font-size: 1rem;
   font-family: Inter;
@@ -12490,6 +12645,9 @@
   }
   .page1-team-grid1 {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .page1-partners-track {
+    max-width: 100%;
   }
   .page1-contact-grid {
     text-align: center;
@@ -12917,6 +13075,9 @@
     text-align: center;
     flex-direction: column;
   }
+  .approach-grid {
+    flex-direction: column;
+  }
   .why-choose-grid {
     grid-template-columns: 1fr;
   }
@@ -12929,6 +13090,12 @@
   }
   .page1-team-grid1 {
     grid-template-columns: 1fr;
+  }
+  .page1-partners-track {
+    max-width: 100%;
+  }
+  .page1-contact-grid {
+    flex-direction: column;
   }
   .page1-hero-actions {
     flex-direction: column;
@@ -13144,6 +13311,10 @@
   .page-footer-links-grid {
     grid-template-columns: 1fr;
   }
+  .pharma-notification {
+    left: var(--spacing-md);
+    right: var(--spacing-md);
+  }
 }
  
 @media(max-width: 479px) {
@@ -13286,8 +13457,20 @@
   .timeline-panel {
     padding-left: var(--spacing-xl);
   }
+  .why-choose-container {
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+  }
+  .services-header {
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+  }
   .page-service-card1 {
     flex: 0 0 100%;
+  }
+  .team-container {
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
   }
   .ceo-frame {
     min-height: 280px;
@@ -13301,8 +13484,38 @@
   .timeline-marker {
     display: none;
   }
+  .contact-container {
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+  }
+  .page1-hero-container {
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+  }
   .page1-hero-title {
     font-size: var(--font-size-3xl);
+  }
+  .page1-services-carousel {
+    gap: var(--spacing-md);
+  }
+  .showcase-grid {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+  }
+  .page1-partners-track {
+    max-width: 100%;
+  }
+  .page1-process-container {
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+  }
+  .page1-war-room-container {
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+  }
+  .trust-container {
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
   }
   .trust-card {
     padding: var(--spacing-xl);
