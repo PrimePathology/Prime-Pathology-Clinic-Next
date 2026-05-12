@@ -148,13 +148,11 @@ const Footer = (props) => {
                     Our Services
                   </h4>
                   <nav className="footer-nav-list">
-                    <Link href="/research">
-                      <a>
-                        <div className="footer-thq-footer-nav-link-elm15 footer-nav-link">
-                          <span>Research</span>
-                        </div>
-                      </a>
-                    </Link>
+                    <a href="#pharma-form-section">
+                      <div className="footer-thq-footer-nav-link-elm15 footer-nav-link">
+                        <span>Research</span>
+                      </div>
+                    </a>
                     <Link href="/residential-care">
                       <a>
                         <div className="footer-thq-footer-nav-link-elm16 footer-nav-link">
@@ -586,19 +584,19 @@ socialIcons.forEach(icon => {
           .footer-text30 {
             color: var(--color-secondary);
             font-style: normal;
-            font-family: '' Inter '';
+            font-family: '' 'Inter' '';
             font-weight: 700;
           }
           .footer-text31 {
             color: var(--color-secondary);
             font-style: normal;
-            font-family: '' Inter '';
+            font-family: '' 'Inter' '';
             font-weight: 700;
           }
           .footer-text32 {
             color: var(--color-secondary);
             font-style: normal;
-            font-family: '' Inter '';
+            font-family: '' 'Inter' '';
             font-weight: 700;
           }
           .footer-container2 {

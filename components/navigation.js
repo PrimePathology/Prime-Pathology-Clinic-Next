@@ -53,15 +53,13 @@ const Navigation = (props) => {
                   </li>
                 </a>
               </Link>
-              <Link href="/research">
-                <a>
-                  <li className="navigation-thq-navigation-menu-item-elm4 navigation-menu-item">
-                    <div className="navigation-menu-link">
-                      <span>Our Departments</span>
-                    </div>
-                  </li>
-                </a>
-              </Link>
+              <a href="#pharma-form-section">
+                <li className="navigation-thq-navigation-menu-item-elm4 navigation-menu-item">
+                  <div className="navigation-menu-link">
+                    <span>Our Departments</span>
+                  </div>
+                </li>
+              </a>
               <Link href="/team">
                 <a>
                   <li className="navigation-thq-navigation-menu-item-elm5 navigation-menu-item">
@@ -82,13 +80,11 @@ const Navigation = (props) => {
               </Link>
             </ul>
             <div className="navigation-actions">
-              <Link href="/research">
-                <a>
-                  <div className="btn navigation-cta-desktop btn-primary">
-                    <span>Book Appointment</span>
-                  </div>
-                </a>
-              </Link>
+              <a href="#pharma-form-section">
+                <div className="navigation-thq-btn-elm1 btn navigation-cta-desktop btn-primary">
+                  <span>Book Appointment</span>
+                </div>
+              </a>
               <button
                 id="navigation-mobile-toggle"
                 aria-label="Open Menu"
@@ -176,13 +172,11 @@ const Navigation = (props) => {
                 </Link>
               </li>
               <li className="navigation-mobile-item">
-                <Link href="/research">
-                  <a>
-                    <div className="navigation-mobile-link">
-                      <span>Our Departments</span>
-                    </div>
-                  </a>
-                </Link>
+                <a href="#pharma-form-section">
+                  <div className="navigation-thq-navigation-mobile-link-elm4 navigation-mobile-link">
+                    <span>Our Departments</span>
+                  </div>
+                </a>
               </li>
               <li className="navigation-mobile-item">
                 <Link href="/team">
@@ -204,13 +198,11 @@ const Navigation = (props) => {
               </li>
             </ul>
             <div className="navigation-overlay-footer">
-              <Link href="/research">
-                <a>
-                  <div className="btn btn-primary navigation-cta-mobile btn-lg">
-                    <span>Get Care</span>
-                  </div>
-                </a>
-              </Link>
+              <a href="#pharma-form-section">
+                <div className="navigation-thq-btn-elm2 btn btn-primary navigation-cta-mobile btn-lg">
+                  <span>Get Care</span>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -301,8 +293,8 @@ const Navigation = (props) => {
             color: var(--dl-color-theme-neutral-dark);
             font-size: 18px;
             font-style: normal;
-            font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' Poppins
-              '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '';
+            font-family: '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' ''
+              'Poppins' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '' '';
             font-weight: 700;
           }
           .navigation-text12 {
@@ -326,11 +318,20 @@ const Navigation = (props) => {
           .navigation-thq-navigation-menu-item-elm6 {
             text-decoration: none;
           }
+          .navigation-thq-btn-elm1 {
+            text-decoration: none;
+          }
           .navigation-image2 {
             width: 200px;
             object-fit: cover;
           }
+          .navigation-thq-navigation-mobile-link-elm4 {
+            text-decoration: none;
+          }
           .navigation-thq-navigation-mobile-link-elm5 {
+            text-decoration: none;
+          }
+          .navigation-thq-btn-elm2 {
             text-decoration: none;
           }
           .navigation-container2 {
