@@ -28,16 +28,14 @@ const Footer = (props) => {
                     className="footer-image"
                   />
                   <span className="footer-logo-text">
-                    <span>Prime Residential</span>
-                    <span className="footer-text11">Care</span>
+                    <span>Prime Pathology </span>
+                    <span className="footer-text11">Clinic</span>
                   </span>
                 </div>
                 <p className="footer-description section-content">
-                  Providing compassionate, personalized residential care in a
-                  safe and supportive environment. Our dedicated team ensures
-                  dignity, comfort, and well-being for every resident through
-                  professional nursing, daily assistance, and community-focused
-                  living across our locations.
+                  Delivering trusted multi-speciality healthcare and advanced
+                  diagnostic services across Africa with precision, compassion,
+                  and innovation at the heart of every patient experience.
                 </p>
                 <div className="footer-social-links">
                   <a href="#">
@@ -150,10 +148,10 @@ const Footer = (props) => {
                     Our Services
                   </h4>
                   <nav className="footer-nav-list">
-                    <Link href="/residential-care">
+                    <Link href="/research">
                       <a>
                         <div className="footer-thq-footer-nav-link-elm15 footer-nav-link">
-                          <span>Assisted Living</span>
+                          <span>Research</span>
                         </div>
                       </a>
                     </Link>
@@ -588,19 +586,19 @@ socialIcons.forEach(icon => {
           .footer-text30 {
             color: var(--color-secondary);
             font-style: normal;
-            font-family: 'Inter';
+            font-family: '' Inter '';
             font-weight: 700;
           }
           .footer-text31 {
             color: var(--color-secondary);
             font-style: normal;
-            font-family: 'Inter';
+            font-family: '' Inter '';
             font-weight: 700;
           }
           .footer-text32 {
             color: var(--color-secondary);
             font-style: normal;
-            font-family: 'Inter';
+            font-family: '' Inter '';
             font-weight: 700;
           }
           .footer-container2 {

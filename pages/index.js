@@ -826,7 +826,7 @@ details[open] .step-number {
                       Scientific Research Lab, Social Sciences &amp; Humanities
                       Research, Management Consultancy
                     </p>
-                    <Link href="/services">
+                    <Link href="/research">
                       <a>
                         <div className="flip-card-btn">
                           <span>Explore</span>
