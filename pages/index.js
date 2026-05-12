@@ -312,7 +312,7 @@ details[open] .step-number {
               <div className="workflow-animation-box">
                 <img
                   alt="Clinical Workflow Illustration"
-                  src="https://images.pexels.com/photos/7108325/pexels-photo-7108325.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  src="https://images.unsplash.com/photo-1582719471384-894fbb16e074?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fERpYWdub3N0aWN8ZW58MHx8fHwxNzc4NTY3MTU1fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
                   className="workflow-img"
                 />
                 <div className="pulse-ring"></div>
@@ -712,7 +712,7 @@ details[open] .step-number {
                 <div className="flip-card-front">
                   <img
                     alt="Pharmacy &amp; Medical Supplies Department"
-                    src="https://images.pexels.com/photos/14797860/pexels-photo-14797860.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.unsplash.com/photo-1577401132921-cb39bb0adcff?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDYyfHxQaGFybWFjeXxlbnwwfHx8fDE3Nzg1NjY3OTN8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                     className="flip-card-img"
                   />
                   <div className="flip-card-front-content">
@@ -746,7 +746,7 @@ details[open] .step-number {
                 <div className="flip-card-front">
                   <img
                     alt="Specialized Residential Care Department"
-                    src="https://images.pexels.com/photos/18429307/pexels-photo-18429307.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.unsplash.com/photo-1772791002745-e9d5a1ff81bd?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE0fHxyZXNpZGVudGlhbCUyMENhcmV8ZW58MHx8fHwxNzc4NTY2ODY5fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
                     className="flip-card-img"
                   />
                   <div className="flip-card-front-content">
@@ -778,7 +778,7 @@ details[open] .step-number {
                 <div className="flip-card-front">
                   <img
                     alt="Research &amp; Strategy Department"
-                    src="https://images.pexels.com/photos/8851629/pexels-photo-8851629.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEzfHxSZXNlYXJjaHxlbnwwfHx8fDE3Nzg1NjY5MzB8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                     className="flip-card-img"
                   />
                   <div className="flip-card-front-content">
@@ -812,7 +812,7 @@ details[open] .step-number {
                 <div className="flip-card-front">
                   <img
                     alt="Prime Diagnostic Center"
-                    src="https://images.pexels.com/photos/8459996/pexels-photo-8459996.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.unsplash.com/photo-1582719367079-bc1b8e5fed9d?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fERpYWdub3N0aWN8ZW58MHx8fHwxNzc4NTY3MTU1fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
                     className="flip-card-img"
                   />
                   <div className="flip-card-front-content">
@@ -844,7 +844,7 @@ details[open] .step-number {
                 <div className="flip-card-front">
                   <img
                     alt="Medical Equipment Division"
-                    src="https://images.pexels.com/photos/7108324/pexels-photo-7108324.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    src="https://images.unsplash.com/photo-1559000357-f6b52ddfbe37?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE0fHxtZWRpY2FsJTIwRXF1aXBtZW50fGVufDB8fHx8MTc3ODU2NzEwM3ww&amp;ixlib=rb-4.1.0&amp;w=1500"
                     className="flip-card-img"
                   />
                   <div className="flip-card-front-content">
@@ -902,7 +902,6 @@ details[open] .step-number {
           <div className="team-container">
             <h2 className="section-title text-center">Our Leadership Team</h2>
             <div className="team-layout">
-              <div className="home-thq-branch-card-elm1 branch-card"></div>
               <div className="branch-grid">
                 <div className="branch-card">
                   <div className="branch-frame">
@@ -1236,9 +1235,6 @@ to {
           }
           .home-container16 {
             display: contents;
-          }
-          .home-thq-branch-card-elm1 {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
           }
           .home-thq-branch-location-elm10 {
             display: flex;
