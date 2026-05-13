@@ -290,64 +290,6 @@ const Footer = (props) => {
               </div>
             </div>
             <div className="footer-middle-row">
-              <div className="footer-contact-bar">
-                <a href="tel:+2347062068132">
-                  <div className="footer-thq-footer-contact-pill-elm1 footer-contact-pill">
-                    <div className="footer-thq-footer-contact-icon-elm1 footer-contact-icon">
-                      <svg
-                        width="24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="24"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        ></path>
-                      </svg>
-                    </div>
-                    <span className="footer-thq-section-content-elm6 section-content">
-                      +234 (0) 800-PRIME-LAB
-                    </span>
-                  </div>
-                </a>
-                <a href="mailto:info@primemultispecialtyclinic.com?subject=">
-                  <div className="footer-thq-footer-contact-pill-elm2 footer-contact-pill">
-                    <div className="footer-thq-footer-contact-icon-elm2 footer-contact-icon">
-                      <svg
-                        width="24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        height="24"
-                        viewBox="0 0 24 24"
-                      >
-                        <g
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
-                          <rect
-                            x="2"
-                            y="4"
-                            rx="2"
-                            width="20"
-                            height="16"
-                          ></rect>
-                        </g>
-                      </svg>
-                    </div>
-                    <span className="footer-thq-section-content-elm7 section-content">
-                      info@primepathologyclinic.com
-                    </span>
-                  </div>
-                </a>
-              </div>
               <div className="footer-certifications">
                 <div className="footer-cert-badge">
                   <svg
@@ -502,24 +444,6 @@ const Footer = (props) => {
           .footer-thq-footer-nav-link-elm19 {
             text-decoration: none;
           }
-          .footer-thq-footer-contact-pill-elm1 {
-            text-decoration: none;
-          }
-          .footer-thq-footer-contact-icon-elm1 {
-            color: var(--color-primary);
-          }
-          .footer-thq-section-content-elm6 {
-            color: var(--color-surface);
-          }
-          .footer-thq-footer-contact-pill-elm2 {
-            text-decoration: none;
-          }
-          .footer-thq-footer-contact-icon-elm2 {
-            color: var(--color-primary);
-          }
-          .footer-thq-section-content-elm7 {
-            color: var(--color-surface);
-          }
           .footer-thq-footer-legal-link-elm1 {
             text-decoration: none;
           }
@@ -575,9 +499,6 @@ const Footer = (props) => {
           @media (max-width: 479px) {
             .footer-image {
               width: 40px;
-            }
-            .footer-thq-section-content-elm7 {
-              font-size: 16px;
             }
           }
         `}
