@@ -293,7 +293,7 @@ const Footer = (props) => {
               <div className="footer-contact-bar">
                 <a href="tel:+2347062068132">
                   <div className="footer-thq-footer-contact-pill-elm1 footer-contact-pill">
-                    <div className="footer-contact-icon">
+                    <div className="footer-thq-footer-contact-icon-elm1 footer-contact-icon">
                       <svg
                         width="24"
                         xmlns="http://www.w3.org/2000/svg"
@@ -310,14 +310,14 @@ const Footer = (props) => {
                         ></path>
                       </svg>
                     </div>
-                    <span className="section-content">
+                    <span className="footer-thq-section-content-elm6 section-content">
                       +234 (0) 800-PRIME-LAB
                     </span>
                   </div>
                 </a>
                 <a href="mailto:info@primemultispecialtyclinic.com?subject=">
                   <div className="footer-thq-footer-contact-pill-elm2 footer-contact-pill">
-                    <div className="footer-contact-icon">
+                    <div className="footer-thq-footer-contact-icon-elm2 footer-contact-icon">
                       <svg
                         width="24"
                         xmlns="http://www.w3.org/2000/svg"
@@ -342,7 +342,7 @@ const Footer = (props) => {
                         </g>
                       </svg>
                     </div>
-                    <span className="section-content footer-thq-section-content-elm7">
+                    <span className="footer-thq-section-content-elm7 section-content">
                       info@primepathologyclinic.com
                     </span>
                   </div>
@@ -459,62 +459,7 @@ const Footer = (props) => {
         </footer>
         <div className="footer-container2">
           <div className="footer-container3">
-            <Script
-              html={`<script defer data-name="footer-animations">
-(function(){
-const observerOptions = {
-  threshold: 0.1,
-  rootMargin: '0px 0px -50px 0px'
-};
-
-const footerObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      const footer = entry.target;
-      const columns = footer.querySelectorAll('.footer-brand-column, .footer-link-column');
-      const bottomBar = footer.querySelector('.footer-bottom-bar');
-      
-      columns.forEach((col, index) => {
-        col.style.opacity = '0';
-        col.style.transform = 'translateY(20px)';
-        col.style.transition = \`all 0.6s ease \${index * 0.1}s\`;
-        
-        requestAnimationFrame(() => {
-          col.style.opacity = '1';
-          col.style.transform = 'translateY(0)';
-        });
-      });
-
-      if (bottomBar) {
-        bottomBar.style.opacity = '0';
-        bottomBar.style.transition = 'opacity 1s ease 0.8s';
-        requestAnimationFrame(() => {
-          bottomBar.style.opacity = '1';
-        });
-      }
-      
-      footerObserver.unobserve(footer);
-    }
-  });
-}, observerOptions);
-
-const footerElement = document.querySelector('.footer-wrapper');
-if (footerElement) {
-  footerObserver.observe(footerElement);
-}
-
-const socialIcons = document.querySelectorAll('.footer-social-item');
-socialIcons.forEach(icon => {
-  icon.addEventListener('mouseenter', () => {
-    icon.style.boxShadow = '0 0 15px var(--color-primary)';
-  });
-  icon.addEventListener('mouseleave', () => {
-    icon.style.boxShadow = 'none';
-  });
-});
-})()
-</script>`}
-            ></Script>
+            <Script html={``}></Script>
           </div>
         </div>
       </div>
@@ -560,8 +505,20 @@ socialIcons.forEach(icon => {
           .footer-thq-footer-contact-pill-elm1 {
             text-decoration: none;
           }
+          .footer-thq-footer-contact-icon-elm1 {
+            color: var(--color-primary);
+          }
+          .footer-thq-section-content-elm6 {
+            color: var(--color-surface);
+          }
           .footer-thq-footer-contact-pill-elm2 {
             text-decoration: none;
+          }
+          .footer-thq-footer-contact-icon-elm2 {
+            color: var(--color-primary);
+          }
+          .footer-thq-section-content-elm7 {
+            color: var(--color-surface);
           }
           .footer-thq-footer-legal-link-elm1 {
             text-decoration: none;
@@ -584,19 +541,19 @@ socialIcons.forEach(icon => {
           .footer-text30 {
             color: var(--color-secondary);
             font-style: normal;
-            font-family: '' '' Inter '' '';
+            font-family: '' '' 'Inter' '' '';
             font-weight: 700;
           }
           .footer-text31 {
             color: var(--color-secondary);
             font-style: normal;
-            font-family: '' '' Inter '' '';
+            font-family: '' '' 'Inter' '' '';
             font-weight: 700;
           }
           .footer-text32 {
             color: var(--color-secondary);
             font-style: normal;
-            font-family: '' '' Inter '' '';
+            font-family: '' '' 'Inter' '' '';
             font-weight: 700;
           }
           .footer-container2 {
